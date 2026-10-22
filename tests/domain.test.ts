@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { newProject, newScene, id, makeClip, sceneFrames, splitClip, projectSchema, clampSceneClips, invalidateNarration, type Asset } from '../shared/project.ts';
+import { newProject, newScene, id, makeClip, sceneFrames, splitClip, projectSchema, clampSceneClips, invalidateNarration, removeAsset, type Asset } from '../shared/project.ts';
 
 function media(kind: Asset['kind'], sceneId: string, durationFrames?: number): Asset {
   const versionId = id(); return { id: id(), name: kind, kind, sceneId, activeVersionId: versionId, outdated: false, versions: [{ id: versionId, path: `media/${id()}.${kind === 'image' ? 'png' : kind === 'video' ? 'mp4' : 'wav'}`, durationFrames, provenance: { createdAt: new Date().toISOString(), prompt: '', sourceVersionIds: [] } }] };
@@ -50,4 +50,18 @@ test('schema rejects dangling versions, source overruns and mismatched tracks', 
   assert.equal(projectSchema.safeParse(p).success, false);
   clip.durationFrames = 60; clip.versionId = 'missing'; assert.equal(projectSchema.safeParse(p).success, false);
   clip.versionId = video.activeVersionId; clip.track = 'music'; assert.equal(projectSchema.safeParse(p).success, false);
+});
+
+test('deleting media removes its placements and joins, preserves narration timing and retains source versions for undo', () => {
+  const p = newProject('Delete fixture'), scene = p.scenes[0], voice = media('audio', scene.id, 600), image = media('image', scene.id), video = media('video', scene.id, 300);
+  p.assets.push(voice, image, video); scene.audioAssetId = voice.id;
+  const picture = makeClip(scene.id, image, 0, 180), motion = makeClip(scene.id, video, 180, 300), music = makeClip(scene.id, voice, 0, 600, 'music');
+  p.clips = [picture, motion, music]; p.transitions = [{ id: id(), fromClipId: picture.id, toClipId: motion.id, type: 'crossfade', durationFrames: 15 }];
+  const versions = structuredClone(p.assets.map(a => a.versions));
+  removeAsset(p, voice.id);
+  assert.equal(scene.audioAssetId, null); assert.equal(sceneFrames(p, scene), 600); assert.equal(scene.estimatedFrames, 600); assert.equal(voice.archived, true);
+  assert.deepEqual(p.clips.map(c => c.id), [picture.id, motion.id]); projectSchema.parse(p);
+  removeAsset(p, image.id); assert.equal(p.transitions.length, 0); assert.deepEqual(p.clips.map(c => c.id), [motion.id]);
+  removeAsset(p, video.id); assert.equal(p.clips.length, 0); assert.ok(p.assets.every(a => a.archived));
+  assert.deepEqual(p.assets.map(a => a.versions), versions); projectSchema.parse(p);
 });

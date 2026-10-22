@@ -129,7 +129,7 @@ const currentProjectSchema = z.object({
   transitions: z.array(transitionSchema).default([]),
 }).superRefine((p, ctx) => {
   const sceneIds = new Set(p.scenes.map(s => s.id));
-  for (const collection of [p.scenes, p.assets, p.clips, p.jobs, p.annotations]) {
+  for (const collection of [p.scenes, p.assets, p.clips, p.jobs, p.annotations, p.review.comments]) {
     if (new Set(collection.map(x => x.id)).size !== collection.length) ctx.addIssue({ code: 'custom', message: 'Duplicate IDs' });
   }
   for (const asset of p.assets) {
@@ -213,6 +213,16 @@ export function splitClip(p: Project, clipId: string, at: number): Project {
 export function clampSceneClips(p: Project, sceneId: string) {
   const duration = sceneFrames(p, p.scenes.find(s => s.id === sceneId)!);
   p.clips = p.clips.filter(c => c.sceneId !== sceneId || c.startFrame < duration).map(c => c.sceneId === sceneId ? { ...c, durationFrames: Math.min(c.durationFrames, duration - c.startFrame) } : c);
+}
+export function removeAsset(p: Project, assetId: string) {
+  const asset = p.assets.find(a => a.id === assetId); if (!asset) return;
+  for (const scene of p.scenes.filter(s => s.audioAssetId === assetId)) {
+    // Keep the scene and its visuals at their measured length when deleting narration.
+    scene.estimatedFrames = sceneFrames(p, scene); scene.audioAssetId = null;
+  }
+  asset.archived = true;
+  p.clips = p.clips.filter(c => c.assetId !== assetId);
+  cleanTransitions(p);
 }
 export function invalidateNarration(p: Project, old: Project) {
   for (const s of p.scenes) {

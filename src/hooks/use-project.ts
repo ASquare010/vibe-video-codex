@@ -2,7 +2,11 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { api } from '../lib/api';
 import { cleanTransitions, type Project } from '../../shared/project';
 
-const editable = (p: Project) => ({ name: p.name, theme: p.theme, settings: p.settings, skill: p.skill, plan: p.plan, review: p.review, transitions: p.transitions, scenes: p.scenes, clips: p.clips, annotations: p.annotations });
+const editable = (p: Project) => ({ name: p.name, theme: p.theme, settings: p.settings, skill: p.skill, plan: p.plan, review: p.review, transitions: p.transitions, scenes: p.scenes, clips: p.clips, annotations: p.annotations, archivedAssetIds: p.assets.filter(a => a.archived).map(a => a.id).sort() });
+const restore = (p: Project, snapshot: ReturnType<typeof editable>): Project => {
+  const { archivedAssetIds, ...fields } = snapshot;
+  return { ...p, ...fields, assets: p.assets.map(a => ({ ...a, archived: archivedAssetIds.includes(a.id) })) };
+};
 export function useProject(projectId: string, onEvent: (event: any) => void) {
   const [project, setProject] = useState<Project | null>(null);
   const [dirty, setDirty] = useState(false);
@@ -21,7 +25,7 @@ export function useProject(projectId: string, onEvent: (event: any) => void) {
     if (isDirty.current && base.current && JSON.stringify(editable(p)) !== JSON.stringify(editable(base.current))) {
       hasConflict.current = true; setConflict(true); return;
     }
-    current.current = isDirty.current && current.current ? { ...p, ...editable(current.current) } : p;
+    current.current = isDirty.current && current.current ? restore(p, editable(current.current)) : p;
     base.current = p;
     setProject(current.current);
   }, []);
@@ -61,7 +65,7 @@ export function useProject(projectId: string, onEvent: (event: any) => void) {
       const p = await api(`/api/projects/${projectId}`, 'PUT', current.current);
       base.current = p;
       if (seq === editSequence.current) { current.current = p; isDirty.current = false; setDirty(false); }
-      else current.current = { ...p, ...editable(current.current!) };
+      else current.current = restore(p, editable(current.current!));
       setProject(current.current); setError(''); return p;
     } catch (e) { setError((e as Error).message); if ((e as Error).message.includes('changed')) { hasConflict.current = true; setConflict(true); } throw e; }
     finally { isSaving.current = false; setSaving(false); }
@@ -75,7 +79,7 @@ export function useProject(projectId: string, onEvent: (event: any) => void) {
     const source = redo ? future : history, destination = redo ? history : future;
     if (!source.current.length || !current.current) return;
     destination.current.push(structuredClone(editable(current.current)));
-    current.current = { ...current.current, ...source.current.pop()! };
+    current.current = restore(current.current, source.current.pop()!);
     editSequence.current++; isDirty.current = true; setDirty(true); setProject(current.current); setHistoryCount([history.current.length, future.current.length]);
   }, []);
   const action = useCallback(async (suffix: string, body?: unknown) => {

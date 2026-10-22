@@ -25,7 +25,7 @@ npm start
 1. Create a project, choose one project skill and describe the video. A Codex project gets its own persistent conversation, initialized without inference. Choose **Open Codex chat** in the read-only sidebar and give prompts in the main Codex app. Creating a project does not start generation.
 2. Review the complete Storyboard: hook, story, full narration, every scene, voice/audio direction, visual direction, continuity, sound, and individual shot image/video prompts. Edit these in the main workspace or ask Codex to revise them.
 3. Request production in that Codex chat: **all scene audio → all planned images → planned image-to-video shots**. Each scene has one measured narration file and may contain several image/video placements. Still-image shots can remain stills with editor motion.
-4. The permanent sidebar stays beside the entire editing app. It observes saved Codex replies and progress every four seconds, with a last-update timestamp. It never resumes the conversation or starts a turn. Prompts, questions, model settings and approvals remain in the main Codex chat. Missing/stale status becomes unknown or unavailable rather than a permanently blinking spinner.
+4. The permanent sidebar stays beside the entire editing app. It observes saved Codex replies and progress every four seconds, with the current step (thinking, generating audio/images/video, processing or rendering), ready counts and a last-update timestamp. A production stage supplies context only while the observed chat is running; completion or stale/unavailable status clears the busy display. It never resumes the conversation or starts a turn. Prompts, questions, model settings and approvals remain in the main Codex chat.
 5. Edit the timeline or direct Codex to update the project. The project-local `AGENTS.md` tells Codex to read the selected skill and save complete plans and edits into the canonical manifest. The editor watches validated manifest changes; source files and prior versions remain available.
 6. Export the saved timeline to a local H.264/AAC MP4 at 30 fps. Each export retains its input snapshot.
 
@@ -43,11 +43,20 @@ One skill applies to an entire project. It contains voice, spoken style, story d
 
 These files can be committed and pushed with the rest of the source. The app does not configure a GitHub remote or publish repository changes itself.
 
+## Full-screen document review
+
+Storyboard and Project skill each have a **Full screen** button. The focused view fills the screen with a readable editor and a notes column. **Exit full screen** or Escape returns to the editing workspace; embedded browsers that deny native fullscreen use a full-window fallback.
+
+Select wording to attach a quoted comment, suggestion or pointer. Scene and shot comment buttons attach notes directly to that location. Notes can be edited, resolved, reopened or deleted; selecting a note's location jumps back to its source. Notes and quotes are saved in `project.review.comments`, included in copied project context, and available to Codex without sending it an automatic message.
+
+**Approve storyboard** and **Approve skill** record the current document's content identifier. Subsequent content edits show **Needs review**. Notes, resolution changes and timeline edits do not invalidate a document approval. **Reopen review** clears it. Approval records a review decision; generation remains directed in the main Codex chat. Full-screen edits and review decisions use the same save, conflict protection and undo history as the regular workspace.
+
 ## Editing controls
 
 - A black empty program monitor, independent image/video requested sizes, aspect ratio, and export resolution. Size choices: 420, 480, 720, 1080 and 2160. The number is the short edge; the long edge is an even 16:9 dimension. Generation requests remain subject to the actual provider's capabilities, while actual returned dimensions are shown in Provenance.
-- Six tracks: Picture, Overlay, Text, Captions, Narration and Music/SFX. Narration anchors scene length. Imported video is visually previewed/exported with its embedded audio muted; add audio separately when needed.
-- A full-width timeline grid and ruler that extend as you scroll. Zoom, snapping, frame scrubbing, playback, drag/drop, two-sided trim, multi-selection, delete, undo/redo and debounced saving.
+- Images and video share the Picture lane, with Narration directly below. Overlay, Text, Captions and Music/SFX appear only when used. Labels, waveforms and clips share one scroll area and remain aligned. Narration anchors scene length and can be selected to inspect its audio. Imported video is visually previewed/exported with its embedded audio muted; add audio separately when needed.
+- The Media library shows imported and generated assets from **all scenes**, with scene labels and type filters. Ready assets appear as the external chat updates the project. Each asset has Add and Delete controls. Delete removes it from the library and all timeline uses; deleting narration keeps the scene's measured timing. Undo restores the asset and its placements. Source files and versions stay on disk for recovery.
+- A full-width timeline grid and ruler that extend as you scroll. Drag clips (or a Shift-selected group) to move; drag either edge to trim; drag the ruler or empty lane space to scrub. A small drag threshold keeps clicks from making edits. Edge scrolling, snapping (hold Alt to bypass), Escape to cancel, Shift-wheel or middle-drag to pan, and Control/Command-wheel to zoom around the cursor support longer timelines. Text does not become selected while dragging. Playback, delete, undo/redo and debounced saving are included.
 - Selection tool **V**, razor **C** to cut at the clicked point, and **S** / Split at playhead for the separate playhead operation. Splitting preserves source offsets and never duplicates the source media.
 - One contextual **Properties** panel. Image/video selections show motion, color correction and transitions; text selections show font/style controls; audio selections show audio controls. The same panel contains a collapsible **Details** section with provenance and versions. There are no separate Motion/Color or Provenance tabs.
 - Cross dissolve, Dip to black, Wipe and Slide are in the selected visual's Properties. Apply one to the next clip or drag it onto a timeline join. Type and duration are editable. There is one razor icon; **S** retains the keyboard-only split-at-playhead operation.
@@ -104,7 +113,7 @@ npm run build
 npm run demo
 ```
 
-Unit/integration tests cover source/audio bounds, migration, Windows replacement-lock recovery, concurrent saves, path restrictions, safe result merging, read-only observation, stale status handling, complete multi-scene plans, managed production sequencing, shot lineage and real transition renders. Browser workflows cover the single contextual panel and razor, one import control, read-only status completion, asset editing, skills, saving/reloading, annotations and actual MP4 exports.
+Unit/integration tests cover source/audio bounds, safe asset deletion, migration, Windows replacement-lock recovery, concurrent saves, path restrictions, safe result merging, read-only observation, current production steps, stale status handling, complete multi-scene plans, managed production sequencing, shot lineage and real transition renders. Browser workflows cover aligned contextual lanes, dragging/trimming/group movement, edge scrolling and panning, project-wide media with incoming assets and deletion/undo, the single properties panel and razor, read-only status completion, skills, saving/reloading, annotations and actual MP4 exports.
 
 The demo and tests use local media fixtures, clearly labelled synthetic tones and temporary test projects. They use no generation credits. Browser checks use headless Edge on Windows or Playwright Chromium elsewhere. `scripts/check-codex.ts` separately checks live conversation creation and resume after a process restart with zero inference turns.
 

@@ -2,7 +2,19 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import os from 'node:os';
 import type { CodexClient } from './codex.ts';
-import type { Observation } from '../shared/observer.ts';
+import type { Observation, ObservationStep } from '../shared/observer.ts';
+
+function toolStep(item: any): ObservationStep | undefined {
+  if (item.type === 'webSearch') return 'research';
+  if (item.type === 'fileChange') return 'editing';
+  if (item.type === 'commandExecution' && /\bffmpeg\b|\bffprobe\b/i.test(item.command ?? '')) return /\.(wav|mp3|m4a|ogg|flac)\b/i.test(item.command) && !/\.(mp4|mov|webm)\b/i.test(item.command) ? 'processing-audio' : 'processing-video';
+  if (item.type !== 'mcpToolCall') return undefined;
+  const name = `${item.server ?? ''} ${item.tool ?? ''}`;
+  if (/video|animate|lipsync/i.test(name)) return 'video';
+  if (/imagegen|image_gen|generate.?image/i.test(name)) return 'images';
+  if (/audio|speech|narrat|text.?to.?speech|\btts\b/i.test(name)) return 'audio';
+  return undefined;
+}
 
 export function publicHistory(turns: any[]): Pick<Observation, 'messages' | 'activity'> {
   const items = turns.slice().reverse().flatMap(t => t.items ?? []);
@@ -59,7 +71,8 @@ export class ThreadObserver {
       const tail = thread.path ? await readRolloutTail(thread.path, threadId).catch(() => null) : null;
       const latest = turns[0];
       const status: Observation['status'] = tail?.status ?? (thread.status?.type === 'active' ? 'running' : latest?.status === 'inProgress' ? 'unknown' : latest?.status ?? 'idle');
-      return { threadId, status, label: ({ running: 'Codex is working', completed: 'Codex finished', interrupted: 'Codex stopped', failed: 'Codex needs attention', unknown: 'Waiting for a fresh status', idle: 'Ready in Codex', unavailable: 'Status unavailable' })[status], checkedAt, updatedAt: tail?.modifiedAt ?? (latest?.completedAt ? new Date(latest.completedAt * 1000).toISOString() : undefined), messages: tail?.messages.length ? tail.messages : publicItems.messages, activity: publicItems.activity };
+      const activeTool = status === 'running' ? (latest?.items ?? []).filter((item: any) => item.status === 'inProgress').map(toolStep).filter(Boolean).at(-1) : undefined;
+      return { threadId, status, step: activeTool, label: ({ running: 'Codex is working', completed: 'Codex finished', interrupted: 'Codex stopped', failed: 'Codex needs attention', unknown: 'Waiting for a fresh status', idle: 'Ready in Codex', unavailable: 'Status unavailable' })[status], checkedAt, updatedAt: tail?.modifiedAt ?? (latest?.completedAt ? new Date(latest.completedAt * 1000).toISOString() : undefined), messages: tail?.messages.length ? tail.messages : publicItems.messages, activity: publicItems.activity };
     } catch (e) { return { threadId, status: 'unavailable', label: 'Status unavailable', checkedAt, message: (e as Error).message, messages: [], activity: [] }; }
   }
 }

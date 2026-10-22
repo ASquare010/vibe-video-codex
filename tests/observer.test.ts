@@ -2,7 +2,8 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { id, newProject } from '../shared/project.ts';
+import { id, newProject, shotSchema } from '../shared/project.ts';
+import { observationDisplay, type Observation } from '../shared/observer.ts';
 import { ThreadObserver, readRolloutTail } from '../server/observer.ts';
 import { AgentManager, CodexClient } from '../server/codex.ts';
 import { ProjectStore } from '../server/store.ts';
@@ -37,4 +38,39 @@ test('read-only projects reject generation requests before connecting to Codex',
   await assert.rejects(manager.queue(p.id, { action: 'plan', sceneId: p.scenes[0].id, clipIds: [], instructions: 'Draft' }), /read-only Codex monitor/);
   await assert.rejects(manager.produce(p.id), /main Codex chat/);
   assert.equal((await store.read(p.id)).jobs.length, 0);
+});
+
+test('current production step counts ready assets, while completion and stale status always end generating', () => {
+  const p = newProject('Step fixture'), scene = p.scenes[0];
+  scene.shots = [shotSchema.parse({ id: 'still', title: 'Still', media: 'image' }), shotSchema.parse({ id: 'motion', title: 'Motion', media: 'video' })];
+  const asset = (assetId: string, kind: 'audio' | 'image' | 'video', shotId?: string) => ({ id: assetId, name: assetId, kind, sceneId: scene.id, shotId, outdated: false, activeVersionId: 'v1', versions: [{ id: 'v1', path: 'media/fixture.wav', provenance: { prompt: '', createdAt: new Date().toISOString(), sourceVersionIds: [] } }] });
+  p.assets = [asset('voice', 'audio'), asset('first', 'image', 'still'), asset('motion-old', 'video', 'motion')];
+  p.assets[2].outdated = true; scene.audioAssetId = 'voice';
+  p.production = { status: 'running', stage: 'audio' };
+  const observation: Observation = { threadId: id(), status: 'running', label: 'Codex is working', checkedAt: new Date().toISOString(), messages: [], activity: [] };
+  assert.match(observationDisplay(p, observation).label, /Generating audio/);
+  assert.deepEqual(observationDisplay(p, observation).progress, { ready: 1, total: 1 });
+  p.production.stage = 'images';
+  assert.deepEqual(observationDisplay(p, observation).progress, { ready: 1, total: 2 });
+  p.production.stage = 'video';
+  assert.deepEqual(observationDisplay(p, observation).progress, { ready: 0, total: 1 });
+  assert.match(observationDisplay(p, { ...observation, step: 'processing-audio' }).label, /Processing audio/);
+  for (const status of ['completed', 'unknown', 'unavailable', 'interrupted'] as const) {
+    const result = observationDisplay(p, { ...observation, status, label: status });
+    assert.equal(result.label, status); assert.equal(result.progress, undefined);
+  }
+  p.production.status = 'idle';
+  assert.equal(observationDisplay(p, observation).label, 'Thinking');
+  p.production = { status: 'paused', stage: 'images', error: 'Image provider connection failed. All accepted assets are saved.' };
+  const paused = observationDisplay(p, { ...observation, status: 'completed', label: 'Codex finished' });
+  assert.equal(paused.label, 'Paused · image generation'); assert.equal(paused.detail, 'Image provider connection failed.'); assert.equal(paused.attention, true);
+  assert.equal(observationDisplay(p, observation).label, 'Thinking');
+});
+
+test('only an in-progress public tool supplies the live step; previous and completed tools do not', async () => {
+  let status = 'inProgress';
+  const observer = new ThreadObserver({ connect: async () => {}, rpc: async (method: string) => method === 'thread/read' ? { thread: { status: { type: status === 'inProgress' ? 'active' : 'idle' } } } : { data: [{ status, items: [{ type: 'mcpToolCall', status: 'inProgress', server: 'image_gen', tool: 'imagegen' }] }, { status: 'completed', items: [{ type: 'mcpToolCall', status: 'inProgress', server: 'voice', tool: 'generate_audio' }] }] } });
+  assert.equal((await observer.read(id())).step, 'images');
+  status = 'completed';
+  const result = await observer.read(id()); assert.equal(result.status, 'completed'); assert.equal(result.step, undefined);
 });

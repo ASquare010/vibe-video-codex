@@ -6,7 +6,7 @@ import os from 'node:os';
 import { spawn } from 'node:child_process';
 import { createServer } from 'node:http';
 import { z } from 'zod';
-import { activeVersion, clampSceneClips, invalidateNarration, jobSchema, newProject, projectSchema, skillSchema, cleanTransitions } from '../shared/project.ts';
+import { activeVersion, clampSceneClips, invalidateNarration, jobSchema, newProject, projectSchema, skillSchema, cleanTransitions, removeAsset } from '../shared/project.ts';
 import { ProjectStore, HttpError } from './store.ts';
 import { CodexClient, AgentManager } from './codex.ts';
 import { applyResult, importMedia } from './media.ts';
@@ -71,6 +71,12 @@ app.put('/api/projects/:id', async (req, res) => {
     p.skill = draft.skill; p.plan = draft.plan; p.transitions = draft.transitions;
     p.review = draft.review;
     p.scenes = draft.scenes; p.clips = draft.clips; p.annotations = draft.annotations;
+    // Only deletion/restore flags are editable; source versions and provenance stay server-owned.
+    for (const asset of p.assets) {
+      const proposed = draft.assets.find(a => a.id === asset.id);
+      if (proposed) asset.archived = proposed.archived;
+      if (asset.archived) removeAsset(p, asset.id);
+    }
     invalidateNarration(p, before);
     cleanTransitions(p);
     if (p.scenes.some(s => s.approved && !before.scenes.find(old => old.id === s.id)?.approved)) {
@@ -189,7 +195,7 @@ app.get('/api/projects/:id/events', async (req, res) => {
 const watcher = await store.init();
 for (const p of await store.list()) await writeAgentGuide(store.folder(p.id), p);
 // A restart never retries a potentially billable task without the user's instruction.
-for (const p of await store.list()) if (p.jobs.some(j => ['running', 'queued', 'awaiting-approval'].includes(j.status)) || ['running', 'drafting'].includes(p.production.status)) {
+for (const p of await store.list()) if (p.conversation.mode === 'managed' && (p.jobs.some(j => ['running', 'queued', 'awaiting-approval'].includes(j.status)) || ['running', 'drafting'].includes(p.production.status))) {
   await store.mutate(p.id, current => {
     current.jobs.filter(j => ['running', 'queued', 'awaiting-approval'].includes(j.status)).forEach(j => { j.status = 'failed'; j.error = 'The app restarted. Check remote tool activity before retrying.'; });
     if (['running', 'drafting'].includes(current.production.status)) current.production = { ...current.production, status: 'paused', error: 'The app restarted. Check remote tool activity, then resume production when ready.' };
