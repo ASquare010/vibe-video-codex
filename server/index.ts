@@ -14,6 +14,8 @@ import { renderProject } from './export.ts';
 import { SkillCatalog } from './skills.ts';
 import { ThreadObserver } from './observer.ts';
 import { writeAgentGuide } from './handoff.ts';
+import { analyzeSource } from './source.ts';
+import {applyAssetTopology} from './asset-topology.ts';
 
 try { process.loadEnvFile(); } catch { /* .env is optional */ }
 const app = express();
@@ -45,7 +47,7 @@ app.put('/api/skills/:id', async (req, res) => {
 app.post('/api/projects', async (req, res) => {
   const data = z.object({ name: z.string().trim().min(1).max(120), runtime: z.enum(['codex', 'chatgpt']).default('codex'), idea: z.string().max(20000).default(''), skillId: z.string().default('cinematic-story'), targetSeconds: z.number().min(1).max(3600).default(90), autoProduce: z.boolean().default(false) }).parse(req.body);
   const initial = newProject(data.name, data.runtime, data.idea);
-  initial.skill = await skills.read(data.skillId); initial.plan.targetSeconds = data.targetSeconds;
+  initial.skill = await skills.read(data.skillId); if (data.skillId === 'video-rerender') initial.settings.fps = 24; initial.plan.targetSeconds = data.targetSeconds;
   const p = await store.create(initial);
   res.status(201).json(p);
   if (data.runtime === 'codex') {
@@ -67,16 +69,13 @@ app.put('/api/projects/:id', async (req, res) => {
   if (draft.id !== req.params.id) throw new HttpError(400, 'Project ID mismatch');
   res.json(await store.mutate(draft.id, async p => {
     const before = structuredClone(p);
+    if (p.settings.fps !== draft.settings.fps && (p.assets.length || p.clips.length || p.sourceVideo)) throw new HttpError(409, 'Choose frame rate before importing media; existing project timing cannot be relabelled');
     p.name = draft.name; p.settings = draft.settings; p.theme = draft.theme;
     p.skill = draft.skill; p.plan = draft.plan; p.transitions = draft.transitions;
     p.review = draft.review;
     p.scenes = draft.scenes; p.clips = draft.clips; p.annotations = draft.annotations;
-    // Only deletion/restore flags are editable; source versions and provenance stay server-owned.
-    for (const asset of p.assets) {
-      const proposed = draft.assets.find(a => a.id === asset.id);
-      if (proposed) asset.archived = proposed.archived;
-      if (asset.archived) removeAsset(p, asset.id);
-    }
+    // Scene ownership can change during a join/split; physical media and provenance remain server-owned.
+    applyAssetTopology(p,draft);
     invalidateNarration(p, before);
     cleanTransitions(p);
     if (p.scenes.some(s => s.approved && !before.scenes.find(old => old.id === s.id)?.approved)) {
@@ -86,7 +85,7 @@ app.put('/api/projects/:id', async (req, res) => {
 });
 app.post('/api/projects/:id/archive', async (req, res) => res.json(await store.mutate(req.params.id, p => { p.archived = z.boolean().parse(req.body.archived); })));
 app.post('/api/projects/:id/reconnect', async (req, res) => { await agents.ensureThread(await store.read(req.params.id)); res.json(await store.read(req.params.id)); });
-app.post('/api/projects/:id/produce', async (req, res) => res.status(202).json(await agents.produce(req.params.id)));
+app.post('/api/projects/:id/produce', async (req, res) => { const p = await store.read(req.params.id); if (p.sourceVideo) throw new HttpError(409, 'Direct this source-video project in the main Codex chat using its rerender skill'); res.status(202).json(await agents.produce(req.params.id)); });
 app.post('/api/projects/:id/production/pause', async (req, res) => {
   const p = await store.mutate(String(req.params.id), p => { p.production.status = 'paused'; p.jobs.filter(j => j.status === 'queued').forEach(j => { j.status = 'cancelled'; }); });
   const running = p.jobs.find(j => ['running', 'awaiting-approval'].includes(j.status));
@@ -114,11 +113,14 @@ app.post('/api/projects/:id/import', upload.single('file'), async (req, res) => 
   try { res.json(await importMedia(store, String(req.params.id), z.string().parse(req.body.sceneId), req.file.path, req.file.originalname)); }
   finally { await fs.unlink(req.file.path).catch(() => {}); }
 });
+app.post('/api/projects/:id/source', upload.single('file'), async (req, res) => {
+  if (!req.file) throw new HttpError(400, 'Choose a source video');
+  try { res.json(await analyzeSource(store, String(req.params.id), req.file.path, req.file.originalname, z.array(z.object({startSeconds:z.number().nonnegative(),endSeconds:z.number().positive(),reason:z.string()}).refine(x=>x.endSeconds>x.startSeconds)).parse(JSON.parse(req.body.exclusions || '[]')))); }
+  finally { await fs.unlink(req.file.path).catch(() => {}); }
+});
 app.get('/api/projects/:id/media', async (req, res) => {
   const relative = z.string().parse(req.query.path);
-  const p = await store.read(req.params.id);
-  if (!p.assets.some(a => a.versions.some(v => v.path === relative)) && !p.annotations.some(a => a.imagePath === relative) && !/^exports\/[\da-f-]+\/film\.mp4$/.test(relative)) throw new HttpError(404, 'Media is not registered in this project');
-  res.sendFile(await store.safeFile(p.id, relative));
+  res.sendFile(await store.mediaFile(String(req.params.id),relative));
 });
 app.post('/api/projects/:id/versions', async (req, res) => {
   const data = z.object({ assetId: z.string(), versionId: z.string() }).parse(req.body);
@@ -160,7 +162,7 @@ app.post('/api/projects/:id/requests/:requestId', async (req, res) => {
 });
 app.get('/api/projects/:id/context', async (req, res) => {
   const p = await store.read(req.params.id);
-  res.json({ text: `Continue this VibeCut video project. You are the creative brain; the editor is your harness. Apply the project's selected skill. Draft the COMPLETE film first: full story, every scene's exact narration, voice/audio direction, visual direction, continuity, shot image prompts and video prompts. Production order: ALL scene audio (one narration per scene), measure audio, ALL planned images, then planned image-to-video shots. A scene may have multiple images. Fit placements to measured narration. Preserve source files and versions. Record actual models/tools as asset provenance; never invent tool success.\nLocal project folder: ${store.folder(p.id)}\nCanonical project state:\n${JSON.stringify(p, null, 2)}\nIf you can access local files, edit project.json using schemaVersion 2, preserve stable IDs and increment revision; the UI validates and watches the manifest. A web-only ChatGPT chat cannot access these local files; return files for manual import.` });
+  res.json({ text: `Continue this VibeCut video project. You are the creative brain; the editor is your harness. Apply the project's selected skill. Draft the COMPLETE film first: full story, every scene's exact narration, voice/audio direction, visual direction, continuity, shot image prompts and video prompts. For source-video rerenders, follow the selected skill: inspect camera cuts and source motion, use stable scene numbers, Higgsfield action generation using the selected skill's tested photographic-input recipe and human stunt mechanics, source camera/actor placement preserved, good Veo realistic first-frame guidance for ordinary coverage, meaningful source cuts and approach/contact/entrance/reaction shots preserved, short light flashes, accepted takes reused, current creator scope respected, and every attempt cost recorded. Source timing replaces narration-first anchoring. For original prompt-based films, production order: ALL scene audio (one narration per scene), measure audio, ALL planned images, then planned image-to-video shots. A scene may have multiple images. Fit placements to measured narration. Preserve source files and versions. Record actual models/tools as asset provenance; never invent tool success.\nLocal project folder: ${store.folder(p.id)}\nCanonical project state:\n${JSON.stringify(p, null, 2)}\nIf you can access local files, edit project.json using schemaVersion 2, preserve stable IDs and increment revision; the UI validates and watches the manifest. A web-only ChatGPT chat cannot access these local files; return files for manual import.` });
 });
 app.post('/api/projects/:id/annotations', async (req, res) => {
   const data = z.object({ id: z.string().uuid(), image: z.string().max(7_000_000) }).parse(req.body);
@@ -181,7 +183,17 @@ app.post('/api/projects/:id/export', async (req, res) => {
     const result = { status: 'completed', path: relative }; exports.set(p.id, result); store.emit('change', { projectId: p.id, type: 'export', ...result });
   }).catch(error => { const result = { status: 'failed', message: error.message }; exports.set(p.id, result); store.emit('change', { projectId: p.id, type: 'export', ...result }); });
 });
-app.get('/api/projects/:id/export', async (req, res) => { await store.read(req.params.id); res.json(exports.get(req.params.id) ?? { status: 'idle' }); });
+app.get('/api/projects/:id/export', async (req, res) => {
+  const p=await store.read(req.params.id), live=exports.get(req.params.id);if(live){res.json(live);return;}
+  try {
+    const receipt=JSON.parse(await fs.readFile(path.join(store.folder(p.id),'latest-export.json'),'utf8'));
+    const relative=path.relative(store.folder(p.id),receipt.file).replaceAll('\\','/');
+    if(receipt.projectId===p.id&&/^exports\/[\da-f-]+\/film\.mp4$/.test(relative)){
+      await store.safeFile(p.id,relative);res.json({status:'completed',path:relative,message:receipt.referenceScenes?'Draft export complete; pending scenes retain source references.':'Export complete.'});return;
+    }
+  } catch { /* No completed local export is registered yet. */ }
+  res.json({status:'idle'});
+});
 app.get('/api/projects/:id/events', async (req, res) => {
   await store.read(req.params.id);
   res.writeHead(200, { 'Content-Type': 'text/event-stream', 'Cache-Control': 'no-cache', Connection: 'keep-alive' });

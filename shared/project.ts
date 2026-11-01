@@ -3,6 +3,30 @@ import { isReviewApproved } from './review';
 
 export const id = () => crypto.randomUUID();
 const frame = z.number().int().nonnegative();
+export const projectPath = z.string().min(1).refine(p => !p.split(/[\\/]/).includes('..') && !/^(?:[a-z]:|[\\/])/i.test(p), 'Use a relative project path');
+export const sourceShotSchema = z.object({
+  referenceId: z.string(), startSeconds: z.number().nonnegative(), endSeconds: z.number().positive(),
+  verified: z.boolean().default(false), motion: z.enum(['unknown', 'low', 'medium', 'high']).default('unknown'),
+  route: z.enum(['unassigned', 'veo', 'seedance', 'minimax']).default('unassigned'),
+  status: z.enum(['candidate', 'analyzed', 'ready', 'generated', 'review', 'accepted', 'excluded']).default('candidate'),
+  notes: z.string().default(''), adaptation: z.boolean().optional(), originalSceneNumbers: z.array(z.number().int().positive()).optional(),
+  segments: z.array(z.object({startSeconds:z.number().nonnegative(),endSeconds:z.number().positive(),referenceId:z.string(),originalSceneNumber:z.number().int().positive()}).refine(x=>x.endSeconds>x.startSeconds)).optional(), thumbnail: projectPath.optional(),
+}).refine(s => s.endSeconds > s.startSeconds, 'Source end must follow start');
+export const sourceVideoSchema = z.object({
+  path: projectPath, proxyPath: projectPath, name: z.string(), fps: z.number().positive(),
+  durationSeconds: z.number().positive(), width: z.number().positive(), height: z.number().positive(),
+  analysis: z.string(), importedAt: z.string(), hasAudio: z.boolean().optional(),
+  exclusions: z.array(z.object({ startSeconds: z.number().nonnegative(), endSeconds: z.number().positive(), reason: z.string() }).refine(x=>x.endSeconds>x.startSeconds)).optional(),
+});
+export const costEntrySchema = z.object({
+  id: z.string(), provider: z.string(), model: z.string().optional(), sceneId: z.string().optional(),
+  amount: z.number().nonnegative().nullable(), unit: z.enum(['USD', 'Higgsfield credits']),
+  status: z.enum(['estimate', 'recorded', 'unpriced']), scope: z.string(),
+  nativeSeconds: z.number().positive().optional(), receipt: z.string().optional(), notes: z.string().default(''),
+});
+export function costTotals(entries: z.infer<typeof costEntrySchema>[]) {
+  return entries.reduce((s, c) => { if (c.amount === null) s.unpriced++; else if (c.unit === 'USD') s.usd += c.amount; else s.higgsfield += c.amount; return s; }, { usd: 0, higgsfield: 0, unpriced: 0 });
+}
 export const provenanceSchema = z.object({
   provider: z.string().optional(), model: z.string().optional(), tool: z.string().optional(),
   prompt: z.string().default(''), createdAt: z.string(), jobId: z.string().optional(),
@@ -17,7 +41,7 @@ export const assetSchema = z.object({
   id: z.string(), name: z.string(), kind: z.enum(['image', 'video', 'audio']),
   sceneId: z.string(), versions: z.array(versionSchema).min(1), activeVersionId: z.string(),
   outdated: z.boolean().default(false),
-  shotId: z.string().optional(), archived: z.boolean().optional(),
+  role: z.enum(['source-reference', 'render']).optional(), shotId: z.string().optional(), archived: z.boolean().optional(),
 });
 export const shotSchema = z.object({
   id: z.string(), title: z.string(), purpose: z.string().default(''), narrationAnchor: z.string().default(''),
@@ -27,11 +51,12 @@ export const shotSchema = z.object({
   media: z.enum(['image', 'video']).default('video'),
 });
 export const sceneSchema = z.object({
-  id: z.string(), title: z.string(), narration: z.string(), direction: z.string(),
+  id: z.string(), number: z.number().int().positive().optional(), source: sourceShotSchema.optional(), title: z.string(), narration: z.string(), direction: z.string(),
   purpose: z.string().default(''), spokenStyle: z.string().default(''), audioPrompt: z.string().default(''),
   imagePrompt: z.string().default(''), videoPrompt: z.string().default(''), soundDesign: z.string().default(''), continuity: z.string().default(''),
   shots: z.array(shotSchema).default([]),
   estimatedFrames: frame.min(1).default(180), audioAssetId: z.string().nullable().default(null),
+  generationPlan: z.object({mode:z.enum(['generate','reuse']),state:z.enum(['planned','reserved','rendered']),provider:z.enum(['veo','higgsfield','minimax']),nativeSeconds:z.array(z.number().positive()),estimatedCredits:z.number().nonnegative(),reason:z.string(),reuseJobId:z.string().optional()}).optional(),
   approved: z.boolean().default(false),
 });
 export const clipSchema = z.object({
@@ -75,7 +100,7 @@ export const reviewSchema = z.object({
   comments: z.array(z.object({ id: z.string(), anchor: reviewAnchorSchema, type: z.enum(['comment', 'suggestion', 'pointer']), body: z.string().trim().min(1).max(5000), createdAt: z.string(), resolved: z.boolean().default(false) })).default([]),
 });
 export const settingsSchema = z.object({
-  fps: z.literal(30), aspectRatio: z.enum(['16:9', '9:16', '1:1']),
+  fps: z.union([z.literal(24), z.literal(30)]), aspectRatio: z.enum(['16:9', '9:16', '1:1']),
   resolution: z.enum(['420', '480', '720', '1080', '2160']).default('720'),
   imageResolution: z.enum(['420', '480', '720', '1080', '2160']).default('1080'),
   videoResolution: z.enum(['420', '480', '720', '1080', '2160']).default('720'),
@@ -116,6 +141,9 @@ const currentProjectSchema = z.object({
   schemaVersion: z.literal(2), id: z.string().uuid(), name: z.string().min(1).max(120),
   revision: frame, createdAt: z.string(), updatedAt: z.string(), archived: z.boolean().default(false),
   settings: settingsSchema,
+  estimatedCostUsd: z.number().nonnegative().nullable().default(null),
+  productionBudget: z.object({higgsfieldCreditCap:z.number().nonnegative(),higgsfieldRetryReserve:z.number().nonnegative(),higgsfieldPlanningRate:z.number().nonnegative().optional(),pricingBasis:z.string()}).optional(),
+  sourceVideo: sourceVideoSchema.optional(), costs: z.array(costEntrySchema).default([]),
   theme: z.string().default(''),
   skill: skillSchema.nullable().default(null), plan: videoPlanSchema.prefault({}),
   review: reviewSchema.prefault({}),
@@ -129,6 +157,16 @@ const currentProjectSchema = z.object({
   transitions: z.array(transitionSchema).default([]),
 }).superRefine((p, ctx) => {
   const sceneIds = new Set(p.scenes.map(s => s.id));
+  if(p.productionBudget){
+    const spent=p.costs.filter(c=>c.unit==='Higgsfield credits').reduce((n,c)=>n+(c.amount??0),0);
+    const planned=p.scenes.reduce((n,s)=>n+(s.generationPlan?.provider==='higgsfield'&&s.generationPlan.state==='planned'?s.generationPlan.estimatedCredits:0),0);
+    if(spent+planned+p.productionBudget.higgsfieldRetryReserve>p.productionBudget.higgsfieldCreditCap)ctx.addIssue({code:'custom',message:'Higgsfield plan exceeds the total credit cap including history and retry reserve'});
+  }
+
+  const numbers = p.scenes.flatMap(s => s.number === undefined ? [] : [s.number]);
+  if (new Set(numbers).size !== numbers.length) ctx.addIssue({ code: 'custom', message: 'Duplicate scene numbers' });
+  if (new Set(p.costs.map(c => c.id)).size !== p.costs.length) ctx.addIssue({ code: 'custom', message: 'Duplicate cost receipt IDs' });
+  for (const s of p.scenes) if (s.source && p.sourceVideo && s.source.endSeconds > p.sourceVideo.durationSeconds + 0.1) ctx.addIssue({ code: 'custom', message: 'Scene exceeds source video' });
   for (const collection of [p.scenes, p.assets, p.clips, p.jobs, p.annotations, p.review.comments]) {
     if (new Set(collection.map(x => x.id)).size !== collection.length) ctx.addIssue({ code: 'custom', message: 'Duplicate IDs' });
   }
@@ -156,8 +194,11 @@ const currentProjectSchema = z.object({
   }
 });
 export const projectSchema = z.preprocess(value => {
-  if (value && typeof value === 'object' && 'schemaVersion' in value && value.schemaVersion === 1) return { ...value, schemaVersion: 2 };
-  return value;
+  if (!value || typeof value !== 'object' || !('scenes' in value) || !Array.isArray(value.scenes)) return value;
+  const used = new Set<number>(value.scenes.flatMap((s: any) => [s.number, ...(s.source?.originalSceneNumbers ?? []), ...(s.source?.segments ?? []).map((v: any) => v.originalSceneNumber)]).filter((n: unknown) => typeof n === 'number'));
+  let next = Math.max(0, ...used) + 1;
+  const scenes = value.scenes.map((s: any) => { if (s.number !== undefined) return s; while (used.has(next)) next++; used.add(next); return { ...s, number: next++ }; });
+  return { ...value, ...('schemaVersion' in value && value.schemaVersion === 1 ? { schemaVersion: 2 } : {}), scenes };
 }, currentProjectSchema);
 export type Project = z.infer<typeof projectSchema>;
 export type Scene = z.infer<typeof sceneSchema>;
@@ -173,6 +214,8 @@ export type Shot = z.infer<typeof shotSchema>;
 export type ReviewAnchor = z.infer<typeof reviewAnchorSchema>;
 export type ReviewComment = z.infer<typeof reviewSchema>['comments'][number];
 
+export function sceneNumber(p: Pick<Project, 'scenes'>, scene: Scene) { return scene.number ?? p.scenes.findIndex(s => s.id === scene.id) + 1; }
+export function nextSceneNumber(p: Pick<Project, 'scenes'>) { return Math.max(0, ...p.scenes.flatMap(s => [sceneNumber(p, s), ...(s.source?.originalSceneNumbers ?? []), ...(s.source?.segments ?? []).map(v => v.originalSceneNumber)])) + 1; }
 export function newScene(title = 'Scene 01'): Scene {
   return sceneSchema.parse({ id: id(), title, narration: '', direction: '', estimatedFrames: 180, audioAssetId: null, approved: false });
 }
@@ -185,6 +228,7 @@ export function newProject(name: string, runtime: 'codex' | 'chatgpt' = 'codex',
 }
 export function activeVersion(asset: Asset) { return asset.versions.find(v => v.id === asset.activeVersionId)!; }
 export function sceneFrames(p: Pick<Project, 'assets'>, scene: Scene): number {
+  if (!scene.audioAssetId) return scene.estimatedFrames;
   const audio = p.assets.find(a => a.id === scene.audioAssetId);
   return audio ? activeVersion(audio).durationFrames ?? scene.estimatedFrames : scene.estimatedFrames;
 }

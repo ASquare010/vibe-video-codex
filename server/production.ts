@@ -15,7 +15,7 @@ export function validateProductionResult(p: Project, job: Job, result: AgentResu
 }
 
 export function nextProductionTask(p: Project): { action: Job['action']; sceneId: string; instructions: string } | null {
-  if (p.production.status !== 'running') return null;
+  if (p.sourceVideo || p.production.status !== 'running') return null;
   for (const scene of p.scenes) {
     const audio = p.assets.find(a => a.id === scene.audioAssetId);
     if (!audio || audio.outdated || !activeVersion(audio).durationFrames) return {
