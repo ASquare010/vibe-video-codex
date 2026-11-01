@@ -1,0 +1,1872 @@
+{
+  "projectId": "761bb19c-3366-42b3-bb34-274cc9f0f625",
+  "version": "director-storyboard-v2",
+  "fps": 24,
+  "width": 720,
+  "height": 1280,
+  "frames": 3445,
+  "seconds": 143.54166666666666,
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "A forbidden route",
+      "cutCount": 16,
+      "frames": 876
+    },
+    {
+      "id": "S02",
+      "title": "Following the vein",
+      "cutCount": 16,
+      "frames": 826
+    },
+    {
+      "id": "S03",
+      "title": "Evidence without acceptance",
+      "cutCount": 14,
+      "frames": 849
+    },
+    {
+      "id": "S04",
+      "title": "The route becomes a method",
+      "cutCount": 14,
+      "frames": 894
+    }
+  ],
+  "scope": "Images over unchanged accepted audio. No video generation. Default built-in image tool for new stills.",
+  "sourceAudioEvidence": "drafts/forssmann-1929/S0N-ready-asr.json",
+  "openingNote": "Audience explanatory view of vessel/heart then external hand and self-patient reveal; no claim Forssmann saw inside his body.",
+  "cuts": [
+    {
+      "id": "S01-V2-01",
+      "sceneId": "S01",
+      "index": 0,
+      "title": "Inside the route",
+      "startFrame": 0,
+      "durationFrames": 65,
+      "globalStartFrame": 0,
+      "seconds": 2.7083333333333335,
+      "narrationAnchor": "The tube in this doctor's arm",
+      "speechWindow": {
+        "start": 0.0,
+        "end": 2.7083333333333335,
+        "recognizedContext": "The tube in this doctor's arm was heading toward his heart,",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: A clean dimensional cutaway inside the upper vena cava just above the right atrium. A single slender amber rubber catheter follows the blue vessel lumen downward toward the open heart chamber. Extreme macro, curving vessel walls form a clear route and the heart chamber is visible ahead; no blood or wound. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [],
+      "referenceRole": "anatomy",
+      "decisiveStill": "A clean dimensional cutaway inside the upper vena cava just above the right atrium. A single slender amber rubber catheter follows the blue vessel lumen downward toward the open heart chamber. Extreme macro, curving vessel walls form a clear route and the heart chamber is visible ahead; no blood or wound.",
+      "plannedAction": "The tip progresses down the existing vessel toward the atrium; explanatory opening hook, not the doctor seeing inside himself.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Explanatory hook starts within the catheter route; no prior shot.",
+      "nextRequiredState": "The same single amber catheter tip just inside the upper right atrial chamber through the superior vena cava. A translucent ivory heart wall reveals the chamber and enclosing blue vessel above; oblique dimensional view, navy background. Tip stays in the lumen, never punctures a wall."
+    },
+    {
+      "id": "S01-V2-02",
+      "sceneId": "S01",
+      "index": 1,
+      "title": "The living destination",
+      "startFrame": 65,
+      "durationFrames": 42,
+      "globalStartFrame": 65,
+      "seconds": 1.75,
+      "narrationAnchor": "heading toward his heart",
+      "speechWindow": {
+        "start": 2.7083333333333335,
+        "end": 4.458333333333333,
+        "recognizedContext": "The tube in this doctor's arm was heading toward his heart,",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: The same single amber catheter tip just inside the upper right atrial chamber through the superior vena cava. A translucent ivory heart wall reveals the chamber and enclosing blue vessel above; oblique dimensional view, navy background. Tip stays in the lumen, never punctures a wall. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [],
+      "referenceRole": "anatomy",
+      "decisiveStill": "The same single amber catheter tip just inside the upper right atrial chamber through the superior vena cava. A translucent ivory heart wall reveals the chamber and enclosing blue vessel above; oblique dimensional view, navy background. Tip stays in the lumen, never punctures a wall.",
+      "plannedAction": "Reveal the continuous vessel-to-chamber relationship, with restrained heartbeat implied by the pose.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "A clean dimensional cutaway inside the upper vena cava just above the right atrium. A single slender amber rubber catheter follows the blue vessel lumen downward toward the open heart chamber. Extreme macro, curving vessel walls form a clear route and the heart chamber is visible ahead; no blood or wound.",
+      "nextRequiredState": "His own right fingertips hold the amber tube beside the dressing on his supported left inner elbow. Tight tactile detail makes fingers, tube and entry connection legible."
+    },
+    {
+      "id": "S01-V2-03",
+      "sceneId": "S01",
+      "index": 2,
+      "title": "The hand supplies the movement",
+      "startFrame": 107,
+      "durationFrames": 19,
+      "globalStartFrame": 107,
+      "seconds": 0.7916666666666666,
+      "narrationAnchor": "the doctor pushing it forward",
+      "speechWindow": {
+        "start": 4.458333333333333,
+        "end": 5.25,
+        "recognizedContext": "The tube in this doctor's arm was heading toward his heart, and the doctor pushing it forward was also the patient.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: His own right fingertips hold the amber tube beside the dressing on his supported left inner elbow. Tight tactile detail makes fingers, tube and entry connection legible. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "His own right fingertips hold the amber tube beside the dressing on his supported left inner elbow. Tight tactile detail makes fingers, tube and entry connection legible.",
+      "plannedAction": "Carry the internal movement into the external guiding hand; one small controlled advance.",
+      "reuse": {
+        "assetId": "ced57c94-9b24-4431-b703-9e8b293f3e5c",
+        "versionId": "cac578bd-6a05-4b66-931d-bbaa6a59d06a",
+        "path": "media/S01-B-Seedream.png"
+      },
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "The same single amber catheter tip just inside the upper right atrial chamber through the superior vena cava. A translucent ivory heart wall reveals the chamber and enclosing blue vessel above; oblique dimensional view, navy background. Tip stays in the lumen, never punctures a wall.",
+      "nextRequiredState": "Reveal the single young doctor seated at the table, right hand guiding the catheter into his own supported left arm. His connected arm and concentrated face share the frame."
+    },
+    {
+      "id": "S01-V2-04",
+      "sceneId": "S01",
+      "index": 3,
+      "title": "Doctor and patient",
+      "startFrame": 126,
+      "durationFrames": 79,
+      "globalStartFrame": 126,
+      "seconds": 3.2916666666666665,
+      "narrationAnchor": "also the patient",
+      "speechWindow": {
+        "start": 5.25,
+        "end": 8.541666666666666,
+        "recognizedContext": "and the doctor pushing it forward was also the patient.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Reveal the single young doctor seated at the table, right hand guiding the catheter into his own supported left arm. His connected arm and concentrated face share the frame. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "Reveal the single young doctor seated at the table, right hand guiding the catheter into his own supported left arm. His connected arm and concentrated face share the frame.",
+      "plannedAction": "Expose that both hands and the access arm belong to the same man.",
+      "reuse": {
+        "assetId": "897f1e39-7f0d-4788-93f8-3dc722a625d0",
+        "versionId": "04f687cc-8b53-477f-b9ff-5dbadda3c8ba",
+        "path": "media/S01-A-Seedream.png"
+      },
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "His own right fingertips hold the amber tube beside the dressing on his supported left inner elbow. Tight tactile detail makes fingers, tube and entry connection legible.",
+      "nextRequiredState": "1929 German hospital exterior viewed through an open iron gate: modest pale masonry building, tall windows, a bicycle and bare orderly entrance. Warm daylight, no readable signs or invented institution name."
+    },
+    {
+      "id": "S01-V2-05",
+      "sceneId": "S01",
+      "index": 4,
+      "title": "A hospital before the gamble",
+      "startFrame": 205,
+      "durationFrames": 61,
+      "globalStartFrame": 205,
+      "seconds": 2.5416666666666665,
+      "narrationAnchor": "In nineteen twenty-nine",
+      "speechWindow": {
+        "start": 8.541666666666666,
+        "end": 11.083333333333334,
+        "recognizedContext": "In 1929, Werner Forsman was a young physician in Eberswalde, Germany.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: 1929 German hospital exterior viewed through an open iron gate: modest pale masonry building, tall windows, a bicycle and bare orderly entrance. Warm daylight, no readable signs or invented institution name. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [],
+      "referenceRole": "environment",
+      "decisiveStill": "1929 German hospital exterior viewed through an open iron gate: modest pale masonry building, tall windows, a bicycle and bare orderly entrance. Warm daylight, no readable signs or invented institution name.",
+      "plannedAction": "Use the pause as an establishing transition from the hook into the historical setting.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Reveal the single young doctor seated at the table, right hand guiding the catheter into his own supported left arm. His connected arm and concentrated face share the frame.",
+      "nextRequiredState": "The same young doctor in a white coat inside the established cream-tile, dark-green-door hospital corridor, alert posture beside the tall window."
+    },
+    {
+      "id": "S01-V2-06",
+      "sceneId": "S01",
+      "index": 5,
+      "title": "The young physician",
+      "startFrame": 266,
+      "durationFrames": 46,
+      "globalStartFrame": 266,
+      "seconds": 1.9166666666666667,
+      "narrationAnchor": "Werner Forssmann was a young physician",
+      "speechWindow": {
+        "start": 11.083333333333334,
+        "end": 13.0,
+        "recognizedContext": "In 1929, Werner Forsman was a young physician in Eberswalde, Germany.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: The same young doctor in a white coat inside the established cream-tile, dark-green-door hospital corridor, alert posture beside the tall window. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "The same young doctor in a white coat inside the established cream-tile, dark-green-door hospital corridor, alert posture beside the tall window.",
+      "plannedAction": "Locate the person within the hospital, leading toward the operating room.",
+      "reuse": {
+        "assetId": "bfff506c-c562-4d1e-a334-a6d0987afd24",
+        "versionId": "01a08689-287f-4c27-a583-8580a4c49f4c",
+        "path": "media/S01-C-Seedream.png"
+      },
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "1929 German hospital exterior viewed through an open iron gate: modest pale masonry building, tall windows, a bicycle and bare orderly entrance. Warm daylight, no readable signs or invented institution name.",
+      "nextRequiredState": "Young doctor at an oak desk in the same hospital, leaning over an open period anatomy book showing a simple heart and vessels; his index finger follows the illustrated arm-to-heart route. No readable lettering. Low three-quarter view connects his face, hand and diagram."
+    },
+    {
+      "id": "S01-V2-07",
+      "sceneId": "S01",
+      "index": 6,
+      "title": "A question takes shape",
+      "startFrame": 312,
+      "durationFrames": 64,
+      "globalStartFrame": 312,
+      "seconds": 2.6666666666666665,
+      "narrationAnchor": "in Eberswalde, Germany",
+      "speechWindow": {
+        "start": 13.0,
+        "end": 15.666666666666666,
+        "recognizedContext": "In 1929, Werner Forsman was a young physician in Eberswalde, Germany.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Young doctor at an oak desk in the same hospital, leaning over an open period anatomy book showing a simple heart and vessels; his index finger follows the illustrated arm-to-heart route. No readable lettering. Low three-quarter view connects his face, hand and diagram. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "Young doctor at an oak desk in the same hospital, leaning over an open period anatomy book showing a simple heart and vessels; his index finger follows the illustrated arm-to-heart route. No readable lettering. Low three-quarter view connects his face, hand and diagram.",
+      "plannedAction": "Turn orientation into his inquiry; attention travels from the page to the route he wants to reach.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "The same young doctor in a white coat inside the established cream-tile, dark-green-door hospital corridor, alert posture beside the tall window.",
+      "nextRequiredState": "Explanatory upper-body cutaway from front: anatomical left arm on viewer right, blue vein enclosed in the arm, crossing beneath clavicle into the superior vena cava on viewer left and descending into right atrium. One amber catheter follows that continuous lumen. Translucent ivory torso, subdued other anatomy, navy field."
+    },
+    {
+      "id": "S01-V2-08",
+      "sceneId": "S01",
+      "index": 7,
+      "title": "An existing passage",
+      "startFrame": 376,
+      "durationFrames": 56,
+      "globalStartFrame": 376,
+      "seconds": 2.3333333333333335,
+      "narrationAnchor": "reach the heart from inside a blood vessel",
+      "speechWindow": {
+        "start": 15.666666666666666,
+        "end": 18.0,
+        "recognizedContext": "In 1929, Werner Forsman was a young physician in Eberswalde, Germany. He wanted to reach the heart from inside a blood vessel without opening the chest.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Explanatory upper-body cutaway from front: anatomical left arm on viewer right, blue vein enclosed in the arm, crossing beneath clavicle into the superior vena cava on viewer left and descending into right atrium. One amber catheter follows that continuous lumen. Translucent ivory torso, subdued other anatomy, navy field. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [],
+      "referenceRole": "anatomy",
+      "decisiveStill": "Explanatory upper-body cutaway from front: anatomical left arm on viewer right, blue vein enclosed in the arm, crossing beneath clavicle into the superior vena cava on viewer left and descending into right atrium. One amber catheter follows that continuous lumen. Translucent ivory torso, subdued other anatomy, navy field.",
+      "plannedAction": "Make the alternative route understandable during the exact mechanism explanation.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Young doctor at an oak desk in the same hospital, leaning over an open period anatomy book showing a simple heart and vessels; his index finger follows the illustrated arm-to-heart route. No readable lettering. Low three-quarter view connects his face, hand and diagram.",
+      "nextRequiredState": "Three-quarter cutaway of an intact translucent ivory sternum and ribs around the heart. The single amber catheter approaches through the superior vena cava from above, entirely inside the blue vein; a clearly unbroken chest wall in foreground."
+    },
+    {
+      "id": "S01-V2-09",
+      "sceneId": "S01",
+      "index": 8,
+      "title": "The chest stays closed",
+      "startFrame": 432,
+      "durationFrames": 58,
+      "globalStartFrame": 432,
+      "seconds": 2.4166666666666665,
+      "narrationAnchor": "without opening the chest",
+      "speechWindow": {
+        "start": 18.0,
+        "end": 20.416666666666668,
+        "recognizedContext": "He wanted to reach the heart from inside a blood vessel without opening the chest.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Three-quarter cutaway of an intact translucent ivory sternum and ribs around the heart. The single amber catheter approaches through the superior vena cava from above, entirely inside the blue vein; a clearly unbroken chest wall in foreground. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [],
+      "referenceRole": "anatomy",
+      "decisiveStill": "Three-quarter cutaway of an intact translucent ivory sternum and ribs around the heart. The single amber catheter approaches through the superior vena cava from above, entirely inside the blue vein; a clearly unbroken chest wall in foreground.",
+      "plannedAction": "Contrast the internal passage with an intact exterior, without showing a chest incision.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Explanatory upper-body cutaway from front: anatomical left arm on viewer right, blue vein enclosed in the arm, crossing beneath clavicle into the superior vena cava on viewer left and descending into right atrium. One amber catheter follows that continuous lumen. Translucent ivory torso, subdued other anatomy, navy field.",
+      "nextRequiredState": "Close supported right hand lifting one thin amber rubber catheter from a steel tray; its flexible arc hangs naturally above white linen. Same white coat, period room, no needle or loose duplicate tubes."
+    },
+    {
+      "id": "S01-V2-10",
+      "sceneId": "S01",
+      "index": 9,
+      "title": "A flexible tool",
+      "startFrame": 490,
+      "durationFrames": 18,
+      "globalStartFrame": 490,
+      "seconds": 0.75,
+      "narrationAnchor": "A flexible tube",
+      "speechWindow": {
+        "start": 20.416666666666668,
+        "end": 21.166666666666668,
+        "recognizedContext": "He wanted to reach the heart from inside a blood vessel without opening the chest. A flexible tube could offer a way in, but his hospital director refused to let him try it on a patient.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Close supported right hand lifting one thin amber rubber catheter from a steel tray; its flexible arc hangs naturally above white linen. Same white coat, period room, no needle or loose duplicate tubes. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "Close supported right hand lifting one thin amber rubber catheter from a steel tray; its flexible arc hangs naturally above white linen. Same white coat, period room, no needle or loose duplicate tubes.",
+      "plannedAction": "A brief pickup carries the idea into a tangible tool.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Three-quarter cutaway of an intact translucent ivory sternum and ribs around the heart. The single amber catheter approaches through the superior vena cava from above, entirely inside the blue vein; a clearly unbroken chest wall in foreground.",
+      "nextRequiredState": "Macro still of the same thin amber rubber catheter bending smoothly between two fingers above white linen, clearly flexible rather than a rigid stick. His supported left elbow rests behind it out of focus."
+    },
+    {
+      "id": "S01-V2-11",
+      "sceneId": "S01",
+      "index": 10,
+      "title": "The tube follows a curve",
+      "startFrame": 508,
+      "durationFrames": 67,
+      "globalStartFrame": 508,
+      "seconds": 2.7916666666666665,
+      "narrationAnchor": "could offer a way in",
+      "speechWindow": {
+        "start": 21.166666666666668,
+        "end": 23.958333333333332,
+        "recognizedContext": "A flexible tube could offer a way in, but his hospital director refused to let him try it on a patient.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Macro still of the same thin amber rubber catheter bending smoothly between two fingers above white linen, clearly flexible rather than a rigid stick. His supported left elbow rests behind it out of focus. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "Macro still of the same thin amber rubber catheter bending smoothly between two fingers above white linen, clearly flexible rather than a rigid stick. His supported left elbow rests behind it out of focus.",
+      "plannedAction": "Demonstrate flexibility while the narration explains why it could follow a vessel.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Close supported right hand lifting one thin amber rubber catheter from a steel tray; its flexible arc hangs naturally above white linen. Same white coat, period room, no needle or loose duplicate tubes.",
+      "nextRequiredState": "Older hospital director seated behind oak desk raises an open refusing palm toward the standing young doctor, their eyelines connected."
+    },
+    {
+      "id": "S01-V2-12",
+      "sceneId": "S01",
+      "index": 11,
+      "title": "Permission refused",
+      "startFrame": 575,
+      "durationFrames": 35,
+      "globalStartFrame": 575,
+      "seconds": 1.4583333333333333,
+      "narrationAnchor": "his hospital director refused",
+      "speechWindow": {
+        "start": 23.958333333333332,
+        "end": 25.416666666666668,
+        "recognizedContext": "A flexible tube could offer a way in, but his hospital director refused to let him try it on a patient.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Older hospital director seated behind oak desk raises an open refusing palm toward the standing young doctor, their eyelines connected. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-D-Seedream.png"
+      ],
+      "referenceRole": "director",
+      "decisiveStill": "Older hospital director seated behind oak desk raises an open refusing palm toward the standing young doctor, their eyelines connected.",
+      "plannedAction": "Show the refusal at the spoken refusal, not a vague worried reaction.",
+      "reuse": {
+        "assetId": "2a8bed99-c44b-443d-a8a9-722f69249e5e",
+        "versionId": "f2b96fb0-cb4d-48be-a850-68e33e23525e",
+        "path": "media/S01-D-Seedream.png"
+      },
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Macro still of the same thin amber rubber catheter bending smoothly between two fingers above white linen, clearly flexible rather than a rigid stick. His supported left elbow rests behind it out of focus.",
+      "nextRequiredState": "Young doctor alone seated at the enamel table, left sleeve held above elbow, supported left forearm on white linen, sterile amber catheter on tray at his right."
+    },
+    {
+      "id": "S01-V2-13",
+      "sceneId": "S01",
+      "index": 12,
+      "title": "The patient will be himself",
+      "startFrame": 610,
+      "durationFrames": 41,
+      "globalStartFrame": 610,
+      "seconds": 1.7083333333333333,
+      "narrationAnchor": "Forssmann decided to use himself",
+      "speechWindow": {
+        "start": 25.416666666666668,
+        "end": 27.125,
+        "recognizedContext": "A flexible tube could offer a way in, but his hospital director refused to let him try it on a patient.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Young doctor alone seated at the enamel table, left sleeve held above elbow, supported left forearm on white linen, sterile amber catheter on tray at his right. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "Young doctor alone seated at the enamel table, left sleeve held above elbow, supported left forearm on white linen, sterile amber catheter on tray at his right.",
+      "plannedAction": "Re-establish the same man as operator and subject after the refusal.",
+      "reuse": {
+        "assetId": "b702731f-5dc3-4949-ad0d-299312d40823",
+        "versionId": "8cf708be-b5ae-4481-9d8b-e05ad284d7b2",
+        "path": "media/S01-E-Seedream.png"
+      },
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Older hospital director seated behind oak desk raises an open refusing palm toward the standing young doctor, their eyelines connected.",
+      "nextRequiredState": "Tight detail of the young doctor's right hand fastening the rolled left cuff above the elbow; supported bare left forearm stays relaxed on linen. No tube is inserted yet."
+    },
+    {
+      "id": "S01-V2-14",
+      "sceneId": "S01",
+      "index": 13,
+      "title": "Sleeve secured",
+      "startFrame": 651,
+      "durationFrames": 22,
+      "globalStartFrame": 651,
+      "seconds": 0.9166666666666666,
+      "narrationAnchor": "decided to use himself",
+      "speechWindow": {
+        "start": 27.125,
+        "end": 28.041666666666668,
+        "recognizedContext": "Forsman decided to use himself.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Tight detail of the young doctor's right hand fastening the rolled left cuff above the elbow; supported bare left forearm stays relaxed on linen. No tube is inserted yet. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "Tight detail of the young doctor's right hand fastening the rolled left cuff above the elbow; supported bare left forearm stays relaxed on linen. No tube is inserted yet.",
+      "plannedAction": "A quick practical preparation leads directly to the exposed access arm.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Young doctor alone seated at the enamel table, left sleeve held above elbow, supported left forearm on white linen, sterile amber catheter on tray at his right.",
+      "nextRequiredState": "Wider side view of the young doctor alone at the established table, left forearm palm-up and supported, right hand poised with the single flexible catheter above the tray. Empty opposite chair makes the solitary responsibility readable."
+    },
+    {
+      "id": "S01-V2-15",
+      "sceneId": "S01",
+      "index": 14,
+      "title": "His own arm on the table",
+      "startFrame": 673,
+      "durationFrames": 73,
+      "globalStartFrame": 673,
+      "seconds": 3.0416666666666665,
+      "narrationAnchor": "If the experiment went wrong",
+      "speechWindow": {
+        "start": 28.041666666666668,
+        "end": 31.083333333333332,
+        "recognizedContext": "Forsman decided to use himself. If the experiment went wrong, the person making the discovery would also be the one paying for it.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Wider side view of the young doctor alone at the established table, left forearm palm-up and supported, right hand poised with the single flexible catheter above the tray. Empty opposite chair makes the solitary responsibility readable. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "Wider side view of the young doctor alone at the established table, left forearm palm-up and supported, right hand poised with the single flexible catheter above the tray. Empty opposite chair makes the solitary responsibility readable.",
+      "plannedAction": "Hold the decision and bodily stakes without inventing a crisis or another assistant.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Tight detail of the young doctor's right hand fastening the rolled left cuff above the elbow; supported bare left forearm stays relaxed on linen. No tube is inserted yet.",
+      "nextRequiredState": "Close three-quarter view of the young doctor's determined face and steady right hand; the supported left elbow is a readable foreground anchor. His gaze goes to his own arm, not toward the audience, in the same quiet operating room."
+    },
+    {
+      "id": "S01-V2-16",
+      "sceneId": "S01",
+      "index": 15,
+      "title": "The decision holds",
+      "startFrame": 746,
+      "durationFrames": 130,
+      "globalStartFrame": 746,
+      "seconds": 5.416666666666667,
+      "narrationAnchor": "the one paying for it",
+      "speechWindow": {
+        "start": 31.083333333333332,
+        "end": 36.5,
+        "recognizedContext": "If the experiment went wrong, the person making the discovery would also be the one paying for it.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Close three-quarter view of the young doctor's determined face and steady right hand; the supported left elbow is a readable foreground anchor. His gaze goes to his own arm, not toward the audience, in the same quiet operating room. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "Close three-quarter view of the young doctor's determined face and steady right hand; the supported left elbow is a readable foreground anchor. His gaze goes to his own arm, not toward the audience, in the same quiet operating room.",
+      "plannedAction": "Carry the consequence into the next scene's actual procedure; end with steady focus, not a generic shock.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Wider side view of the young doctor alone at the established table, left forearm palm-up and supported, right hand poised with the single flexible catheter above the tray. Empty opposite chair makes the solitary responsibility readable.",
+      "nextRequiredState": "The same doctor seated with right fingertips at the amber tube connected to the small gauze dressing on the left inner elbow. Arm supported on table."
+    },
+    {
+      "id": "S02-V2-01",
+      "sceneId": "S02",
+      "index": 16,
+      "title": "Connection established",
+      "startFrame": 0,
+      "durationFrames": 41,
+      "globalStartFrame": 876,
+      "seconds": 1.7083333333333333,
+      "narrationAnchor": "introduced a thin rubber catheter",
+      "speechWindow": {
+        "start": 0.0,
+        "end": 1.7083333333333333,
+        "recognizedContext": "He introduced a thin rubber catheter into a vein in his left arm and advanced it through his body.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: The same doctor seated with right fingertips at the amber tube connected to the small gauze dressing on the left inner elbow. Arm supported on table. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "The same doctor seated with right fingertips at the amber tube connected to the small gauze dressing on the left inner elbow. Arm supported on table.",
+      "plannedAction": "Establish operator, supported arm and one continuous tube before the detail.",
+      "reuse": {
+        "assetId": "180caf7d-6168-415b-b7d7-59d188799b52",
+        "versionId": "e884b252-fad2-47a4-9499-107ce517b2d9",
+        "path": "media/S02-A-Seedream.png"
+      },
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Close three-quarter view of the young doctor's determined face and steady right hand; the supported left elbow is a readable foreground anchor. His gaze goes to his own arm, not toward the audience, in the same quiet operating room.",
+      "nextRequiredState": "Macro of right thumb and forefinger gripping one thin amber tube immediately outside the gauze dressing on the left inner elbow. Tube actually enters the dressing, fingers do not grip the fixed cloth, forearm rests on linen."
+    },
+    {
+      "id": "S02-V2-02",
+      "sceneId": "S02",
+      "index": 17,
+      "title": "Grip near the access",
+      "startFrame": 41,
+      "durationFrames": 19,
+      "globalStartFrame": 917,
+      "seconds": 0.7916666666666666,
+      "narrationAnchor": "into a vein",
+      "speechWindow": {
+        "start": 1.7083333333333333,
+        "end": 2.5,
+        "recognizedContext": "He introduced a thin rubber catheter into a vein in his left arm and advanced it through his body.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Macro of right thumb and forefinger gripping one thin amber tube immediately outside the gauze dressing on the left inner elbow. Tube actually enters the dressing, fingers do not grip the fixed cloth, forearm rests on linen. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "Macro of right thumb and forefinger gripping one thin amber tube immediately outside the gauze dressing on the left inner elbow. Tube actually enters the dressing, fingers do not grip the fixed cloth, forearm rests on linen.",
+      "plannedAction": "Secure the moving component in a brief readable grip.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "The same doctor seated with right fingertips at the amber tube connected to the small gauze dressing on the left inner elbow. Arm supported on table.",
+      "nextRequiredState": "Low close side view along supported left forearm: right fingers have moved the same amber tube a small distance toward the gauze-covered entry. A single natural external curve returns to the tray, no duplicate tube."
+    },
+    {
+      "id": "S02-V2-03",
+      "sceneId": "S02",
+      "index": 18,
+      "title": "Controlled forward advance",
+      "startFrame": 60,
+      "durationFrames": 48,
+      "globalStartFrame": 936,
+      "seconds": 2.0,
+      "narrationAnchor": "advanced it through his body",
+      "speechWindow": {
+        "start": 2.5,
+        "end": 4.5,
+        "recognizedContext": "He introduced a thin rubber catheter into a vein in his left arm and advanced it through his body.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Low close side view along supported left forearm: right fingers have moved the same amber tube a small distance toward the gauze-covered entry. A single natural external curve returns to the tray, no duplicate tube. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "Low close side view along supported left forearm: right fingers have moved the same amber tube a small distance toward the gauze-covered entry. A single natural external curve returns to the tray, no duplicate tube.",
+      "plannedAction": "Continue the same grip into one controlled advance instead of replaying a new approach.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Macro of right thumb and forefinger gripping one thin amber tube immediately outside the gauze dressing on the left inner elbow. Tube actually enters the dressing, fingers do not grip the fixed cloth, forearm rests on linen.",
+      "nextRequiredState": "Clean close cutaway of an ivory upper arm and shoulder, single amber catheter enclosed inside a clearly continuous blue vein. Soft dimensional medical illustration, no labels or detached tubing."
+    },
+    {
+      "id": "S02-V2-04",
+      "sceneId": "S02",
+      "index": 19,
+      "title": "Enclosed by the vein",
+      "startFrame": 108,
+      "durationFrames": 60,
+      "globalStartFrame": 984,
+      "seconds": 2.5,
+      "narrationAnchor": "The important part is the route",
+      "speechWindow": {
+        "start": 4.5,
+        "end": 7.0,
+        "recognizedContext": "He introduced a thin rubber catheter into a vein in his left arm and advanced it through his body. The important part is the route. Veins carry blood back toward the heart,",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Clean close cutaway of an ivory upper arm and shoulder, single amber catheter enclosed inside a clearly continuous blue vein. Soft dimensional medical illustration, no labels or detached tubing. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [],
+      "referenceRole": "anatomy",
+      "decisiveStill": "Clean close cutaway of an ivory upper arm and shoulder, single amber catheter enclosed inside a clearly continuous blue vein. Soft dimensional medical illustration, no labels or detached tubing.",
+      "plannedAction": "Show enclosure and route rather than an unexplained glowing line.",
+      "reuse": {
+        "assetId": "c7ab153c-c223-4803-a547-a052463cacd7",
+        "versionId": "194f67f9-469e-4dbe-822e-718867210729",
+        "path": "media/S02-B-Seedream.png"
+      },
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Low close side view along supported left forearm: right fingers have moved the same amber tube a small distance toward the gauze-covered entry. A single natural external curve returns to the tray, no duplicate tube.",
+      "nextRequiredState": "Dimensional medical close view of the blue upper-arm vein joining the larger shoulder vessel, a few subtle pale-blue flow streaks moving toward the chest and one amber catheter inside the lumen. The heart is a distant contextual form, not a competing focal point."
+    },
+    {
+      "id": "S02-V2-05",
+      "sceneId": "S02",
+      "index": 20,
+      "title": "Blood returns toward the heart",
+      "startFrame": 168,
+      "durationFrames": 42,
+      "globalStartFrame": 1044,
+      "seconds": 1.75,
+      "narrationAnchor": "veins carry blood back toward the heart",
+      "speechWindow": {
+        "start": 7.0,
+        "end": 8.75,
+        "recognizedContext": "The important part is the route. Veins carry blood back toward the heart,",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Dimensional medical close view of the blue upper-arm vein joining the larger shoulder vessel, a few subtle pale-blue flow streaks moving toward the chest and one amber catheter inside the lumen. The heart is a distant contextual form, not a competing focal point. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [],
+      "referenceRole": "anatomy",
+      "decisiveStill": "Dimensional medical close view of the blue upper-arm vein joining the larger shoulder vessel, a few subtle pale-blue flow streaks moving toward the chest and one amber catheter inside the lumen. The heart is a distant contextual form, not a competing focal point.",
+      "plannedAction": "Explain direction of normal return, providing the reason this route reaches the heart.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Clean close cutaway of an ivory upper arm and shoulder, single amber catheter enclosed inside a clearly continuous blue vein. Soft dimensional medical illustration, no labels or detached tubing.",
+      "nextRequiredState": "Oblique close anatomical cutaway under left clavicle: blue brachiocephalic vein crosses into superior vena cava, amber catheter continuously follows the interior bend. An ivory clavicle above gives a fixed spatial landmark."
+    },
+    {
+      "id": "S02-V2-06",
+      "sceneId": "S02",
+      "index": 21,
+      "title": "Across the shoulder",
+      "startFrame": 210,
+      "durationFrames": 42,
+      "globalStartFrame": 1086,
+      "seconds": 1.75,
+      "narrationAnchor": "follow an existing passage",
+      "speechWindow": {
+        "start": 8.75,
+        "end": 10.5,
+        "recognizedContext": "so the tube could follow an existing passage instead of piercing the chest.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Oblique close anatomical cutaway under left clavicle: blue brachiocephalic vein crosses into superior vena cava, amber catheter continuously follows the interior bend. An ivory clavicle above gives a fixed spatial landmark. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [],
+      "referenceRole": "anatomy",
+      "decisiveStill": "Oblique close anatomical cutaway under left clavicle: blue brachiocephalic vein crosses into superior vena cava, amber catheter continuously follows the interior bend. An ivory clavicle above gives a fixed spatial landmark.",
+      "plannedAction": "Continue the same tube past the shoulder landmark toward the central vessel.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Dimensional medical close view of the blue upper-arm vein joining the larger shoulder vessel, a few subtle pale-blue flow streaks moving toward the chest and one amber catheter inside the lumen. The heart is a distant contextual form, not a competing focal point.",
+      "nextRequiredState": "Side cutaway showing unbroken translucent chest wall in foreground and the amber catheter entirely enclosed by a blue vein behind it. Clear separation between intact outer surface and internal passage."
+    },
+    {
+      "id": "S02-V2-07",
+      "sceneId": "S02",
+      "index": 22,
+      "title": "No tissue shortcut",
+      "startFrame": 252,
+      "durationFrames": 40,
+      "globalStartFrame": 1128,
+      "seconds": 1.6666666666666667,
+      "narrationAnchor": "instead of piercing the chest",
+      "speechWindow": {
+        "start": 10.5,
+        "end": 12.166666666666666,
+        "recognizedContext": "so the tube could follow an existing passage instead of piercing the chest.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Side cutaway showing unbroken translucent chest wall in foreground and the amber catheter entirely enclosed by a blue vein behind it. Clear separation between intact outer surface and internal passage. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [],
+      "referenceRole": "anatomy",
+      "decisiveStill": "Side cutaway showing unbroken translucent chest wall in foreground and the amber catheter entirely enclosed by a blue vein behind it. Clear separation between intact outer surface and internal passage.",
+      "plannedAction": "Confirm that the route stays inside the vessel rather than piercing the chest.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Oblique close anatomical cutaway under left clavicle: blue brachiocephalic vein crosses into superior vena cava, amber catheter continuously follows the interior bend. An ivory clavicle above gives a fixed spatial landmark.",
+      "nextRequiredState": "A clean full upper-torso explanatory cutaway, anatomical left arm on viewer right. One amber catheter follows a continuous blue arm vein beneath clavicle into superior vena cava and toward right atrium on viewer left. Intact ivory ribs, no arrows or labels."
+    },
+    {
+      "id": "S02-V2-08",
+      "sceneId": "S02",
+      "index": 23,
+      "title": "The whole connected route",
+      "startFrame": 292,
+      "durationFrames": 73,
+      "globalStartFrame": 1168,
+      "seconds": 3.0416666666666665,
+      "narrationAnchor": "follow an existing passage",
+      "speechWindow": {
+        "start": 12.166666666666666,
+        "end": 15.208333333333334,
+        "recognizedContext": "",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: A clean full upper-torso explanatory cutaway, anatomical left arm on viewer right. One amber catheter follows a continuous blue arm vein beneath clavicle into superior vena cava and toward right atrium on viewer left. Intact ivory ribs, no arrows or labels. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [],
+      "referenceRole": "anatomy",
+      "decisiveStill": "A clean full upper-torso explanatory cutaway, anatomical left arm on viewer right. One amber catheter follows a continuous blue arm vein beneath clavicle into superior vena cava and toward right atrium on viewer left. Intact ivory ribs, no arrows or labels.",
+      "plannedAction": "Use the existing spoken pause for a readable synthesis of the arm-to-heart route; explanatory knowledge, not a new diagnosis.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Side cutaway showing unbroken translucent chest wall in foreground and the amber catheter entirely enclosed by a blue vein behind it. Clear separation between intact outer surface and internal passage.",
+      "nextRequiredState": "Over the doctor's shoulder at table, his visible left arm remains opaque and supported, right hand holds the single external catheter near dressing. Only the outside connection is visible; no transparent body or magical glow."
+    },
+    {
+      "id": "S02-V2-09",
+      "sceneId": "S02",
+      "index": 24,
+      "title": "Outside he cannot see the tip",
+      "startFrame": 365,
+      "durationFrames": 73,
+      "globalStartFrame": 1241,
+      "seconds": 3.0416666666666665,
+      "narrationAnchor": "But being inside a vein",
+      "speechWindow": {
+        "start": 15.208333333333334,
+        "end": 18.25,
+        "recognizedContext": "",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Over the doctor's shoulder at table, his visible left arm remains opaque and supported, right hand holds the single external catheter near dressing. Only the outside connection is visible; no transparent body or magical glow. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "Over the doctor's shoulder at table, his visible left arm remains opaque and supported, right hand holds the single external catheter near dressing. Only the outside connection is visible; no transparent body or magical glow.",
+      "plannedAction": "Return from audience explanation to the doctor's limited view before the uncertainty is spoken.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "A clean full upper-torso explanatory cutaway, anatomical left arm on viewer right. One amber catheter follows a continuous blue arm vein beneath clavicle into superior vena cava and toward right atrium on viewer left. Intact ivory ribs, no arrows or labels.",
+      "nextRequiredState": "His concentrated eyes above the connected supported arm, gaze toward the elbow. No smile or triumph."
+    },
+    {
+      "id": "S02-V2-10",
+      "sceneId": "S02",
+      "index": 25,
+      "title": "Search for evidence",
+      "startFrame": 438,
+      "durationFrames": 23,
+      "globalStartFrame": 1314,
+      "seconds": 0.9583333333333334,
+      "narrationAnchor": "wasn't enough",
+      "speechWindow": {
+        "start": 18.25,
+        "end": 19.208333333333332,
+        "recognizedContext": "But being inside a vein wasn't enough. He still needed to know where the tip had gone.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: His concentrated eyes above the connected supported arm, gaze toward the elbow. No smile or triumph. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "His concentrated eyes above the connected supported arm, gaze toward the elbow. No smile or triumph.",
+      "plannedAction": "A brief eye movement registers that external access alone cannot confirm position.",
+      "reuse": {
+        "assetId": "19050db3-ee3f-4b27-94b5-6f049f1cb3b0",
+        "versionId": "bd73f438-bded-478a-9bc2-2e3d47a4e388",
+        "path": "media/S02-D-Seedream.png"
+      },
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Over the doctor's shoulder at table, his visible left arm remains opaque and supported, right hand holds the single external catheter near dressing. Only the outside connection is visible; no transparent body or magical glow.",
+      "nextRequiredState": "Young doctor at table turns his head toward the established green doorway; left elbow dressing and amber tube stay supported in foreground, right hand holds the external curve close to the body."
+    },
+    {
+      "id": "S02-V2-11",
+      "sceneId": "S02",
+      "index": 26,
+      "title": "The next destination",
+      "startFrame": 461,
+      "durationFrames": 48,
+      "globalStartFrame": 1337,
+      "seconds": 2.0,
+      "narrationAnchor": "where the tip had gone",
+      "speechWindow": {
+        "start": 19.208333333333332,
+        "end": 21.208333333333332,
+        "recognizedContext": "But being inside a vein wasn't enough. He still needed to know where the tip had gone.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Young doctor at table turns his head toward the established green doorway; left elbow dressing and amber tube stay supported in foreground, right hand holds the external curve close to the body. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "Young doctor at table turns his head toward the established green doorway; left elbow dressing and amber tube stay supported in foreground, right hand holds the external curve close to the body.",
+      "plannedAction": "Carry uncertainty into the decision to seek X-ray evidence.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "His concentrated eyes above the connected supported arm, gaze toward the elbow. No smile or triumph.",
+      "nextRequiredState": "Close waist-level view: his left forearm is held gently across the abdomen, a small dressing at the elbow, right hand securing the single short external loop of amber catheter. White coat, no dangling loose lines."
+    },
+    {
+      "id": "S02-V2-12",
+      "sceneId": "S02",
+      "index": 27,
+      "title": "Keep the experiment supported",
+      "startFrame": 509,
+      "durationFrames": 46,
+      "globalStartFrame": 1385,
+      "seconds": 1.9166666666666667,
+      "narrationAnchor": "With the catheter still in place",
+      "speechWindow": {
+        "start": 21.208333333333332,
+        "end": 23.125,
+        "recognizedContext": "But being inside a vein wasn't enough. He still needed to know where the tip had gone.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Close waist-level view: his left forearm is held gently across the abdomen, a small dressing at the elbow, right hand securing the single short external loop of amber catheter. White coat, no dangling loose lines. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "Close waist-level view: his left forearm is held gently across the abdomen, a small dressing at the elbow, right hand securing the single short external loop of amber catheter. White coat, no dangling loose lines.",
+      "plannedAction": "Show what remains connected while preparing to move.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Young doctor at table turns his head toward the established green doorway; left elbow dressing and amber tube stay supported in foreground, right hand holds the external curve close to the body.",
+      "nextRequiredState": "His right hand briefly presses the broad green hospital door lever while his dressed left arm remains supported against his body and the small external catheter loop is secured by his left fingers. No tube attached to the door."
+    },
+    {
+      "id": "S02-V2-13",
+      "sceneId": "S02",
+      "index": 28,
+      "title": "Door contact",
+      "startFrame": 555,
+      "durationFrames": 19,
+      "globalStartFrame": 1431,
+      "seconds": 0.7916666666666666,
+      "narrationAnchor": "With the catheter still in place",
+      "speechWindow": {
+        "start": 23.125,
+        "end": 23.916666666666668,
+        "recognizedContext": "With the catheter still in place, forcemen walked to the x-ray department.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: His right hand briefly presses the broad green hospital door lever while his dressed left arm remains supported against his body and the small external catheter loop is secured by his left fingers. No tube attached to the door. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "His right hand briefly presses the broad green hospital door lever while his dressed left arm remains supported against his body and the small external catheter loop is secured by his left fingers. No tube attached to the door.",
+      "plannedAction": "A brief contact begins the exit; preserve support and ownership.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Close waist-level view: his left forearm is held gently across the abdomen, a small dressing at the elbow, right hand securing the single short external loop of amber catheter. White coat, no dangling loose lines.",
+      "nextRequiredState": "Full figure of the same young doctor walking down the cream-and-green corridor with his left forearm supported across abdomen and right hand securing the catheter."
+    },
+    {
+      "id": "S02-V2-14",
+      "sceneId": "S02",
+      "index": 29,
+      "title": "The experiment walks",
+      "startFrame": 574,
+      "durationFrames": 80,
+      "globalStartFrame": 1450,
+      "seconds": 3.3333333333333335,
+      "narrationAnchor": "walked to the X-ray department",
+      "speechWindow": {
+        "start": 23.916666666666668,
+        "end": 27.25,
+        "recognizedContext": "With the catheter still in place, forcemen walked to the x-ray department. His own body was carrying the experiment down the hospital corridor,",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Full figure of the same young doctor walking down the cream-and-green corridor with his left forearm supported across abdomen and right hand securing the catheter. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "Full figure of the same young doctor walking down the cream-and-green corridor with his left forearm supported across abdomen and right hand securing the catheter.",
+      "plannedAction": "Continue the exit as ordinary purposeful steps, not a long atmospheric stroll.",
+      "reuse": {
+        "assetId": "2304efce-9b59-4b1a-9644-1f9e83317a10",
+        "versionId": "3de55db7-a444-4cc4-9552-25d13ab95fc0",
+        "path": "media/S02-E-Seedream.png"
+      },
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "His right hand briefly presses the broad green hospital door lever while his dressed left arm remains supported against his body and the small external catheter loop is secured by his left fingers. No tube attached to the door.",
+      "nextRequiredState": "Rear three-quarter view of the young doctor reaching the end of the corridor where an open dark X-ray room reveals an upright period apparatus and control pedestal. Left forearm remains supported; no image or result on the unlit screen yet."
+    },
+    {
+      "id": "S02-V2-15",
+      "sceneId": "S02",
+      "index": 30,
+      "title": "A visible destination",
+      "startFrame": 654,
+      "durationFrames": 96,
+      "globalStartFrame": 1530,
+      "seconds": 4.0,
+      "narrationAnchor": "down the hospital corridor",
+      "speechWindow": {
+        "start": 27.25,
+        "end": 31.25,
+        "recognizedContext": "His own body was carrying the experiment down the hospital corridor, and the evidence was waiting in another room.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Rear three-quarter view of the young doctor reaching the end of the corridor where an open dark X-ray room reveals an upright period apparatus and control pedestal. Left forearm remains supported; no image or result on the unlit screen yet. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "Rear three-quarter view of the young doctor reaching the end of the corridor where an open dark X-ray room reveals an upright period apparatus and control pedestal. Left forearm remains supported; no image or result on the unlit screen yet.",
+      "plannedAction": "Connect the corridor to a concrete destination instead of walking without arrival.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Full figure of the same young doctor walking down the cream-and-green corridor with his left forearm supported across abdomen and right hand securing the catheter.",
+      "nextRequiredState": "Period X-ray room from inside the doorway: young doctor steps beside the upright apparatus, radiographer at the control pedestal; unlit rectangular screen and a clear supported standing position. No glowing chest image yet."
+    },
+    {
+      "id": "S02-V2-16",
+      "sceneId": "S02",
+      "index": 31,
+      "title": "Evidence in another room",
+      "startFrame": 750,
+      "durationFrames": 76,
+      "globalStartFrame": 1626,
+      "seconds": 3.1666666666666665,
+      "narrationAnchor": "evidence was waiting in another room",
+      "speechWindow": {
+        "start": 31.25,
+        "end": 34.416666666666664,
+        "recognizedContext": "and the evidence was waiting in another room.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Period X-ray room from inside the doorway: young doctor steps beside the upright apparatus, radiographer at the control pedestal; unlit rectangular screen and a clear supported standing position. No glowing chest image yet. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "Period X-ray room from inside the doorway: young doctor steps beside the upright apparatus, radiographer at the control pedestal; unlit rectangular screen and a clear supported standing position. No glowing chest image yet.",
+      "plannedAction": "Complete the arrival and establish the apparatus before its result is revealed.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Rear three-quarter view of the young doctor reaching the end of the corridor where an open dark X-ray room reveals an upright period apparatus and control pedestal. Left forearm remains supported; no image or result on the unlit screen yet.",
+      "nextRequiredState": "1929 X-ray room, radiographer's hand poised at a large mechanical control, Forssmann standing beside the upright apparatus beyond. Rectangular screen is dim, no modern display."
+    },
+    {
+      "id": "S03-V2-01",
+      "sceneId": "S03",
+      "index": 32,
+      "title": "The apparatus supplies evidence",
+      "startFrame": 0,
+      "durationFrames": 37,
+      "globalStartFrame": 1702,
+      "seconds": 1.5416666666666667,
+      "narrationAnchor": "The X-ray supplied the answer",
+      "speechWindow": {
+        "start": 0.0,
+        "end": 1.5416666666666667,
+        "recognizedContext": "The x-ray supplied the answer. The catheter had reached his right atrium,",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: 1929 X-ray room, radiographer's hand poised at a large mechanical control, Forssmann standing beside the upright apparatus beyond. Rectangular screen is dim, no modern display. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "1929 X-ray room, radiographer's hand poised at a large mechanical control, Forssmann standing beside the upright apparatus beyond. Rectangular screen is dim, no modern display.",
+      "plannedAction": "Preparation links the arrival to the coming image.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Period X-ray room from inside the doorway: young doctor steps beside the upright apparatus, radiographer at the control pedestal; unlit rectangular screen and a clear supported standing position. No glowing chest image yet.",
+      "nextRequiredState": "Tight detail of a white-sleeved radiographer's hand completing a quarter turn of a large black Bakelite control on a period metal pedestal, with a dim warm indicator bulb. No modern buttons."
+    },
+    {
+      "id": "S03-V2-02",
+      "sceneId": "S03",
+      "index": 33,
+      "title": "The control engages",
+      "startFrame": 37,
+      "durationFrames": 21,
+      "globalStartFrame": 1739,
+      "seconds": 0.875,
+      "narrationAnchor": "The X-ray supplied the answer",
+      "speechWindow": {
+        "start": 1.5416666666666667,
+        "end": 2.4166666666666665,
+        "recognizedContext": "The x-ray supplied the answer. The catheter had reached his right atrium,",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Tight detail of a white-sleeved radiographer's hand completing a quarter turn of a large black Bakelite control on a period metal pedestal, with a dim warm indicator bulb. No modern buttons. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S04-C-Seedream.png"
+      ],
+      "referenceRole": "equipment",
+      "decisiveStill": "Tight detail of a white-sleeved radiographer's hand completing a quarter turn of a large black Bakelite control on a period metal pedestal, with a dim warm indicator bulb. No modern buttons.",
+      "plannedAction": "A brief control contact motivates the next image becoming visible.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "1929 X-ray room, radiographer's hand poised at a large mechanical control, Forssmann standing beside the upright apparatus beyond. Rectangular screen is dim, no modern display.",
+      "nextRequiredState": "Clean grayscale radiographic reconstruction fills the portrait frame. Ribs and heart silhouette understated, one pale catheter crosses from viewer-right shoulder into the central descending superior vena cava and ends inside right atrium at viewer-left upper heart. Its terminal tip clearly sits within the chamber, not through the wall. No text."
+    },
+    {
+      "id": "S03-V2-03",
+      "sceneId": "S03",
+      "index": 34,
+      "title": "Position confirmed",
+      "startFrame": 58,
+      "durationFrames": 56,
+      "globalStartFrame": 1760,
+      "seconds": 2.3333333333333335,
+      "narrationAnchor": "his right atrium",
+      "speechWindow": {
+        "start": 2.4166666666666665,
+        "end": 4.75,
+        "recognizedContext": "The x-ray supplied the answer. The catheter had reached his right atrium, one of the heart's upper chambers. About 65 centimeters of tubing now marked a root from",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Clean grayscale radiographic reconstruction fills the portrait frame. Ribs and heart silhouette understated, one pale catheter crosses from viewer-right shoulder into the central descending superior vena cava and ends inside right atrium at viewer-left upper heart. Its terminal tip clearly sits within the chamber, not through the wall. No text. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [],
+      "referenceRole": "xray",
+      "decisiveStill": "Clean grayscale radiographic reconstruction fills the portrait frame. Ribs and heart silhouette understated, one pale catheter crosses from viewer-right shoulder into the central descending superior vena cava and ends inside right atrium at viewer-left upper heart. Its terminal tip clearly sits within the chamber, not through the wall. No text.",
+      "plannedAction": "Show the position that the narration confirms; do not rely on the word atrium alone.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Tight detail of a white-sleeved radiographer's hand completing a quarter turn of a large black Bakelite control on a period metal pedestal, with a dim warm indicator bulb. No modern buttons.",
+      "nextRequiredState": "A small dimensional explanatory cutaway of the heart alone, ivory translucent surface, right atrium on viewer left subtly blue and isolated by clarity rather than labels; one amber catheter enters from superior vena cava above and its tip stays in atrial lumen."
+    },
+    {
+      "id": "S03-V2-04",
+      "sceneId": "S03",
+      "index": 35,
+      "title": "One of the upper chambers",
+      "startFrame": 114,
+      "durationFrames": 59,
+      "globalStartFrame": 1816,
+      "seconds": 2.4583333333333335,
+      "narrationAnchor": "one of the heart's upper chambers",
+      "speechWindow": {
+        "start": 4.75,
+        "end": 7.208333333333333,
+        "recognizedContext": "one of the heart's upper chambers. About 65 centimeters of tubing now marked a root from",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: A small dimensional explanatory cutaway of the heart alone, ivory translucent surface, right atrium on viewer left subtly blue and isolated by clarity rather than labels; one amber catheter enters from superior vena cava above and its tip stays in atrial lumen. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [],
+      "referenceRole": "anatomy",
+      "decisiveStill": "A small dimensional explanatory cutaway of the heart alone, ivory translucent surface, right atrium on viewer left subtly blue and isolated by clarity rather than labels; one amber catheter enters from superior vena cava above and its tip stays in atrial lumen.",
+      "plannedAction": "Make the upper chamber relation legible during its spoken explanation.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Clean grayscale radiographic reconstruction fills the portrait frame. Ribs and heart silhouette understated, one pale catheter crosses from viewer-right shoulder into the central descending superior vena cava and ends inside right atrium at viewer-left upper heart. Its terminal tip clearly sits within the chamber, not through the wall. No text.",
+      "nextRequiredState": "Clean frontal upper-body explanatory cutaway: whole anatomical left arm on viewer right through shoulder to superior vena cava and right atrium on viewer left. One continuous amber catheter, no ruler or invented numeric label, clear beginning and destination."
+    },
+    {
+      "id": "S03-V2-05",
+      "sceneId": "S03",
+      "index": 36,
+      "title": "Arm and heart connected",
+      "startFrame": 173,
+      "durationFrames": 79,
+      "globalStartFrame": 1875,
+      "seconds": 3.2916666666666665,
+      "narrationAnchor": "sixty-five centimeters of tubing",
+      "speechWindow": {
+        "start": 7.208333333333333,
+        "end": 10.5,
+        "recognizedContext": "one of the heart's upper chambers. About 65 centimeters of tubing now marked a root from his arm into his heart. He had survived, and he had a picture to prove where the tube was.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Clean frontal upper-body explanatory cutaway: whole anatomical left arm on viewer right through shoulder to superior vena cava and right atrium on viewer left. One continuous amber catheter, no ruler or invented numeric label, clear beginning and destination. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [],
+      "referenceRole": "anatomy",
+      "decisiveStill": "Clean frontal upper-body explanatory cutaway: whole anatomical left arm on viewer right through shoulder to superior vena cava and right atrium on viewer left. One continuous amber catheter, no ruler or invented numeric label, clear beginning and destination.",
+      "plannedAction": "Show the extent and connected path while the narration supplies the measured length.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "A small dimensional explanatory cutaway of the heart alone, ivory translucent surface, right atrium on viewer left subtly blue and isolated by clarity rather than labels; one amber catheter enters from superior vena cava above and its tip stays in atrial lumen.",
+      "nextRequiredState": "The doctor holds his developed X-ray at the lightbox, supported dressed arm visible, relieved but contained expression."
+    },
+    {
+      "id": "S03-V2-06",
+      "sceneId": "S03",
+      "index": 37,
+      "title": "He survived",
+      "startFrame": 252,
+      "durationFrames": 55,
+      "globalStartFrame": 1954,
+      "seconds": 2.2916666666666665,
+      "narrationAnchor": "He had survived",
+      "speechWindow": {
+        "start": 10.5,
+        "end": 12.791666666666666,
+        "recognizedContext": "his arm into his heart. He had survived, and he had a picture to prove where the tube was.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: The doctor holds his developed X-ray at the lightbox, supported dressed arm visible, relieved but contained expression. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "The doctor holds his developed X-ray at the lightbox, supported dressed arm visible, relieved but contained expression.",
+      "plannedAction": "Return from explanation to the living person and tangible proof.",
+      "reuse": {
+        "assetId": "2df46fe5-06de-48b9-ac68-b1c7823199f2",
+        "versionId": "41418a1f-9d39-4aba-b9d7-321080923b84",
+        "path": "media/S03-C-Seedream.png"
+      },
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Clean frontal upper-body explanatory cutaway: whole anatomical left arm on viewer right through shoulder to superior vena cava and right atrium on viewer left. One continuous amber catheter, no ruler or invented numeric label, clear beginning and destination.",
+      "nextRequiredState": "Over-shoulder close view of his right index fingertip stopping just beside the catheter endpoint on the developed chest radiograph at the lightbox; finger does not obscure tip. Same single continuous pale catheter path."
+    },
+    {
+      "id": "S03-V2-07",
+      "sceneId": "S03",
+      "index": 38,
+      "title": "A picture to prove it",
+      "startFrame": 307,
+      "durationFrames": 83,
+      "globalStartFrame": 2009,
+      "seconds": 3.4583333333333335,
+      "narrationAnchor": "a picture to prove where the tube was",
+      "speechWindow": {
+        "start": 12.791666666666666,
+        "end": 16.25,
+        "recognizedContext": "his arm into his heart. He had survived, and he had a picture to prove where the tube was.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Over-shoulder close view of his right index fingertip stopping just beside the catheter endpoint on the developed chest radiograph at the lightbox; finger does not obscure tip. Same single continuous pale catheter path. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "Over-shoulder close view of his right index fingertip stopping just beside the catheter endpoint on the developed chest radiograph at the lightbox; finger does not obscure tip. Same single continuous pale catheter path.",
+      "plannedAction": "Connect his gaze and finger to the specific evidence, not merely an attractive X-ray.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "The doctor holds his developed X-ray at the lightbox, supported dressed arm visible, relieved but contained expression.",
+      "nextRequiredState": "Tight period desk detail: his hand sets a typed medical report and developed chest radiograph together into a large paper publication envelope; no readable recipient or invented headline."
+    },
+    {
+      "id": "S03-V2-08",
+      "sceneId": "S03",
+      "index": 39,
+      "title": "The report leaves his hands",
+      "startFrame": 390,
+      "durationFrames": 20,
+      "globalStartFrame": 2092,
+      "seconds": 0.8333333333333334,
+      "narrationAnchor": "published the experiment",
+      "speechWindow": {
+        "start": 16.25,
+        "end": 17.083333333333332,
+        "recognizedContext": "Forcemen published the experiment that November, but a startling demonstration did",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Tight period desk detail: his hand sets a typed medical report and developed chest radiograph together into a large paper publication envelope; no readable recipient or invented headline. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S03-D-Seedream.png"
+      ],
+      "referenceRole": "paper",
+      "decisiveStill": "Tight period desk detail: his hand sets a typed medical report and developed chest radiograph together into a large paper publication envelope; no readable recipient or invented headline.",
+      "plannedAction": "Brief editorial representation of submitting evidence, without inventing private dialogue.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Over-shoulder close view of his right index fingertip stopping just beside the catheter endpoint on the developed chest radiograph at the lightbox; finger does not obscure tip. Same single continuous pale catheter path.",
+      "nextRequiredState": "Open 1929 medical journal on a reader's desk, a printed reproduction of the chest radiograph embedded beside dense unremarkable German type. A white-sleeved hand turns the facing page. No readable invented headline, no modern printing equipment."
+    },
+    {
+      "id": "S03-V2-09",
+      "sceneId": "S03",
+      "index": 40,
+      "title": "Evidence enters the journal",
+      "startFrame": 410,
+      "durationFrames": 82,
+      "globalStartFrame": 2112,
+      "seconds": 3.4166666666666665,
+      "narrationAnchor": "published the experiment that November",
+      "speechWindow": {
+        "start": 17.083333333333332,
+        "end": 20.5,
+        "recognizedContext": "Forcemen published the experiment that November, but a startling demonstration did not immediately become accepted medicine. His work attracted little interest,",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Open 1929 medical journal on a reader's desk, a printed reproduction of the chest radiograph embedded beside dense unremarkable German type. A white-sleeved hand turns the facing page. No readable invented headline, no modern printing equipment. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S03-D-Seedream.png"
+      ],
+      "referenceRole": "paper",
+      "decisiveStill": "Open 1929 medical journal on a reader's desk, a printed reproduction of the chest radiograph embedded beside dense unremarkable German type. A white-sleeved hand turns the facing page. No readable invented headline, no modern printing equipment.",
+      "plannedAction": "Show circulation of the published evidence before its lack of acceptance.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Tight period desk detail: his hand sets a typed medical report and developed chest radiograph together into a large paper publication envelope; no readable recipient or invented headline.",
+      "nextRequiredState": "Young Forssmann with radiograph in front of the older mustached surgeon's desk; surgeon returns to papers."
+    },
+    {
+      "id": "S03-V2-10",
+      "sceneId": "S03",
+      "index": 41,
+      "title": "Attention withheld",
+      "startFrame": 492,
+      "durationFrames": 70,
+      "globalStartFrame": 2194,
+      "seconds": 2.9166666666666665,
+      "narrationAnchor": "His work attracted little interest",
+      "speechWindow": {
+        "start": 20.5,
+        "end": 23.416666666666668,
+        "recognizedContext": "not immediately become accepted medicine. His work attracted little interest,",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Young Forssmann with radiograph in front of the older mustached surgeon's desk; surgeon returns to papers. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S03-E-Seedream.png"
+      ],
+      "referenceRole": "surgeon",
+      "decisiveStill": "Young Forssmann with radiograph in front of the older mustached surgeon's desk; surgeon returns to papers.",
+      "plannedAction": "Establish an observer actively withholding interest from the offered evidence.",
+      "reuse": {
+        "assetId": "38ad6dd2-8e02-4051-9a45-5eaae8f79fb5",
+        "versionId": "d61759ec-4225-4099-9b82-3ea017d2eeca",
+        "path": "media/S03-E-Seedream.png"
+      },
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Open 1929 medical journal on a reader's desk, a printed reproduction of the chest radiograph embedded beside dense unremarkable German type. A white-sleeved hand turns the facing page. No readable invented headline, no modern printing equipment.",
+      "nextRequiredState": "Reverse view from beside the young doctor: older imposing mustached surgeon turns back to a stack of papers, leaving the offered radiograph at the edge of his attention. Foreground young doctor's sleeve and plate establish who is being dismissed."
+    },
+    {
+      "id": "S03-V2-11",
+      "sceneId": "S03",
+      "index": 42,
+      "title": "Dismissal rather than debate",
+      "startFrame": 562,
+      "durationFrames": 88,
+      "globalStartFrame": 2264,
+      "seconds": 3.6666666666666665,
+      "narrationAnchor": "Sauerbruch dismissed such experiments",
+      "speechWindow": {
+        "start": 23.416666666666668,
+        "end": 27.083333333333332,
+        "recognizedContext": "not immediately become accepted medicine. His work attracted little interest, and the surgeon Ferdinand Sauerbroek dismissed such experiments as circus work.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Reverse view from beside the young doctor: older imposing mustached surgeon turns back to a stack of papers, leaving the offered radiograph at the edge of his attention. Foreground young doctor's sleeve and plate establish who is being dismissed. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S03-E-Seedream.png"
+      ],
+      "referenceRole": "surgeon",
+      "decisiveStill": "Reverse view from beside the young doctor: older imposing mustached surgeon turns back to a stack of papers, leaving the offered radiograph at the edge of his attention. Foreground young doctor's sleeve and plate establish who is being dismissed.",
+      "plannedAction": "Continue the same refusal of attention at the actual dismissal passage.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Young Forssmann with radiograph in front of the older mustached surgeon's desk; surgeon returns to papers.",
+      "nextRequiredState": "Close on young doctor's hands lowering the same developed radiograph from chest height toward his waist beside the desk; supported glass plate stays intact. Older surgeon's papers in background."
+    },
+    {
+      "id": "S03-V2-12",
+      "sceneId": "S03",
+      "index": 43,
+      "title": "Proof lowered",
+      "startFrame": 650,
+      "durationFrames": 56,
+      "globalStartFrame": 2352,
+      "seconds": 2.3333333333333335,
+      "narrationAnchor": "as circus work",
+      "speechWindow": {
+        "start": 27.083333333333332,
+        "end": 29.416666666666668,
+        "recognizedContext": "and the surgeon Ferdinand Sauerbroek dismissed such experiments as circus work. The picture showed what was possible. It did not persuade everyone to follow.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Close on young doctor's hands lowering the same developed radiograph from chest height toward his waist beside the desk; supported glass plate stays intact. Older surgeon's papers in background. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "referenceRole": "young",
+      "decisiveStill": "Close on young doctor's hands lowering the same developed radiograph from chest height toward his waist beside the desk; supported glass plate stays intact. Older surgeon's papers in background.",
+      "plannedAction": "Expose the consequence of dismissal without inventing anger or a broken plate.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Reverse view from beside the young doctor: older imposing mustached surgeon turns back to a stack of papers, leaving the offered radiograph at the edge of his attention. Foreground young doctor's sleeve and plate establish who is being dismissed.",
+      "nextRequiredState": "Developed chest radiograph still lit on the hospital lightbox, single catheter route and terminal position visible, room around it dark and quiet. No triumphant glow or extra diagram."
+    },
+    {
+      "id": "S03-V2-13",
+      "sceneId": "S03",
+      "index": 44,
+      "title": "What the picture established",
+      "startFrame": 706,
+      "durationFrames": 48,
+      "globalStartFrame": 2408,
+      "seconds": 2.0,
+      "narrationAnchor": "The picture showed what was possible",
+      "speechWindow": {
+        "start": 29.416666666666668,
+        "end": 31.416666666666668,
+        "recognizedContext": "The picture showed what was possible. It did not persuade everyone to follow.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Developed chest radiograph still lit on the hospital lightbox, single catheter route and terminal position visible, room around it dark and quiet. No triumphant glow or extra diagram. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [],
+      "referenceRole": "xray",
+      "decisiveStill": "Developed chest radiograph still lit on the hospital lightbox, single catheter route and terminal position visible, room around it dark and quiet. No triumphant glow or extra diagram.",
+      "plannedAction": "Return attention to the actual evidence despite the human rejection.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Close on young doctor's hands lowering the same developed radiograph from chest height toward his waist beside the desk; supported glass plate stays intact. Older surgeon's papers in background.",
+      "nextRequiredState": "Young doctor at the office doorway leaving with the radiograph tucked securely beneath his right arm; older surgeon remains absorbed in papers behind the desk. Medium-wide depth preserves their physical separation."
+    },
+    {
+      "id": "S03-V2-14",
+      "sceneId": "S03",
+      "index": 45,
+      "title": "What it did not establish",
+      "startFrame": 754,
+      "durationFrames": 95,
+      "globalStartFrame": 2456,
+      "seconds": 3.9583333333333335,
+      "narrationAnchor": "It did not persuade everyone to follow",
+      "speechWindow": {
+        "start": 31.416666666666668,
+        "end": 35.375,
+        "recognizedContext": "The picture showed what was possible. It did not persuade everyone to follow.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Young doctor at the office doorway leaving with the radiograph tucked securely beneath his right arm; older surgeon remains absorbed in papers behind the desk. Medium-wide depth preserves their physical separation. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S03-E-Seedream.png"
+      ],
+      "referenceRole": "surgeon",
+      "decisiveStill": "Young doctor at the office doorway leaving with the radiograph tucked securely beneath his right arm; older surgeon remains absorbed in papers behind the desk. Medium-wide depth preserves their physical separation.",
+      "plannedAction": "End on lack of adoption, leading naturally into the later researchers rather than repeating a generic sad face.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Developed chest radiograph still lit on the hospital lightbox, single catheter route and terminal position visible, room around it dark and quiet. No triumphant glow or extra diagram.",
+      "nextRequiredState": "Two distinct middle-aged researchers in the established 1940s laboratory coordinate around analog pressure apparatus."
+    },
+    {
+      "id": "S04-V2-01",
+      "sceneId": "S04",
+      "index": 46,
+      "title": "A shared method",
+      "startFrame": 0,
+      "durationFrames": 63,
+      "globalStartFrame": 2551,
+      "seconds": 2.625,
+      "narrationAnchor": "more than one man's gamble",
+      "speechWindow": {
+        "start": 0.0,
+        "end": 2.625,
+        "recognizedContext": "That took more than one man's gamble. In the following years, Andre Cornand and Dickinson Richards developed cardiac catheterization",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Two distinct middle-aged researchers in the established 1940s laboratory coordinate around analog pressure apparatus. Preserve the two reference researchers: slender dark hair and round glasses; taller receding hair. Same period lab and owned apparatus. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S04-A-Seedream.png"
+      ],
+      "referenceRole": "lab",
+      "decisiveStill": "Two distinct middle-aged researchers in the established 1940s laboratory coordinate around analog pressure apparatus.",
+      "plannedAction": "Replace the solitary gamble with collaborative work.",
+      "reuse": {
+        "assetId": "8858f6dc-a9f0-4efa-95c7-9f0242fc4e71",
+        "versionId": "5df2be0d-0ef1-4008-9d19-01469af742d0",
+        "path": "media/S04-A-Seedream.png"
+      },
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Young doctor at the office doorway leaving with the radiograph tucked securely beneath his right arm; older surgeon remains absorbed in papers behind the desk. Medium-wide depth preserves their physical separation.",
+      "nextRequiredState": "Close three-quarter view of the slender dark-haired researcher with round glasses writing notes beside a paper pressure trace. His colleague's hand and connected apparatus remain in the background, no invented readable name tag."
+    },
+    {
+      "id": "S04-V2-02",
+      "sceneId": "S04",
+      "index": 47,
+      "title": "Cournand follows the record",
+      "startFrame": 63,
+      "durationFrames": 57,
+      "globalStartFrame": 2614,
+      "seconds": 2.375,
+      "narrationAnchor": "Andr\u00e9 Cournand",
+      "speechWindow": {
+        "start": 2.625,
+        "end": 5.0,
+        "recognizedContext": "In the following years, Andre Cornand and Dickinson Richards developed cardiac catheterization",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Close three-quarter view of the slender dark-haired researcher with round glasses writing notes beside a paper pressure trace. His colleague's hand and connected apparatus remain in the background, no invented readable name tag. Preserve the two reference researchers: slender dark hair and round glasses; taller receding hair. Same period lab and owned apparatus. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S04-A-Seedream.png"
+      ],
+      "referenceRole": "lab",
+      "decisiveStill": "Close three-quarter view of the slender dark-haired researcher with round glasses writing notes beside a paper pressure trace. His colleague's hand and connected apparatus remain in the background, no invented readable name tag.",
+      "plannedAction": "Identify one participant through a task within the same shared work.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Two distinct middle-aged researchers in the established 1940s laboratory coordinate around analog pressure apparatus.",
+      "nextRequiredState": "His taller colleague with receding hair carefully checks the stopcock below an upright glass manometer while the glasses-wearing researcher watches the trace beside him. Connected rubber lines stay on the bench."
+    },
+    {
+      "id": "S04-V2-03",
+      "sceneId": "S04",
+      "index": 48,
+      "title": "Richards checks the method",
+      "startFrame": 120,
+      "durationFrames": 82,
+      "globalStartFrame": 2671,
+      "seconds": 3.4166666666666665,
+      "narrationAnchor": "Dickinson Richards developed",
+      "speechWindow": {
+        "start": 5.0,
+        "end": 8.416666666666666,
+        "recognizedContext": "In the following years, Andre Cornand and Dickinson Richards developed cardiac catheterization into a practical research method.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: His taller colleague with receding hair carefully checks the stopcock below an upright glass manometer while the glasses-wearing researcher watches the trace beside him. Connected rubber lines stay on the bench. Preserve the two reference researchers: slender dark hair and round glasses; taller receding hair. Same period lab and owned apparatus. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S04-A-Seedream.png"
+      ],
+      "referenceRole": "lab",
+      "decisiveStill": "His taller colleague with receding hair carefully checks the stopcock below an upright glass manometer while the glasses-wearing researcher watches the trace beside him. Connected rubber lines stay on the bench.",
+      "plannedAction": "Show a complementary task and stable shared apparatus.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Close three-quarter view of the slender dark-haired researcher with round glasses writing notes beside a paper pressure trace. His colleague's hand and connected apparatus remain in the background, no invented readable name tag.",
+      "nextRequiredState": "Close gloved hands hold a small glass tube containing a dark ruby sample above a metal rack, laboratory glasswork behind."
+    },
+    {
+      "id": "S04-V2-04",
+      "sceneId": "S04",
+      "index": 49,
+      "title": "A sample is taken for analysis",
+      "startFrame": 202,
+      "durationFrames": 36,
+      "globalStartFrame": 2753,
+      "seconds": 1.5,
+      "narrationAnchor": "Doctors could sample blood",
+      "speechWindow": {
+        "start": 8.416666666666666,
+        "end": 9.916666666666666,
+        "recognizedContext": "into a practical research method. Doctors could sample blood and measure pressures inside the circulation,",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Close gloved hands hold a small glass tube containing a dark ruby sample above a metal rack, laboratory glasswork behind. Preserve the two reference researchers: slender dark hair and round glasses; taller receding hair. Same period lab and owned apparatus. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S04-A-Seedream.png"
+      ],
+      "referenceRole": "lab",
+      "decisiveStill": "Close gloved hands hold a small glass tube containing a dark ruby sample above a metal rack, laboratory glasswork behind.",
+      "plannedAction": "Prepare the sample placement just before the spoken sampling phrase.",
+      "reuse": {
+        "assetId": "c0c0ac87-6bde-471c-8ae2-e1cb47988841",
+        "versionId": "30cb5298-3737-449c-9028-f49e917ecbf4",
+        "path": "media/S04-B-Seedream.png"
+      },
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "His taller colleague with receding hair carefully checks the stopcock below an upright glass manometer while the glasses-wearing researcher watches the trace beside him. Connected rubber lines stay on the bench.",
+      "nextRequiredState": "Macro still of the small glass sample tube fully seated in a rigid metal rack, one gloved fingertip just releasing its rim. Dark ruby sample, stable bench, no needle or insertion."
+    },
+    {
+      "id": "S04-V2-05",
+      "sceneId": "S04",
+      "index": 50,
+      "title": "The sample is seated",
+      "startFrame": 238,
+      "durationFrames": 18,
+      "globalStartFrame": 2789,
+      "seconds": 0.75,
+      "narrationAnchor": "sample blood",
+      "speechWindow": {
+        "start": 9.916666666666666,
+        "end": 10.666666666666666,
+        "recognizedContext": "Doctors could sample blood and measure pressures inside the circulation,",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Macro still of the small glass sample tube fully seated in a rigid metal rack, one gloved fingertip just releasing its rim. Dark ruby sample, stable bench, no needle or insertion. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S04-C-Seedream.png"
+      ],
+      "referenceRole": "equipment",
+      "decisiveStill": "Macro still of the small glass sample tube fully seated in a rigid metal rack, one gloved fingertip just releasing its rim. Dark ruby sample, stable bench, no needle or insertion.",
+      "plannedAction": "Brief contact/result closes the sample movement instead of hovering indefinitely.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Close gloved hands hold a small glass tube containing a dark ruby sample above a metal rack, laboratory glasswork behind.",
+      "nextRequiredState": "Macro view of fluid levels in the two limbs of an upright glass manometer, rigid backing and connected fine rubber tubing at its base visible. A real difference between the fluid columns is legible, no invented scale values or text."
+    },
+    {
+      "id": "S04-V2-06",
+      "sceneId": "S04",
+      "index": 51,
+      "title": "Pressure becomes readable",
+      "startFrame": 256,
+      "durationFrames": 20,
+      "globalStartFrame": 2807,
+      "seconds": 0.8333333333333334,
+      "narrationAnchor": "measure pressures",
+      "speechWindow": {
+        "start": 10.666666666666666,
+        "end": 11.5,
+        "recognizedContext": "Doctors could sample blood and measure pressures inside the circulation,",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Macro view of fluid levels in the two limbs of an upright glass manometer, rigid backing and connected fine rubber tubing at its base visible. A real difference between the fluid columns is legible, no invented scale values or text. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S04-C-Seedream.png"
+      ],
+      "referenceRole": "equipment",
+      "decisiveStill": "Macro view of fluid levels in the two limbs of an upright glass manometer, rigid backing and connected fine rubber tubing at its base visible. A real difference between the fluid columns is legible, no invented scale values or text.",
+      "plannedAction": "A brief diagnostic detail shows what measuring pressure means.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Macro still of the small glass sample tube fully seated in a rigid metal rack, one gloved fingertip just releasing its rim. Dark ruby sample, stable bench, no needle or insertion.",
+      "nextRequiredState": "Period connected manometer and mechanical paper recorder with a pen at a visible pressure trace, researchers behind."
+    },
+    {
+      "id": "S04-V2-07",
+      "sceneId": "S04",
+      "index": 52,
+      "title": "A trace records change",
+      "startFrame": 276,
+      "durationFrames": 38,
+      "globalStartFrame": 2827,
+      "seconds": 1.5833333333333333,
+      "narrationAnchor": "inside the circulation",
+      "speechWindow": {
+        "start": 11.5,
+        "end": 13.083333333333334,
+        "recognizedContext": "Doctors could sample blood and measure pressures inside the circulation, learning how the heart and lungs worked together,",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Period connected manometer and mechanical paper recorder with a pen at a visible pressure trace, researchers behind. Preserve the two reference researchers: slender dark hair and round glasses; taller receding hair. Same period lab and owned apparatus. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S04-A-Seedream.png"
+      ],
+      "referenceRole": "lab",
+      "decisiveStill": "Period connected manometer and mechanical paper recorder with a pen at a visible pressure trace, researchers behind.",
+      "plannedAction": "Connect the fluid measurement to its record.",
+      "reuse": {
+        "assetId": "fa59299c-d2d7-48d5-9723-671c62dcf814",
+        "versionId": "1d4c0492-6526-4250-99a0-6008cdb09e63",
+        "path": "media/S04-C-Seedream.png"
+      },
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Macro view of fluid levels in the two limbs of an upright glass manometer, rigid backing and connected fine rubber tubing at its base visible. A real difference between the fluid columns is legible, no invented scale values or text.",
+      "nextRequiredState": "Restrained dimensional explanatory diagram: ivory heart between two translucent lungs, continuous blue route from right heart to lungs and warm red route returning to left heart. Clearly connected system, no arrows, no extraneous branches or numerical claim. Navy background and the same medical illustration medium."
+    },
+    {
+      "id": "S04-V2-08",
+      "sceneId": "S04",
+      "index": 53,
+      "title": "Heart and lungs as one circulation",
+      "startFrame": 314,
+      "durationFrames": 112,
+      "globalStartFrame": 2865,
+      "seconds": 4.666666666666667,
+      "narrationAnchor": "heart and lungs worked together",
+      "speechWindow": {
+        "start": 13.083333333333334,
+        "end": 17.75,
+        "recognizedContext": "learning how the heart and lungs worked together, and what changed when disease struck.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Restrained dimensional explanatory diagram: ivory heart between two translucent lungs, continuous blue route from right heart to lungs and warm red route returning to left heart. Clearly connected system, no arrows, no extraneous branches or numerical claim. Navy background and the same medical illustration medium. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [],
+      "referenceRole": "anatomy",
+      "decisiveStill": "Restrained dimensional explanatory diagram: ivory heart between two translucent lungs, continuous blue route from right heart to lungs and warm red route returning to left heart. Clearly connected system, no arrows, no extraneous branches or numerical claim. Navy background and the same medical illustration medium.",
+      "plannedAction": "Give the relationship its own explanatory view as the narration moves beyond apparatus.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Period connected manometer and mechanical paper recorder with a pen at a visible pressure trace, researchers behind.",
+      "nextRequiredState": "Older Forssmann, 52, solid oval face and receding gray hair, in white-tie evening dress entering a golden Stockholm ceremonial hall through tall doors. A small presentation case in his hand, no crowd of extra laureates."
+    },
+    {
+      "id": "S04-V2-09",
+      "sceneId": "S04",
+      "index": 54,
+      "title": "Twenty-seven years later",
+      "startFrame": 426,
+      "durationFrames": 60,
+      "globalStartFrame": 2977,
+      "seconds": 2.5,
+      "narrationAnchor": "In nineteen fifty-six",
+      "speechWindow": {
+        "start": 17.75,
+        "end": 20.25,
+        "recognizedContext": "In 1956, 27 years after Forseman's self-experiment,",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Older Forssmann, 52, solid oval face and receding gray hair, in white-tie evening dress entering a golden Stockholm ceremonial hall through tall doors. A small presentation case in his hand, no crowd of extra laureates. Preserve the three older reference laureates, faces, white-tie costumes and golden hall. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S04-E-Seedream.png"
+      ],
+      "referenceRole": "nobel",
+      "decisiveStill": "Older Forssmann, 52, solid oval face and receding gray hair, in white-tie evening dress entering a golden Stockholm ceremonial hall through tall doors. A small presentation case in his hand, no crowd of extra laureates.",
+      "plannedAction": "Make the passage of time visible with changed age and location at the spoken date.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Restrained dimensional explanatory diagram: ivory heart between two translucent lungs, continuous blue route from right heart to lungs and warm red route returning to left heart. Clearly connected system, no arrows, no extraneous branches or numerical claim. Navy background and the same medical illustration medium.",
+      "nextRequiredState": "Three laureates in black white-tie tails stand together in the established golden hall, older Forssmann in center and his two older colleagues beside him, all equally framed."
+    },
+    {
+      "id": "S04-V2-10",
+      "sceneId": "S04",
+      "index": 55,
+      "title": "Three men share recognition",
+      "startFrame": 486,
+      "durationFrames": 70,
+      "globalStartFrame": 3037,
+      "seconds": 2.9166666666666665,
+      "narrationAnchor": "all three men shared",
+      "speechWindow": {
+        "start": 20.25,
+        "end": 23.166666666666668,
+        "recognizedContext": "In 1956, 27 years after Forseman's self-experiment, all three men shared the Nobel Prize in medicine.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Three laureates in black white-tie tails stand together in the established golden hall, older Forssmann in center and his two older colleagues beside him, all equally framed. Preserve the three older reference laureates, faces, white-tie costumes and golden hall. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S04-E-Seedream.png"
+      ],
+      "referenceRole": "nobel",
+      "decisiveStill": "Three laureates in black white-tie tails stand together in the established golden hall, older Forssmann in center and his two older colleagues beside him, all equally framed.",
+      "plannedAction": "Prepare shared recognition without a lone hero victory.",
+      "reuse": {
+        "assetId": "4062a2f3-0307-45e2-815f-0cbc1a9784a9",
+        "versionId": "b9400db3-307f-477a-bf9b-b1fa51c8d427",
+        "path": "media/S04-E-Seedream.png"
+      },
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Older Forssmann, 52, solid oval face and receding gray hair, in white-tie evening dress entering a golden Stockholm ceremonial hall through tall doors. A small presentation case in his hand, no crowd of extra laureates.",
+      "nextRequiredState": "Tight view of a gold Nobel-style medal already revealed in an open blue-velvet presentation case, a white-tie cuff and supporting hands at the edge; no invented readable inscriptions."
+    },
+    {
+      "id": "S04-V2-11",
+      "sceneId": "S04",
+      "index": 56,
+      "title": "The medal revealed",
+      "startFrame": 556,
+      "durationFrames": 20,
+      "globalStartFrame": 3107,
+      "seconds": 0.8333333333333334,
+      "narrationAnchor": "the Nobel Prize in medicine",
+      "speechWindow": {
+        "start": 23.166666666666668,
+        "end": 24.0,
+        "recognizedContext": "all three men shared the Nobel Prize in medicine.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Tight view of a gold Nobel-style medal already revealed in an open blue-velvet presentation case, a white-tie cuff and supporting hands at the edge; no invented readable inscriptions. Preserve the three older reference laureates, faces, white-tie costumes and golden hall. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S04-E-Seedream.png"
+      ],
+      "referenceRole": "nobel",
+      "decisiveStill": "Tight view of a gold Nobel-style medal already revealed in an open blue-velvet presentation case, a white-tie cuff and supporting hands at the edge; no invented readable inscriptions.",
+      "plannedAction": "A subsecond reveal identifies the recognition clearly.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Three laureates in black white-tie tails stand together in the established golden hall, older Forssmann in center and his two older colleagues beside him, all equally framed.",
+      "nextRequiredState": "Three older laureates' supported hands holding their separate open presentation cases at waist height, sleeves belong to the three men standing shoulder to shoulder. Equal emphasis on all three cases, warm ceremonial light."
+    },
+    {
+      "id": "S04-V2-12",
+      "sceneId": "S04",
+      "index": 57,
+      "title": "Daring and careful work together",
+      "startFrame": 576,
+      "durationFrames": 121,
+      "globalStartFrame": 3127,
+      "seconds": 5.041666666666667,
+      "narrationAnchor": "the careful work that made it useful",
+      "speechWindow": {
+        "start": 24.0,
+        "end": 29.041666666666668,
+        "recognizedContext": "all three men shared the Nobel Prize in medicine. The recognition belonged to the daring first step and the careful work that made it useful. The tube that had once led through one doctor's arm had opened a route into the living heart.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Three older laureates' supported hands holding their separate open presentation cases at waist height, sleeves belong to the three men standing shoulder to shoulder. Equal emphasis on all three cases, warm ceremonial light. Preserve the three older reference laureates, faces, white-tie costumes and golden hall. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S04-E-Seedream.png"
+      ],
+      "referenceRole": "nobel",
+      "decisiveStill": "Three older laureates' supported hands holding their separate open presentation cases at waist height, sleeves belong to the three men standing shoulder to shoulder. Equal emphasis on all three cases, warm ceremonial light.",
+      "plannedAction": "Hold the shared nature of the achievement while the narration distinguishes the first step from later systematic work.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Tight view of a gold Nobel-style medal already revealed in an open blue-velvet presentation case, a white-tie cuff and supporting hands at the edge; no invented readable inscriptions.",
+      "nextRequiredState": "Elegant clean explanatory upper torso: single amber catheter from anatomical left arm through continuous blue vein into right atrium, translucent ivory heart and intact chest. The route is the focal feature, readable against navy."
+    },
+    {
+      "id": "S04-V2-13",
+      "sceneId": "S04",
+      "index": 58,
+      "title": "Return to the route",
+      "startFrame": 697,
+      "durationFrames": 85,
+      "globalStartFrame": 3248,
+      "seconds": 3.5416666666666665,
+      "narrationAnchor": "The tube that had once led through one doctor's arm",
+      "speechWindow": {
+        "start": 29.041666666666668,
+        "end": 32.583333333333336,
+        "recognizedContext": "The tube that had once led through one doctor's arm had opened a route into the living heart.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Elegant clean explanatory upper torso: single amber catheter from anatomical left arm through continuous blue vein into right atrium, translucent ivory heart and intact chest. The route is the focal feature, readable against navy. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [],
+      "referenceRole": "anatomy",
+      "decisiveStill": "Elegant clean explanatory upper torso: single amber catheter from anatomical left arm through continuous blue vein into right atrium, translucent ivory heart and intact chest. The route is the focal feature, readable against navy.",
+      "plannedAction": "Recall the opening internal path as the closing words return to the original tube.",
+      "reuse": null,
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Three older laureates' supported hands holding their separate open presentation cases at waist height, sleeves belong to the three men standing shoulder to shoulder. Equal emphasis on all three cases, warm ceremonial light.",
+      "nextRequiredState": "The same three older laureates together in the ceremonial hall, composed and dignified, cases supported."
+    },
+    {
+      "id": "S04-V2-14",
+      "sceneId": "S04",
+      "index": 59,
+      "title": "A living heart opened to understanding",
+      "startFrame": 782,
+      "durationFrames": 112,
+      "globalStartFrame": 3333,
+      "seconds": 4.666666666666667,
+      "narrationAnchor": "opened a route into the living heart",
+      "speechWindow": {
+        "start": 32.583333333333336,
+        "end": 37.25,
+        "recognizedContext": "The tube that had once led through one doctor's arm had opened a route into the living heart.",
+        "status": "Saved ASR phrase/word evidence; editorial cut positions selected by director"
+      },
+      "imagePrompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: The same three older laureates together in the ceremonial hall, composed and dignified, cases supported. Preserve the three older reference laureates, faces, white-tie costumes and golden hall. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referencePaths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S04-E-Seedream.png"
+      ],
+      "referenceRole": "nobel",
+      "decisiveStill": "The same three older laureates together in the ceremonial hall, composed and dignified, cases supported.",
+      "plannedAction": "End on shared recognition through the final accepted audio tail; no new spoken conclusion.",
+      "reuse": {
+        "assetId": "4062a2f3-0307-45e2-815f-0cbc1a9784a9",
+        "versionId": "b9400db3-307f-477a-bf9b-b1fa51c8d427",
+        "path": "media/S04-E-Seedream.png"
+      },
+      "join": "Continuation of the narrated development; explanatory views are audience context, not private vision.",
+      "reviewStatus": "not-reviewed",
+      "motionStatus": "Not generated: image/audio storyboard only",
+      "previousState": "Elegant clean explanatory upper torso: single amber catheter from anatomical left arm through continuous blue vein into right atrium, translucent ivory heart and intact chest. The route is the focal feature, readable against navy.",
+      "nextRequiredState": "End of unchanged story and accepted audio."
+    }
+  ]
+}
