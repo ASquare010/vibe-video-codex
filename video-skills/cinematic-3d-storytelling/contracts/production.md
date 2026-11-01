@@ -47,7 +47,7 @@ After the image and animation stages enrich the direction record, its combined c
 
 | Record | Required meaning |
 | --- | --- |
-| `cuts` | Beat IDs, audio scene/phrase, interval/status, dramatic job, viewpoint intent, attachment/look-at/focus/framing/path, action geometry, incoming/outgoing state, keyframe roles and image/video lineage. |
+| `cuts` | Beat IDs, audio scene/phrase, interval/status, dramatic job, event phase, viewpoint intent, attachment/look-at/focus/framing/path, action geometry, incoming/outgoing state, keyframe roles and image/video lineage. For load-bearing changes, retain the planned visible before/change/result cues and actual selected-range findings in the direction/review artifact. |
 
 ## Timing and prompt-writer packet
 
