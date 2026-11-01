@@ -1,0 +1,182 @@
+[
+  {
+    "cut": "S01-B",
+    "exportFrame": 89,
+    "seconds": 3.7083333333333335,
+    "sourceFrame": 0,
+    "source": {
+      "meanRgb": 67.17,
+      "nearlyBlackFraction": 0.10299
+    },
+    "export": {
+      "meanRgb": 0.0,
+      "nearlyBlackFraction": 1.0
+    },
+    "nextExport": {
+      "meanRgb": 66.19,
+      "nearlyBlackFraction": 0.11
+    }
+  },
+  {
+    "cut": "S01-C",
+    "exportFrame": 154,
+    "seconds": 6.416666666666667,
+    "sourceFrame": 0,
+    "source": {
+      "meanRgb": 73.04,
+      "nearlyBlackFraction": 0.12514
+    },
+    "export": {
+      "meanRgb": 0.0,
+      "nearlyBlackFraction": 1.0
+    },
+    "nextExport": {
+      "meanRgb": 72.38,
+      "nearlyBlackFraction": 0.1275
+    }
+  },
+  {
+    "cut": "S02-B",
+    "exportFrame": 369,
+    "seconds": 15.375,
+    "sourceFrame": 0,
+    "source": {
+      "meanRgb": 83.86,
+      "nearlyBlackFraction": 0.00444
+    },
+    "export": {
+      "meanRgb": 1.09,
+      "nearlyBlackFraction": 0.99
+    },
+    "nextExport": {
+      "meanRgb": 84.45,
+      "nearlyBlackFraction": 0.00507
+    }
+  },
+  {
+    "cut": "S02-E",
+    "exportFrame": 631,
+    "seconds": 26.291666666666668,
+    "sourceFrame": 0,
+    "source": {
+      "meanRgb": 65.05,
+      "nearlyBlackFraction": 0.18736
+    },
+    "export": {
+      "meanRgb": 0.0,
+      "nearlyBlackFraction": 1.0
+    },
+    "nextExport": {
+      "meanRgb": 64.49,
+      "nearlyBlackFraction": 0.19472
+    }
+  },
+  {
+    "cut": "S04-D",
+    "exportFrame": 1323,
+    "seconds": 55.125,
+    "sourceFrame": 29,
+    "source": {
+      "meanRgb": 71.49,
+      "nearlyBlackFraction": 0.11646
+    },
+    "export": {
+      "meanRgb": 0.0,
+      "nearlyBlackFraction": 1.0
+    },
+    "nextExport": {
+      "meanRgb": 70.68,
+      "nearlyBlackFraction": 0.12083
+    }
+  },
+  {
+    "cut": "S04-F",
+    "exportFrame": 1450,
+    "seconds": 60.416666666666664,
+    "sourceFrame": 0,
+    "source": {
+      "meanRgb": 70.5,
+      "nearlyBlackFraction": 0.075
+    },
+    "export": {
+      "meanRgb": 0.0,
+      "nearlyBlackFraction": 1.0
+    },
+    "nextExport": {
+      "meanRgb": 70.6,
+      "nearlyBlackFraction": 0.07646
+    }
+  },
+  {
+    "cut": "S05-C",
+    "exportFrame": 1754,
+    "seconds": 73.08333333333333,
+    "sourceFrame": 0,
+    "source": {
+      "meanRgb": 69.03,
+      "nearlyBlackFraction": 0.11861
+    },
+    "export": {
+      "meanRgb": 0.0,
+      "nearlyBlackFraction": 1.0
+    },
+    "nextExport": {
+      "meanRgb": 69.44,
+      "nearlyBlackFraction": 0.11632
+    }
+  },
+  {
+    "cut": "S05-D",
+    "exportFrame": 1826,
+    "seconds": 76.08333333333333,
+    "sourceFrame": 0,
+    "source": {
+      "meanRgb": 69.17,
+      "nearlyBlackFraction": 0.15701
+    },
+    "export": {
+      "meanRgb": 0.0,
+      "nearlyBlackFraction": 1.0
+    },
+    "nextExport": {
+      "meanRgb": 68.99,
+      "nearlyBlackFraction": 0.15778
+    }
+  },
+  {
+    "cut": "S06-C",
+    "exportFrame": 2111,
+    "seconds": 87.95833333333333,
+    "sourceFrame": 0,
+    "source": {
+      "meanRgb": 121.49,
+      "nearlyBlackFraction": 0.00424
+    },
+    "export": {
+      "meanRgb": 0.0,
+      "nearlyBlackFraction": 1.0
+    },
+    "nextExport": {
+      "meanRgb": 121.63,
+      "nearlyBlackFraction": 0.00438
+    }
+  },
+  {
+    "cut": "S06-D",
+    "exportFrame": 2159,
+    "seconds": 89.95833333333333,
+    "sourceFrame": 0,
+    "source": {
+      "meanRgb": 67.76,
+      "nearlyBlackFraction": 0.29424
+    },
+    "export": {
+      "meanRgb": 0.0,
+      "nearlyBlackFraction": 1.0
+    },
+    "nextExport": {
+      "meanRgb": 67.95,
+      "nearlyBlackFraction": 0.295
+    }
+  }
+]

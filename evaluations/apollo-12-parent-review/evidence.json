@@ -1,0 +1,431 @@
+{
+  "film": "D:\\Git\\vibe-video-codex\\data\\projects\\34dd7600-10be-483d-8b19-4bc92f818408\\exports\\fa39bfcd-7610-45c1-990f-b9362b8c04c6\\film.mp4",
+  "sha256": "268c1be93d2ade770f97737f5369bbfda57295c0738f12b1ff2fe6aae6ded12d",
+  "projectRevision": 71,
+  "fps": 24,
+  "method": "selected-export in/middle/out plus critical operation every four frames; frame evidence only",
+  "samples": [
+    {
+      "cut": "S01-A",
+      "phase": "in",
+      "frame": 0
+    },
+    {
+      "cut": "S01-A",
+      "phase": "middle",
+      "frame": 44
+    },
+    {
+      "cut": "S01-A",
+      "phase": "out",
+      "frame": 88
+    },
+    {
+      "cut": "S01-B",
+      "phase": "in",
+      "frame": 89
+    },
+    {
+      "cut": "S01-B",
+      "phase": "middle",
+      "frame": 121
+    },
+    {
+      "cut": "S01-B",
+      "phase": "out",
+      "frame": 153
+    },
+    {
+      "cut": "S01-C",
+      "phase": "in",
+      "frame": 154
+    },
+    {
+      "cut": "S01-C",
+      "phase": "middle",
+      "frame": 200
+    },
+    {
+      "cut": "S01-C",
+      "phase": "out",
+      "frame": 246
+    },
+    {
+      "cut": "S01-D",
+      "phase": "in",
+      "frame": 247
+    },
+    {
+      "cut": "S01-D",
+      "phase": "middle",
+      "frame": 292
+    },
+    {
+      "cut": "S01-D",
+      "phase": "out",
+      "frame": 337
+    },
+    {
+      "cut": "S02-A",
+      "phase": "in",
+      "frame": 338
+    },
+    {
+      "cut": "S02-A",
+      "phase": "middle",
+      "frame": 353
+    },
+    {
+      "cut": "S02-A",
+      "phase": "out",
+      "frame": 368
+    },
+    {
+      "cut": "S02-B",
+      "phase": "in",
+      "frame": 369
+    },
+    {
+      "cut": "S02-B",
+      "phase": "middle",
+      "frame": 414
+    },
+    {
+      "cut": "S02-B",
+      "phase": "out",
+      "frame": 459
+    },
+    {
+      "cut": "S02-C",
+      "phase": "in",
+      "frame": 460
+    },
+    {
+      "cut": "S02-C",
+      "phase": "middle",
+      "frame": 494
+    },
+    {
+      "cut": "S02-C",
+      "phase": "out",
+      "frame": 529
+    },
+    {
+      "cut": "S02-D",
+      "phase": "in",
+      "frame": 530
+    },
+    {
+      "cut": "S02-D",
+      "phase": "middle",
+      "frame": 580
+    },
+    {
+      "cut": "S02-D",
+      "phase": "out",
+      "frame": 630
+    },
+    {
+      "cut": "S02-E",
+      "phase": "in",
+      "frame": 631
+    },
+    {
+      "cut": "S02-E",
+      "phase": "middle",
+      "frame": 687
+    },
+    {
+      "cut": "S02-E",
+      "phase": "out",
+      "frame": 744
+    },
+    {
+      "cut": "S03-A",
+      "phase": "in",
+      "frame": 745
+    },
+    {
+      "cut": "S03-A",
+      "phase": "middle",
+      "frame": 795
+    },
+    {
+      "cut": "S03-A",
+      "phase": "out",
+      "frame": 845
+    },
+    {
+      "cut": "S03-B",
+      "phase": "in",
+      "frame": 846
+    },
+    {
+      "cut": "S03-B",
+      "phase": "middle",
+      "frame": 881
+    },
+    {
+      "cut": "S03-B",
+      "phase": "out",
+      "frame": 917
+    },
+    {
+      "cut": "S03-C",
+      "phase": "in",
+      "frame": 918
+    },
+    {
+      "cut": "S03-C",
+      "phase": "middle",
+      "frame": 988
+    },
+    {
+      "cut": "S03-C",
+      "phase": "out",
+      "frame": 1059
+    },
+    {
+      "cut": "S03-D",
+      "phase": "in",
+      "frame": 1060
+    },
+    {
+      "cut": "S03-D",
+      "phase": "middle",
+      "frame": 1102
+    },
+    {
+      "cut": "S03-D",
+      "phase": "out",
+      "frame": 1144
+    },
+    {
+      "cut": "S04-A",
+      "phase": "in",
+      "frame": 1145
+    },
+    {
+      "cut": "S04-A",
+      "phase": "middle",
+      "frame": 1184
+    },
+    {
+      "cut": "S04-A",
+      "phase": "out",
+      "frame": 1223
+    },
+    {
+      "cut": "S04-B",
+      "phase": "in",
+      "frame": 1224
+    },
+    {
+      "cut": "S04-B",
+      "phase": "middle",
+      "frame": 1251
+    },
+    {
+      "cut": "S04-B",
+      "phase": "out",
+      "frame": 1278
+    },
+    {
+      "cut": "S04-C",
+      "phase": "in",
+      "frame": 1279
+    },
+    {
+      "cut": "S04-C",
+      "phase": "middle",
+      "frame": 1300
+    },
+    {
+      "cut": "S04-C",
+      "phase": "out",
+      "frame": 1322
+    },
+    {
+      "cut": "S04-D",
+      "phase": "in",
+      "frame": 1323
+    },
+    {
+      "cut": "S04-D",
+      "phase": "middle",
+      "frame": 1346
+    },
+    {
+      "cut": "S04-D",
+      "phase": "out",
+      "frame": 1370
+    },
+    {
+      "cut": "S04-E",
+      "phase": "in",
+      "frame": 1371
+    },
+    {
+      "cut": "S04-E",
+      "phase": "middle",
+      "frame": 1410
+    },
+    {
+      "cut": "S04-E",
+      "phase": "out",
+      "frame": 1449
+    },
+    {
+      "cut": "S04-F",
+      "phase": "in",
+      "frame": 1450
+    },
+    {
+      "cut": "S04-F",
+      "phase": "middle",
+      "frame": 1497
+    },
+    {
+      "cut": "S04-F",
+      "phase": "out",
+      "frame": 1544
+    },
+    {
+      "cut": "S05-A",
+      "phase": "in",
+      "frame": 1545
+    },
+    {
+      "cut": "S05-A",
+      "phase": "middle",
+      "frame": 1591
+    },
+    {
+      "cut": "S05-A",
+      "phase": "out",
+      "frame": 1638
+    },
+    {
+      "cut": "S05-B",
+      "phase": "in",
+      "frame": 1639
+    },
+    {
+      "cut": "S05-B",
+      "phase": "middle",
+      "frame": 1696
+    },
+    {
+      "cut": "S05-B",
+      "phase": "out",
+      "frame": 1753
+    },
+    {
+      "cut": "S05-C",
+      "phase": "in",
+      "frame": 1754
+    },
+    {
+      "cut": "S05-C",
+      "phase": "middle",
+      "frame": 1789
+    },
+    {
+      "cut": "S05-C",
+      "phase": "out",
+      "frame": 1825
+    },
+    {
+      "cut": "S05-D",
+      "phase": "in",
+      "frame": 1826
+    },
+    {
+      "cut": "S05-D",
+      "phase": "middle",
+      "frame": 1869
+    },
+    {
+      "cut": "S05-D",
+      "phase": "out",
+      "frame": 1913
+    },
+    {
+      "cut": "S06-A",
+      "phase": "in",
+      "frame": 1914
+    },
+    {
+      "cut": "S06-A",
+      "phase": "middle",
+      "frame": 1970
+    },
+    {
+      "cut": "S06-A",
+      "phase": "out",
+      "frame": 2026
+    },
+    {
+      "cut": "S06-B",
+      "phase": "in",
+      "frame": 2027
+    },
+    {
+      "cut": "S06-B",
+      "phase": "middle",
+      "frame": 2068
+    },
+    {
+      "cut": "S06-B",
+      "phase": "out",
+      "frame": 2110
+    },
+    {
+      "cut": "S06-C",
+      "phase": "in",
+      "frame": 2111
+    },
+    {
+      "cut": "S06-C",
+      "phase": "middle",
+      "frame": 2134
+    },
+    {
+      "cut": "S06-C",
+      "phase": "out",
+      "frame": 2158
+    },
+    {
+      "cut": "S06-D",
+      "phase": "in",
+      "frame": 2159
+    },
+    {
+      "cut": "S06-D",
+      "phase": "middle",
+      "frame": 2196
+    },
+    {
+      "cut": "S06-D",
+      "phase": "out",
+      "frame": 2234
+    }
+  ],
+  "criticalDetailFrames": [
+    1323,
+    1327,
+    1331,
+    1335,
+    1339,
+    1343,
+    1347,
+    1351,
+    1355,
+    1359,
+    1363,
+    1367,
+    1370
+  ],
+  "nativePlayback": "not performed",
+  "listening": "not performed"
+}
