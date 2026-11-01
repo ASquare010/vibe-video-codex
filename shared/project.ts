@@ -89,6 +89,7 @@ export const videoPlanSchema = z.object({
   synopsis: z.string().default(''), classification: z.enum(['fiction', 'factual', 'inspired']).default('fiction'),
   hook: z.string().default(''), story: z.string().default(''), fullNarration: z.string().default(''), researchNotes: z.string().default(''),
   targetSeconds: z.number().min(1).max(3600).default(90), approved: z.boolean().default(false),
+  directorBasis: z.string().optional(),
 });
 export const skillSchema = z.object({ id: z.string(), name: z.string(), content: z.string().max(100000) });
 export const reviewAnchorSchema = z.object({
@@ -133,7 +134,7 @@ function patchSchema<T extends z.ZodRawShape>(schema: z.ZodObject<T>) {
 export const resultSchema = z.object({
   summary: z.string(),
   sceneUpdates: z.array(patchSchema(sceneSchema).required({ id: true })).default([]),
-  scenes: z.array(sceneSchema).optional(), plan: videoPlanSchema.optional(),
+  scenes: z.array(sceneSchema).optional(), plan: patchSchema(videoPlanSchema).optional(),
   clipUpdates: z.array(patchSchema(clipSchema).required({ id: true })).default([]),
   settings: patchSchema(settingsSchema).optional(),
   newClips: z.array(clipSchema).default([]), removeClipIds: z.array(z.string()).default([]),
@@ -155,7 +156,7 @@ const currentProjectSchema = z.object({
   theme: z.string().default(''),
   skill: skillSchema.nullable().default(null), plan: videoPlanSchema.prefault({}),
   review: reviewSchema.prefault({}),
-  production: z.object({ status: z.enum(['idle', 'drafting', 'awaiting-review', 'running', 'paused', 'failed', 'completed']).default('idle'), stage: z.enum(['plan', 'audio', 'direction', 'images', 'video', 'render']).default('plan'), error: z.string().optional() }).prefault({}),
+  production: z.object({ status: z.enum(['idle', 'drafting', 'awaiting-review', 'running', 'paused', 'failed', 'completed']).default('idle'), stage: z.enum(['plan', 'treatment', 'audio', 'direction', 'images', 'video', 'render']).default('plan'), error: z.string().optional() }).prefault({}),
   conversation: z.object({
     runtime: z.enum(['codex', 'chatgpt']), threadId: z.string().nullable(), url: z.string().nullable(), error: z.string().nullable(),
     mode: z.enum(['observe', 'managed']).default('observe'),
@@ -276,12 +277,12 @@ export function removeAsset(p: Project, assetId: string) {
   p.clips = p.clips.filter(c => c.assetId !== assetId);
   cleanTransitions(p);
 }
-export function invalidateNarration(p: Project, old: Project) {
+export function invalidateNarration(p: Project, old: Project, acceptUnrecordedTreatment = false) {
   for (const s of p.scenes) {
     const previous = old.scenes.find(o => o.id === s.id);
     if (previous?.narration !== s.narration || previous?.spokenStyle !== s.spokenStyle || previous?.audioPrompt !== s.audioPrompt) {
       p.plan.approved = false;
-      if (p.production.status === 'running') { p.production.status = 'paused'; p.production.error = 'Script changed during production. Review the plan before resuming.'; }
+      if (p.production.status === 'running' && !acceptUnrecordedTreatment) { p.production.status = 'paused'; p.production.error = 'Script changed during production. Review the plan before resuming.'; }
       s.approved = false;
       p.assets.filter(a => a.sceneId === s.id).forEach(a => { a.outdated = true; });
     } else if (previous.direction !== s.direction || previous.imagePrompt !== s.imagePrompt || previous.videoPrompt !== s.videoPrompt || previous.continuity !== s.continuity || JSON.stringify(previous.shots) !== JSON.stringify(s.shots)) {

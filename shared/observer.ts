@@ -1,6 +1,6 @@
 import type { Project } from './project';
 
-export type ObservationStep = 'thinking' | 'direction' | 'audio' | 'images' | 'video' | 'render' | 'processing-audio' | 'processing-video' | 'editing' | 'research';
+export type ObservationStep = 'thinking' | 'treatment' | 'direction' | 'audio' | 'images' | 'video' | 'render' | 'processing-audio' | 'processing-video' | 'editing' | 'research';
 export type Observation = {
   threadId: string | null; status: 'idle' | 'running' | 'completed' | 'interrupted' | 'failed' | 'unknown' | 'unavailable';
   label: string; checkedAt: string; updatedAt?: string; message?: string;
@@ -14,7 +14,7 @@ export function observationDisplay(project: Project, observation: Observation | 
   if (!observation) return { label: 'Checking Codex status…' };
   if (observation.status !== 'running') {
     if (['completed', 'idle'].includes(observation.status) && ['paused', 'failed'].includes(project.production.status)) {
-      const stage = { plan: 'planning', direction: 'scene direction', audio: 'audio generation', images: 'image generation', video: 'video generation', render: 'rendering' }[project.production.stage];
+      const stage = { plan: 'planning', treatment: 'story and performance direction', direction: 'scene direction', audio: 'audio generation', images: 'image generation', video: 'video generation', render: 'rendering' }[project.production.stage];
       const reason = project.production.error?.split(/(?<=[.!?])\s/)[0];
       return { label: `${project.production.status === 'paused' ? 'Paused' : 'Needs attention'} · ${stage}`, detail: reason ? reason.length > 160 ? `${reason.slice(0, 157)}…` : reason : 'Continue in your main chat when ready', detailTitle: project.production.error, attention: true };
     }
@@ -22,7 +22,7 @@ export function observationDisplay(project: Project, observation: Observation | 
   }
   const producing = ['running', 'drafting'].includes(project.production.status);
   const step = observation.step ?? (producing ? project.production.stage === 'plan' ? 'thinking' : project.production.stage : 'thinking');
-  const label = { direction: 'Directing scene timing and cuts', thinking: producing && project.production.stage === 'plan' ? 'Thinking · planning the video' : 'Thinking', audio: 'Generating audio · in progress', images: 'Generating images · in progress', video: 'Generating video · in progress', render: 'Rendering the video · in progress', 'processing-audio': 'Processing audio · in progress', 'processing-video': 'Processing video · in progress', editing: 'Updating the video', research: 'Researching · in progress' }[step];
+  const label = { treatment: 'Directing the story, action and performance', direction: 'Directing scene timing and cuts', thinking: producing && project.production.stage === 'plan' ? 'Thinking · planning the video' : 'Thinking', audio: 'Generating audio · in progress', images: 'Generating images · in progress', video: 'Generating video · in progress', render: 'Rendering the video · in progress', 'processing-audio': 'Processing audio · in progress', 'processing-video': 'Processing video · in progress', editing: 'Updating the video', research: 'Researching · in progress' }[step];
   const usable = project.assets.filter(a => !a.archived && !a.outdated);
   if (step === 'audio' || step === 'processing-audio') {
     const ready = project.scenes.filter(s => usable.some(a => a.id === s.audioAssetId && a.kind === 'audio')).length, total = project.scenes.length;

@@ -1,8 +1,9 @@
 import { activeVersion, type Project, type Job, type AgentResult } from '../shared/project.ts';
-import { directionIssue, usesAudioLedCuts } from '../shared/audio-led.ts';
+import { directorBasis, directorTreatmentIssue, directionIssue, usesAudioLedCuts, usesDirectorFirst } from '../shared/audio-led.ts';
 
 export function validatePlanResult(p: Project, result: AgentResult) {
-  if (!result.plan?.story.trim() || !result.plan.fullNarration.trim() || !result.scenes?.length || !result.scenes.every(s => s.narration.trim())) throw new Error('The draft needs the complete story and exact narration for every scene.');
+  if (usesDirectorFirst(p) && result.plan?.directorBasis !== undefined) throw new Error('A writing draft cannot certify the director treatment.');
+  if (!result.plan?.story?.trim() || !result.plan.fullNarration?.trim() || !result.scenes?.length || !result.scenes.every(s => s.narration.trim())) throw new Error('The draft needs the complete story and exact narration for every scene.');
   if (usesAudioLedCuts(p)) {
     const normalized = (s: string) => s.replace(/\s+/g, ' ').trim();
     if (normalized(result.scenes.map(s => s.narration).join(' ')) !== normalized(result.plan.fullNarration)) throw new Error('Scene narration must preserve the full script without missing or repeated words.');
@@ -10,6 +11,27 @@ export function validatePlanResult(p: Project, result: AgentResult) {
 }
 
 export function validateProductionResult(p: Project, job: Job, result: AgentResult) {
+  if (usesDirectorFirst(p) && job.action === 'storyboard' && job.scope === 'project') {
+    if (result.assets.length || result.sceneUpdates.length || result.settings || result.clipUpdates.length || result.newClips.length || result.removeClipIds.length || result.transitions) throw new Error('Director treatment returns the full spoken plan and scenes, without media, settings or placement edits.');
+    validatePlanResult(p,{...result,plan:result.plan?{...result.plan,directorBasis:undefined}:undefined});
+    if(result.plan?.classification!==undefined&&result.plan.classification!==p.plan.classification)throw new Error('Director treatment must preserve factual classification.');
+    if (!result.scenes || result.scenes.length!==p.scenes.length || result.scenes.some((s,i)=>s.id!==p.scenes[i].id)) throw new Error('Preserve the existing ordered scene IDs during treatment.');
+    const shotIds=new Set<string>();
+    for(const s of result.scenes) {
+      if(!s.direction.trim()||!s.spokenStyle.trim()||s.shots.length<3) throw new Error('Each treated scene needs direction, performance and at least three provisional cuts.');
+      for(const shot of s.shots) {
+        if(shotIds.has(shot.id)||!shot.purpose.trim()||!shot.narrationAnchor.trim()||!s.narration.includes(shot.narrationAnchor)||!shot.startState.trim()||!shot.endState.trim()) throw new Error('Provisional cuts need unique IDs, a purpose, exact narration anchor and action states.');
+        shotIds.add(shot.id);
+      }
+      const old=p.scenes.find(o=>o.id===s.id)!;
+      const audio=p.assets.find(a=>a.id===old.audioAssetId&&!a.archived&&!a.outdated);
+      if(audio&&(old.narration!==s.narration||old.spokenStyle!==s.spokenStyle||old.audioPrompt!==s.audioPrompt)) throw new Error('Director treatment cannot silently rewrite recorded narration or its delivery.');
+      s.approved=p.production.status==='running'||old.approved;
+    }
+    // Application evidence, not an LLM's claim that its draft has been directed.
+    result.plan!.directorBasis=directorBasis({...p,plan:{...p.plan,...result.plan},scenes:result.scenes});
+    return;
+  }
   if (p.production.status !== 'running') return;
   const scene = p.scenes.find(s => s.id === job.sceneId)!;
   if (usesAudioLedCuts(p) && job.action === 'storyboard') {
@@ -17,9 +39,12 @@ export function validateProductionResult(p: Project, job: Job, result: AgentResu
     if (!update || result.assets.length || (update.narration !== undefined && update.narration !== scene.narration) || (update.audioAssetId !== undefined && update.audioAssetId !== scene.audioAssetId)) throw new Error('Direction must return the cut plan while preserving accepted narration; do not generate media in this stage.');
     const issue = directionIssue(p, { ...scene, ...update });
     if (issue) throw new Error(issue);
+    if (usesDirectorFirst(p) && directorTreatmentIssue({...p,scenes:p.scenes.map(s=>s.id===scene.id?{...s,...update}:s)})) throw new Error('Final timing must preserve the treated script, performance and cut events; change only timing and measured-audio basis.');
     return;
   }
   if (!['audio', 'images', 'video'].includes(job.action)) return;
+  if (usesDirectorFirst(p) && directorTreatmentIssue(p)) throw new Error('Complete the current director treatment before media generation.');
+  if (usesDirectorFirst(p) && directorTreatmentIssue({...p,scenes:p.scenes.map(s=>({...s,...result.sceneUpdates.find(u=>u.id===s.id)}))})) throw new Error('Media generation must preserve treated narration, performance and events.');
   if (usesAudioLedCuts(p) && ['images', 'video'].includes(job.action)) {
     const issue = directionIssue(p, scene);
     if (issue) throw new Error(issue);
@@ -40,8 +65,12 @@ export function validateProductionResult(p: Project, job: Job, result: AgentResu
   if (job.action === 'video' && returned.some(a => !p.assets.some(image => image.id === a.sourceImageId && image.kind === 'image' && image.sceneId === scene.id && image.shotId === a.shotId && !image.outdated))) throw new Error('Video results must identify their accepted source image for each shot. Production stopped; the files are preserved for review.');
 }
 
-export function nextProductionTask(p: Project): { action: Job['action']; sceneId: string; instructions: string } | null {
+export function nextProductionTask(p: Project): { action: Job['action']; sceneId: string; scope?: Job['scope']; instructions: string } | null {
   if (p.sourceVideo || p.production.status !== 'running') return null;
+  if (usesDirectorFirst(p) && directorTreatmentIssue(p)) return {
+    action:'storyboard',scope:'project',sceneId:p.scenes[0].id,
+    instructions:'Use references/director.md for the PRE-NARRATION TREATMENT of the complete story. Reshape the unrecorded spoken draft and visual developments together, preserving facts and the existing ordered scene IDs. Return plan.story/fullNarration and the complete scenes array with exact narration, spokenStyle, soundDesign, direction and at least three provisional cuts per scene. Each cut has purpose, exact narrationAnchor, startState/endState and provisional timing. Plan unspoken action and sound space where useful. No media or image/video prompts are required. Do not rewrite current recorded narration. The app stamps the treatment basis after validation.'
+  };
   for (const scene of p.scenes) {
     const audio = p.assets.find(a => a.id === scene.audioAssetId && a.kind === 'audio' && !a.archived);
     if (!audio || audio.outdated || !activeVersion(audio).durationFrames) return {
@@ -53,7 +82,7 @@ export function nextProductionTask(p: Project): { action: Job['action']; sceneId
     const pending = p.scenes.find(scene => directionIssue(p, scene));
     if (pending) return {
       action: 'storyboard', sceneId: pending.id,
-      instructions: `Direct the measured narration for ${pending.title} using references/director.md in the selected skill. Return sceneUpdates with direction, at least three meaningful shots, and directionBasis {audioVersionId: the selected audio activeVersionId, narration: exact unchanged scene narration, fps: current project fps}. Save uneven frame intervals covering the audio exactly, essential short inserts, exact narration anchors, incoming/outgoing states and previous/current/next continuity. Preserve complete scene speech and audioAssetId. Image/video prompts may remain empty. Camera composition belongs to the image prompt writer; camera travel belongs to animation. This stage returns a direction plan only, with no generated assets.`,
+      instructions: `${usesDirectorFirst(p)?'FINAL TIMING ONLY: Preserve the treated scene direction, performance, cut IDs/purposes/anchors/states/sound/media and order. Adjust provisional frame intervals to the selected measured audio. ':''}Direct the measured narration for ${pending.title} using references/director.md in the selected skill. Return sceneUpdates with direction, at least three meaningful shots, and directionBasis {audioVersionId: the selected audio activeVersionId, narration: exact unchanged scene narration, fps: current project fps}. Save uneven frame intervals covering the audio exactly, essential short inserts, exact narration anchors, incoming/outgoing states and previous/current/next continuity. Preserve complete scene speech and audioAssetId. Image/video prompts may remain empty. Camera composition belongs to the image prompt writer; camera travel belongs to animation. This stage returns a direction plan only, with no generated assets.`,
     };
   }
   for (const scene of p.scenes) {

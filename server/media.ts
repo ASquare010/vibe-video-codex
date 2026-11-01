@@ -7,6 +7,8 @@ import { id, activeVersion, clampSceneClips, invalidateNarration, makeClip, scen
 import { placeSourceRender } from '../shared/source-timeline.ts';
 import { nativeRenderAudio } from './source-render.ts';
 import { HttpError, ProjectStore } from './store.ts';
+import {usesDirectorFirst} from '../shared/audio-led.ts';
+import {validateProductionResult} from './production.ts';
 
 export const ffmpegPath = () => process.env.FFMPEG_PATH || ffmpeg || 'ffmpeg';
 export const probePath = () => process.env.FFPROBE_PATH || ffprobe.path;
@@ -79,6 +81,8 @@ export async function applyResult(store: ProjectStore, projectId: string, jobId:
   if (job.action === 'plan' && result.startProduction) throw new HttpError(400, 'Draft results cannot start production directly. The app continues automatically only when the creator chose full production.');
   const rawInput = JSON.parse(await fs.readFile(await store.safeFile(projectId, `jobs/${jobId}/input.json`), 'utf8'));
   const input = { project: projectSchema.parse(rawInput.project) };
+  const treatment=usesDirectorFirst(before)&&job.action==='storyboard'&&job.scope==='project';
+  if(treatment)validateProductionResult(before,job,result);
   if (job.scope === 'scene' && (result.scenes || result.plan || result.settings || result.sceneUpdates.some(s => s.id !== job.sceneId) || result.assets.some(a => a.sceneId !== job.sceneId))) throw new HttpError(400, 'Result tried to change a scene outside its scope');
   if (job.scope === 'scene' && result.removeClipIds.some(id => before.clips.some(c => c.id === id && c.sceneId !== job.sceneId))) throw new HttpError(400, 'Result tried to remove a placement outside its scope');
   const prepared = await Promise.all(result.assets.map(async a => {
@@ -117,8 +121,9 @@ export async function applyResult(store: ProjectStore, projectId: string, jobId:
       Object.assign(scene, delta(input.project.scenes.find(s => s.id === change.id), change));
     }
     if (result.settings) Object.assign(p.settings, delta(input.project.settings, result.settings));
-    invalidateNarration(p, old);
+    invalidateNarration(p, old, treatment);
     if (result.plan) Object.assign(p.plan, delta(input.project.plan, result.plan));
+    if(treatment&&p.production.status==='running') { p.plan.approved=true;p.scenes.forEach(s=>{s.approved=true;}); }
     if (job.action === 'plan') { p.plan.approved = false; p.production = { status: 'awaiting-review', stage: 'plan' }; }
     for (const change of result.clipUpdates) {
       const target = p.clips.find(c => c.id === change.id && (job.scope === 'project' || c.sceneId === job.sceneId));

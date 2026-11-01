@@ -1,8 +1,33 @@
 import { activeVersion, sceneFrames, type Project, type Scene } from './project.ts';
 
-// A saved project's skill is intentionally frozen. Only explicit v2 snapshots opt in.
+// A saved project's skill is intentionally frozen. New snapshots opt in explicitly.
 export function usesAudioLedCuts(p: Pick<Project, 'skill' | 'sourceVideo'>) {
-  return !p.sourceVideo && p.skill?.id === 'cinematic-3d-storytelling' && /^  workflow: audio-led-cuts-v2\s*$/m.test(p.skill.content);
+  return !p.sourceVideo && p.skill?.id === 'cinematic-3d-storytelling' && /^  workflow: (?:audio-led-cuts-v2|director-first-cuts-v3)\s*$/m.test(p.skill.content);
+}
+
+export function usesDirectorFirst(p: Pick<Project, 'skill' | 'sourceVideo'>) {
+  return usesAudioLedCuts(p) && /^  workflow: director-first-cuts-v3\s*$/m.test(p.skill!.content);
+}
+
+// Timing and provider prompts evolve downstream; the directed events and words stay fixed.
+export function directorBasis(p: Pick<Project, 'plan' | 'scenes' | 'theme'>) {
+  return JSON.stringify({story:p.plan.story,fullNarration:p.plan.fullNarration,theme:p.theme,scenes:p.scenes.map(s=>({
+    id:s.id,narration:s.narration,direction:s.direction,spokenStyle:s.spokenStyle,audioPrompt:s.audioPrompt,
+    purpose:s.purpose,soundDesign:s.soundDesign,continuity:s.continuity,
+    shots:s.shots.map(({id,purpose,narrationAnchor,startState,endState,sound,media})=>({id,purpose,narrationAnchor,startState,endState,sound,media}))
+  }))});
+}
+
+export function directorTreatmentIssue(p: Project): string | null {
+  return p.plan.directorBasis===directorBasis(p)?null:'Direct the whole story, provisional cuts and performance before recording narration.';
+}
+
+export function workflowSummary(p: Pick<Project, 'skill' | 'sourceVideo'>) {
+  return usesDirectorFirst(p)
+    ? 'story draft -> director treatment of spoken script, provisional cuts and performance -> all scene narration -> final timing against measured audio -> image prompts/images -> selected-image animation prompts/videos -> director assembly/review'
+    : usesAudioLedCuts(p)
+      ? 'story -> all measured scene narration -> director timing/cuts -> image prompts/images -> animation prompts/videos -> director assembly/review'
+      : 'complete plan -> all scene narration -> images -> videos -> assembly/review';
 }
 
 export function directionBasis(p: Project, scene: Scene) {
