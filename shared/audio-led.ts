@@ -9,6 +9,17 @@ export function usesDirectorFirst(p: Pick<Project, 'skill' | 'sourceVideo'>) {
   return usesAudioLedCuts(p) && /^  workflow: director-first-cuts-v3\s*$/m.test(p.skill!.content);
 }
 
+export function writerOwnsStory(p: Pick<Project, 'skill' | 'sourceVideo'>) {
+  return usesDirectorFirst(p) && /^  story-owner: writer\s*$/m.test(p.skill!.content);
+}
+
+// The saved skill opts in; historical projects retain their original direction policy.
+export function directorPlanningInstructions(p: Pick<Project, 'skill' | 'sourceVideo'>) {
+  return writerOwnsStory(p)
+    ? "Read the writer's story and exact narration as read-only input. Preserve the story, explanations, event order, ending and every scene's words; return story problems to the writer. Direct staging, provisional cuts and performance before recording. Each scene needs at least three meaningful cuts, including at least two brief cuts, usually around 0.5–1.5 seconds, that clarify action, clues, reactions or consequences. Give longer coverage to establishment or major movement; finalize readable, complete movements against measured audio without changing speech or stretching quick actions to the provider's native duration."
+    : 'Reshape the unrecorded spoken draft and visual developments together, preserving facts and the existing ordered scene IDs.';
+}
+
 // Timing and provider prompts evolve downstream; the directed events and words stay fixed.
 export function directorBasis(p: Pick<Project, 'plan' | 'scenes' | 'theme'>) {
   return JSON.stringify({story:p.plan.story,fullNarration:p.plan.fullNarration,theme:p.theme,scenes:p.scenes.map(s=>({
@@ -24,7 +35,7 @@ export function directorTreatmentIssue(p: Project): string | null {
 
 export function workflowSummary(p: Pick<Project, 'skill' | 'sourceVideo'>) {
   return usesDirectorFirst(p)
-    ? 'story draft -> director treatment of spoken script, provisional cuts and performance -> all scene narration -> final timing against measured audio -> image prompts/images -> selected-image animation prompts/videos -> director assembly/review'
+    ? `${writerOwnsStory(p)?'writer story and exact script -> director staging, provisional cuts and performance (script unchanged)':'story draft -> director treatment of spoken script, provisional cuts and performance'} -> all scene narration -> final timing against measured audio -> image prompts/images -> selected-image animation prompts/videos -> director assembly/review`
     : usesAudioLedCuts(p)
       ? 'story -> all measured scene narration -> director timing/cuts -> image prompts/images -> animation prompts/videos -> director assembly/review'
       : 'complete plan -> all scene narration -> images -> videos -> assembly/review';

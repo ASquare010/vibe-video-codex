@@ -1,7 +1,7 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {newProject,newScene,shotSchema,resultSchema,jobSchema,assetSchema,id} from '../shared/project.ts';
-import {directorBasis,directorTreatmentIssue,directionBasis,usesDirectorFirst} from '../shared/audio-led.ts';
+import {directorBasis,directorPlanningInstructions,directorTreatmentIssue,directionBasis,usesDirectorFirst,writerOwnsStory,workflowSummary} from '../shared/audio-led.ts';
 import {nextProductionTask,validatePlanResult,validateProductionResult} from '../server/production.ts';
 import {observationDisplay} from '../shared/observer.ts';
 
@@ -38,6 +38,49 @@ test('partial plan results preserve omitted factual and treatment metadata',()=>
   assert.deepEqual(parsed.plan,{hook:'New hook'});
   const {p,result,job}=fixture();p.plan.classification='factual';result.plan!.classification='fiction';
   assert.throws(()=>validateProductionResult(p,job,result),/factual classification/);
+});
+
+test('writer-owned direction preserves unrecorded words while adding staging and performance',()=>{
+  const {p,result,job}=fixture();p.skill!.content+='  story-owner: writer\n';
+  result.scenes![0].narration=p.scenes[0].narration;result.plan!.fullNarration=p.plan.fullNarration;
+  result.scenes![0].shots.forEach((shot,i)=>shot.narrationAnchor=i===0?'takes the key':'opens the door');
+  validateProductionResult(p,job,result);
+  assert.equal(result.scenes![0].narration,p.scenes[0].narration);
+  assert.notEqual(result.scenes![0].direction,p.scenes[0].direction);
+  assert.notEqual(result.scenes![0].spokenStyle,p.scenes[0].spokenStyle);
+  assert.ok(result.plan!.directorBasis);
+});
+
+test('writer-owned direction rejects story, wording and redistribution changes before recording',()=>{
+  const {p,result,job}=fixture();p.skill!.content+='  story-owner: writer\n';
+  assert.ok(p.scenes.every(s=>!s.audioAssetId));
+  assert.throws(()=>validateProductionResult(p,job,result),/preserve the writer story and exact script/);
+  result.plan!.fullNarration=p.plan.fullNarration;
+  assert.throws(()=>validateProductionResult(p,job,result),/preserve the full script/);
+  result.scenes![0].narration=p.scenes[0].narration;
+  result.scenes![0].shots.forEach(shot=>shot.narrationAnchor='opens the door');
+  for (const field of ['story','hook','researchNotes'] as const) {
+    const changed=structuredClone(result);changed.plan![field]='Different story commitment';
+    assert.throws(()=>validateProductionResult(p,job,changed),/preserve the writer story and exact script/);
+  }
+  const second=newScene('Next');second.narration='He escapes.';p.scenes.push(second);
+  p.plan.fullNarration+=' '+second.narration;
+  result.plan!.fullNarration=p.plan.fullNarration;
+  result.scenes![0].narration=p.scenes[0].narration+' He';
+  result.scenes!.push({...second,narration:'escapes.'});
+  assert.equal(result.scenes!.map(s=>s.narration).join(' '),p.plan.fullNarration);
+  assert.throws(()=>validateProductionResult(p,job,result),/preserve every writer scene narration exactly/);
+});
+
+test('new direction policy reaches task instructions without changing frozen snapshots',()=>{
+  const {p,result,job}=fixture();assert.equal(writerOwnsStory(p),false);
+  // A frozen v3 project still allows the original unrecorded rewrite.
+  validateProductionResult(p,job,result);
+  p.skill!.content+='  story-owner: writer\n';assert.equal(writerOwnsStory(p),true);
+  assert.match(directorPlanningInstructions(p),/read-only input/);
+  assert.match(nextProductionTask(p)!.instructions,/at least two brief cuts/);
+  assert.match(workflowSummary(p),/script unchanged/);
+  p.skill!.content='metadata:\n  workflow: audio-led-cuts-v2\n  story-owner: writer\n';assert.equal(writerOwnsStory(p),false);
 });
 test('frozen v2 and source routes do not opt into director-first; progress distinguishes treatment',()=>{
   const {p}=fixture();p.skill!.content='metadata:\n  workflow: audio-led-cuts-v2\n';assert.equal(usesDirectorFirst(p),false);assert.equal(nextProductionTask(p)?.action,'audio');

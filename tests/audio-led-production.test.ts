@@ -8,7 +8,8 @@ import {ffmpegPath,runMedia} from '../server/media.ts';
 import {newProject,newScene,id,shotSchema,resultSchema,sceneFrames} from '../shared/project.ts';
 import {directorBasis,directionBasis} from '../shared/audio-led.ts';
 
-for(const workflow of ['audio-led-cuts-v2','director-first-cuts-v3']) test(`${workflow} completes its staged production with measured speech and media lineage`,async()=>{
+for(const policy of ['audio-led-cuts-v2','director-first-cuts-v3','writer-owned']) test(`${policy} completes its staged production with measured speech and media lineage`,async()=>{
+  const writerOwned=policy==='writer-owned',workflow=writerOwned?'director-first-cuts-v3':policy;
   const root=path.resolve('data/audio-led-tests');await fs.mkdir(root,{recursive:true});
   const folder=await fs.mkdtemp(path.join(root,'run-'));
   const tone=path.join(folder,'tone.wav'),image=path.join(folder,'frame.png'),video=path.join(folder,'motion.mp4');
@@ -32,7 +33,8 @@ for(const workflow of ['audio-led-cuts-v2','director-first-cuts-v3']) test(`${wo
         result={summary:'Complete script',plan:{story:'A connected event.',fullNarration:p.scenes.map((s:any)=>s.narration).join(' ')},scenes:p.scenes};
       }else if(job.action==='storyboard'&&job.scope==='project'){
         assert.ok(p.scenes.every((s:any)=>!s.audioAssetId));
-        const scenes=p.scenes.map((s:any)=>({...s,narration:'A connected event becomes urgent.',direction:'A single persistent room and continued action.',spokenStyle:'Concern becomes decisive urgency.',
+        if(writerOwned)assert.match(params.input[0].text,/at least two brief cuts/);
+        const scenes=p.scenes.map((s:any)=>({...s,narration:writerOwned?s.narration:'A connected event becomes urgent.',direction:'A single persistent room and continued action.',spokenStyle:'Concern becomes decisive urgency.',
           shots:[120,60,60].map((n,i)=>shotSchema.parse({id:s.id+'-'+i,title:'Cut '+i,purpose:'Visible development '+i,startFrame:[0,120,180][i],durationFrames:n,narrationAnchor:'A connected event',startState:'Established phase '+i,endState:'Established phase '+(i+1)}))}));
         result={summary:'Directed spoken treatment',plan:{story:p.plan.story,fullNarration:scenes.map((s:any)=>s.narration).join(' ')},scenes};
       }else if(job.action==='storyboard'){
@@ -41,7 +43,7 @@ for(const workflow of ['audio-led-cuts-v2','director-first-cuts-v3']) test(`${wo
         result={summary:'Directed timing',sceneUpdates:[{id:scene.id,direction:workflow==='director-first-cuts-v3'?scene.direction:'A single persistent room and continued action.',directionBasis:directionBasis(p,scene),shots:[12,6,6].map((n,i)=>workflow==='director-first-cuts-v3'?{...scene.shots[i],startFrame:[0,12,18][i],durationFrames:n}:shotSchema.parse({id:scene.id+'-'+i,title:'Cut '+i,startFrame:[0,12,18][i],durationFrames:n,narrationAnchor:'A connected event.',startState:'Established phase '+i,endState:'Established phase '+(i+1)}))}]};
       }else{
         const kind=job.action==='audio'?'audio':job.action==='images'?'image':'video';
-        if(workflow==='director-first-cuts-v3') { assert.equal(p.plan.directorBasis,directorBasis(p));assert.equal(scene.narration,'A connected event becomes urgent.'); }
+        if(workflow==='director-first-cuts-v3') { assert.equal(p.plan.directorBasis,directorBasis(p));assert.equal(scene.narration,writerOwned?'A connected event.':'A connected event becomes urgent.'); }
         const file=`media/${jobId}.${kind==='audio'?'wav':kind==='image'?'png':'mp4'}`;
         await fs.copyFile(kind==='audio'?tone:kind==='image'?image:video,path.join(params.cwd,file));
         const shots=kind==='audio'?[]:scene.shots;
@@ -56,7 +58,7 @@ for(const workflow of ['audio-led-cuts-v2','director-first-cuts-v3']) test(`${wo
     }
   }
   const p=newProject('New audio-led production');p.settings.fps=24;p.conversation.mode='managed';
-  p.skill={id:'cinematic-3d-storytelling',name:'Storytelling',content:`metadata:\n  workflow: ${workflow}\n`};
+  p.skill={id:'cinematic-3d-storytelling',name:'Storytelling',content:`metadata:\n  workflow: ${workflow}\n${writerOwned?'  story-owner: writer\n':''}`};
   p.scenes.push(newScene('Second scene'));p.scenes.forEach(s=>{s.narration='A connected event.';assert.equal(s.shots.length,0);});
   const store=new ProjectStore(folder);await store.create(p);
   if(workflow==='director-first-cuts-v3') {

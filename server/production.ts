@@ -1,5 +1,5 @@
 import { activeVersion, type Project, type Job, type AgentResult } from '../shared/project.ts';
-import { directorBasis, directorTreatmentIssue, directionIssue, usesAudioLedCuts, usesDirectorFirst } from '../shared/audio-led.ts';
+import { directorBasis, directorPlanningInstructions, directorTreatmentIssue, directionIssue, usesAudioLedCuts, usesDirectorFirst, writerOwnsStory } from '../shared/audio-led.ts';
 
 export function validatePlanResult(p: Project, result: AgentResult) {
   if (usesDirectorFirst(p) && result.plan?.directorBasis !== undefined) throw new Error('A writing draft cannot certify the director treatment.');
@@ -16,6 +16,12 @@ export function validateProductionResult(p: Project, job: Job, result: AgentResu
     validatePlanResult(p,{...result,plan:result.plan?{...result.plan,directorBasis:undefined}:undefined});
     if(result.plan?.classification!==undefined&&result.plan.classification!==p.plan.classification)throw new Error('Director treatment must preserve factual classification.');
     if (!result.scenes || result.scenes.length!==p.scenes.length || result.scenes.some((s,i)=>s.id!==p.scenes[i].id)) throw new Error('Preserve the existing ordered scene IDs during treatment.');
+    if (writerOwnsStory(p)) {
+      for (const key of ['synopsis','hook','story','fullNarration','researchNotes','targetSeconds'] as const) {
+        if (result.plan?.[key] !== undefined && result.plan[key] !== p.plan[key]) throw new Error('The director must preserve the writer story and exact script; return story or wording changes to the writer.');
+      }
+      if (result.scenes.some((s,i)=>s.narration!==p.scenes[i].narration)) throw new Error('The director must preserve every writer scene narration exactly, even before recording.');
+    }
     const shotIds=new Set<string>();
     for(const s of result.scenes) {
       if(!s.direction.trim()||!s.spokenStyle.trim()||s.shots.length<3) throw new Error('Each treated scene needs direction, performance and at least three provisional cuts.');
@@ -69,7 +75,7 @@ export function nextProductionTask(p: Project): { action: Job['action']; sceneId
   if (p.sourceVideo || p.production.status !== 'running') return null;
   if (usesDirectorFirst(p) && directorTreatmentIssue(p)) return {
     action:'storyboard',scope:'project',sceneId:p.scenes[0].id,
-    instructions:'Use references/director.md for the PRE-NARRATION TREATMENT of the complete story. Reshape the unrecorded spoken draft and visual developments together, preserving facts and the existing ordered scene IDs. Return plan.story/fullNarration and the complete scenes array with exact narration, spokenStyle, soundDesign, direction and at least three provisional cuts per scene. Each cut has purpose, exact narrationAnchor, startState/endState and provisional timing. Plan unspoken action and sound space where useful. No media or image/video prompts are required. Do not rewrite current recorded narration. The app stamps the treatment basis after validation.'
+    instructions:`Use references/director.md for the PRE-NARRATION TREATMENT of the complete story. ${directorPlanningInstructions(p)} Preserve the existing ordered scene IDs. Return plan.story/fullNarration and the complete scenes array with exact narration, spokenStyle, soundDesign, direction and at least three provisional cuts per scene. Each cut has purpose, exact narrationAnchor, startState/endState and provisional timing. Plan unspoken action and sound space where useful. No media or image/video prompts are required. Do not rewrite current recorded narration. The app stamps the treatment basis after validation.`
   };
   for (const scene of p.scenes) {
     const audio = p.assets.find(a => a.id === scene.audioAssetId && a.kind === 'audio' && !a.archived);
@@ -82,7 +88,7 @@ export function nextProductionTask(p: Project): { action: Job['action']; sceneId
     const pending = p.scenes.find(scene => directionIssue(p, scene));
     if (pending) return {
       action: 'storyboard', sceneId: pending.id,
-      instructions: `${usesDirectorFirst(p)?'FINAL TIMING ONLY: Preserve the treated scene direction, performance, cut IDs/purposes/anchors/states/sound/media and order. Adjust provisional frame intervals to the selected measured audio. ':''}Direct the measured narration for ${pending.title} using references/director.md in the selected skill. Return sceneUpdates with direction, at least three meaningful shots, and directionBasis {audioVersionId: the selected audio activeVersionId, narration: exact unchanged scene narration, fps: current project fps}. Save uneven frame intervals covering the audio exactly, essential short inserts, exact narration anchors, incoming/outgoing states and previous/current/next continuity. Preserve complete scene speech and audioAssetId. Image/video prompts may remain empty. Camera composition belongs to the image prompt writer; camera travel belongs to animation. This stage returns a direction plan only, with no generated assets.`,
+      instructions: `${usesDirectorFirst(p)?'FINAL TIMING ONLY: Preserve the treated scene direction, performance, cut IDs/purposes/anchors/states/sound/media and order. Adjust provisional frame intervals to the selected measured audio. ':''}${writerOwnsStory(p)?'Retain at least two purposeful brief cuts per scene, usually around 0.5–1.5 seconds, allowing the complete movement and its result to read. ':''}Direct the measured narration for ${pending.title} using references/director.md in the selected skill. Return sceneUpdates with direction, at least three meaningful shots, and directionBasis {audioVersionId: the selected audio activeVersionId, narration: exact unchanged scene narration, fps: current project fps}. Save uneven frame intervals covering the audio exactly, essential short inserts, exact narration anchors, incoming/outgoing states and previous/current/next continuity. Preserve complete scene speech and audioAssetId. Image/video prompts may remain empty. Camera composition belongs to the image prompt writer; camera travel belongs to animation. This stage returns a direction plan only, with no generated assets.`,
     };
   }
   for (const scene of p.scenes) {
