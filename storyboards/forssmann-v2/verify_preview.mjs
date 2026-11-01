@@ -2,7 +2,8 @@
 import fs from 'node:fs';
 import vm from 'node:vm';
 import assert from 'node:assert/strict';
-const file='data/projects/761bb19c-3366-42b3-bb34-274cc9f0f625/storyboard-v2/review.html';
+const folder=process.argv[2]??'storyboard-v2';assert.ok(['storyboard-v2','storyboard-v3'].includes(folder));
+const file='data/projects/761bb19c-3366-42b3-bb34-274cc9f0f625/'+folder+'/review.html';
 const source=fs.readFileSync(file,'utf8').match(/<script>([\s\S]*?)<\/script>/)[1];
 class Element{children=[];classList={add(){},remove(){}};append(e){this.children.push(e)}setAttribute(){} }
 class FakeAudio{currentTime=0;constructor(src){this.src=src}pause(){}play(){throw new Error('Verification must not play media')}addEventListener(){} }
@@ -18,7 +19,8 @@ for(const c of cuts){
   vm.runInContext(`seek(${c.globalStartFrame+c.durationFrames-1})`,context);
   assert.equal(elements.get('hero').src,c.image);
 }
-for(const [i,frame] of [0,876,1702,2551].entries()){
+const starts=JSON.parse(vm.runInContext('JSON.stringify(starts)',context));
+for(const [i,frame] of starts.entries()){
   vm.runInContext(`seek(${frame})`,context);
   assert.equal(vm.runInContext('si',context),i);
   assert.equal(vm.runInContext('audios[si].currentTime',context),0);

@@ -5,10 +5,14 @@ import hashlib
 import html
 import json
 import math
+import argparse
 
 REPO=Path(__file__).resolve().parents[2]
 ROOT=REPO/'data/projects/761bb19c-3366-42b3-bb34-274cc9f0f625'
-OUT=ROOT/'storyboard-v2'
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--folder',default='storyboard-v2',choices=['storyboard-v2','storyboard-v3'])
+options=parser.parse_args()
+OUT=ROOT/options.folder
 plan=json.loads((OUT/'plan.json').read_text(encoding='utf-8'))
 lock=json.loads((OUT/'preservation-lock.json').read_text(encoding='utf-8'))
 receipts=json.loads((OUT/'image-receipts.json').read_text(encoding='utf-8'))
@@ -61,6 +65,7 @@ for s in plan['scenes']:
 data=dict(scenes=[dict(**s,audio='../'+a['path'],narration=w['narration']) for s,a,w in zip(plan['scenes'],lock['audio'],lock['sceneWords'])],
     cuts=[dict(**c,image='../'+selections[i]['path']) for i,c in enumerate(plan['cuts'])],frames=plan['frames'],fps=24)
 template=(Path(__file__).parent/'review.html').read_text(encoding='utf-8')
-(OUT/'review.html').write_text(template.replace('/*BOARD_DATA*/{}',json.dumps(data).replace('</','<\\/')),encoding='utf-8')
+audio_description='same story, four scenes and accepted Holden audio' if options.folder=='storyboard-v2' else 'same story and four scenes; original Holden performance with long pauses shortened'
+(OUT/'review.html').write_text(template.replace('/*BOARD_DATA*/{}',json.dumps(data).replace('</','<\\/')).replace('same story, four scenes and accepted Holden audio',audio_description),encoding='utf-8')
 (OUT/'selections.json').write_text(json.dumps(selections,indent=2),encoding='utf-8')
-print(json.dumps(dict(cuts=len(selections),newImages=sum(not c['reuse'] for c in plan['cuts']),reusePlacements=sum(bool(c['reuse']) for c in plan['cuts']),frames=plan['frames'],audioHashes='all four unchanged',preview=str(OUT/'review.html'))))
+print(json.dumps(dict(cuts=len(selections),newImages=sum(not c['reuse'] for c in plan['cuts']),reusePlacements=sum(bool(c['reuse']) for c in plan['cuts']),frames=plan['frames'],selectedAudioHashesMatch=True,preview=str(OUT/'review.html'))))

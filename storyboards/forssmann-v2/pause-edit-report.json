@@ -1,0 +1,2815 @@
+{
+  "projectId": "761bb19c-3366-42b3-bb34-274cc9f0f625",
+  "sourceRevision": 54,
+  "reason": "Prior assembly added 10 seconds of generic edge padding. Native files also contained multi-second internal gaps. The ready files had not passed the existing pause-preparation helper.",
+  "policy": {
+    "tempo": 1,
+    "noiseDb": -48,
+    "minimumGapSeconds": 0.65,
+    "retainedGapSeconds": 0.3,
+    "edgeSeconds": 0.12
+  },
+  "frames": 2908,
+  "seconds": 121.16666666666667,
+  "removedSeconds": 22.420250000000006,
+  "scenes": [
+    {
+      "sceneId": "S01",
+      "source": {
+        "sceneId": "S01",
+        "assetId": "ac157509-6dbd-4445-ab44-1282062ae4f3",
+        "versionId": "3de520b5-3443-4c46-8813-da936c97c97c",
+        "path": "media/S01-Holden-ready.wav",
+        "frames": 876,
+        "sha256": "3d9f151feaa191babd5ce51ad5a5b0bf58583dce25beed56657d15973e5693fb"
+      },
+      "selected": {
+        "sceneId": "S01",
+        "assetId": "ac157509-6dbd-4445-ab44-1282062ae4f3",
+        "versionId": "33317219-c224-4342-96a1-9b5b949fc545",
+        "path": "audio-pause-cleanup/S01-Holden-clean.wav",
+        "frames": 714,
+        "sha256": "8f4656d7203c5e644403375a8a72490bd95afd4f7b80f37a4fbcb177632e82b3",
+        "sourceVersionId": "3de520b5-3443-4c46-8813-da936c97c97c",
+        "sourceSha256": "3d9f151feaa191babd5ce51ad5a5b0bf58583dce25beed56657d15973e5693fb"
+      },
+      "sourceSeconds": 36.512708333333336,
+      "outputSeconds": 29.75,
+      "removedSeconds": 6.762708333333336,
+      "retainedPcmExact": true,
+      "tempoFactor": 1,
+      "quietRemovalPeakChecks": [
+        {
+          "inputSeconds": [
+            0.0,
+            1.1971458333333334
+          ],
+          "peakDbFS": -74.75
+        },
+        {
+          "inputSeconds": [
+            4.744833333333333,
+            5.1558125
+          ],
+          "peakDbFS": -90.31
+        },
+        {
+          "inputSeconds": [
+            8.889020833333333,
+            11.303708333333333
+          ],
+          "peakDbFS": -61.37
+        },
+        {
+          "inputSeconds": [
+            20.689895833333335,
+            21.085791666666665
+          ],
+          "peakDbFS": -90.31
+        },
+        {
+          "inputSeconds": [
+            26.753791666666668,
+            27.109895833333333
+          ],
+          "peakDbFS": -90.31
+        },
+        {
+          "inputSeconds": [
+            34.516895833333336,
+            36.512708333333336
+          ],
+          "peakDbFS": -90.31
+        }
+      ],
+      "cutBoundaryReview": [
+        {
+          "cutId": "S01-V2-01",
+          "mappedStartFrame": 0,
+          "selectedStartFrame": 0,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 36
+        },
+        {
+          "cutId": "S01-V2-02",
+          "mappedStartFrame": 36,
+          "selectedStartFrame": 36,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 37
+        },
+        {
+          "cutId": "S01-V2-03",
+          "mappedStartFrame": 78,
+          "selectedStartFrame": 73,
+          "readabilityAdjustmentFrames": -5,
+          "frames": 19
+        },
+        {
+          "cutId": "S01-V2-04",
+          "mappedStartFrame": 87,
+          "selectedStartFrame": 92,
+          "readabilityAdjustmentFrames": 5,
+          "frames": 67
+        },
+        {
+          "cutId": "S01-V2-05",
+          "mappedStartFrame": 166,
+          "selectedStartFrame": 159,
+          "readabilityAdjustmentFrames": -7,
+          "frames": 24
+        },
+        {
+          "cutId": "S01-V2-06",
+          "mappedStartFrame": 175,
+          "selectedStartFrame": 183,
+          "readabilityAdjustmentFrames": 8,
+          "frames": 32
+        },
+        {
+          "cutId": "S01-V2-07",
+          "mappedStartFrame": 215,
+          "selectedStartFrame": 215,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 64
+        },
+        {
+          "cutId": "S01-V2-08",
+          "mappedStartFrame": 279,
+          "selectedStartFrame": 279,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 56
+        },
+        {
+          "cutId": "S01-V2-09",
+          "mappedStartFrame": 335,
+          "selectedStartFrame": 335,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 54
+        },
+        {
+          "cutId": "S01-V2-10",
+          "mappedStartFrame": 393,
+          "selectedStartFrame": 389,
+          "readabilityAdjustmentFrames": -4,
+          "frames": 18
+        },
+        {
+          "cutId": "S01-V2-11",
+          "mappedStartFrame": 402,
+          "selectedStartFrame": 407,
+          "readabilityAdjustmentFrames": 5,
+          "frames": 62
+        },
+        {
+          "cutId": "S01-V2-12",
+          "mappedStartFrame": 469,
+          "selectedStartFrame": 469,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 35
+        },
+        {
+          "cutId": "S01-V2-13",
+          "mappedStartFrame": 504,
+          "selectedStartFrame": 504,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 32
+        },
+        {
+          "cutId": "S01-V2-14",
+          "mappedStartFrame": 536,
+          "selectedStartFrame": 536,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 22
+        },
+        {
+          "cutId": "S01-V2-15",
+          "mappedStartFrame": 558,
+          "selectedStartFrame": 558,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 73
+        },
+        {
+          "cutId": "S01-V2-16",
+          "mappedStartFrame": 631,
+          "selectedStartFrame": 631,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 83
+        }
+      ],
+      "mappedSpeechEvidence": [
+        {
+          "start": 0.0,
+          "end": 3.2628541666666666,
+          "text": " The tube in this doctor's arm was heading toward his heart,",
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.24285416666666668,
+              "word": " The"
+            },
+            {
+              "start": 0.24285416666666668,
+              "end": 0.5628541666666667,
+              "word": " tube"
+            },
+            {
+              "start": 0.5628541666666667,
+              "end": 0.7028541666666667,
+              "word": " in"
+            },
+            {
+              "start": 0.7028541666666667,
+              "end": 0.8228541666666667,
+              "word": " this"
+            },
+            {
+              "start": 0.8228541666666667,
+              "end": 1.2628541666666666,
+              "word": " doctor's"
+            },
+            {
+              "start": 1.2628541666666666,
+              "end": 1.502854166666667,
+              "word": " arm"
+            },
+            {
+              "start": 1.502854166666667,
+              "end": 2.2628541666666666,
+              "word": " was"
+            },
+            {
+              "start": 2.2628541666666666,
+              "end": 2.502854166666667,
+              "word": " heading"
+            },
+            {
+              "start": 2.502854166666667,
+              "end": 2.7828541666666666,
+              "word": " toward"
+            },
+            {
+              "start": 2.7828541666666666,
+              "end": 2.982854166666667,
+              "word": " his"
+            },
+            {
+              "start": 2.982854166666667,
+              "end": 3.2628541666666666,
+              "word": " heart,"
+            }
+          ]
+        },
+        {
+          "start": 3.522854166666667,
+          "end": 6.911875,
+          "text": " and the doctor pushing it forward was also the patient.",
+          "words": [
+            {
+              "start": 3.522854166666667,
+              "end": 3.811875,
+              "word": " and"
+            },
+            {
+              "start": 3.811875,
+              "end": 3.931875,
+              "word": " the"
+            },
+            {
+              "start": 3.931875,
+              "end": 4.211875,
+              "word": " doctor"
+            },
+            {
+              "start": 4.211875,
+              "end": 4.571875,
+              "word": " pushing"
+            },
+            {
+              "start": 4.571875,
+              "end": 4.711875,
+              "word": " it"
+            },
+            {
+              "start": 4.711875,
+              "end": 5.071875,
+              "word": " forward"
+            },
+            {
+              "start": 5.071875,
+              "end": 5.891875,
+              "word": " was"
+            },
+            {
+              "start": 5.891875,
+              "end": 6.351875,
+              "word": " also"
+            },
+            {
+              "start": 6.351875,
+              "end": 6.551875,
+              "word": " the"
+            },
+            {
+              "start": 6.551875,
+              "end": 6.911875,
+              "word": " patient."
+            }
+          ]
+        },
+        {
+          "start": 7.280895833333333,
+          "end": 11.6571875,
+          "text": " In 1929, Werner Forsman was a young physician in Eberswalde, Germany.",
+          "words": [
+            {
+              "start": 7.280895833333333,
+              "end": 7.5371875,
+              "word": " In"
+            },
+            {
+              "start": 7.5371875,
+              "end": 8.2571875,
+              "word": " 1929,"
+            },
+            {
+              "start": 8.6371875,
+              "end": 8.8371875,
+              "word": " Werner"
+            },
+            {
+              "start": 8.8371875,
+              "end": 9.2571875,
+              "word": " Forsman"
+            },
+            {
+              "start": 9.2571875,
+              "end": 9.4571875,
+              "word": " was"
+            },
+            {
+              "start": 9.4571875,
+              "end": 9.5971875,
+              "word": " a"
+            },
+            {
+              "start": 9.5971875,
+              "end": 9.7971875,
+              "word": " young"
+            },
+            {
+              "start": 9.7971875,
+              "end": 10.1171875,
+              "word": " physician"
+            },
+            {
+              "start": 10.1171875,
+              "end": 10.4971875,
+              "word": " in"
+            },
+            {
+              "start": 10.4971875,
+              "end": 11.1771875,
+              "word": " Eberswalde,"
+            },
+            {
+              "start": 11.4571875,
+              "end": 11.6571875,
+              "word": " Germany."
+            }
+          ]
+        },
+        {
+          "start": 12.2771875,
+          "end": 16.3971875,
+          "text": " He wanted to reach the heart from inside a blood vessel without opening the chest.",
+          "words": [
+            {
+              "start": 12.2771875,
+              "end": 12.397187500000003,
+              "word": " He"
+            },
+            {
+              "start": 12.397187500000003,
+              "end": 12.5971875,
+              "word": " wanted"
+            },
+            {
+              "start": 12.5971875,
+              "end": 12.7771875,
+              "word": " to"
+            },
+            {
+              "start": 12.7771875,
+              "end": 12.9371875,
+              "word": " reach"
+            },
+            {
+              "start": 12.9371875,
+              "end": 13.1771875,
+              "word": " the"
+            },
+            {
+              "start": 13.1771875,
+              "end": 13.4371875,
+              "word": " heart"
+            },
+            {
+              "start": 13.4371875,
+              "end": 13.6171875,
+              "word": " from"
+            },
+            {
+              "start": 13.6171875,
+              "end": 14.0971875,
+              "word": " inside"
+            },
+            {
+              "start": 14.0971875,
+              "end": 14.2971875,
+              "word": " a"
+            },
+            {
+              "start": 14.2971875,
+              "end": 14.4571875,
+              "word": " blood"
+            },
+            {
+              "start": 14.4571875,
+              "end": 14.877187499999998,
+              "word": " vessel"
+            },
+            {
+              "start": 14.877187499999998,
+              "end": 15.4371875,
+              "word": " without"
+            },
+            {
+              "start": 15.4371875,
+              "end": 15.877187499999998,
+              "word": " opening"
+            },
+            {
+              "start": 15.877187499999998,
+              "end": 16.037187499999998,
+              "word": " the"
+            },
+            {
+              "start": 16.037187499999998,
+              "end": 16.3971875,
+              "word": " chest."
+            }
+          ]
+        },
+        {
+          "start": 16.741291666666665,
+          "end": 22.041291666666666,
+          "text": " A flexible tube could offer a way in, but his hospital director refused to let him try it on a patient.",
+          "words": [
+            {
+              "start": 16.741291666666665,
+              "end": 16.921291666666665,
+              "word": " A"
+            },
+            {
+              "start": 16.921291666666665,
+              "end": 17.201291666666666,
+              "word": " flexible"
+            },
+            {
+              "start": 17.201291666666666,
+              "end": 17.661291666666667,
+              "word": " tube"
+            },
+            {
+              "start": 17.661291666666667,
+              "end": 17.841291666666667,
+              "word": " could"
+            },
+            {
+              "start": 17.841291666666667,
+              "end": 18.121291666666668,
+              "word": " offer"
+            },
+            {
+              "start": 18.121291666666668,
+              "end": 18.301291666666668,
+              "word": " a"
+            },
+            {
+              "start": 18.301291666666668,
+              "end": 18.461291666666668,
+              "word": " way"
+            },
+            {
+              "start": 18.461291666666668,
+              "end": 18.761291666666665,
+              "word": " in,"
+            },
+            {
+              "start": 19.201291666666666,
+              "end": 19.361291666666666,
+              "word": " but"
+            },
+            {
+              "start": 19.361291666666666,
+              "end": 19.501291666666667,
+              "word": " his"
+            },
+            {
+              "start": 19.501291666666667,
+              "end": 19.821291666666667,
+              "word": " hospital"
+            },
+            {
+              "start": 19.821291666666667,
+              "end": 20.201291666666666,
+              "word": " director"
+            },
+            {
+              "start": 20.201291666666666,
+              "end": 20.60129166666667,
+              "word": " refused"
+            },
+            {
+              "start": 20.60129166666667,
+              "end": 20.981291666666667,
+              "word": " to"
+            },
+            {
+              "start": 20.981291666666667,
+              "end": 21.10129166666667,
+              "word": " let"
+            },
+            {
+              "start": 21.10129166666667,
+              "end": 21.201291666666666,
+              "word": " him"
+            },
+            {
+              "start": 21.201291666666666,
+              "end": 21.461291666666668,
+              "word": " try"
+            },
+            {
+              "start": 21.461291666666668,
+              "end": 21.581291666666665,
+              "word": " it"
+            },
+            {
+              "start": 21.581291666666665,
+              "end": 21.661291666666667,
+              "word": " on"
+            },
+            {
+              "start": 21.661291666666667,
+              "end": 21.741291666666665,
+              "word": " a"
+            },
+            {
+              "start": 21.741291666666665,
+              "end": 22.041291666666666,
+              "word": " patient."
+            }
+          ]
+        },
+        {
+          "start": 22.3651875,
+          "end": 24.2251875,
+          "text": " Forsman decided to use himself.",
+          "words": [
+            {
+              "start": 22.3651875,
+              "end": 22.8451875,
+              "word": " Forsman"
+            },
+            {
+              "start": 22.8451875,
+              "end": 23.2251875,
+              "word": " decided"
+            },
+            {
+              "start": 23.2251875,
+              "end": 23.4851875,
+              "word": " to"
+            },
+            {
+              "start": 23.4851875,
+              "end": 23.7451875,
+              "word": " use"
+            },
+            {
+              "start": 23.7451875,
+              "end": 24.2251875,
+              "word": " himself."
+            }
+          ]
+        },
+        {
+          "start": 24.2251875,
+          "end": 29.5451875,
+          "text": " If the experiment went wrong, the person making the discovery would also be the one paying for it.",
+          "words": [
+            {
+              "start": 24.2251875,
+              "end": 24.9251875,
+              "word": " If"
+            },
+            {
+              "start": 24.9251875,
+              "end": 25.0451875,
+              "word": " the"
+            },
+            {
+              "start": 25.0451875,
+              "end": 25.4051875,
+              "word": " experiment"
+            },
+            {
+              "start": 25.4051875,
+              "end": 25.6051875,
+              "word": " went"
+            },
+            {
+              "start": 25.6051875,
+              "end": 25.8651875,
+              "word": " wrong,"
+            },
+            {
+              "start": 26.1051875,
+              "end": 26.1851875,
+              "word": " the"
+            },
+            {
+              "start": 26.1851875,
+              "end": 26.4451875,
+              "word": " person"
+            },
+            {
+              "start": 26.4451875,
+              "end": 26.6851875,
+              "word": " making"
+            },
+            {
+              "start": 26.6851875,
+              "end": 26.8451875,
+              "word": " the"
+            },
+            {
+              "start": 26.8451875,
+              "end": 27.2651875,
+              "word": " discovery"
+            },
+            {
+              "start": 27.2651875,
+              "end": 27.6651875,
+              "word": " would"
+            },
+            {
+              "start": 27.6651875,
+              "end": 28.025187499999994,
+              "word": " also"
+            },
+            {
+              "start": 28.025187499999994,
+              "end": 28.245187500000004,
+              "word": " be"
+            },
+            {
+              "start": 28.245187500000004,
+              "end": 28.345187499999994,
+              "word": " the"
+            },
+            {
+              "start": 28.345187499999994,
+              "end": 28.565187500000004,
+              "word": " one"
+            },
+            {
+              "start": 28.565187500000004,
+              "end": 29.065187500000004,
+              "word": " paying"
+            },
+            {
+              "start": 29.065187500000004,
+              "end": 29.4051875,
+              "word": " for"
+            },
+            {
+              "start": 29.4051875,
+              "end": 29.5451875,
+              "word": " it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sceneId": "S02",
+      "source": {
+        "sceneId": "S02",
+        "assetId": "aa35fd91-ebec-49df-8977-f6c285bae09e",
+        "versionId": "b5436663-4908-41c9-a861-4e135117209c",
+        "path": "media/S02-Holden-ready.wav",
+        "frames": 826,
+        "sha256": "01c37bee66e24c220871a2054dbe9e370c796dca83f7100bd2916541685aa70e"
+      },
+      "selected": {
+        "sceneId": "S02",
+        "assetId": "aa35fd91-ebec-49df-8977-f6c285bae09e",
+        "versionId": "3e6ca2b7-2c13-4887-82f7-c7067eb7befb",
+        "path": "audio-pause-cleanup/S02-Holden-clean.wav",
+        "frames": 629,
+        "sha256": "875ad7dcdef9ae0f0e93ed1bebeae0e2d95f43c2ec9d318361585d8a9d14f4a6",
+        "sourceVersionId": "b5436663-4908-41c9-a861-4e135117209c",
+        "sourceSha256": "01c37bee66e24c220871a2054dbe9e370c796dca83f7100bd2916541685aa70e"
+      },
+      "sourceSeconds": 34.419916666666666,
+      "outputSeconds": 26.208333333333332,
+      "removedSeconds": 8.211583333333333,
+      "retainedPcmExact": true,
+      "tempoFactor": 1,
+      "quietRemovalPeakChecks": [
+        {
+          "inputSeconds": [
+            0.0,
+            0.06004166666666667
+          ],
+          "peakDbFS": -90.31
+        },
+        {
+          "inputSeconds": [
+            12.447291666666667,
+            18.230104166666667
+          ],
+          "peakDbFS": -52.92
+        },
+        {
+          "inputSeconds": [
+            22.581708333333335,
+            23.0495
+          ],
+          "peakDbFS": -90.31
+        },
+        {
+          "inputSeconds": [
+            32.53810416666666,
+            34.419916666666666
+          ],
+          "peakDbFS": -90.31
+        }
+      ],
+      "cutBoundaryReview": [
+        {
+          "cutId": "S02-V2-01",
+          "mappedStartFrame": 0,
+          "selectedStartFrame": 0,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 40
+        },
+        {
+          "cutId": "S02-V2-02",
+          "mappedStartFrame": 40,
+          "selectedStartFrame": 40,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 19
+        },
+        {
+          "cutId": "S02-V2-03",
+          "mappedStartFrame": 59,
+          "selectedStartFrame": 59,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 48
+        },
+        {
+          "cutId": "S02-V2-04",
+          "mappedStartFrame": 107,
+          "selectedStartFrame": 107,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 60
+        },
+        {
+          "cutId": "S02-V2-05",
+          "mappedStartFrame": 167,
+          "selectedStartFrame": 167,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 42
+        },
+        {
+          "cutId": "S02-V2-06",
+          "mappedStartFrame": 209,
+          "selectedStartFrame": 209,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 35
+        },
+        {
+          "cutId": "S02-V2-07",
+          "mappedStartFrame": 251,
+          "selectedStartFrame": 244,
+          "readabilityAdjustmentFrames": -7,
+          "frames": 24
+        },
+        {
+          "cutId": "S02-V2-08",
+          "mappedStartFrame": 291,
+          "selectedStartFrame": 268,
+          "readabilityAdjustmentFrames": -23,
+          "frames": 24
+        },
+        {
+          "cutId": "S02-V2-09",
+          "mappedStartFrame": 297,
+          "selectedStartFrame": 292,
+          "readabilityAdjustmentFrames": -5,
+          "frames": 24
+        },
+        {
+          "cutId": "S02-V2-10",
+          "mappedStartFrame": 298,
+          "selectedStartFrame": 316,
+          "readabilityAdjustmentFrames": 18,
+          "frames": 23
+        },
+        {
+          "cutId": "S02-V2-11",
+          "mappedStartFrame": 321,
+          "selectedStartFrame": 339,
+          "readabilityAdjustmentFrames": 18,
+          "frames": 30
+        },
+        {
+          "cutId": "S02-V2-12",
+          "mappedStartFrame": 369,
+          "selectedStartFrame": 369,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 35
+        },
+        {
+          "cutId": "S02-V2-13",
+          "mappedStartFrame": 404,
+          "selectedStartFrame": 404,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 19
+        },
+        {
+          "cutId": "S02-V2-14",
+          "mappedStartFrame": 423,
+          "selectedStartFrame": 423,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 80
+        },
+        {
+          "cutId": "S02-V2-15",
+          "mappedStartFrame": 503,
+          "selectedStartFrame": 503,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 96
+        },
+        {
+          "cutId": "S02-V2-16",
+          "mappedStartFrame": 599,
+          "selectedStartFrame": 599,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 30
+        }
+      ],
+      "mappedSpeechEvidence": [
+        {
+          "start": 0.0,
+          "end": 4.459958333333333,
+          "text": " He introduced a thin rubber catheter into a vein in his left arm and advanced it through his body.",
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.23995833333333333,
+              "word": " He"
+            },
+            {
+              "start": 0.23995833333333333,
+              "end": 0.6399583333333333,
+              "word": " introduced"
+            },
+            {
+              "start": 0.6399583333333333,
+              "end": 0.7999583333333333,
+              "word": " a"
+            },
+            {
+              "start": 0.7999583333333333,
+              "end": 0.9799583333333334,
+              "word": " thin"
+            },
+            {
+              "start": 0.9799583333333334,
+              "end": 1.1799583333333334,
+              "word": " rubber"
+            },
+            {
+              "start": 1.1799583333333334,
+              "end": 1.6399583333333334,
+              "word": " catheter"
+            },
+            {
+              "start": 1.6399583333333334,
+              "end": 1.8599583333333334,
+              "word": " into"
+            },
+            {
+              "start": 1.8599583333333334,
+              "end": 2.0399583333333333,
+              "word": " a"
+            },
+            {
+              "start": 2.0399583333333333,
+              "end": 2.239958333333333,
+              "word": " vein"
+            },
+            {
+              "start": 2.239958333333333,
+              "end": 2.399958333333333,
+              "word": " in"
+            },
+            {
+              "start": 2.399958333333333,
+              "end": 2.4999583333333333,
+              "word": " his"
+            },
+            {
+              "start": 2.4999583333333333,
+              "end": 2.6799583333333334,
+              "word": " left"
+            },
+            {
+              "start": 2.6799583333333334,
+              "end": 3.0199583333333333,
+              "word": " arm"
+            },
+            {
+              "start": 3.0199583333333333,
+              "end": 3.319958333333333,
+              "word": " and"
+            },
+            {
+              "start": 3.319958333333333,
+              "end": 3.6999583333333335,
+              "word": " advanced"
+            },
+            {
+              "start": 3.6999583333333335,
+              "end": 3.839958333333333,
+              "word": " it"
+            },
+            {
+              "start": 3.839958333333333,
+              "end": 4.039958333333333,
+              "word": " through"
+            },
+            {
+              "start": 4.039958333333333,
+              "end": 4.199958333333333,
+              "word": " his"
+            },
+            {
+              "start": 4.199958333333333,
+              "end": 4.459958333333333,
+              "word": " body."
+            }
+          ]
+        },
+        {
+          "start": 5.239958333333333,
+          "end": 8.679958333333333,
+          "text": " The important part is the route. Veins carry blood back toward the heart,",
+          "words": [
+            {
+              "start": 5.239958333333333,
+              "end": 5.379958333333334,
+              "word": " The"
+            },
+            {
+              "start": 5.379958333333334,
+              "end": 5.639958333333333,
+              "word": " important"
+            },
+            {
+              "start": 5.639958333333333,
+              "end": 5.899958333333333,
+              "word": " part"
+            },
+            {
+              "start": 5.899958333333333,
+              "end": 6.079958333333333,
+              "word": " is"
+            },
+            {
+              "start": 6.079958333333333,
+              "end": 6.199958333333333,
+              "word": " the"
+            },
+            {
+              "start": 6.199958333333333,
+              "end": 6.439958333333333,
+              "word": " route."
+            },
+            {
+              "start": 6.919958333333334,
+              "end": 7.159958333333333,
+              "word": " Veins"
+            },
+            {
+              "start": 7.159958333333333,
+              "end": 7.399958333333333,
+              "word": " carry"
+            },
+            {
+              "start": 7.399958333333333,
+              "end": 7.739958333333333,
+              "word": " blood"
+            },
+            {
+              "start": 7.739958333333333,
+              "end": 8.019958333333333,
+              "word": " back"
+            },
+            {
+              "start": 8.019958333333333,
+              "end": 8.239958333333334,
+              "word": " toward"
+            },
+            {
+              "start": 8.239958333333334,
+              "end": 8.399958333333334,
+              "word": " the"
+            },
+            {
+              "start": 8.399958333333334,
+              "end": 8.679958333333333,
+              "word": " heart,"
+            }
+          ]
+        },
+        {
+          "start": 8.919958333333334,
+          "end": 12.099958333333333,
+          "text": " so the tube could follow an existing passage instead of piercing the chest.",
+          "words": [
+            {
+              "start": 8.919958333333334,
+              "end": 9.199958333333333,
+              "word": " so"
+            },
+            {
+              "start": 9.199958333333333,
+              "end": 9.339958333333334,
+              "word": " the"
+            },
+            {
+              "start": 9.339958333333334,
+              "end": 9.539958333333333,
+              "word": " tube"
+            },
+            {
+              "start": 9.539958333333333,
+              "end": 9.719958333333333,
+              "word": " could"
+            },
+            {
+              "start": 9.719958333333333,
+              "end": 9.979958333333332,
+              "word": " follow"
+            },
+            {
+              "start": 9.979958333333332,
+              "end": 10.099958333333333,
+              "word": " an"
+            },
+            {
+              "start": 10.099958333333333,
+              "end": 10.419958333333334,
+              "word": " existing"
+            },
+            {
+              "start": 10.419958333333334,
+              "end": 10.839958333333334,
+              "word": " passage"
+            },
+            {
+              "start": 10.839958333333334,
+              "end": 11.159958333333334,
+              "word": " instead"
+            },
+            {
+              "start": 11.159958333333334,
+              "end": 11.319958333333334,
+              "word": " of"
+            },
+            {
+              "start": 11.319958333333334,
+              "end": 11.559958333333332,
+              "word": " piercing"
+            },
+            {
+              "start": 11.559958333333332,
+              "end": 11.779958333333333,
+              "word": " the"
+            },
+            {
+              "start": 11.779958333333333,
+              "end": 12.099958333333333,
+              "word": " chest."
+            }
+          ]
+        },
+        {
+          "start": 12.417145833333336,
+          "end": 16.437145833333332,
+          "text": " But being inside a vein wasn't enough. He still needed to know where the tip had gone.",
+          "words": [
+            {
+              "start": 12.417145833333336,
+              "end": 12.657145833333333,
+              "word": " But"
+            },
+            {
+              "start": 12.657145833333333,
+              "end": 12.837145833333333,
+              "word": " being"
+            },
+            {
+              "start": 12.837145833333333,
+              "end": 13.177145833333332,
+              "word": " inside"
+            },
+            {
+              "start": 13.177145833333332,
+              "end": 13.277145833333334,
+              "word": " a"
+            },
+            {
+              "start": 13.277145833333334,
+              "end": 13.477145833333333,
+              "word": " vein"
+            },
+            {
+              "start": 13.477145833333333,
+              "end": 13.797145833333333,
+              "word": " wasn't"
+            },
+            {
+              "start": 13.797145833333333,
+              "end": 14.077145833333336,
+              "word": " enough."
+            },
+            {
+              "start": 14.617145833333334,
+              "end": 14.757145833333336,
+              "word": " He"
+            },
+            {
+              "start": 14.757145833333336,
+              "end": 14.977145833333333,
+              "word": " still"
+            },
+            {
+              "start": 14.977145833333333,
+              "end": 15.177145833333332,
+              "word": " needed"
+            },
+            {
+              "start": 15.177145833333332,
+              "end": 15.357145833333334,
+              "word": " to"
+            },
+            {
+              "start": 15.357145833333334,
+              "end": 15.517145833333334,
+              "word": " know"
+            },
+            {
+              "start": 15.517145833333334,
+              "end": 15.697145833333334,
+              "word": " where"
+            },
+            {
+              "start": 15.697145833333334,
+              "end": 15.837145833333333,
+              "word": " the"
+            },
+            {
+              "start": 15.837145833333333,
+              "end": 16.017145833333334,
+              "word": " tip"
+            },
+            {
+              "start": 16.017145833333334,
+              "end": 16.157145833333335,
+              "word": " had"
+            },
+            {
+              "start": 16.157145833333335,
+              "end": 16.437145833333332,
+              "word": " gone."
+            }
+          ]
+        },
+        {
+          "start": 16.82935416666667,
+          "end": 20.16935416666667,
+          "text": " With the catheter still in place, forcemen walked to the x-ray department.",
+          "words": [
+            {
+              "start": 16.82935416666667,
+              "end": 16.989354166666665,
+              "word": " With"
+            },
+            {
+              "start": 16.989354166666665,
+              "end": 17.129354166666666,
+              "word": " the"
+            },
+            {
+              "start": 17.129354166666666,
+              "end": 17.489354166666665,
+              "word": " catheter"
+            },
+            {
+              "start": 17.489354166666665,
+              "end": 17.709354166666667,
+              "word": " still"
+            },
+            {
+              "start": 17.709354166666667,
+              "end": 17.849354166666668,
+              "word": " in"
+            },
+            {
+              "start": 17.849354166666668,
+              "end": 18.16935416666667,
+              "word": " place,"
+            },
+            {
+              "start": 18.66935416666667,
+              "end": 19.029354166666668,
+              "word": " forcemen"
+            },
+            {
+              "start": 19.029354166666668,
+              "end": 19.229354166666667,
+              "word": " walked"
+            },
+            {
+              "start": 19.229354166666667,
+              "end": 19.429354166666666,
+              "word": " to"
+            },
+            {
+              "start": 19.429354166666666,
+              "end": 19.549354166666667,
+              "word": " the"
+            },
+            {
+              "start": 19.549354166666667,
+              "end": 19.729354166666667,
+              "word": " x"
+            },
+            {
+              "start": 19.729354166666667,
+              "end": 19.82935416666667,
+              "word": "-ray"
+            },
+            {
+              "start": 19.82935416666667,
+              "end": 20.16935416666667,
+              "word": " department."
+            }
+          ]
+        },
+        {
+          "start": 20.929354166666666,
+          "end": 23.789354166666666,
+          "text": " His own body was carrying the experiment down the hospital corridor,",
+          "words": [
+            {
+              "start": 20.929354166666666,
+              "end": 21.109354166666666,
+              "word": " His"
+            },
+            {
+              "start": 21.109354166666666,
+              "end": 21.269354166666666,
+              "word": " own"
+            },
+            {
+              "start": 21.269354166666666,
+              "end": 21.529354166666668,
+              "word": " body"
+            },
+            {
+              "start": 21.529354166666668,
+              "end": 21.709354166666667,
+              "word": " was"
+            },
+            {
+              "start": 21.709354166666667,
+              "end": 21.949354166666666,
+              "word": " carrying"
+            },
+            {
+              "start": 21.949354166666666,
+              "end": 22.16935416666667,
+              "word": " the"
+            },
+            {
+              "start": 22.16935416666667,
+              "end": 22.549354166666667,
+              "word": " experiment"
+            },
+            {
+              "start": 22.549354166666667,
+              "end": 22.82935416666667,
+              "word": " down"
+            },
+            {
+              "start": 22.82935416666667,
+              "end": 22.989354166666665,
+              "word": " the"
+            },
+            {
+              "start": 22.989354166666665,
+              "end": 23.269354166666666,
+              "word": " hospital"
+            },
+            {
+              "start": 23.269354166666666,
+              "end": 23.789354166666666,
+              "word": " corridor,"
+            }
+          ]
+        },
+        {
+          "start": 24.129354166666666,
+          "end": 26.02935416666667,
+          "text": " and the evidence was waiting in another room.",
+          "words": [
+            {
+              "start": 24.129354166666666,
+              "end": 24.349354166666668,
+              "word": " and"
+            },
+            {
+              "start": 24.349354166666668,
+              "end": 24.449354166666666,
+              "word": " the"
+            },
+            {
+              "start": 24.449354166666666,
+              "end": 24.709354166666667,
+              "word": " evidence"
+            },
+            {
+              "start": 24.709354166666667,
+              "end": 24.949354166666666,
+              "word": " was"
+            },
+            {
+              "start": 24.949354166666666,
+              "end": 25.189354166666668,
+              "word": " waiting"
+            },
+            {
+              "start": 25.189354166666668,
+              "end": 25.409354166666667,
+              "word": " in"
+            },
+            {
+              "start": 25.409354166666667,
+              "end": 25.649354166666665,
+              "word": " another"
+            },
+            {
+              "start": 25.649354166666665,
+              "end": 26.02935416666667,
+              "word": " room."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sceneId": "S03",
+      "source": {
+        "sceneId": "S03",
+        "assetId": "64f7dedc-c341-44f0-ad88-d18c6f77e06b",
+        "versionId": "493cb510-5c98-486d-9b73-ff01fe060f8c",
+        "path": "media/S03-Holden-ready.wav",
+        "frames": 849,
+        "sha256": "168295a38fed30e5692b96b4d0d6f14317e218e2a118b8dc09d3703f049fcadb"
+      },
+      "selected": {
+        "sceneId": "S03",
+        "assetId": "64f7dedc-c341-44f0-ad88-d18c6f77e06b",
+        "versionId": "130f970c-4224-4e5d-8e87-447f908bf4cf",
+        "path": "audio-pause-cleanup/S03-Holden-clean.wav",
+        "frames": 762,
+        "sha256": "ffbf940b7b6f8565e6bf00481d253a34ec609099f0db8538e325f7eab618f1bd",
+        "sourceVersionId": "493cb510-5c98-486d-9b73-ff01fe060f8c",
+        "sourceSha256": "168295a38fed30e5692b96b4d0d6f14317e218e2a118b8dc09d3703f049fcadb"
+      },
+      "sourceSeconds": 35.3751875,
+      "outputSeconds": 31.75,
+      "removedSeconds": 3.6251875000000027,
+      "retainedPcmExact": true,
+      "tempoFactor": 1,
+      "quietRemovalPeakChecks": [
+        {
+          "inputSeconds": [
+            0.0,
+            0.0180625
+          ],
+          "peakDbFS": -90.31
+        },
+        {
+          "inputSeconds": [
+            1.8364791666666667,
+            2.2487291666666667
+          ],
+          "peakDbFS": -90.31
+        },
+        {
+          "inputSeconds": [
+            11.295604166666667,
+            11.731604166666667
+          ],
+          "peakDbFS": -90.31
+        },
+        {
+          "inputSeconds": [
+            15.756104166666667,
+            16.1305
+          ],
+          "peakDbFS": -90.31
+        },
+        {
+          "inputSeconds": [
+            28.750104166666667,
+            29.139291666666665
+          ],
+          "peakDbFS": -90.31
+        },
+        {
+          "inputSeconds": [
+            33.37110416666667,
+            35.3751875
+          ],
+          "peakDbFS": -90.31
+        }
+      ],
+      "cutBoundaryReview": [
+        {
+          "cutId": "S03-V2-01",
+          "mappedStartFrame": 0,
+          "selectedStartFrame": 0,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 32
+        },
+        {
+          "cutId": "S03-V2-02",
+          "mappedStartFrame": 37,
+          "selectedStartFrame": 32,
+          "readabilityAdjustmentFrames": -5,
+          "frames": 21
+        },
+        {
+          "cutId": "S03-V2-03",
+          "mappedStartFrame": 48,
+          "selectedStartFrame": 53,
+          "readabilityAdjustmentFrames": 5,
+          "frames": 51
+        },
+        {
+          "cutId": "S03-V2-04",
+          "mappedStartFrame": 104,
+          "selectedStartFrame": 104,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 59
+        },
+        {
+          "cutId": "S03-V2-05",
+          "mappedStartFrame": 163,
+          "selectedStartFrame": 163,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 79
+        },
+        {
+          "cutId": "S03-V2-06",
+          "mappedStartFrame": 242,
+          "selectedStartFrame": 242,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 44
+        },
+        {
+          "cutId": "S03-V2-07",
+          "mappedStartFrame": 286,
+          "selectedStartFrame": 286,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 74
+        },
+        {
+          "cutId": "S03-V2-08",
+          "mappedStartFrame": 360,
+          "selectedStartFrame": 360,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 20
+        },
+        {
+          "cutId": "S03-V2-09",
+          "mappedStartFrame": 380,
+          "selectedStartFrame": 380,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 82
+        },
+        {
+          "cutId": "S03-V2-10",
+          "mappedStartFrame": 462,
+          "selectedStartFrame": 462,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 70
+        },
+        {
+          "cutId": "S03-V2-11",
+          "mappedStartFrame": 532,
+          "selectedStartFrame": 532,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 88
+        },
+        {
+          "cutId": "S03-V2-12",
+          "mappedStartFrame": 620,
+          "selectedStartFrame": 620,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 47
+        },
+        {
+          "cutId": "S03-V2-13",
+          "mappedStartFrame": 667,
+          "selectedStartFrame": 667,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 48
+        },
+        {
+          "cutId": "S03-V2-14",
+          "mappedStartFrame": 715,
+          "selectedStartFrame": 715,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 47
+        }
+      ],
+      "mappedSpeechEvidence": [
+        {
+          "start": 0.0,
+          "end": 3.9696875000000005,
+          "text": " The x-ray supplied the answer. The catheter had reached his right atrium,",
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.2219375,
+              "word": " The"
+            },
+            {
+              "start": 0.2219375,
+              "end": 0.4419375,
+              "word": " x"
+            },
+            {
+              "start": 0.4419375,
+              "end": 0.5819375,
+              "word": "-ray"
+            },
+            {
+              "start": 0.5819375,
+              "end": 0.8419375,
+              "word": " supplied"
+            },
+            {
+              "start": 0.8419375,
+              "end": 1.2019375,
+              "word": " the"
+            },
+            {
+              "start": 1.2019375,
+              "end": 1.5419375,
+              "word": " answer."
+            },
+            {
+              "start": 1.9696875,
+              "end": 2.1096875,
+              "word": " The"
+            },
+            {
+              "start": 2.1096875,
+              "end": 2.5096875,
+              "word": " catheter"
+            },
+            {
+              "start": 2.5096875,
+              "end": 2.7896875,
+              "word": " had"
+            },
+            {
+              "start": 2.7896875,
+              "end": 3.0296875,
+              "word": " reached"
+            },
+            {
+              "start": 3.0296875,
+              "end": 3.2496875,
+              "word": " his"
+            },
+            {
+              "start": 3.2496875,
+              "end": 3.4696875,
+              "word": " right"
+            },
+            {
+              "start": 3.4696875,
+              "end": 3.9696875000000005,
+              "word": " atrium,"
+            }
+          ]
+        },
+        {
+          "start": 4.3096875,
+          "end": 9.349687499999998,
+          "text": " one of the heart's upper chambers. About 65 centimeters of tubing now marked a root from",
+          "words": [
+            {
+              "start": 4.3096875,
+              "end": 4.4096875,
+              "word": " one"
+            },
+            {
+              "start": 4.4096875,
+              "end": 4.509687500000001,
+              "word": " of"
+            },
+            {
+              "start": 4.509687500000001,
+              "end": 4.6096875,
+              "word": " the"
+            },
+            {
+              "start": 4.6096875,
+              "end": 4.9096875,
+              "word": " heart's"
+            },
+            {
+              "start": 4.9096875,
+              "end": 5.0896875,
+              "word": " upper"
+            },
+            {
+              "start": 5.0896875,
+              "end": 5.5096875,
+              "word": " chambers."
+            },
+            {
+              "start": 6.2296875,
+              "end": 6.4296875,
+              "word": " About"
+            },
+            {
+              "start": 6.4296875,
+              "end": 6.9696875,
+              "word": " 65"
+            },
+            {
+              "start": 6.9696875,
+              "end": 7.3496875,
+              "word": " centimeters"
+            },
+            {
+              "start": 7.3496875,
+              "end": 7.6696875,
+              "word": " of"
+            },
+            {
+              "start": 7.6696875,
+              "end": 7.9296875,
+              "word": " tubing"
+            },
+            {
+              "start": 7.9296875,
+              "end": 8.3096875,
+              "word": " now"
+            },
+            {
+              "start": 8.3096875,
+              "end": 8.609687499999998,
+              "word": " marked"
+            },
+            {
+              "start": 8.609687499999998,
+              "end": 8.7496875,
+              "word": " a"
+            },
+            {
+              "start": 8.7496875,
+              "end": 8.9896875,
+              "word": " root"
+            },
+            {
+              "start": 8.9896875,
+              "end": 9.349687499999998,
+              "word": " from"
+            }
+          ]
+        },
+        {
+          "start": 9.349687499999998,
+          "end": 14.5736875,
+          "text": " his arm into his heart. He had survived, and he had a picture to prove where the tube was.",
+          "words": [
+            {
+              "start": 9.349687499999998,
+              "end": 9.5496875,
+              "word": " his"
+            },
+            {
+              "start": 9.5496875,
+              "end": 9.849687499999998,
+              "word": " arm"
+            },
+            {
+              "start": 9.849687499999998,
+              "end": 10.1696875,
+              "word": " into"
+            },
+            {
+              "start": 10.1696875,
+              "end": 10.369687500000001,
+              "word": " his"
+            },
+            {
+              "start": 10.369687500000001,
+              "end": 10.6296875,
+              "word": " heart."
+            },
+            {
+              "start": 10.9736875,
+              "end": 11.1336875,
+              "word": " He"
+            },
+            {
+              "start": 11.1336875,
+              "end": 11.2736875,
+              "word": " had"
+            },
+            {
+              "start": 11.2736875,
+              "end": 11.6536875,
+              "word": " survived,"
+            },
+            {
+              "start": 12.0936875,
+              "end": 12.3136875,
+              "word": " and"
+            },
+            {
+              "start": 12.3136875,
+              "end": 12.4136875,
+              "word": " he"
+            },
+            {
+              "start": 12.4136875,
+              "end": 12.5136875,
+              "word": " had"
+            },
+            {
+              "start": 12.5136875,
+              "end": 12.6136875,
+              "word": " a"
+            },
+            {
+              "start": 12.6136875,
+              "end": 12.8336875,
+              "word": " picture"
+            },
+            {
+              "start": 12.8336875,
+              "end": 13.0336875,
+              "word": " to"
+            },
+            {
+              "start": 13.0336875,
+              "end": 13.3936875,
+              "word": " prove"
+            },
+            {
+              "start": 13.3936875,
+              "end": 13.8136875,
+              "word": " where"
+            },
+            {
+              "start": 13.8136875,
+              "end": 13.9736875,
+              "word": " the"
+            },
+            {
+              "start": 13.9736875,
+              "end": 14.2136875,
+              "word": " tube"
+            },
+            {
+              "start": 14.2136875,
+              "end": 14.5736875,
+              "word": " was."
+            }
+          ]
+        },
+        {
+          "start": 15.01929166666667,
+          "end": 19.179291666666668,
+          "text": " Forcemen published the experiment that November, but a startling demonstration did",
+          "words": [
+            {
+              "start": 15.01929166666667,
+              "end": 15.499291666666664,
+              "word": " Forcemen"
+            },
+            {
+              "start": 15.499291666666664,
+              "end": 15.739291666666666,
+              "word": " published"
+            },
+            {
+              "start": 15.739291666666666,
+              "end": 15.999291666666664,
+              "word": " the"
+            },
+            {
+              "start": 15.999291666666664,
+              "end": 16.439291666666666,
+              "word": " experiment"
+            },
+            {
+              "start": 16.439291666666666,
+              "end": 16.739291666666666,
+              "word": " that"
+            },
+            {
+              "start": 16.739291666666666,
+              "end": 17.119291666666665,
+              "word": " November,"
+            },
+            {
+              "start": 17.539291666666667,
+              "end": 17.819291666666665,
+              "word": " but"
+            },
+            {
+              "start": 17.819291666666665,
+              "end": 17.919291666666666,
+              "word": " a"
+            },
+            {
+              "start": 17.919291666666666,
+              "end": 18.299291666666665,
+              "word": " startling"
+            },
+            {
+              "start": 18.299291666666665,
+              "end": 18.839291666666664,
+              "word": " demonstration"
+            },
+            {
+              "start": 18.839291666666664,
+              "end": 19.179291666666668,
+              "word": " did"
+            }
+          ]
+        },
+        {
+          "start": 19.179291666666668,
+          "end": 23.119291666666665,
+          "text": " not immediately become accepted medicine. His work attracted little interest,",
+          "words": [
+            {
+              "start": 19.179291666666668,
+              "end": 19.339291666666664,
+              "word": " not"
+            },
+            {
+              "start": 19.339291666666664,
+              "end": 19.799291666666665,
+              "word": " immediately"
+            },
+            {
+              "start": 19.799291666666665,
+              "end": 20.179291666666668,
+              "word": " become"
+            },
+            {
+              "start": 20.179291666666668,
+              "end": 20.619291666666665,
+              "word": " accepted"
+            },
+            {
+              "start": 20.619291666666665,
+              "end": 20.999291666666668,
+              "word": " medicine."
+            },
+            {
+              "start": 21.559291666666667,
+              "end": 21.759291666666666,
+              "word": " His"
+            },
+            {
+              "start": 21.759291666666666,
+              "end": 21.999291666666668,
+              "word": " work"
+            },
+            {
+              "start": 21.999291666666668,
+              "end": 22.399291666666667,
+              "word": " attracted"
+            },
+            {
+              "start": 22.399291666666667,
+              "end": 22.699291666666667,
+              "word": " little"
+            },
+            {
+              "start": 22.699291666666667,
+              "end": 23.119291666666665,
+              "word": " interest,"
+            }
+          ]
+        },
+        {
+          "start": 23.439291666666666,
+          "end": 27.219291666666667,
+          "text": " and the surgeon Ferdinand Sauerbroek dismissed such experiments as circus work.",
+          "words": [
+            {
+              "start": 23.439291666666666,
+              "end": 23.659291666666668,
+              "word": " and"
+            },
+            {
+              "start": 23.659291666666668,
+              "end": 23.779291666666666,
+              "word": " the"
+            },
+            {
+              "start": 23.779291666666666,
+              "end": 24.019291666666668,
+              "word": " surgeon"
+            },
+            {
+              "start": 24.019291666666668,
+              "end": 24.539291666666667,
+              "word": " Ferdinand"
+            },
+            {
+              "start": 24.539291666666667,
+              "end": 25.159291666666668,
+              "word": " Sauerbroek"
+            },
+            {
+              "start": 25.159291666666668,
+              "end": 25.519291666666668,
+              "word": " dismissed"
+            },
+            {
+              "start": 25.519291666666668,
+              "end": 25.899291666666667,
+              "word": " such"
+            },
+            {
+              "start": 25.899291666666667,
+              "end": 26.399291666666667,
+              "word": " experiments"
+            },
+            {
+              "start": 26.399291666666667,
+              "end": 26.679291666666668,
+              "word": " as"
+            },
+            {
+              "start": 26.679291666666668,
+              "end": 26.939291666666666,
+              "word": " circus"
+            },
+            {
+              "start": 26.939291666666666,
+              "end": 27.219291666666667,
+              "word": " work."
+            }
+          ]
+        },
+        {
+          "start": 27.219291666666667,
+          "end": 31.470104166666665,
+          "text": " The picture showed what was possible. It did not persuade everyone to follow.",
+          "words": [
+            {
+              "start": 27.219291666666667,
+              "end": 27.770104166666666,
+              "word": " The"
+            },
+            {
+              "start": 27.770104166666666,
+              "end": 28.030104166666668,
+              "word": " picture"
+            },
+            {
+              "start": 28.030104166666668,
+              "end": 28.410104166666667,
+              "word": " showed"
+            },
+            {
+              "start": 28.410104166666667,
+              "end": 28.590104166666666,
+              "word": " what"
+            },
+            {
+              "start": 28.590104166666666,
+              "end": 28.730104166666667,
+              "word": " was"
+            },
+            {
+              "start": 28.730104166666667,
+              "end": 29.110104166666666,
+              "word": " possible."
+            },
+            {
+              "start": 29.590104166666666,
+              "end": 29.690104166666668,
+              "word": " It"
+            },
+            {
+              "start": 29.690104166666668,
+              "end": 29.83010416666667,
+              "word": " did"
+            },
+            {
+              "start": 29.83010416666667,
+              "end": 30.010104166666668,
+              "word": " not"
+            },
+            {
+              "start": 30.010104166666668,
+              "end": 30.430104166666666,
+              "word": " persuade"
+            },
+            {
+              "start": 30.430104166666666,
+              "end": 30.930104166666666,
+              "word": " everyone"
+            },
+            {
+              "start": 30.930104166666666,
+              "end": 31.190104166666668,
+              "word": " to"
+            },
+            {
+              "start": 31.190104166666668,
+              "end": 31.470104166666665,
+              "word": " follow."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sceneId": "S04",
+      "source": {
+        "sceneId": "S04",
+        "assetId": "3550c394-456a-4a27-bda1-0af479be2cfc",
+        "versionId": "e3e36cbc-464c-45af-9f8d-01fe2a29f4fb",
+        "path": "media/S04-Holden-ready.wav",
+        "frames": 894,
+        "sha256": "1c1c25ad71e1fbc85e78bbd4002c32f172215d194a5a325c82993889143b4204"
+      },
+      "selected": {
+        "sceneId": "S04",
+        "assetId": "3550c394-456a-4a27-bda1-0af479be2cfc",
+        "versionId": "ec983eee-b2ca-4429-ac54-38c58e708825",
+        "path": "audio-pause-cleanup/S04-Holden-clean.wav",
+        "frames": 803,
+        "sha256": "147c26b503dd68bc038f4cf510645efd9d1f6e961408c96251a57e3569535250",
+        "sourceVersionId": "e3e36cbc-464c-45af-9f8d-01fe2a29f4fb",
+        "sourceSha256": "1c1c25ad71e1fbc85e78bbd4002c32f172215d194a5a325c82993889143b4204"
+      },
+      "sourceSeconds": 37.27910416666667,
+      "outputSeconds": 33.458333333333336,
+      "removedSeconds": 3.8207708333333343,
+      "retainedPcmExact": true,
+      "tempoFactor": 1,
+      "quietRemovalPeakChecks": [
+        {
+          "inputSeconds": [
+            0.0,
+            0.08220833333333333
+          ],
+          "peakDbFS": -90.31
+        },
+        {
+          "inputSeconds": [
+            2.0626041666666666,
+            2.48475
+          ],
+          "peakDbFS": -90.31
+        },
+        {
+          "inputSeconds": [
+            17.329208333333334,
+            17.751604166666667
+          ],
+          "peakDbFS": -90.31
+        },
+        {
+          "inputSeconds": [
+            34.395,
+            37.27910416666667
+          ],
+          "peakDbFS": -90.31
+        }
+      ],
+      "cutBoundaryReview": [
+        {
+          "cutId": "S04-V2-01",
+          "mappedStartFrame": 0,
+          "selectedStartFrame": 0,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 51
+        },
+        {
+          "cutId": "S04-V2-02",
+          "mappedStartFrame": 51,
+          "selectedStartFrame": 51,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 57
+        },
+        {
+          "cutId": "S04-V2-03",
+          "mappedStartFrame": 108,
+          "selectedStartFrame": 108,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 82
+        },
+        {
+          "cutId": "S04-V2-04",
+          "mappedStartFrame": 190,
+          "selectedStartFrame": 190,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 36
+        },
+        {
+          "cutId": "S04-V2-05",
+          "mappedStartFrame": 226,
+          "selectedStartFrame": 226,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 18
+        },
+        {
+          "cutId": "S04-V2-06",
+          "mappedStartFrame": 244,
+          "selectedStartFrame": 244,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 20
+        },
+        {
+          "cutId": "S04-V2-07",
+          "mappedStartFrame": 264,
+          "selectedStartFrame": 264,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 38
+        },
+        {
+          "cutId": "S04-V2-08",
+          "mappedStartFrame": 302,
+          "selectedStartFrame": 302,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 102
+        },
+        {
+          "cutId": "S04-V2-09",
+          "mappedStartFrame": 404,
+          "selectedStartFrame": 404,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 60
+        },
+        {
+          "cutId": "S04-V2-10",
+          "mappedStartFrame": 464,
+          "selectedStartFrame": 464,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 70
+        },
+        {
+          "cutId": "S04-V2-11",
+          "mappedStartFrame": 534,
+          "selectedStartFrame": 534,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 20
+        },
+        {
+          "cutId": "S04-V2-12",
+          "mappedStartFrame": 554,
+          "selectedStartFrame": 554,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 121
+        },
+        {
+          "cutId": "S04-V2-13",
+          "mappedStartFrame": 675,
+          "selectedStartFrame": 675,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 85
+        },
+        {
+          "cutId": "S04-V2-14",
+          "mappedStartFrame": 760,
+          "selectedStartFrame": 760,
+          "readabilityAdjustmentFrames": 0,
+          "frames": 43
+        }
+      ],
+      "mappedSpeechEvidence": [
+        {
+          "start": 0.0,
+          "end": 1.6377916666666668,
+          "text": " That took more than one man's gamble.",
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.33779166666666666,
+              "word": " That"
+            },
+            {
+              "start": 0.33779166666666666,
+              "end": 0.5577916666666667,
+              "word": " took"
+            },
+            {
+              "start": 0.5577916666666667,
+              "end": 0.7577916666666666,
+              "word": " more"
+            },
+            {
+              "start": 0.7577916666666666,
+              "end": 0.8977916666666667,
+              "word": " than"
+            },
+            {
+              "start": 0.8977916666666667,
+              "end": 1.0777916666666665,
+              "word": " one"
+            },
+            {
+              "start": 1.0777916666666665,
+              "end": 1.4177916666666666,
+              "word": " man's"
+            },
+            {
+              "start": 1.4177916666666666,
+              "end": 1.6377916666666668,
+              "word": " gamble."
+            }
+          ]
+        },
+        {
+          "start": 2.1156458333333332,
+          "end": 6.555645833333333,
+          "text": " In the following years, Andre Cornand and Dickinson Richards developed cardiac catheterization",
+          "words": [
+            {
+              "start": 2.1156458333333332,
+              "end": 2.2156458333333338,
+              "word": " In"
+            },
+            {
+              "start": 2.2156458333333338,
+              "end": 2.2956458333333334,
+              "word": " the"
+            },
+            {
+              "start": 2.2956458333333334,
+              "end": 2.515645833333333,
+              "word": " following"
+            },
+            {
+              "start": 2.515645833333333,
+              "end": 2.9156458333333335,
+              "word": " years,"
+            },
+            {
+              "start": 3.1756458333333333,
+              "end": 3.3556458333333334,
+              "word": " Andre"
+            },
+            {
+              "start": 3.3556458333333334,
+              "end": 3.8356458333333334,
+              "word": " Cornand"
+            },
+            {
+              "start": 3.8356458333333334,
+              "end": 4.135645833333332,
+              "word": " and"
+            },
+            {
+              "start": 4.135645833333332,
+              "end": 4.515645833333333,
+              "word": " Dickinson"
+            },
+            {
+              "start": 4.515645833333333,
+              "end": 4.735645833333334,
+              "word": " Richards"
+            },
+            {
+              "start": 4.735645833333334,
+              "end": 5.355645833333333,
+              "word": " developed"
+            },
+            {
+              "start": 5.355645833333333,
+              "end": 5.735645833333334,
+              "word": " cardiac"
+            },
+            {
+              "start": 5.735645833333334,
+              "end": 6.555645833333333,
+              "word": " catheterization"
+            }
+          ]
+        },
+        {
+          "start": 6.555645833333333,
+          "end": 8.275645833333332,
+          "text": " into a practical research method.",
+          "words": [
+            {
+              "start": 6.555645833333333,
+              "end": 6.995645833333334,
+              "word": " into"
+            },
+            {
+              "start": 6.995645833333334,
+              "end": 7.155645833333334,
+              "word": " a"
+            },
+            {
+              "start": 7.155645833333334,
+              "end": 7.435645833333333,
+              "word": " practical"
+            },
+            {
+              "start": 7.435645833333333,
+              "end": 7.875645833333334,
+              "word": " research"
+            },
+            {
+              "start": 7.875645833333334,
+              "end": 8.275645833333332,
+              "word": " method."
+            }
+          ]
+        },
+        {
+          "start": 8.935645833333334,
+          "end": 12.135645833333333,
+          "text": " Doctors could sample blood and measure pressures inside the circulation,",
+          "words": [
+            {
+              "start": 8.935645833333334,
+              "end": 9.195645833333332,
+              "word": " Doctors"
+            },
+            {
+              "start": 9.195645833333332,
+              "end": 9.455645833333335,
+              "word": " could"
+            },
+            {
+              "start": 9.455645833333335,
+              "end": 9.735645833333333,
+              "word": " sample"
+            },
+            {
+              "start": 9.735645833333333,
+              "end": 10.055645833333333,
+              "word": " blood"
+            },
+            {
+              "start": 10.055645833333333,
+              "end": 10.375645833333335,
+              "word": " and"
+            },
+            {
+              "start": 10.375645833333335,
+              "end": 10.615645833333334,
+              "word": " measure"
+            },
+            {
+              "start": 10.615645833333334,
+              "end": 10.975645833333333,
+              "word": " pressures"
+            },
+            {
+              "start": 10.975645833333333,
+              "end": 11.475645833333333,
+              "word": " inside"
+            },
+            {
+              "start": 11.475645833333333,
+              "end": 11.655645833333333,
+              "word": " the"
+            },
+            {
+              "start": 11.655645833333333,
+              "end": 12.135645833333333,
+              "word": " circulation,"
+            }
+          ]
+        },
+        {
+          "start": 12.575645833333333,
+          "end": 14.415645833333333,
+          "text": " learning how the heart and lungs worked together,",
+          "words": [
+            {
+              "start": 12.575645833333333,
+              "end": 12.895645833333333,
+              "word": " learning"
+            },
+            {
+              "start": 12.895645833333333,
+              "end": 13.115645833333334,
+              "word": " how"
+            },
+            {
+              "start": 13.115645833333334,
+              "end": 13.215645833333333,
+              "word": " the"
+            },
+            {
+              "start": 13.215645833333333,
+              "end": 13.455645833333334,
+              "word": " heart"
+            },
+            {
+              "start": 13.455645833333334,
+              "end": 13.595645833333334,
+              "word": " and"
+            },
+            {
+              "start": 13.595645833333334,
+              "end": 13.875645833333333,
+              "word": " lungs"
+            },
+            {
+              "start": 13.875645833333333,
+              "end": 14.095645833333334,
+              "word": " worked"
+            },
+            {
+              "start": 14.095645833333334,
+              "end": 14.415645833333333,
+              "word": " together,"
+            }
+          ]
+        },
+        {
+          "start": 14.795645833333333,
+          "end": 16.55564583333333,
+          "text": " and what changed when disease struck.",
+          "words": [
+            {
+              "start": 14.795645833333333,
+              "end": 14.975645833333333,
+              "word": " and"
+            },
+            {
+              "start": 14.975645833333333,
+              "end": 15.155645833333333,
+              "word": " what"
+            },
+            {
+              "start": 15.155645833333333,
+              "end": 15.535645833333334,
+              "word": " changed"
+            },
+            {
+              "start": 15.535645833333334,
+              "end": 15.795645833333333,
+              "word": " when"
+            },
+            {
+              "start": 15.795645833333333,
+              "end": 16.115645833333332,
+              "word": " disease"
+            },
+            {
+              "start": 16.115645833333332,
+              "end": 16.55564583333333,
+              "word": " struck."
+            }
+          ]
+        },
+        {
+          "start": 16.833250000000003,
+          "end": 20.69325,
+          "text": " In 1956, 27 years after Forseman's self-experiment,",
+          "words": [
+            {
+              "start": 16.833250000000003,
+              "end": 17.09325,
+              "word": " In"
+            },
+            {
+              "start": 17.09325,
+              "end": 17.71325,
+              "word": " 1956,"
+            },
+            {
+              "start": 18.35325,
+              "end": 18.69325,
+              "word": " 27"
+            },
+            {
+              "start": 18.69325,
+              "end": 19.173250000000003,
+              "word": " years"
+            },
+            {
+              "start": 19.173250000000003,
+              "end": 19.45325,
+              "word": " after"
+            },
+            {
+              "start": 19.45325,
+              "end": 20.03325,
+              "word": " Forseman's"
+            },
+            {
+              "start": 20.03325,
+              "end": 20.173250000000003,
+              "word": " self"
+            },
+            {
+              "start": 20.173250000000003,
+              "end": 20.69325,
+              "word": "-experiment,"
+            }
+          ]
+        },
+        {
+          "start": 21.13325,
+          "end": 23.33325,
+          "text": " all three men shared the Nobel Prize in medicine.",
+          "words": [
+            {
+              "start": 21.13325,
+              "end": 21.33325,
+              "word": " all"
+            },
+            {
+              "start": 21.33325,
+              "end": 21.55325,
+              "word": " three"
+            },
+            {
+              "start": 21.55325,
+              "end": 21.79325,
+              "word": " men"
+            },
+            {
+              "start": 21.79325,
+              "end": 22.09325,
+              "word": " shared"
+            },
+            {
+              "start": 22.09325,
+              "end": 22.25325,
+              "word": " the"
+            },
+            {
+              "start": 22.25325,
+              "end": 22.43325,
+              "word": " Nobel"
+            },
+            {
+              "start": 22.43325,
+              "end": 22.89325,
+              "word": " Prize"
+            },
+            {
+              "start": 22.89325,
+              "end": 23.07325,
+              "word": " in"
+            },
+            {
+              "start": 23.07325,
+              "end": 23.33325,
+              "word": " medicine."
+            }
+          ]
+        },
+        {
+          "start": 24.03325,
+          "end": 26.29325,
+          "text": " The recognition belonged to the daring first step",
+          "words": [
+            {
+              "start": 24.03325,
+              "end": 24.19325,
+              "word": " The"
+            },
+            {
+              "start": 24.19325,
+              "end": 24.55325,
+              "word": " recognition"
+            },
+            {
+              "start": 24.55325,
+              "end": 24.97325,
+              "word": " belonged"
+            },
+            {
+              "start": 24.97325,
+              "end": 25.25325,
+              "word": " to"
+            },
+            {
+              "start": 25.25325,
+              "end": 25.35325,
+              "word": " the"
+            },
+            {
+              "start": 25.35325,
+              "end": 25.65325,
+              "word": " daring"
+            },
+            {
+              "start": 25.65325,
+              "end": 25.91325,
+              "word": " first"
+            },
+            {
+              "start": 25.91325,
+              "end": 26.29325,
+              "word": " step"
+            }
+          ]
+        },
+        {
+          "start": 26.29325,
+          "end": 28.11325,
+          "text": " and the careful work that made it useful.",
+          "words": [
+            {
+              "start": 26.29325,
+              "end": 26.65325,
+              "word": " and"
+            },
+            {
+              "start": 26.65325,
+              "end": 26.75325,
+              "word": " the"
+            },
+            {
+              "start": 26.75325,
+              "end": 27.01325,
+              "word": " careful"
+            },
+            {
+              "start": 27.01325,
+              "end": 27.29325,
+              "word": " work"
+            },
+            {
+              "start": 27.29325,
+              "end": 27.53325,
+              "word": " that"
+            },
+            {
+              "start": 27.53325,
+              "end": 27.71325,
+              "word": " made"
+            },
+            {
+              "start": 27.71325,
+              "end": 27.83325,
+              "word": " it"
+            },
+            {
+              "start": 27.83325,
+              "end": 28.11325,
+              "word": " useful."
+            }
+          ]
+        },
+        {
+          "start": 28.11325,
+          "end": 33.31325,
+          "text": " The tube that had once led through one doctor's arm had opened a route into the living heart.",
+          "words": [
+            {
+              "start": 28.11325,
+              "end": 28.93325,
+              "word": " The"
+            },
+            {
+              "start": 28.93325,
+              "end": 29.25325,
+              "word": " tube"
+            },
+            {
+              "start": 29.25325,
+              "end": 29.63325,
+              "word": " that"
+            },
+            {
+              "start": 29.63325,
+              "end": 29.75325,
+              "word": " had"
+            },
+            {
+              "start": 29.75325,
+              "end": 29.97325,
+              "word": " once"
+            },
+            {
+              "start": 29.97325,
+              "end": 30.23325,
+              "word": " led"
+            },
+            {
+              "start": 30.23325,
+              "end": 30.45325,
+              "word": " through"
+            },
+            {
+              "start": 30.45325,
+              "end": 30.69325,
+              "word": " one"
+            },
+            {
+              "start": 30.69325,
+              "end": 31.15325,
+              "word": " doctor's"
+            },
+            {
+              "start": 31.15325,
+              "end": 31.373249999999995,
+              "word": " arm"
+            },
+            {
+              "start": 31.373249999999995,
+              "end": 31.83325,
+              "word": " had"
+            },
+            {
+              "start": 31.83325,
+              "end": 32.11325,
+              "word": " opened"
+            },
+            {
+              "start": 32.11325,
+              "end": 32.25325,
+              "word": " a"
+            },
+            {
+              "start": 32.25325,
+              "end": 32.453250000000004,
+              "word": " route"
+            },
+            {
+              "start": 32.453250000000004,
+              "end": 32.71325,
+              "word": " into"
+            },
+            {
+              "start": 32.71325,
+              "end": 32.85325,
+              "word": " the"
+            },
+            {
+              "start": 32.85325,
+              "end": 33.01325,
+              "word": " living"
+            },
+            {
+              "start": 33.01325,
+              "end": 33.31325,
+              "word": " heart."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review": "Retained PCM and quiet-only deletions verified. No fresh ASR or listening claim. Same words/voice and 60 images; no generated media."
+}

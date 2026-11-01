@@ -1,0 +1,53 @@
+{
+  "projectId": "761bb19c-3366-42b3-bb34-274cc9f0f625",
+  "revision": 55,
+  "frames": 2908,
+  "seconds": 121.16666666666667,
+  "removedSeconds": 22.420250000000006,
+  "tempo": 1,
+  "originalAudioFilesPreserved": true,
+  "wordsAndImagesUnchanged": true,
+  "noGeneratedMedia": true,
+  "scenes": [
+    {
+      "sceneId": "S01",
+      "seconds": 29.75,
+      "cuts": 16,
+      "longestDetectedQuietGapSeconds": 0.561083,
+      "speechPcmPreserved": true,
+      "originalAudioSha256": "3d9f151feaa191babd5ce51ad5a5b0bf58583dce25beed56657d15973e5693fb",
+      "selectedAudioSha256": "8f4656d7203c5e644403375a8a72490bd95afd4f7b80f37a4fbcb177632e82b3"
+    },
+    {
+      "sceneId": "S02",
+      "seconds": 26.208333333333332,
+      "cuts": 16,
+      "longestDetectedQuietGapSeconds": 0.660333,
+      "speechPcmPreserved": true,
+      "originalAudioSha256": "01c37bee66e24c220871a2054dbe9e370c796dca83f7100bd2916541685aa70e",
+      "selectedAudioSha256": "875ad7dcdef9ae0f0e93ed1bebeae0e2d95f43c2ec9d318361585d8a9d14f4a6"
+    },
+    {
+      "sceneId": "S03",
+      "seconds": 31.75,
+      "cuts": 14,
+      "longestDetectedQuietGapSeconds": 0.576604,
+      "speechPcmPreserved": true,
+      "originalAudioSha256": "168295a38fed30e5692b96b4d0d6f14317e218e2a118b8dc09d3703f049fcadb",
+      "selectedAudioSha256": "ffbf940b7b6f8565e6bf00481d253a34ec609099f0db8538e325f7eab618f1bd"
+    },
+    {
+      "sceneId": "S04",
+      "seconds": 33.458333333333336,
+      "cuts": 14,
+      "longestDetectedQuietGapSeconds": 0.6405,
+      "speechPcmPreserved": true,
+      "originalAudioSha256": "1c1c25ad71e1fbc85e78bbd4002c32f172215d194a5a325c82993889143b4204",
+      "selectedAudioSha256": "147c26b503dd68bc038f4cf510645efd9d1f6e961408c96251a57e3569535250"
+    }
+  ],
+  "playback": "Pending creator audition; measurements and retained-PCM checks only",
+  "preview": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v3\\review.html",
+  "fullAudio": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\audio-pause-cleanup\\Doctor-Holden-pause-cleaned.wav",
+  "fullAudioSha256": "d3fa01407615557fc4035e0cf9e7b9a0244f13655a6aa2386e30de253f517796"
+}
