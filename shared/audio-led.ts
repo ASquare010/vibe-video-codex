@@ -16,7 +16,7 @@ export function writerOwnsStory(p: Pick<Project, 'skill' | 'sourceVideo'>) {
 // The saved skill opts in; historical projects retain their original direction policy.
 export function directorPlanningInstructions(p: Pick<Project, 'skill' | 'sourceVideo'>) {
   return writerOwnsStory(p)
-    ? "Read the writer's story and exact narration as read-only input. Preserve the story, explanations, event order, ending and every scene's words; return story problems to the writer. Direct staging, provisional cuts and performance before recording. Each scene needs at least three meaningful cuts, including at least two brief cuts, usually around 0.5–1.5 seconds, that clarify action, clues, reactions or consequences. Give longer coverage to establishment or major movement; finalize readable, complete movements against measured audio without changing speech or stretching quick actions to the provider's native duration."
+    ? "Read the writer's story and exact narration as read-only input. Preserve the story, explanations, event order, ending and every scene's words; return story problems to the writer. Direct staging, provisional cuts and performance before recording. Each scene needs at least three meaningful cuts, including at least two brief cuts below a second as described in references/director.md. Map measured spoken developments to connected visible actions and results; use the existing project-scoped director path to revise insufficient visual coverage without changing the story or accepted audio. Give longer coverage to establishment or major movement; do not stretch quick actions to the provider's native duration."
     : 'Reshape the unrecorded spoken draft and visual developments together, preserving facts and the existing ordered scene IDs.';
 }
 
