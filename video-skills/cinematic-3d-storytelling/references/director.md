@@ -9,6 +9,8 @@ Plan visible developments alongside the final words. Narration need not name eve
 
 Choose provisional cuts by the information and experience they add. A scale-setting view can build anticipation, a short detail can supply a decisive cause, and a reaction/reveal can show what it changes. Make the actual event develop; repeated people inspecting something is not automatically a sequence. For an explanation, develop a relationship, not merely a succession of related objects.
 
+Name what the audience should notice first in each important cut. Keep the spoken promise, visual development and sound directed toward the same experience; they need not describe the same instant. Let changing conditions renew anticipation. Do not use a fixed cut frequency, compulsory overlay or repeated verbal teaser in place of development. Leave angle, framing and optical choices to the image role.
+
 For every important beat establish:
 - The objective/question, pressure or obstacle and the new information.
 - Incoming phase and shared geography, intended action/discovery, outgoing state and what it enables next.
@@ -27,17 +29,21 @@ Evaluate preparation, movement and result across the whole sequence. Carry a rea
 ## One world, useful handoffs
 Keep stable cast/prop/set IDs, scale, positions/facing, routes, supports, ownership, condition, knowledge and light. Match the meaningful event phase, not only its subject name. World locations remain fixed across angles; screen directions are camera-relative.
 
+For connected objects and consequential movement, establish the shared arrangement once: what connects to what, which surfaces face each other, the route and fixed landmarks, and how the actor can reach the next required location or control. Identify unresolved physical assumptions before requesting polished views. The image role turns this world into concrete camera/layout and pose references; a character reference alone cannot establish the set or mechanism.
+
 Give each prompt writer the same compact packet:
-- Previous actual outgoing frame/state, or explicitly planned state if not generated.
-- Current cut/beat ID, speech window, new information, evidence cue, opening phase and required outgoing state.
-- Next required incoming state and join type: continuation, reaction, new location or deliberate ellipsis.
+- Previous actual outgoing frame/state, or explicitly planned state if not generated, and the action/object/eyeline/location/sound it passes forward.
+- Current cut/beat ID, speech window, first-notice priority, new information, opening phase, decisive action/change and required outgoing state.
+- Next required incoming state and join type: continuation, reaction, new location or deliberate ellipsis; identify what lets the viewer connect the two.
 - Selected duration and intended action phases; actual references, source range/rate and evidence status when available.
 
 Neighboring events inform the writers, but only the current take belongs in the provider prompt. Missing coverage returns to the director; a wrong opening image returns to the image stage. An abstract mechanism may need a supported explanatory view/graphic rather than invented hardware behavior.
 
+Choose how a join works: a continued action, matching eyeline/direction, a newly revealed relation, sound carried across the cut, or an explicit change of time/place. Exact end-frame matching is useful only when continuity requires it. A reaction or insert can bridge an edit, but cannot certify a missing essential action. Keep start/key-action/edit-out targets as planning evidence for difficult shots; they are not automatically extra generated images or supported video controls.
+
 ## Selection and assembly
 Compare actual adjacent stills without their descriptive titles. Keep repeated composition when changed content earns it; otherwise redirect/consolidate coverage or ask the image role to expose the missing relation. A new lens number alone is not a new idea. Validate critical geometry with the available blockout tools when needed.
 
-Compare actual before/result cues at delivery viewing size. Inspect the complete useful movement before choosing source in/out; trim idle handles, then consider justified retiming while preserving contact, support, momentum and result. Keep native output, source selection and edit duration separate. Align effects with observed final contact, and mix ambience/physical sound beneath narration with intentional quiet where useful. A caption, click or flash cannot certify an obscured operation.
+Compare actual before/result cues at delivery viewing size. Inspect the complete useful movement before choosing source in/out; trim idle handles, then consider justified retiming while preserving contact, support, momentum and result. Keep native output, source selection and edit duration separate. When trimming or retiming a shot, apply the same source-time mapping to its synchronized effects/captions/overlays; keep the accepted narration on its own continuous clock. Check the edited shot in isolation and in the assembled sequence, including sound tails. Mix ambience/physical sound beneath narration with intentional quiet where useful. A caption, click or flash cannot certify an obscured operation.
 
 Distinguish narration mentions from measured sound effects. Do not invent word/impact timestamps or listening findings. Return for the actual-output and export checks in SKILL.md; preserve partial or unreviewed findings honestly.
