@@ -1,0 +1,63 @@
+{
+  "checkedDate": "2026-11-01",
+  "projectId": "99e496a2-6745-482f-8d92-8390efee472a",
+  "projectRevision": 31,
+  "scope": "Script, supplied screenshots, selected stills, exact image requests, written guidance and external-source audit; no new media generation or native playback.",
+  "script": "The last wagon was burning, and the tunnel was coming fast. Mara could see the smoke folding back over the train. Inside that tunnel, it would have nowhere to go. She scrambled down to the coupling and pulled the release handle. It barely moved. The weight of the burning wagon was holding the lock tight. Mara called the driver: ease off, just for a moment. The wagons bunched together, and the strain came off the coupling. She braced one boot against the frame and hauled again. This time, the handle lifted. But the rear wagon was still rolling with them. Mara climbed onto its platform and cranked the handbrake until the wheels screamed. Then she jumped back across. The gap opened beneath her boots as she caught the front wagon's rail. The train slipped into darkness. Behind it, the burning wagon shuddered to a stop in the open air. Mara held on, and finally let herself breathe.",
+  "scriptWords": 157,
+  "selectedSeconds": 62.5,
+  "shotCount": 10,
+  "directorBasis": "last-wagon-treatment-v1",
+  "skillSnapshotDirectoryExists": false,
+  "rawDirectorResultCount": 0,
+  "sourceFiles": [
+    {
+      "path": "data/projects/99e496a2-6745-482f-8d92-8390efee472a/project.json",
+      "sha256": "03eba4cf917703f1262edcf43659d9e03d8e45b95e5d649d512cc13d1e3f0c28"
+    },
+    {
+      "path": "data/projects/99e496a2-6745-482f-8d92-8390efee472a/jobs/last-wagon-v1/treatment.json",
+      "sha256": "6e2a5344bc9f95fbcfff8b75116256d99b952411cfb1086a41fad66c5017c587"
+    },
+    {
+      "path": "data/projects/99e496a2-6745-482f-8d92-8390efee472a/jobs/last-wagon-v1/director-observations.json",
+      "sha256": "0d73bf77911b6d8047b5814b9a9aee0e9968a172be66c5a1f723a21fb5b35926"
+    },
+    {
+      "path": "dump/last_wagon.ts",
+      "sha256": "240f517794041ed0e5f1512c3853c90e0b60e365438045afc850d3ae872ef2d3"
+    },
+    {
+      "path": "data/projects/99e496a2-6745-482f-8d92-8390efee472a/media/S01-01.png",
+      "sha256": "ae87309b49cabc1350998d53fe0a3eb77f7f276fa37312ac76bfdae4d1a7d962"
+    },
+    {
+      "path": "data/projects/99e496a2-6745-482f-8d92-8390efee472a/media/S01-03.png",
+      "sha256": "688bfb2738e20f522d01c4322869cc14b5df2a9e9fa00cd82d45e6b15dc357da"
+    },
+    {
+      "path": "data/projects/99e496a2-6745-482f-8d92-8390efee472a/media/S01-06.png",
+      "sha256": "24403e80b29818d97744ec02231ec3dda82f8313cf884faae4c1e866da9c61d4"
+    },
+    {
+      "path": "data/projects/99e496a2-6745-482f-8d92-8390efee472a/media/S01-07.png",
+      "sha256": "25935cccc547c33570628289ae4eed89cdd6098653ccf0fe27d762e7db81c704"
+    },
+    {
+      "path": "data/projects/99e496a2-6745-482f-8d92-8390efee472a/media/S01-10.png",
+      "sha256": "557c64b808ab3d6b023c0ebd435e952b7f83812bb5008cb9e2e093a73908ab1b"
+    }
+  ],
+  "inspectedStillMapping": {
+    "userImage1": "S01-10",
+    "userImage2": "S01-06",
+    "userImage3": "S01-01",
+    "userImage4": "S01-07"
+  },
+  "imageGenerationToolCallCount": 7,
+  "notes": [
+    "Nine follow-on shots were generated in three batches using the first wide still as their sole reference.",
+    "The director observations acknowledge wrong starting hand contact in Shots03/07 and direct animation to reposition hands.",
+    "Source geometry is independently judged unclear or incompatible in the inspected mechanism shots; correct style/identity is insufficient."
+  ]
+}
