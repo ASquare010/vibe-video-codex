@@ -1,0 +1,47 @@
+{
+  "projectId": "761bb19c-3366-42b3-bb34-274cc9f0f625",
+  "revision": 54,
+  "cuts": 60,
+  "frames": 3445,
+  "seconds": 143.54166666666666,
+  "scenes": [
+    {
+      "sceneId": "S01",
+      "cuts": 16,
+      "frames": 876,
+      "subsecondInserts": 3,
+      "audioSha256": "3d9f151feaa191babd5ce51ad5a5b0bf58583dce25beed56657d15973e5693fb"
+    },
+    {
+      "sceneId": "S02",
+      "cuts": 16,
+      "frames": 826,
+      "subsecondInserts": 3,
+      "audioSha256": "01c37bee66e24c220871a2054dbe9e370c796dca83f7100bd2916541685aa70e"
+    },
+    {
+      "sceneId": "S03",
+      "cuts": 14,
+      "frames": 849,
+      "subsecondInserts": 2,
+      "audioSha256": "168295a38fed30e5692b96b4d0d6f14317e218e2a118b8dc09d3703f049fcadb"
+    },
+    {
+      "sceneId": "S04",
+      "cuts": 14,
+      "frames": 894,
+      "subsecondInserts": 3,
+      "audioSha256": "1c1c25ad71e1fbc85e78bbd4002c32f172215d194a5a325c82993889143b4204"
+    }
+  ],
+  "originalStoryAndAudioUnchanged": true,
+  "historicalAssetsAndFilmPreserved": true,
+  "videoGenerationCalls": 0,
+  "status": "awaiting-review",
+  "nativePlayback": "pending; no playback/listening claim",
+  "images": {
+    "new": 42,
+    "reusePlacements": 18
+  },
+  "preview": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\review.html"
+}

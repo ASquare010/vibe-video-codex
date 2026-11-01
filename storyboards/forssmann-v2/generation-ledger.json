@@ -1,0 +1,871 @@
+[
+  {
+    "cutId": "S01-V2-01",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: A clean dimensional cutaway inside the upper vena cava just above the right atrium. A single slender amber rubber catheter follows the blue vessel lumen downward toward the open heart chamber. Extreme macro, curving vessel walls form a clear route and the heart chamber is visible ahead; no blood or wound. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-33db5477-4a1c-43e9-a62a-89a44b6899c7.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S01-V2-01.png",
+    "sha256": "0b6078f62e9cd6d508f163c9f29ae4fd34643a54f24b0c2fd39463be95df11df",
+    "collectedAt": "2026-11-01T16:51:12.991781+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S01-V2-02",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: The same single amber catheter tip just inside the upper right atrial chamber through the superior vena cava. A translucent ivory heart wall reveals the chamber and enclosing blue vessel above; oblique dimensional view, navy background. Tip stays in the lumen, never punctures a wall. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-47dff540-f0c0-4496-849e-ed7caf568042.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S01-V2-02.png",
+    "sha256": "1c2786e3f737fd22cc11f3663a547a093c84fae3aea809d00efa88a53085dd43",
+    "collectedAt": "2026-11-01T16:53:16.281039+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S01-V2-05",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: 1929 German hospital exterior viewed through an open iron gate: modest pale masonry building, tall windows, a bicycle and bare orderly entrance. Warm daylight, no readable signs or invented institution name. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-1fc555e5-ec37-494c-9896-06fc85846059.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S01-V2-05.png",
+    "sha256": "f6612eb6b2e42c08428ebbb77b9d0417f5570994c7f75d6a96abda8ca2805d24",
+    "collectedAt": "2026-11-01T16:53:17.508887+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "Rejected previous image; preserved in rejected/"
+  },
+  {
+    "cutId": "S01-V2-07",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Young doctor at an oak desk in the same hospital, leaning over an open period anatomy book showing a simple heart and vessels; his index finger follows the illustrated arm-to-heart route. No readable lettering. Low three-quarter view connects his face, hand and diagram. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-33e6f652-7417-475c-8b80-5ca8c478f55d.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S01-V2-07.png",
+    "sha256": "ef9ba8325b8901bac388bc61a13c4435e55f390630bec72be03e33d59fdf6c9b",
+    "collectedAt": "2026-11-01T16:53:18.688503+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S01-V2-08",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Explanatory upper-body cutaway from front: anatomical left arm on viewer right, blue vein enclosed in the arm, crossing beneath clavicle into the superior vena cava on viewer left and descending into right atrium. One amber catheter follows that continuous lumen. Translucent ivory torso, subdued other anatomy, navy field. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-4eb8e715-c877-44ee-8ca2-78d1efe1f11c.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S01-V2-08.png",
+    "sha256": "2d2818a72e7e309dcf7060b69440b20087a6ffee3b7d0a8aab834e3c5d1c5947",
+    "collectedAt": "2026-11-01T16:53:19.860141+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "Rejected previous image; preserved in rejected/"
+  },
+  {
+    "cutId": "S01-V2-05",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: 1929 German hospital exterior viewed through an open iron gate: modest pale masonry building, tall windows, a bicycle and bare orderly entrance. Warm daylight, no readable signs or invented institution name. This is an EMPTY architectural establishing view: no humans, no people, no nurse, no couple, no portraits. Stylized dimensional 3D architecture, not a photograph. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-04bb8071-a263-4d6f-af6f-7a4a1b418ad4.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S01-V2-05.png",
+    "sha256": "1887f2b6c21b89006c2c390ec0d702844df7f8d3c35fbc599717b2b1da536514",
+    "collectedAt": "2026-11-01T16:55:18.269772+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S01-V2-08",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Explanatory upper-body cutaway from front: anatomical left arm on viewer right, blue vein enclosed in the arm, crossing beneath clavicle into the superior vena cava on viewer left and descending into right atrium. One amber catheter follows that continuous lumen. Translucent ivory torso, subdued other anatomy, navy field. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Crop out every head and face; the medical display is an anonymous headless anatomical model, never a photographic person. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-f7804a92-e7ac-4393-8782-6e7af836a279.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S01-V2-08.png",
+    "sha256": "45170d3e481cde718de3215f3d3eb9f901edf61dfbb1a592cecbe74d925f994a",
+    "collectedAt": "2026-11-01T16:55:40.639181+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S01-V2-09",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Three-quarter cutaway of an intact translucent ivory sternum and ribs around the heart. The single amber catheter approaches through the superior vena cava from above, entirely inside the blue vein; a clearly unbroken chest wall in foreground. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Crop out every head and face; the medical display is an anonymous headless anatomical model, never a photographic person. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-ad231022-4ba7-4fc8-8b1d-6bbc7c03393a.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S01-V2-09.png",
+    "sha256": "7a8cfb56071570159f9c959b34dfa4b125c1d618f3fc0196ad367751efebdf0e",
+    "collectedAt": "2026-11-01T16:57:39.181387+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S01-V2-10",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Close supported right hand lifting one thin amber rubber catheter from a steel tray; its flexible arc hangs naturally above white linen. Same white coat, period room, no needle or loose duplicate tubes. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-41c11761-8f3e-43c4-bdef-7b52fb352311.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S01-V2-10.png",
+    "sha256": "d6195e582eea1a6f371417c3a353070e99dcbd3be665ffd0ff354814a4be3069",
+    "collectedAt": "2026-11-01T16:57:40.359030+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "Rejected previous image; preserved in rejected/"
+  },
+  {
+    "cutId": "S01-V2-11",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Macro still of the same thin amber rubber catheter bending smoothly between two fingers above white linen, clearly flexible rather than a rigid stick. His supported left elbow rests behind it out of focus. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-07fc0635-d110-4827-923c-6c9fcf47e104.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S01-V2-11.png",
+    "sha256": "78facc6670d07b1870ae99338bb50b661104a2e8d69d35461edb22d5be953cba",
+    "collectedAt": "2026-11-01T16:57:41.544654+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S01-V2-14",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. EXTREME CLOSE DETAIL INSERT: frame only the named hands/object/connection, all heads and faces outside the crop. Current event and decisive pose: Tight detail of the young doctor's right hand fastening the rolled left cuff above the elbow; supported bare left forearm stays relaxed on linen. No tube is inserted yet. Preserve reference sleeves, hands and material appearance only. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-00300545-2cd4-4bba-8479-6ccebcef83a2.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S01-V2-14.png",
+    "sha256": "2063479c8f9af02e4ad228d57a4934244765ce9ba8e41b8c8eb40945d876bba1",
+    "collectedAt": "2026-11-01T17:00:33.552272+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "Rejected previous image; preserved in rejected/"
+  },
+  {
+    "cutId": "S01-V2-15",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Wider side view of the young doctor alone at the established table, left forearm palm-up and supported, right hand poised with the single flexible catheter above the tray. Empty opposite chair makes the solitary responsibility readable. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-84b6d7e2-0b03-4b7b-8a93-04530b198718.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S01-V2-15.png",
+    "sha256": "623a04a45414f1c2f34b44fe06aee3fef69ccd53a1ea1f35499c2f99ee7ced82",
+    "collectedAt": "2026-11-01T17:00:34.751244+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S01-V2-16",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Close three-quarter view of the young doctor's determined face and steady right hand; the supported left elbow is a readable foreground anchor. His gaze goes to his own arm, not toward the audience, in the same quiet operating room. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-72695727-035f-457d-944b-e06688d1ea27.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S01-V2-16.png",
+    "sha256": "d89a1926fe6e48bea604d167688fef2be8a94873af855e095bf29422826fcd34",
+    "collectedAt": "2026-11-01T17:00:35.922065+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S02-V2-02",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. EXTREME CLOSE DETAIL INSERT: frame only the named hands/object/connection, all heads and faces outside the crop. Current event and decisive pose: Macro of right thumb and forefinger gripping one thin amber tube immediately outside the gauze dressing on the left inner elbow. Tube actually enters the dressing, fingers do not grip the fixed cloth, forearm rests on linen. Preserve reference sleeves, hands and material appearance only. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-2a8c6a5e-7613-4732-8744-8e691a03d515.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S02-V2-02.png",
+    "sha256": "1d9cab2fe818491a1992e09f6706be43647aa850dfe8f744de491ca9927b66bd",
+    "collectedAt": "2026-11-01T17:02:33.031686+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S02-V2-03",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. EXTREME CLOSE DETAIL INSERT: frame only the named hands/object/connection, all heads and faces outside the crop. Current event and decisive pose: Low close side view along supported left forearm: right fingers have moved the same amber tube a small distance toward the gauze-covered entry. A single natural external curve returns to the tray, no duplicate tube. Preserve reference sleeves, hands and material appearance only. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-e72d7416-135a-4d8e-b7c8-7412f88262f4.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S02-V2-03.png",
+    "sha256": "c5d3c82578af96948383546743d2da3cde5ddba19d50cdae4021276b3428bcf1",
+    "collectedAt": "2026-11-01T17:02:34.230301+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S02-V2-05",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Dimensional medical close view of the blue upper-arm vein joining the larger shoulder vessel, a few subtle pale-blue flow streaks moving toward the chest and one amber catheter inside the lumen. The heart is a distant contextual form, not a competing focal point. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Crop out every head and face; the medical display is an anonymous headless anatomical model, never a photographic person. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-d3857f15-2337-4d3d-beb5-9b8b6a577f79.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S02-V2-05.png",
+    "sha256": "c4823ec71fb3484a414ba46cf900b32e9ab861e98e43801575ccfd0d8eaa6b0f",
+    "collectedAt": "2026-11-01T17:02:35.372408+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "Rejected previous image; preserved in rejected/"
+  },
+  {
+    "cutId": "S02-V2-06",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Oblique close anatomical cutaway under left clavicle: blue brachiocephalic vein crosses into superior vena cava, amber catheter continuously follows the interior bend. An ivory clavicle above gives a fixed spatial landmark. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Crop out every head and face; the medical display is an anonymous headless anatomical model, never a photographic person. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-26958d12-f1e5-49de-8329-dc182ed80601.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S02-V2-06.png",
+    "sha256": "33d05b4de1994faaa01ccca7819e7bd165bb83114dfda2275fda022fe10e69ba",
+    "collectedAt": "2026-11-01T17:04:48.556102+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S02-V2-07",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Side cutaway showing unbroken translucent chest wall in foreground and the amber catheter entirely enclosed by a blue vein behind it. Clear separation between intact outer surface and internal passage. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Crop out every head and face; the medical display is an anonymous headless anatomical model, never a photographic person. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-544a1317-e4fa-49a0-b49e-aa8e4a5b482b.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S02-V2-07.png",
+    "sha256": "4c92e17bf353a155597d847cf0d7433166de5997b56085812c8896e477543afb",
+    "collectedAt": "2026-11-01T17:04:49.694708+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S02-V2-09",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Over the doctor's shoulder at table, his visible left arm remains opaque and supported, right hand holds the single external catheter near dressing. Only the outside connection is visible; no transparent body or magical glow. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-a3619c3c-1ff1-4890-acdb-40ab35e1cb2c.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S02-V2-09.png",
+    "sha256": "896f4c87a3f2ee28ffed41bd38369eff82ca9582db8b4145d87dd8f445b30d22",
+    "collectedAt": "2026-11-01T17:08:39.806187+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S02-V2-11",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Young doctor at table turns his head toward the established green doorway; left elbow dressing and amber tube stay supported in foreground, right hand holds the external curve close to the body. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-b771e5f2-6f88-41ea-979c-6a74caac58ec.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S02-V2-11.png",
+    "sha256": "7c07bdd19687b8d38f7e60e8c98b44386a91420d4b291c9a062a43029b95f92d",
+    "collectedAt": "2026-11-01T17:08:41.023014+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S02-V2-12",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. EXTREME CLOSE DETAIL INSERT: frame only the named hands/object/connection, all heads and faces outside the crop. Current event and decisive pose: Close waist-level view: his left forearm is held gently across the abdomen, a small dressing at the elbow, right hand securing the single short external loop of amber catheter. White coat, no dangling loose lines. Preserve reference sleeves, hands and material appearance only. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-bcbcdb07-a1f1-4ae8-9e28-f4f6aa533933.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S02-V2-12.png",
+    "sha256": "dc569f85532dc1edd526399ee6960504086ece32cbc993d1374139a17667efee",
+    "collectedAt": "2026-11-01T17:12:28.610736+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S02-V2-13",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. EXTREME CLOSE DETAIL INSERT: frame only the named hands/object/connection, all heads and faces outside the crop. Current event and decisive pose: His right hand briefly presses the broad green hospital door lever while his dressed left arm remains supported against his body and the small external catheter loop is secured by his left fingers. No tube attached to the door. Preserve reference sleeves, hands and material appearance only. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-ca099434-4690-4f30-94d5-08b025cd7a28.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S02-V2-13.png",
+    "sha256": "4d47c45bb629eb5e82848c5b7c46d30808662c046505faeb010847375b451a4a",
+    "collectedAt": "2026-11-01T17:12:29.785470+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "Rejected previous image; preserved in rejected/"
+  },
+  {
+    "cutId": "S02-V2-15",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Rear three-quarter view of the young doctor reaching the end of the corridor where an open dark X-ray room reveals an upright period apparatus and control pedestal. Left forearm remains supported; no image or result on the unlit screen yet. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-729d8e55-b767-4b2f-9313-43fd726a4a67.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S02-V2-15.png",
+    "sha256": "c203bdc9c913e2312d83a82e6a05876b809e36f9cc12264500a3850f90796dae",
+    "collectedAt": "2026-11-01T17:12:30.970140+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "Rejected previous image; preserved in rejected/"
+  },
+  {
+    "cutId": "S02-V2-16",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Period X-ray room from inside the doorway: young doctor steps beside the upright apparatus, radiographer at the control pedestal; unlit rectangular screen and a clear supported standing position. No glowing chest image yet. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-2b1875cd-1d05-42ab-9c5d-f6ea765af012.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S02-V2-16.png",
+    "sha256": "b4dd5e895649b8f2dc3c8de5674f42beec36852b5d597c40e31915b925287938",
+    "collectedAt": "2026-11-01T17:15:07.608476+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "Rejected previous image; preserved in rejected/"
+  },
+  {
+    "cutId": "S03-V2-01",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: 1929 X-ray room, radiographer's hand poised at a large mechanical control, Forssmann standing beside the upright apparatus beyond. Rectangular screen is dim, no modern display. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-e8196bd5-d966-4eb5-8f09-908c3b775bf0.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S03-V2-01.png",
+    "sha256": "eb65c98b0712517ceb6ca9c46c7416123d8a4692ba04c247ef27cef5d978b8e8",
+    "collectedAt": "2026-11-01T17:15:08.781768+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "Rejected previous image; preserved in rejected/"
+  },
+  {
+    "cutId": "S03-V2-02",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. EXTREME CLOSE DETAIL INSERT: frame only the named hands/object/connection, all heads and faces outside the crop. Current event and decisive pose: Tight detail of a white-sleeved radiographer's hand completing a quarter turn of a large black Bakelite control on a period metal pedestal, with a dim warm indicator bulb. No modern buttons. Preserve reference sleeves, hands and material appearance only. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S04-C-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-3306c931-7a8d-4140-b709-4e32be236e1d.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S03-V2-02.png",
+    "sha256": "feb8bc7dbfb7a7f45b5c63c3caa2f783f2874420ee218c5286b08c0584e7540a",
+    "collectedAt": "2026-11-01T17:15:09.944724+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S03-V2-03",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Clean grayscale radiographic reconstruction fills the portrait frame. Ribs and heart silhouette understated, one pale catheter crosses from viewer-right shoulder into the central descending superior vena cava and ends inside right atrium at viewer-left upper heart. Its terminal tip clearly sits within the chamber, not through the wall. No text. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-0eb3d51e-5fb1-4a72-8bbb-3f550ea937c1.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S03-V2-03.png",
+    "sha256": "931eaefa244f2dc33a1152eca2473078eccaf24c7bfed5eb0a725424a4cf60e1",
+    "collectedAt": "2026-11-01T17:17:25.386477+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S03-V2-04",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: A small dimensional explanatory cutaway of the heart alone, ivory translucent surface, right atrium on viewer left subtly blue and isolated by clarity rather than labels; one amber catheter enters from superior vena cava above and its tip stays in atrial lumen. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Crop out every head and face; the medical display is an anonymous headless anatomical model, never a photographic person. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-1924b0e2-c22e-4d27-b0dc-92f8f5c71de4.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S03-V2-04.png",
+    "sha256": "f4e8952c26af426ef55efc9fbffd608b3d8e4a09612a949e9a79eba155d266be",
+    "collectedAt": "2026-11-01T17:17:26.583356+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S03-V2-07",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. EXTREME CLOSE DETAIL INSERT: frame only the named hands/object/connection, all heads and faces outside the crop. Current event and decisive pose: Over-shoulder close view of his right index fingertip stopping just beside the catheter endpoint on the developed chest radiograph at the lightbox; finger does not obscure tip. Same single continuous pale catheter path. Preserve reference sleeves, hands and material appearance only. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-dea9c929-053c-4950-9177-6353b530a649.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S03-V2-07.png",
+    "sha256": "dba17c495cac0f401b35fb1a927a56be563da61e34f6ff0f9a8a39b200dc5346",
+    "collectedAt": "2026-11-01T17:22:54.420134+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "Rejected previous image; preserved in rejected/"
+  },
+  {
+    "cutId": "S03-V2-08",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. EXTREME CLOSE DETAIL INSERT: frame only the named hands/object/connection, all heads and faces outside the crop. Current event and decisive pose: Tight period desk detail: his hand sets a typed medical report and developed chest radiograph together into a large paper publication envelope; no readable recipient or invented headline. Preserve reference sleeves, hands and material appearance only. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S03-D-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-d15375d6-7727-4b03-ac3c-64b70228ae6d.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S03-V2-08.png",
+    "sha256": "9342986175a1fa9480ae3f4d6633ced634a0d3bf686dfd265ed06da04c40f972",
+    "collectedAt": "2026-11-01T17:22:55.629928+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "Rejected previous image; preserved in rejected/"
+  },
+  {
+    "cutId": "S03-V2-09",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. EXTREME CLOSE DETAIL INSERT: frame only the named hands/object/connection, all heads and faces outside the crop. Current event and decisive pose: Open 1929 medical journal on a reader's desk, a printed reproduction of the chest radiograph embedded beside dense unremarkable German type. A white-sleeved hand turns the facing page. No readable invented headline, no modern printing equipment. Preserve reference sleeves, hands and material appearance only. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S03-D-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-ca02c963-88bf-4418-9719-cc776ff91ea3.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S03-V2-09.png",
+    "sha256": "15f0fa3cbbbf8fbe24afe0ca375596a24bbba3cd15a3cdd9ccc68102bb6a3ca1",
+    "collectedAt": "2026-11-01T17:22:56.794234+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "Rejected previous image; preserved in rejected/"
+  },
+  {
+    "cutId": "S03-V2-11",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Reverse view from beside the young doctor: older imposing mustached surgeon turns back to a stack of papers, leaving the offered radiograph at the edge of his attention. Foreground young doctor's sleeve and plate establish who is being dismissed. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S03-E-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-7a824493-3944-4a0f-b158-bc706d162db4.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S03-V2-11.png",
+    "sha256": "282bec3c1c652b2b61102072a26a2c8888610bf537d4f1dc5f23fd7d2df40bb6",
+    "collectedAt": "2026-11-01T17:24:37.503125+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S03-V2-12",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. EXTREME CLOSE DETAIL INSERT: frame only the named hands/object/connection, all heads and faces outside the crop. Current event and decisive pose: Close on young doctor's hands lowering the same developed radiograph from chest height toward his waist beside the desk; supported glass plate stays intact. Older surgeon's papers in background. Preserve reference sleeves, hands and material appearance only. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-f9393455-e8e1-439d-9aca-684d46d6a3f8.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S03-V2-12.png",
+    "sha256": "3c2bb80a55bd1e272c0989058aff1baede403d5009a38688b63207fd171b6c52",
+    "collectedAt": "2026-11-01T17:24:38.697405+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S03-V2-13",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Developed chest radiograph still lit on the hospital lightbox, single catheter route and terminal position visible, room around it dark and quiet. No triumphant glow or extra diagram. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-d49a9b60-de73-415b-b5af-69bf6469357c.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S03-V2-13.png",
+    "sha256": "340a01ad200e89b24013bb4f05e14dd118bd1d70efa295c70366964819a2477f",
+    "collectedAt": "2026-11-01T17:24:39.881136+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "Rejected previous image; preserved in rejected/"
+  },
+  {
+    "cutId": "S03-V2-14",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Young doctor at the office doorway leaving with the radiograph tucked securely beneath his right arm; older surgeon remains absorbed in papers behind the desk. Medium-wide depth preserves their physical separation. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S03-E-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-0caf1cc5-fee2-405c-8311-ce8b844d1896.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S03-V2-14.png",
+    "sha256": "698dc4c2ed3e6f2bb0141b40cbd2ad4dbcf3f09ed01a5f6be71868e7fa2980c4",
+    "collectedAt": "2026-11-01T17:26:40.485336+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S04-V2-02",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Close three-quarter view of the slender dark-haired researcher with round glasses writing notes beside a paper pressure trace. His colleague's hand and connected apparatus remain in the background, no invented readable name tag. Preserve the two reference researchers: slender dark hair and round glasses; taller receding hair. Same period lab and owned apparatus. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S04-A-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-19154525-81bd-42da-a17d-50ffeff052cf.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S04-V2-02.png",
+    "sha256": "39093d8b311b4a2513bf87ab61e8635ef4b8473bb4d7519f8a0ff8b86635871d",
+    "collectedAt": "2026-11-01T17:26:41.701930+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S04-V2-03",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: His taller colleague with receding hair carefully checks the stopcock below an upright glass manometer while the glasses-wearing researcher watches the trace beside him. Connected rubber lines stay on the bench. Preserve the two reference researchers: slender dark hair and round glasses; taller receding hair. Same period lab and owned apparatus. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S04-A-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-44744e99-ff0f-449f-9edd-af281efbbd36.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S04-V2-03.png",
+    "sha256": "2b28a0a6085afa757467dffc29b5ed1f12c2afd3c8f9cd66b579cc8f1944cf29",
+    "collectedAt": "2026-11-01T17:26:42.883868+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S04-V2-05",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. EXTREME CLOSE DETAIL INSERT: frame only the named hands/object/connection, all heads and faces outside the crop. Current event and decisive pose: Macro still of the small glass sample tube fully seated in a rigid metal rack, one gloved fingertip just releasing its rim. Dark ruby sample, stable bench, no needle or insertion. Preserve reference sleeves, hands and material appearance only. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S04-C-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-7013b847-57b8-496f-89a9-c91b2069a29e.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S04-V2-05.png",
+    "sha256": "f0b150c15c138c59e2e07f8127603474152b9aee7039d1149640a1d7d7c52f03",
+    "collectedAt": "2026-11-01T17:28:17.962617+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S04-V2-06",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. EXTREME CLOSE DETAIL INSERT: frame only the named hands/object/connection, all heads and faces outside the crop. Current event and decisive pose: Macro view of fluid levels in the two limbs of an upright glass manometer, rigid backing and connected fine rubber tubing at its base visible. A real difference between the fluid columns is legible, no invented scale values or text. Preserve reference sleeves, hands and material appearance only. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S04-C-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-f1fae1ee-9ae6-41bf-9889-f09d60eeef7e.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S04-V2-06.png",
+    "sha256": "d76e0d5ed9655f68789e2657106794587387abbaa2d1d87b9fbad3bca570e278",
+    "collectedAt": "2026-11-01T17:28:19.172813+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S04-V2-08",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Restrained dimensional explanatory diagram: ivory heart between two translucent lungs, continuous blue route from right heart to lungs and warm red route returning to left heart. Clearly connected system, no arrows, no extraneous branches or numerical claim. Navy background and the same medical illustration medium. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Crop out every head and face; the medical display is an anonymous headless anatomical model, never a photographic person. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-f7544cda-5a3a-45dd-9ff8-8e5f25ab7172.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S04-V2-08.png",
+    "sha256": "23b58379896b4e3b5a3758484253318ae31e3d9de66b19a36d762719635ee731",
+    "collectedAt": "2026-11-01T17:28:20.343244+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S04-V2-09",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Older Forssmann, 52, solid oval face and receding gray hair, in white-tie evening dress entering a golden Stockholm ceremonial hall through tall doors. A small presentation case in his hand, no crowd of extra laureates. Preserve the three older reference laureates, faces, white-tie costumes and golden hall. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S04-E-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-7be2b00d-7098-4664-8fc9-10521b7f40fe.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S04-V2-09.png",
+    "sha256": "5b5ebc8f4d08429ee7e5c66e574c65a1949e2d9238a361e2c6b5b464ad5e084d",
+    "collectedAt": "2026-11-01T17:31:08.885680+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S04-V2-11",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. EXTREME CLOSE DETAIL INSERT: frame only the named hands/object/connection, all heads and faces outside the crop. Current event and decisive pose: Tight view of a gold Nobel-style medal already revealed in an open blue-velvet presentation case, a white-tie cuff and supporting hands at the edge; no invented readable inscriptions. Preserve reference sleeves, hands and material appearance only. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S04-E-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-512df1fd-343f-4e64-907d-43a0a33c66cd.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S04-V2-11.png",
+    "sha256": "081a35139bbb0a17bdf598a239277dba79d3fec37be4263fa2cb34b9335f9fbc",
+    "collectedAt": "2026-11-01T17:31:10.104535+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S04-V2-12",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. EXTREME CLOSE DETAIL INSERT: frame only the named hands/object/connection, all heads and faces outside the crop. Current event and decisive pose: Three older laureates' supported hands holding their separate open presentation cases at waist height, sleeves belong to the three men standing shoulder to shoulder. Equal emphasis on all three cases, warm ceremonial light. Preserve reference sleeves, hands and material appearance only. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [
+      "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S04-E-Seedream.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-2b348361-c031-481f-9471-147712cd183f.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S04-V2-12.png",
+    "sha256": "04bcfad375d691a71e3a8066ef272c860ca39b3a05c57c2379fd10275ea3320e",
+    "collectedAt": "2026-11-01T17:31:11.297794+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S04-V2-13",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Elegant clean explanatory upper torso: single amber catheter from anatomical left arm through continuous blue vein into right atrium, translucent ivory heart and intact chest. The route is the focal feature, readable against navy. Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. Crop out every head and face; the medical display is an anonymous headless anatomical model, never a photographic person. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+    "referenced_image_paths": [],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-8d14b494-067f-41ad-9dae-57d4a21dd87c.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S04-V2-13.png",
+    "sha256": "10d55d2d7801a5c37120ca865f92e3ed0129eb71a39053e228f0d0dba6c82950",
+    "collectedAt": "2026-11-01T17:32:43.071073+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S01-V2-10",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "Reframe this same moment as an extreme close detail insert in portrait 9:16. Show ONLY his right hand lifting the single thin flexible amber catheter from the steel tray on white linen. All heads, faces and torsos OUTSIDE the frame. Same stylized 3D hands and period materials. No insertion or dressing in this pickup insert.",
+    "referenced_image_paths": [
+      "D:/Git/vibe-video-codex/data/projects/761bb19c-3366-42b3-bb34-274cc9f0f625/storyboard-v2/images/S01-V2-10.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-557bf436-9591-45c8-83a9-44fa134f6864.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S01-V2-10.png",
+    "sha256": "013d659bb58ba97e445af2577e7051c36bef4a5950b4736285520f3a1cd60c17",
+    "collectedAt": "2026-11-01T17:32:44.340187+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S01-V2-14",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "Replace this preparation detail with ONLY his RIGHT fingertips pinching and securing the rolled white LEFT shirt cuff ABOVE the left elbow. LEFT forearm palm up on linen. Camera looks obliquely down at sleeve fabric and fingers. No gauze, no dressing, no catheter, no blood, no wound, no face. This is BEFORE access. Stylized 3D, portrait 9:16.",
+    "referenced_image_paths": [
+      "D:/Git/vibe-video-codex/data/projects/761bb19c-3366-42b3-bb34-274cc9f0f625/storyboard-v2/images/S01-V2-14.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-11354c43-4e3b-4c68-b474-fbc3950721b8.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S01-V2-14.png",
+    "sha256": "9b62fdce9aca350dd196d79a195dcf914b815108d09bcbcca7f2a7a983f1648b",
+    "collectedAt": "2026-11-01T17:32:45.624427+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S02-V2-05",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "Remove EVERY cyan arrowhead, arrow, flow symbol and overlay from this educational anatomical image. Preserve the blue vein and single amber catheter in the vessel, the original shoulder, materials, portrait composition and non-graphic explanatory style. Absolutely no directional arrows anywhere.",
+    "referenced_image_paths": [
+      "D:/Git/vibe-video-codex/data/projects/761bb19c-3366-42b3-bb34-274cc9f0f625/storyboard-v2/images/S02-V2-05.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-8e11010d-8325-403c-bb63-a0911ec41f43.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S02-V2-05.png",
+    "sha256": "358feb820e4a12e88d7629306e930cacc361b274ae27ada6430e02291d3aef40",
+    "collectedAt": "2026-11-01T17:34:28.123588+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S02-V2-13",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "Simplify the image to a tight portrait detail of ONLY the young doctor's RIGHT bare hand pressing the broad lever of the same green hospital door. White sleeve cuff down at wrist. No dressing on this wrist or arm. His other arm is outside the crop; do not show it. No catheter, tubes, loops, faces or extra hands visible in this insert. Same stylized 3D materials.",
+    "referenced_image_paths": [
+      "D:/Git/vibe-video-codex/data/projects/761bb19c-3366-42b3-bb34-274cc9f0f625/storyboard-v2/images/S02-V2-13.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-4b8afe26-5e4b-41a1-8a7a-4c3135784a16.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S02-V2-13.png",
+    "sha256": "80debc78aa1cd95eec01d3850626188f0af5dab132197a3a78f7b14c259783b5",
+    "collectedAt": "2026-11-01T17:34:29.324677+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S02-V2-15",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "Repair only the patient's pose and false connection. Same young doctor at doorway seen from rear three-quarter, period X-ray room and apparatus. BOTH forearms held close across the FRONT of his abdomen, mostly concealed from this rear viewpoint. His left elbow dressing belongs to him. No tube or cable extends from his body to ANY apparatus, wall or floor. Camera waist-up so arms held in front read naturally; the machine stands separately. Same portrait stylized 3D.",
+    "referenced_image_paths": [
+      "D:/Git/vibe-video-codex/data/projects/761bb19c-3366-42b3-bb34-274cc9f0f625/storyboard-v2/images/S02-V2-15.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-cbd6be51-9151-4bcb-a0c1-7bf85edbd07b.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S02-V2-15.png",
+    "sha256": "ea40f3cbbc4a626ac2f513c4f86567fb4eb1bcf672e675f5a7faa8e4f72307b4",
+    "collectedAt": "2026-11-01T17:34:30.507608+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S02-V2-16",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "Keep this same X-ray-room arrival composition, doctor identity and radiographer. Change the patient's arms: his dressed LEFT forearm rests horizontally across his abdomen; RIGHT hand gently supports that left forearm and its short external catheter loop close to his body. He does NOT grip the apparatus with either hand. No tube connects him to the apparatus or floor. The radiographer is at the controls. Screen dim, no result yet. Portrait stylized 3D.",
+    "referenced_image_paths": [
+      "D:/Git/vibe-video-codex/data/projects/761bb19c-3366-42b3-bb34-274cc9f0f625/storyboard-v2/images/S02-V2-16.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-eb50ac9a-983e-4f6b-85ad-a35371d9fbca.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S02-V2-16.png",
+    "sha256": "3fa57a58df57ec1a09b5413997a6a56b54bf7faacdfe9beec3156bd8810fd946",
+    "collectedAt": "2026-11-01T17:36:31.229312+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "Rejected previous image; preserved in rejected/"
+  },
+  {
+    "cutId": "S03-V2-07",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "Fix ONLY the radiograph displayed on the lightbox in image1: replace it with the EXACT anatomy and single catheter path from image2, respecting image1 perspective. Catheter descends from viewer-right clavicle, crosses centrally and ends at upper heart on viewer LEFT. His finger points beside that endpoint without covering it. Do not retain image1 erroneous route on viewer-right lung. No lettering; same stylized 3D hand and portrait lightbox.",
+    "referenced_image_paths": [
+      "D:/Git/vibe-video-codex/data/projects/761bb19c-3366-42b3-bb34-274cc9f0f625/storyboard-v2/images/S03-V2-07.png",
+      "D:/Git/vibe-video-codex/data/projects/761bb19c-3366-42b3-bb34-274cc9f0f625/storyboard-v2/images/S03-V2-03.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-858f7bcc-a76a-478b-8108-02cabbaa00d5.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S03-V2-07.png",
+    "sha256": "15c46df7d2df332ef180cd2c1b75ef4da62174831118fd59446020d9506add00",
+    "collectedAt": "2026-11-01T17:36:32.496660+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S03-V2-13",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "Create a portrait 9:16 view of an EMPTY 1929 hospital lightbox in a dark cream-and-green tiled room, using image1 as the grayscale radiograph displayed on the lightbox. Preserve its single catheter path and upper-heart endpoint on viewer LEFT. No people, no woman, no doctor, no face or hands anywhere. Frame the actual lightbox and plate as enduring evidence. Dim warm room edge, cool plate light; stylized dimensional 3D setting.",
+    "referenced_image_paths": [
+      "D:/Git/vibe-video-codex/data/projects/761bb19c-3366-42b3-bb34-274cc9f0f625/storyboard-v2/images/S03-V2-03.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-4060db27-ce8c-4da0-af31-aadb5828ae14.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S03-V2-13.png",
+    "sha256": "a6efbd00b7d4dc8ce6d9318a378b10d4bdd7cbf7940ba31fecc570a4450ebfdf",
+    "collectedAt": "2026-11-01T17:36:33.754621+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S02-V2-16",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "Correct the arm continuity ONLY in this portrait stylized 3D image. The small gauze dressing and amber tube are currently on the arm on VIEWER LEFT; that is WRONG. Move the entire dressing and catheter access to the forearm on VIEWER RIGHT (the patient's anatomical LEFT arm). That forearm lies across his waist. The hand coming from VIEWER LEFT supports it gently beneath. The arm on VIEWER LEFT has plain clean skin with NO gauze and NO tube. Both sleeves rolled. Patient remains separate from X-ray machinery. Same face, room and radiographer; no other changes.",
+    "referenced_image_paths": [
+      "D:/Git/vibe-video-codex/data/projects/761bb19c-3366-42b3-bb34-274cc9f0f625/storyboard-v2/images/S02-V2-16.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-1382e337-91aa-4dfd-a159-ac67f5680db5.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S02-V2-16.png",
+    "sha256": "bcbefc5c906a68a7a39fc9510066d6039e20f512d06b44afb024cc836704c11c",
+    "collectedAt": "2026-11-01T17:39:22.559350+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S03-V2-08",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "Fix ONLY the chest radiograph sheet in image1. Use the same single catheter route and anatomy as image2, printed in grayscale and fitted into the paper perspective: it crosses from viewer-right clavicle to central vein and ends at upper heart on viewer LEFT. Keep envelope, hands, report, lighting, portrait crop. No new words or people.",
+    "referenced_image_paths": [
+      "D:/Git/vibe-video-codex/data/projects/761bb19c-3366-42b3-bb34-274cc9f0f625/storyboard-v2/images/S03-V2-08.png",
+      "D:/Git/vibe-video-codex/data/projects/761bb19c-3366-42b3-bb34-274cc9f0f625/storyboard-v2/images/S03-V2-03.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-d53fbc92-0737-4052-b652-9df1c4f84755.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S03-V2-08.png",
+    "sha256": "7b80932185d828914b7190bcee83ef25515c9e451b2437e61310638845149cfe",
+    "collectedAt": "2026-11-01T17:39:23.786352+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S03-V2-09",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "Fix ONLY the radiograph reproduction on the open journal page in image1. Reproduce image2 catheter path and anatomy inside the printed picture with page perspective: from viewer-right shoulder across to central vein, ending inside upper heart on viewer LEFT. Keep hand, journal paper, small indistinct type, lighting and portrait composition.",
+    "referenced_image_paths": [
+      "D:/Git/vibe-video-codex/data/projects/761bb19c-3366-42b3-bb34-274cc9f0f625/storyboard-v2/images/S03-V2-09.png",
+      "D:/Git/vibe-video-codex/data/projects/761bb19c-3366-42b3-bb34-274cc9f0f625/storyboard-v2/images/S03-V2-03.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-cb9fae17-b895-4b34-ae86-e3195eda8f85.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S03-V2-09.png",
+    "sha256": "118f398558386e61e0b72f1882c2a4d61e094c981c0c7cd1b6c59d3ffa976540",
+    "collectedAt": "2026-11-01T17:39:24.969554+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  },
+  {
+    "cutId": "S03-V2-01",
+    "tool": "image_gen.imagegen",
+    "modelAlias": "Not exposed by built-in tool",
+    "prompt": "Create the next view inside this SAME room: over the radiographer's shoulder in foreground at left, the RADIographer's white-sleeved right hand on the black Bakelite control pedestal. The SAME young patient from image1 stands beside the upright X-ray apparatus in background, dressed left arm supported across abdomen with right hand. He is not operating controls. Screen still dim. No modern electronics or extra people. Image1 establishes patient and room; no face change. Stylized 3D portrait. The patient's dressed forearm is on VIEWER RIGHT, as in the attached corrected reference. Preserve that access arm exactly. Foreground radiographer operates the control; patient keeps both hands near waist.",
+    "referenced_image_paths": [
+      "D:/Git/vibe-video-codex/data/projects/761bb19c-3366-42b3-bb34-274cc9f0f625/storyboard-v2/images/S02-V2-16.png"
+    ],
+    "transparent_background": false,
+    "originalResult": "C:\\Users\\awais\\.codex\\generated_images\\01a183fb-f750-7332-99e5-e79dd1536f32\\exec-574b5604-56d7-4f08-b795-5815ff3e9757.png",
+    "selectedFile": "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\storyboard-v2\\images\\S03-V2-01.png",
+    "sha256": "b1acaec751975efffab83aade4bc1d40e90f3ce09a3ab129c3be7a8e67d164e9",
+    "collectedAt": "2026-11-01T17:40:20.186528+00:00",
+    "generationCost": "Not returned; unknown, not zero",
+    "status": "generated; visual review pending"
+  }
+]

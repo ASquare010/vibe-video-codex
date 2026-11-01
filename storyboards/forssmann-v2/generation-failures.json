@@ -1,0 +1,40 @@
+[
+  {
+    "cutId": "S02-V2-08",
+    "tool": "image_gen.imagegen",
+    "outcome": "No image returned; output moderation rejected the requested educational anatomy view",
+    "requestId": "787642db-a7a8-4af1-b7f7-feb929a45d2d",
+    "next": "Use a nonhuman plastic upper-chest educational display without lower body; no prohibited content requested",
+    "cost": "Unknown; not returned"
+  },
+  {
+    "cutId": "S02-V2-08",
+    "tool": "image_gen.imagegen",
+    "outcome": "Second educational display output rejected; no further generation attempts for this cut",
+    "requestId": "999d92fa-f5cc-44a2-87f8-3239b3df9779",
+    "resolution": "Reuse the successful and inspected S01-V2-08 explanatory route image",
+    "cost": "Unknown; not returned"
+  },
+  {
+    "cutId": "S01-V2-13",
+    "tool": "image_gen.imagegen",
+    "request": {
+      "prompt": "One edge-to-edge 9:16 portrait film still, cinematic stylized 3D historical drama. Sculpted expressive adults with believable proportions, tactile cloth and porcelain enamel, dimensional depth, teal shadows and warm amber motivated light. Restrained gravity, not comedy, not low-poly or miniature. One instant, no panels, no captions or watermark. Current event and decisive pose: Young doctor alone seated at the enamel table before access, supported bare left forearm palm-up on white linen, thin amber catheter lying entirely on the steel tray at his right. His empty right hand rests beside the tray. No dressing and no catheter in either arm yet. Young Forssmann is the same slim young adult man as the reference, long oval face, high forehead, side-parted dark brown hair, clean shaven, white coat. The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.",
+      "referenced_image_paths": [
+        "D:\\Git\\vibe-video-codex\\data\\projects\\761bb19c-3366-42b3-bb34-274cc9f0f625\\media\\S01-A-Seedream.png"
+      ],
+      "transparent_background": false
+    },
+    "outcome": "No image returned; output moderation rejected the historical medical preparation still",
+    "category": "self-harm",
+    "requestId": "747f4dad-79b1-9108-8ddc-320da3481192",
+    "cost": "Unknown; not returned",
+    "resolution": "No further generation attempt. Reuse the already inspected study-of-route still, followed by the sleeve insert and the established self-procedure."
+  },
+  {
+    "cutId": "S03-V2-05",
+    "outcome": "Included in an attempted generation batch; no saved result or request identifier available in retained output. Not counted as a successful image.",
+    "cost": "Unknown; not returned",
+    "resolution": "Reuse the inspected S01-V2-08 route overview. No repeat generation."
+  }
+]

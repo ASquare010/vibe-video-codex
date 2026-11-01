@@ -1,0 +1,433 @@
+{
+  "projectId": "761bb19c-3366-42b3-bb34-274cc9f0f625",
+  "status": "awaiting creator review",
+  "scope": "Selected stills and saved measured-speech alignment; no native playback claim",
+  "narration": "Four accepted audio files preserved byte for byte; no new listening claim",
+  "limits": [
+    "Actual continuous motion, force and animated joins are not demonstrated by still images.",
+    "Real-time image/audio playback remains for creator review; saved ASR evidence supplied timing.",
+    "Anatomy and radiographs are explanatory reconstructions; incidental paper text is not historical evidence."
+  ],
+  "cuts": [
+    {
+      "cutId": "S01-V2-01",
+      "status": "selected-still-reviewed",
+      "observed": "Dimensional catheter enters the blue vessel and atrial chamber; direct opening mechanism.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S01-V2-02",
+      "status": "selected-still-reviewed",
+      "observed": "Closer internal destination continues the amber tube and blue route.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S01-V2-03",
+      "status": "selected-still-reviewed",
+      "observed": "Right fingertips and tube at the supported access arm are legible.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S01-V2-04",
+      "status": "selected-still-reviewed",
+      "observed": "One man's face and both arms establish doctor and patient.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S01-V2-05",
+      "status": "selected-still-reviewed",
+      "observed": "Empty hospital architecture supplies period/location transition.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S01-V2-06",
+      "status": "selected-still-reviewed",
+      "observed": "Same young doctor in cream-and-green corridor; identity/location.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S01-V2-07",
+      "status": "selected-still-reviewed",
+      "observed": "Finger follows the book illustration; a visible inquiry rather than a neutral face.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S01-V2-08",
+      "status": "selected-still-reviewed",
+      "observed": "Headless route overview connects the anatomical left arm to heart; explanatory reconstruction.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S01-V2-09",
+      "status": "selected-still-reviewed",
+      "observed": "Intact ribs/chest surround the internal catheter route; arm entry outside this detail.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S01-V2-10",
+      "status": "selected-still-reviewed",
+      "observed": "Corrected pickup detail isolates fingers, flexible tube and tray.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S01-V2-11",
+      "status": "selected-still-reviewed",
+      "observed": "Tube curve between his fingers is readable; face remains in composition.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S01-V2-12",
+      "status": "selected-still-reviewed",
+      "observed": "Director's raised palm and the younger doctor's eyeline establish refusal.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S01-V2-13",
+      "status": "selected-still-reviewed",
+      "observed": "Editorial reprise of route study before sleeve and procedure, replacing the unavailable preparatory generation. No claim that access is reversed.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S01-V2-14",
+      "status": "selected-still-reviewed",
+      "observed": "Corrected fingers secure the cuff; no gauze or insertion in this preparation detail.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S01-V2-15",
+      "status": "selected-still-reviewed",
+      "observed": "Solitary room and supported arm establish the procedure; this leads into scene two rather than claiming the risk has already ended.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S01-V2-16",
+      "status": "selected-still-reviewed",
+      "observed": "Face, right hand and supported access arm carry the personal stakes into the procedure.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S02-V2-01",
+      "status": "selected-still-reviewed",
+      "observed": "Same young doctor and own-arm connection carry over.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S02-V2-02",
+      "status": "selected-still-reviewed",
+      "observed": "Close fingertips hold the catheter near access; insert focuses ownership.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S02-V2-03",
+      "status": "selected-still-reviewed",
+      "observed": "Forward-guiding pose retains the same hand, tube and arm.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S02-V2-04",
+      "status": "selected-still-reviewed",
+      "observed": "Existing enclosed vessel section introduces the internal route.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S02-V2-05",
+      "status": "selected-still-reviewed",
+      "observed": "Corrected shoulder anatomy removes the opposite-direction flow arrows.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S02-V2-06",
+      "status": "selected-still-reviewed",
+      "observed": "Tube bends with the subclavian vessel beneath the clavicle.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S02-V2-07",
+      "status": "selected-still-reviewed",
+      "observed": "Intact exterior ribs and internal vessel show no chest-wall shortcut.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S02-V2-08",
+      "status": "selected-still-reviewed",
+      "observed": "Route overview repeats deliberately in the accepted speech pause; no new diagnosis or result.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S02-V2-09",
+      "status": "selected-still-reviewed",
+      "observed": "Opaque exterior arm returns to the doctor's limited knowledge after audience explanation.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S02-V2-10",
+      "status": "selected-still-reviewed",
+      "observed": "Concentrated gaze at access, without a premature success reaction.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S02-V2-11",
+      "status": "selected-still-reviewed",
+      "observed": "Head turns toward the established exit while the arm remains supported.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S02-V2-12",
+      "status": "selected-still-reviewed",
+      "observed": "External tube curve is held near elbow; pose prepares relocation.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S02-V2-13",
+      "status": "selected-still-reviewed",
+      "observed": "Corrected right-hand-only door contact; no incorrect dressing on the lever hand.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S02-V2-14",
+      "status": "selected-still-reviewed",
+      "observed": "Full corridor figure supplies the walk between door contact and arrival.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S02-V2-15",
+      "status": "selected-still-reviewed",
+      "observed": "Corrected rear arrival removes the false body-to-machine tube. Forearms mostly hidden in front.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S02-V2-16",
+      "status": "selected-still-reviewed",
+      "observed": "Corrected arrival keeps the access on viewer-right/anatomical left; foreground radiographer separate from patient.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S03-V2-01",
+      "status": "selected-still-reviewed",
+      "observed": "Corrected radiographer operates controls; same patient stands with supported left access arm.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S03-V2-02",
+      "status": "selected-still-reviewed",
+      "observed": "Bakelite control and hand make the activation cue explicit.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S03-V2-03",
+      "status": "selected-still-reviewed",
+      "observed": "Grayscale explanatory reconstruction shows one catheter ending on viewer-left upper heart; not presented as the original historical plate.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S03-V2-04",
+      "status": "selected-still-reviewed",
+      "observed": "Blue right atrial chamber and amber tip isolated in dimensional cutaway.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S03-V2-05",
+      "status": "selected-still-reviewed",
+      "observed": "Deliberate route reprise shows the extent while narration supplies the length.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S03-V2-06",
+      "status": "selected-still-reviewed",
+      "observed": "Existing held plate and dressed arm return to the living doctor.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S03-V2-07",
+      "status": "selected-still-reviewed",
+      "observed": "Corrected displayed route matches the position view; fingertip indicates the endpoint.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S03-V2-08",
+      "status": "selected-still-reviewed",
+      "observed": "Corrected evidence sheet enters the publication envelope; illustrative submission staging.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S03-V2-09",
+      "status": "selected-still-reviewed",
+      "observed": "Corrected catheter reproduction in journal; surrounding synthetic type is incidental, not a source quotation.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S03-V2-10",
+      "status": "selected-still-reviewed",
+      "observed": "Older surgeon and offered plate establish the receiving relationship.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S03-V2-11",
+      "status": "selected-still-reviewed",
+      "observed": "Surgeon redirects attention to papers; plate and young doctor remain foreground context.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S03-V2-12",
+      "status": "selected-still-reviewed",
+      "observed": "Hands lower the unbroken plate; consequence without invented outburst.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S03-V2-13",
+      "status": "selected-still-reviewed",
+      "observed": "Corrected empty lightbox preserves the evidence; invented bystander removed.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S03-V2-14",
+      "status": "selected-still-reviewed",
+      "observed": "Doctor exits with the plate while older surgeon remains at desk; explicit separation.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S04-V2-01",
+      "status": "selected-still-reviewed",
+      "observed": "Two period researchers share the apparatus rather than repeat a solitary hero.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S04-V2-02",
+      "status": "selected-still-reviewed",
+      "observed": "Glasses-wearing researcher records a trace while colleague attends the apparatus.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S04-V2-03",
+      "status": "selected-still-reviewed",
+      "observed": "Receding-haired researcher adjusts connected apparatus, continuing the shared task.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S04-V2-04",
+      "status": "selected-still-reviewed",
+      "observed": "Existing sample handling introduces analysis; no claim to a precisely documented historical gesture.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S04-V2-05",
+      "status": "selected-still-reviewed",
+      "observed": "Gloved fingers seat a sample in rack; brief contact cue.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S04-V2-06",
+      "status": "selected-still-reviewed",
+      "observed": "Valve and glass pressure columns expose a measurement action.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S04-V2-07",
+      "status": "selected-still-reviewed",
+      "observed": "Existing instrument and defocused researchers extend measurement context; foreground apparatus carries the information.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S04-V2-08",
+      "status": "selected-still-reviewed",
+      "observed": "Dimensional heart/lung circulation gives the relationship visual coverage.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S04-V2-09",
+      "status": "selected-still-reviewed",
+      "observed": "Older Forssmann and gold hall make date/age transition visible.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S04-V2-10",
+      "status": "selected-still-reviewed",
+      "observed": "All three laureates share the frame and ceremony.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S04-V2-11",
+      "status": "selected-still-reviewed",
+      "observed": "Open medal case gives a brief recognition detail.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S04-V2-12",
+      "status": "selected-still-reviewed",
+      "observed": "Three separate cases and their owners' hands emphasize shared achievement.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S04-V2-13",
+      "status": "selected-still-reviewed",
+      "observed": "Amber route returns to the original arm-to-heart idea.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    },
+    {
+      "cutId": "S04-V2-14",
+      "status": "selected-still-reviewed",
+      "observed": "Deliberate closing return to all three laureates over the accepted narration tail.",
+      "method": "Actual generated outputs and selected scene sheets inspected",
+      "motion": "Not generated or observed"
+    }
+  ]
+}

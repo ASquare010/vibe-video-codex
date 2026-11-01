@@ -7,7 +7,8 @@ REPO = Path(__file__).resolve().parents[2]
 ROOT = REPO / 'data/projects/761bb19c-3366-42b3-bb34-274cc9f0f625'
 OUT = ROOT / 'storyboard-v2'
 OUT.mkdir(exist_ok=True)
-PROJECT = json.loads((ROOT / 'project.json').read_text(encoding='utf-8'))
+SOURCE = OUT/'project-before-v2.json'
+PROJECT = json.loads((SOURCE if SOURCE.exists() else ROOT/'project.json').read_text(encoding='utf-8'))
 
 # Ends are scene-local seconds mapped to the saved ready-audio word/phrase evidence.
 # A still shows the decisive pose; action describes the planned movement, not observed motion.
@@ -26,7 +27,7 @@ SCENES = [
   (21.16,'A flexible tool','A flexible tube','Close supported right hand lifting one thin amber rubber catheter from a steel tray; its flexible arc hangs naturally above white linen. Same white coat, period room, no needle or loose duplicate tubes.','A brief pickup carries the idea into a tangible tool.','young'),
   (23.96,'The tube follows a curve','could offer a way in','Macro still of the same thin amber rubber catheter bending smoothly between two fingers above white linen, clearly flexible rather than a rigid stick. His supported left elbow rests behind it out of focus.','Demonstrate flexibility while the narration explains why it could follow a vessel.','young'),
   (25.42,'Permission refused','his hospital director refused','Older hospital director seated behind oak desk raises an open refusing palm toward the standing young doctor, their eyelines connected.','Show the refusal at the spoken refusal, not a vague worried reaction.','director','S01-D'),
-  (27.14,'The patient will be himself','Forssmann decided to use himself','Young doctor alone seated at the enamel table, left sleeve held above elbow, supported left forearm on white linen, sterile amber catheter on tray at his right.','Re-establish the same man as operator and subject after the refusal.','young','S01-E'),
+  (27.14,'The decision becomes personal','Forssmann decided to use himself','The same young doctor alone at the oak desk follows the arm-to-heart illustration with his right index finger. The established diagram supplies the route he is about to test on himself.','Editorial return to the proposed route after refusal, followed by his own sleeve being secured and the solitary procedure. This does not claim a second consultation or restart a completed insertion.','young','S01-V2-07'),
   (28.04,'Sleeve secured','decided to use himself','Tight detail of the young doctor\'s right hand fastening the rolled left cuff above the elbow; supported bare left forearm stays relaxed on linen. No tube is inserted yet.','A quick practical preparation leads directly to the exposed access arm.','young'),
   (31.10,'His own arm on the table','If the experiment went wrong','Wider side view of the young doctor alone at the established table, left forearm palm-up and supported, right hand poised with the single flexible catheter above the tray. Empty opposite chair makes the solitary responsibility readable.','Hold the decision and bodily stakes without inventing a crisis or another assistant.','young'),
   (36.50,'The decision holds','the one paying for it','Close three-quarter view of the young doctor\'s determined face and steady right hand; the supported left elbow is a readable foreground anchor. His gaze goes to his own arm, not toward the audience, in the same quiet operating room.','Carry the consequence into the next scene\'s actual procedure; end with steady focus, not a generic shock.','young'),
@@ -39,7 +40,7 @@ SCENES = [
   (8.74,'Blood returns toward the heart','veins carry blood back toward the heart','Dimensional medical close view of the blue upper-arm vein joining the larger shoulder vessel, a few subtle pale-blue flow streaks moving toward the chest and one amber catheter inside the lumen. The heart is a distant contextual form, not a competing focal point.','Explain direction of normal return, providing the reason this route reaches the heart.','anatomy'),
   (10.50,'Across the shoulder','follow an existing passage','Oblique close anatomical cutaway under left clavicle: blue brachiocephalic vein crosses into superior vena cava, amber catheter continuously follows the interior bend. An ivory clavicle above gives a fixed spatial landmark.','Continue the same tube past the shoulder landmark toward the central vessel.','anatomy'),
   (12.16,'No tissue shortcut','instead of piercing the chest','Side cutaway showing unbroken translucent chest wall in foreground and the amber catheter entirely enclosed by a blue vein behind it. Clear separation between intact outer surface and internal passage.','Confirm that the route stays inside the vessel rather than piercing the chest.','anatomy'),
-  (15.20,'The whole connected route','follow an existing passage','A clean full upper-torso explanatory cutaway, anatomical left arm on viewer right. One amber catheter follows a continuous blue arm vein beneath clavicle into superior vena cava and toward right atrium on viewer left. Intact ivory ribs, no arrows or labels.','Use the existing spoken pause for a readable synthesis of the arm-to-heart route; explanatory knowledge, not a new diagnosis.','anatomy'),
+  (15.20,'The whole connected route','follow an existing passage','A freestanding nonhuman educational medical display: ivory plastic shoulder-and-upper-chest model with its left arm on viewer right and small heart visible inside. Crop from collarbones to lower ribs only; exclude all heads, abdomen, pelvis and lower body. One amber catheter follows a continuous blue arm vein beneath clavicle into superior vena cava toward right atrium on viewer left. Dark museum background, no arrows or labels.','Use the existing spoken pause for a readable synthesis of the arm-to-heart route; explanatory knowledge, not a new diagnosis.','anatomy','S01-V2-08'),
   (18.26,'Outside he cannot see the tip','But being inside a vein','Over the doctor\'s shoulder at table, his visible left arm remains opaque and supported, right hand holds the single external catheter near dressing. Only the outside connection is visible; no transparent body or magical glow.','Return from audience explanation to the doctor\'s limited view before the uncertainty is spoken.','young'),
   (19.20,'Search for evidence','wasn\'t enough','His concentrated eyes above the connected supported arm, gaze toward the elbow. No smile or triumph.','A brief eye movement registers that external access alone cannot confirm position.','young','S02-D'),
   (21.20,'The next destination','where the tip had gone','Young doctor at table turns his head toward the established green doorway; left elbow dressing and amber tube stay supported in foreground, right hand holds the external curve close to the body.','Carry uncertainty into the decision to seek X-ray evidence.','young'),
@@ -54,7 +55,7 @@ SCENES = [
   (2.40,'The control engages','The X-ray supplied the answer','Tight detail of a white-sleeved radiographer\'s hand completing a quarter turn of a large black Bakelite control on a period metal pedestal, with a dim warm indicator bulb. No modern buttons.','A brief control contact motivates the next image becoming visible.','equipment'),
   (4.74,'Position confirmed','his right atrium','Clean grayscale radiographic reconstruction fills the portrait frame. Ribs and heart silhouette understated, one pale catheter crosses from viewer-right shoulder into the central descending superior vena cava and ends inside right atrium at viewer-left upper heart. Its terminal tip clearly sits within the chamber, not through the wall. No text.','Show the position that the narration confirms; do not rely on the word atrium alone.','xray'),
   (7.20,'One of the upper chambers','one of the heart\'s upper chambers','A small dimensional explanatory cutaway of the heart alone, ivory translucent surface, right atrium on viewer left subtly blue and isolated by clarity rather than labels; one amber catheter enters from superior vena cava above and its tip stays in atrial lumen.','Make the upper chamber relation legible during its spoken explanation.','anatomy'),
-  (10.50,'Arm and heart connected','sixty-five centimeters of tubing','Clean frontal upper-body explanatory cutaway: whole anatomical left arm on viewer right through shoulder to superior vena cava and right atrium on viewer left. One continuous amber catheter, no ruler or invented numeric label, clear beginning and destination.','Show the extent and connected path while the narration supplies the measured length.','anatomy'),
+  (10.50,'Arm and heart connected','sixty-five centimeters of tubing','Clean frontal upper-body explanatory cutaway: whole anatomical left arm on viewer right through shoulder to superior vena cava and right atrium on viewer left. One continuous amber catheter, no ruler or invented numeric label, clear beginning and destination.','Show the extent and connected path while the narration supplies the measured length.','anatomy','S01-V2-08'),
   (12.80,'He survived','He had survived','The doctor holds his developed X-ray at the lightbox, supported dressed arm visible, relieved but contained expression.','Return from explanation to the living person and tangible proof.','young','S03-C'),
   (16.26,'A picture to prove it','a picture to prove where the tube was','Over-shoulder close view of his right index fingertip stopping just beside the catheter endpoint on the developed chest radiograph at the lightbox; finger does not obscure tip. Same single continuous pale catheter path.','Connect his gaze and finger to the specific evidence, not merely an attractive X-ray.','young'),
   (17.10,'The report leaves his hands','published the experiment','Tight period desk detail: his hand sets a typed medical report and developed chest radiograph together into a large paper publication envelope; no readable recipient or invented headline.','Brief editorial representation of submitting evidence, without inventing private dialogue.','paper'),
@@ -131,17 +132,26 @@ for scene,items,audio in zip(PROJECT['scenes'],SCENES,audio_locks):
             identity='Preserve the two reference researchers: slender dark hair and round glasses; taller receding hair. Same period lab and owned apparatus. '
         elif role=='nobel':
             identity='Preserve the three older reference laureates, faces, white-tie costumes and golden hall. '
-        prompt=STYLE+'Current event and decisive pose: '+visual+' '+identity
+        detail_only=title in {'A flexible tool','Sleeve secured','Grip near the access','Controlled forward advance',
+            'Keep the experiment supported','Door contact','The control engages','A picture to prove it',
+            'The report leaves his hands','Evidence enters the journal','Proof lowered','The sample is seated',
+            'Pressure becomes readable','The medal revealed','Daring and careful work together'}
+        prompt=STYLE+('EXTREME CLOSE DETAIL INSERT: frame only the named hands/object/connection, all heads and faces outside the crop. ' if detail_only else '')+'Current event and decisive pose: '+visual+' '+('Preserve reference sleeves, hands and material appearance only. ' if detail_only else identity)
         if ref:
             prompt+='The attached image is an appearance/medium reference only; create the requested new view and action phase, do not copy an irrelevant pose. '
         if role in ['anatomy','xray']:
             prompt+='Scientific explanatory reconstruction, clean non-graphic museum visualization. Anatomy must stay connected. Do not introduce a doctor, captions, blood, detached organs or any tube through the chest wall. '
+            if role=='anatomy':prompt+='Crop out every head and face; the medical display is an anonymous headless anatomical model, never a photographic person. '
+        if role=='environment':prompt+='This is an EMPTY architectural establishing view: no humans, no people, no nurse, no couple, no portraits. Stylized dimensional 3D architecture, not a photograph. '
         prompt+='Keep the important connection and action cue readable within the portrait crop. No extra people or duplicate limbs/props.'
         reuse=None
         if keeper:
-            asset=next(a for a in PROJECT['assets'] if a['kind']=='image' and a.get('shotId')==keeper[0])
-            version=next(v for v in asset['versions'] if v['id']==asset['activeVersionId'])
-            reuse=dict(assetId=asset['id'],versionId=version['id'],path=version['path'])
+            if '-V2-' in keeper[0]:
+                reuse=dict(generatedCutId=keeper[0],path='storyboard-v2/images/'+keeper[0]+'.png')
+            else:
+                asset=next(a for a in PROJECT['assets'] if a['kind']=='image' and a.get('shotId')==keeper[0])
+                version=next(v for v in asset['versions'] if v['id']==asset['activeVersionId'])
+                reuse=dict(assetId=asset['id'],versionId=version['id'],path=version['path'])
         cuts.append(dict(id=shotid,sceneId=sid,index=len(cuts),title=title,startFrame=cursor,durationFrames=frames,
             globalStartFrame=offset+cursor,seconds=frames/24,narrationAnchor=anchor,
             speechWindow=dict(start=cursor/24,end=last/24,recognizedContext=spoken,status='Saved ASR phrase/word evidence; editorial cut positions selected by director'),

@@ -1,0 +1,731 @@
+[
+  {
+    "cutId": "S01-V2-01",
+    "path": "storyboard-v2/images/S01-V2-01.png",
+    "sha256": "0b6078f62e9cd6d508f163c9f29ae4fd34643a54f24b0c2fd39463be95df11df",
+    "width": 941,
+    "height": 1672,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Dimensional catheter enters the blue vessel and atrial chamber; direct opening mechanism.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S01-V2-02",
+    "path": "storyboard-v2/images/S01-V2-02.png",
+    "sha256": "1c2786e3f737fd22cc11f3663a547a093c84fae3aea809d00efa88a53085dd43",
+    "width": 941,
+    "height": 1672,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Closer internal destination continues the amber tube and blue route.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S01-V2-03",
+    "path": "media/S01-B-Seedream.png",
+    "sha256": "d3300949f283888c6b11896d8927df71bea325c979d9b3b1db6e3039daa86dcf",
+    "width": 1536,
+    "height": 2720,
+    "reuse": {
+      "assetId": "ced57c94-9b24-4431-b703-9e8b293f3e5c",
+      "versionId": "cac578bd-6a05-4b66-931d-bbaa6a59d06a",
+      "path": "media/S01-B-Seedream.png"
+    },
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Right fingertips and tube at the supported access arm are legible.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S01-V2-04",
+    "path": "media/S01-A-Seedream.png",
+    "sha256": "f5e9afa97070eeec64dec882d8155931ae444892d646bc93e9746adffa6e7176",
+    "width": 1536,
+    "height": 2720,
+    "reuse": {
+      "assetId": "897f1e39-7f0d-4788-93f8-3dc722a625d0",
+      "versionId": "04f687cc-8b53-477f-b9ff-5dbadda3c8ba",
+      "path": "media/S01-A-Seedream.png"
+    },
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "One man's face and both arms establish doctor and patient.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S01-V2-05",
+    "path": "storyboard-v2/images/S01-V2-05.png",
+    "sha256": "1887f2b6c21b89006c2c390ec0d702844df7f8d3c35fbc599717b2b1da536514",
+    "width": 941,
+    "height": 1672,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Empty hospital architecture supplies period/location transition.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S01-V2-06",
+    "path": "media/S01-C-Seedream.png",
+    "sha256": "752f4cb26c117feeb6fbbfb4eafc04e5672184ed9d8fa99bd59ba69866674eeb",
+    "width": 1536,
+    "height": 2720,
+    "reuse": {
+      "assetId": "bfff506c-c562-4d1e-a334-a6d0987afd24",
+      "versionId": "01a08689-287f-4c27-a583-8580a4c49f4c",
+      "path": "media/S01-C-Seedream.png"
+    },
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Same young doctor in cream-and-green corridor; identity/location.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S01-V2-07",
+    "path": "storyboard-v2/images/S01-V2-07.png",
+    "sha256": "ef9ba8325b8901bac388bc61a13c4435e55f390630bec72be03e33d59fdf6c9b",
+    "width": 942,
+    "height": 1669,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Finger follows the book illustration; a visible inquiry rather than a neutral face.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S01-V2-08",
+    "path": "storyboard-v2/images/S01-V2-08.png",
+    "sha256": "45170d3e481cde718de3215f3d3eb9f901edf61dfbb1a592cecbe74d925f994a",
+    "width": 941,
+    "height": 1672,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Headless route overview connects the anatomical left arm to heart; explanatory reconstruction.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S01-V2-09",
+    "path": "storyboard-v2/images/S01-V2-09.png",
+    "sha256": "7a8cfb56071570159f9c959b34dfa4b125c1d618f3fc0196ad367751efebdf0e",
+    "width": 941,
+    "height": 1672,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Intact ribs/chest surround the internal catheter route; arm entry outside this detail.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S01-V2-10",
+    "path": "storyboard-v2/images/S01-V2-10.png",
+    "sha256": "013d659bb58ba97e445af2577e7051c36bef4a5950b4736285520f3a1cd60c17",
+    "width": 941,
+    "height": 1672,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Corrected pickup detail isolates fingers, flexible tube and tray.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S01-V2-11",
+    "path": "storyboard-v2/images/S01-V2-11.png",
+    "sha256": "78facc6670d07b1870ae99338bb50b661104a2e8d69d35461edb22d5be953cba",
+    "width": 943,
+    "height": 1668,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Tube curve between his fingers is readable; face remains in composition.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S01-V2-12",
+    "path": "media/S01-D-Seedream.png",
+    "sha256": "44f1d1ba3ecdf42a1249a2026a41fbefd7e1e2836dbbfcdc5e1a1c662707aaab",
+    "width": 1536,
+    "height": 2720,
+    "reuse": {
+      "assetId": "2a8bed99-c44b-443d-a8a9-722f69249e5e",
+      "versionId": "f2b96fb0-cb4d-48be-a850-68e33e23525e",
+      "path": "media/S01-D-Seedream.png"
+    },
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Director's raised palm and the younger doctor's eyeline establish refusal.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S01-V2-13",
+    "path": "storyboard-v2/images/S01-V2-07.png",
+    "sha256": "ef9ba8325b8901bac388bc61a13c4435e55f390630bec72be03e33d59fdf6c9b",
+    "width": 942,
+    "height": 1669,
+    "reuse": {
+      "generatedCutId": "S01-V2-07",
+      "path": "storyboard-v2/images/S01-V2-07.png"
+    },
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Editorial reprise of route study before sleeve and procedure, replacing the unavailable preparatory generation. No claim that access is reversed.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S01-V2-14",
+    "path": "storyboard-v2/images/S01-V2-14.png",
+    "sha256": "9b62fdce9aca350dd196d79a195dcf914b815108d09bcbcca7f2a7a983f1648b",
+    "width": 941,
+    "height": 1672,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Corrected fingers secure the cuff; no gauze or insertion in this preparation detail.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S01-V2-15",
+    "path": "storyboard-v2/images/S01-V2-15.png",
+    "sha256": "623a04a45414f1c2f34b44fe06aee3fef69ccd53a1ea1f35499c2f99ee7ced82",
+    "width": 943,
+    "height": 1668,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Solitary room and supported arm establish the procedure; this leads into scene two rather than claiming the risk has already ended.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S01-V2-16",
+    "path": "storyboard-v2/images/S01-V2-16.png",
+    "sha256": "d89a1926fe6e48bea604d167688fef2be8a94873af855e095bf29422826fcd34",
+    "width": 943,
+    "height": 1668,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Face, right hand and supported access arm carry the personal stakes into the procedure.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S02-V2-01",
+    "path": "media/S02-A-Seedream.png",
+    "sha256": "f5c4edeaf8a7fb359c91c9ed70c11104f11f7718b4e87fe3fb547c789726b25e",
+    "width": 1536,
+    "height": 2720,
+    "reuse": {
+      "assetId": "180caf7d-6168-415b-b7d7-59d188799b52",
+      "versionId": "e884b252-fad2-47a4-9499-107ce517b2d9",
+      "path": "media/S02-A-Seedream.png"
+    },
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Same young doctor and own-arm connection carry over.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S02-V2-02",
+    "path": "storyboard-v2/images/S02-V2-02.png",
+    "sha256": "1d9cab2fe818491a1992e09f6706be43647aa850dfe8f744de491ca9927b66bd",
+    "width": 942,
+    "height": 1669,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Close fingertips hold the catheter near access; insert focuses ownership.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S02-V2-03",
+    "path": "storyboard-v2/images/S02-V2-03.png",
+    "sha256": "c5d3c82578af96948383546743d2da3cde5ddba19d50cdae4021276b3428bcf1",
+    "width": 943,
+    "height": 1668,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Forward-guiding pose retains the same hand, tube and arm.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S02-V2-04",
+    "path": "media/S02-B-Seedream.png",
+    "sha256": "e0b8824da181d15316f914e681211458083dba12bf69a184393c55c52a2cb4dc",
+    "width": 1536,
+    "height": 2720,
+    "reuse": {
+      "assetId": "c7ab153c-c223-4803-a547-a052463cacd7",
+      "versionId": "194f67f9-469e-4dbe-822e-718867210729",
+      "path": "media/S02-B-Seedream.png"
+    },
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Existing enclosed vessel section introduces the internal route.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S02-V2-05",
+    "path": "storyboard-v2/images/S02-V2-05.png",
+    "sha256": "358feb820e4a12e88d7629306e930cacc361b274ae27ada6430e02291d3aef40",
+    "width": 941,
+    "height": 1672,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Corrected shoulder anatomy removes the opposite-direction flow arrows.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S02-V2-06",
+    "path": "storyboard-v2/images/S02-V2-06.png",
+    "sha256": "33d05b4de1994faaa01ccca7819e7bd165bb83114dfda2275fda022fe10e69ba",
+    "width": 941,
+    "height": 1672,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Tube bends with the subclavian vessel beneath the clavicle.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S02-V2-07",
+    "path": "storyboard-v2/images/S02-V2-07.png",
+    "sha256": "4c92e17bf353a155597d847cf0d7433166de5997b56085812c8896e477543afb",
+    "width": 941,
+    "height": 1672,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Intact exterior ribs and internal vessel show no chest-wall shortcut.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S02-V2-08",
+    "path": "storyboard-v2/images/S01-V2-08.png",
+    "sha256": "45170d3e481cde718de3215f3d3eb9f901edf61dfbb1a592cecbe74d925f994a",
+    "width": 941,
+    "height": 1672,
+    "reuse": {
+      "generatedCutId": "S01-V2-08",
+      "path": "storyboard-v2/images/S01-V2-08.png"
+    },
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Route overview repeats deliberately in the accepted speech pause; no new diagnosis or result.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S02-V2-09",
+    "path": "storyboard-v2/images/S02-V2-09.png",
+    "sha256": "896f4c87a3f2ee28ffed41bd38369eff82ca9582db8b4145d87dd8f445b30d22",
+    "width": 942,
+    "height": 1669,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Opaque exterior arm returns to the doctor's limited knowledge after audience explanation.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S02-V2-10",
+    "path": "media/S02-D-Seedream.png",
+    "sha256": "4d2de8259e06acb636728556ea5380eac695d8abb7590b1c0114691bc2913b68",
+    "width": 1536,
+    "height": 2720,
+    "reuse": {
+      "assetId": "19050db3-ee3f-4b27-94b5-6f049f1cb3b0",
+      "versionId": "bd73f438-bded-478a-9bc2-2e3d47a4e388",
+      "path": "media/S02-D-Seedream.png"
+    },
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Concentrated gaze at access, without a premature success reaction.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S02-V2-11",
+    "path": "storyboard-v2/images/S02-V2-11.png",
+    "sha256": "7c07bdd19687b8d38f7e60e8c98b44386a91420d4b291c9a062a43029b95f92d",
+    "width": 942,
+    "height": 1669,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Head turns toward the established exit while the arm remains supported.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S02-V2-12",
+    "path": "storyboard-v2/images/S02-V2-12.png",
+    "sha256": "dc569f85532dc1edd526399ee6960504086ece32cbc993d1374139a17667efee",
+    "width": 942,
+    "height": 1669,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "External tube curve is held near elbow; pose prepares relocation.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S02-V2-13",
+    "path": "storyboard-v2/images/S02-V2-13.png",
+    "sha256": "80debc78aa1cd95eec01d3850626188f0af5dab132197a3a78f7b14c259783b5",
+    "width": 941,
+    "height": 1672,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Corrected right-hand-only door contact; no incorrect dressing on the lever hand.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S02-V2-14",
+    "path": "media/S02-E-Seedream.png",
+    "sha256": "9854338dc01347f256043160679447293bcdeb40b85c0a068c6196d26ffdd19e",
+    "width": 1536,
+    "height": 2720,
+    "reuse": {
+      "assetId": "2304efce-9b59-4b1a-9644-1f9e83317a10",
+      "versionId": "3de55db7-a444-4cc4-9552-25d13ab95fc0",
+      "path": "media/S02-E-Seedream.png"
+    },
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Full corridor figure supplies the walk between door contact and arrival.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S02-V2-15",
+    "path": "storyboard-v2/images/S02-V2-15.png",
+    "sha256": "ea40f3cbbc4a626ac2f513c4f86567fb4eb1bcf672e675f5a7faa8e4f72307b4",
+    "width": 942,
+    "height": 1669,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Corrected rear arrival removes the false body-to-machine tube. Forearms mostly hidden in front.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S02-V2-16",
+    "path": "storyboard-v2/images/S02-V2-16.png",
+    "sha256": "bcbefc5c906a68a7a39fc9510066d6039e20f512d06b44afb024cc836704c11c",
+    "width": 942,
+    "height": 1670,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Corrected arrival keeps the access on viewer-right/anatomical left; foreground radiographer separate from patient.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S03-V2-01",
+    "path": "storyboard-v2/images/S03-V2-01.png",
+    "sha256": "b1acaec751975efffab83aade4bc1d40e90f3ce09a3ab129c3be7a8e67d164e9",
+    "width": 942,
+    "height": 1670,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Corrected radiographer operates controls; same patient stands with supported left access arm.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S03-V2-02",
+    "path": "storyboard-v2/images/S03-V2-02.png",
+    "sha256": "feb8bc7dbfb7a7f45b5c63c3caa2f783f2874420ee218c5286b08c0584e7540a",
+    "width": 942,
+    "height": 1669,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Bakelite control and hand make the activation cue explicit.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S03-V2-03",
+    "path": "storyboard-v2/images/S03-V2-03.png",
+    "sha256": "931eaefa244f2dc33a1152eca2473078eccaf24c7bfed5eb0a725424a4cf60e1",
+    "width": 941,
+    "height": 1672,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Grayscale explanatory reconstruction shows one catheter ending on viewer-left upper heart; not presented as the original historical plate.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S03-V2-04",
+    "path": "storyboard-v2/images/S03-V2-04.png",
+    "sha256": "f4e8952c26af426ef55efc9fbffd608b3d8e4a09612a949e9a79eba155d266be",
+    "width": 941,
+    "height": 1672,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Blue right atrial chamber and amber tip isolated in dimensional cutaway.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S03-V2-05",
+    "path": "storyboard-v2/images/S01-V2-08.png",
+    "sha256": "45170d3e481cde718de3215f3d3eb9f901edf61dfbb1a592cecbe74d925f994a",
+    "width": 941,
+    "height": 1672,
+    "reuse": {
+      "generatedCutId": "S01-V2-08",
+      "path": "storyboard-v2/images/S01-V2-08.png"
+    },
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Deliberate route reprise shows the extent while narration supplies the length.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S03-V2-06",
+    "path": "media/S03-C-Seedream.png",
+    "sha256": "46778479e85e52bf69e1586d26068568f2a2ad78d295de8e04aae04544a84a19",
+    "width": 1536,
+    "height": 2720,
+    "reuse": {
+      "assetId": "2df46fe5-06de-48b9-ac68-b1c7823199f2",
+      "versionId": "41418a1f-9d39-4aba-b9d7-321080923b84",
+      "path": "media/S03-C-Seedream.png"
+    },
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Existing held plate and dressed arm return to the living doctor.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S03-V2-07",
+    "path": "storyboard-v2/images/S03-V2-07.png",
+    "sha256": "15c46df7d2df332ef180cd2c1b75ef4da62174831118fd59446020d9506add00",
+    "width": 942,
+    "height": 1670,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Corrected displayed route matches the position view; fingertip indicates the endpoint.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S03-V2-08",
+    "path": "storyboard-v2/images/S03-V2-08.png",
+    "sha256": "7b80932185d828914b7190bcee83ef25515c9e451b2437e61310638845149cfe",
+    "width": 942,
+    "height": 1670,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Corrected evidence sheet enters the publication envelope; illustrative submission staging.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S03-V2-09",
+    "path": "storyboard-v2/images/S03-V2-09.png",
+    "sha256": "118f398558386e61e0b72f1882c2a4d61e094c981c0c7cd1b6c59d3ffa976540",
+    "width": 943,
+    "height": 1668,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Corrected catheter reproduction in journal; surrounding synthetic type is incidental, not a source quotation.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S03-V2-10",
+    "path": "media/S03-E-Seedream.png",
+    "sha256": "7d92c5eaa56d7168cd406840e4c71edaddae501e7eadfe7ece1ff14c7e33aa4f",
+    "width": 1536,
+    "height": 2720,
+    "reuse": {
+      "assetId": "38ad6dd2-8e02-4051-9a45-5eaae8f79fb5",
+      "versionId": "d61759ec-4225-4099-9b82-3ea017d2eeca",
+      "path": "media/S03-E-Seedream.png"
+    },
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Older surgeon and offered plate establish the receiving relationship.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S03-V2-11",
+    "path": "storyboard-v2/images/S03-V2-11.png",
+    "sha256": "282bec3c1c652b2b61102072a26a2c8888610bf537d4f1dc5f23fd7d2df40bb6",
+    "width": 942,
+    "height": 1669,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Surgeon redirects attention to papers; plate and young doctor remain foreground context.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S03-V2-12",
+    "path": "storyboard-v2/images/S03-V2-12.png",
+    "sha256": "3c2bb80a55bd1e272c0989058aff1baede403d5009a38688b63207fd171b6c52",
+    "width": 942,
+    "height": 1669,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Hands lower the unbroken plate; consequence without invented outburst.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S03-V2-13",
+    "path": "storyboard-v2/images/S03-V2-13.png",
+    "sha256": "a6efbd00b7d4dc8ce6d9318a378b10d4bdd7cbf7940ba31fecc570a4450ebfdf",
+    "width": 941,
+    "height": 1672,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Corrected empty lightbox preserves the evidence; invented bystander removed.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S03-V2-14",
+    "path": "storyboard-v2/images/S03-V2-14.png",
+    "sha256": "698dc4c2ed3e6f2bb0141b40cbd2ad4dbcf3f09ed01a5f6be71868e7fa2980c4",
+    "width": 942,
+    "height": 1669,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Doctor exits with the plate while older surgeon remains at desk; explicit separation.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S04-V2-01",
+    "path": "media/S04-A-Seedream.png",
+    "sha256": "e92297abc5d3c47991d59025605f32be6a7871d70f56cfff9134253bbeaa7896",
+    "width": 1536,
+    "height": 2720,
+    "reuse": {
+      "assetId": "8858f6dc-a9f0-4efa-95c7-9f0242fc4e71",
+      "versionId": "5df2be0d-0ef1-4008-9d19-01469af742d0",
+      "path": "media/S04-A-Seedream.png"
+    },
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Two period researchers share the apparatus rather than repeat a solitary hero.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S04-V2-02",
+    "path": "storyboard-v2/images/S04-V2-02.png",
+    "sha256": "39093d8b311b4a2513bf87ab61e8635ef4b8473bb4d7519f8a0ff8b86635871d",
+    "width": 941,
+    "height": 1672,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Glasses-wearing researcher records a trace while colleague attends the apparatus.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S04-V2-03",
+    "path": "storyboard-v2/images/S04-V2-03.png",
+    "sha256": "2b28a0a6085afa757467dffc29b5ed1f12c2afd3c8f9cd66b579cc8f1944cf29",
+    "width": 942,
+    "height": 1669,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Receding-haired researcher adjusts connected apparatus, continuing the shared task.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S04-V2-04",
+    "path": "media/S04-B-Seedream.png",
+    "sha256": "bfbb9592f21710e5bfec9092b91b730c88d4953adfba9ddd3f1e874c055da40f",
+    "width": 1536,
+    "height": 2720,
+    "reuse": {
+      "assetId": "c0c0ac87-6bde-471c-8ae2-e1cb47988841",
+      "versionId": "30cb5298-3737-449c-9028-f49e917ecbf4",
+      "path": "media/S04-B-Seedream.png"
+    },
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Existing sample handling introduces analysis; no claim to a precisely documented historical gesture.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S04-V2-05",
+    "path": "storyboard-v2/images/S04-V2-05.png",
+    "sha256": "f0b150c15c138c59e2e07f8127603474152b9aee7039d1149640a1d7d7c52f03",
+    "width": 942,
+    "height": 1669,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Gloved fingers seat a sample in rack; brief contact cue.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S04-V2-06",
+    "path": "storyboard-v2/images/S04-V2-06.png",
+    "sha256": "d76e0d5ed9655f68789e2657106794587387abbaa2d1d87b9fbad3bca570e278",
+    "width": 942,
+    "height": 1669,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Valve and glass pressure columns expose a measurement action.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S04-V2-07",
+    "path": "media/S04-C-Seedream.png",
+    "sha256": "158e62a7d1d66ba96a97d9dbc67f6a64deac92d44ea6bbbf61dc06d6ea2b105c",
+    "width": 1536,
+    "height": 2720,
+    "reuse": {
+      "assetId": "fa59299c-d2d7-48d5-9723-671c62dcf814",
+      "versionId": "1d4c0492-6526-4250-99a0-6008cdb09e63",
+      "path": "media/S04-C-Seedream.png"
+    },
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Existing instrument and defocused researchers extend measurement context; foreground apparatus carries the information.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S04-V2-08",
+    "path": "storyboard-v2/images/S04-V2-08.png",
+    "sha256": "23b58379896b4e3b5a3758484253318ae31e3d9de66b19a36d762719635ee731",
+    "width": 941,
+    "height": 1672,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Dimensional heart/lung circulation gives the relationship visual coverage.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S04-V2-09",
+    "path": "storyboard-v2/images/S04-V2-09.png",
+    "sha256": "5b5ebc8f4d08429ee7e5c66e574c65a1949e2d9238a361e2c6b5b464ad5e084d",
+    "width": 942,
+    "height": 1669,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Older Forssmann and gold hall make date/age transition visible.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S04-V2-10",
+    "path": "media/S04-E-Seedream.png",
+    "sha256": "f2f72297de0ed31ea4ebc059da78842cc3d10538a9246396913694f2f02611ce",
+    "width": 1536,
+    "height": 2720,
+    "reuse": {
+      "assetId": "4062a2f3-0307-45e2-815f-0cbc1a9784a9",
+      "versionId": "b9400db3-307f-477a-bf9b-b1fa51c8d427",
+      "path": "media/S04-E-Seedream.png"
+    },
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "All three laureates share the frame and ceremony.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S04-V2-11",
+    "path": "storyboard-v2/images/S04-V2-11.png",
+    "sha256": "081a35139bbb0a17bdf598a239277dba79d3fec37be4263fa2cb34b9335f9fbc",
+    "width": 943,
+    "height": 1668,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Open medal case gives a brief recognition detail.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S04-V2-12",
+    "path": "storyboard-v2/images/S04-V2-12.png",
+    "sha256": "04bcfad375d691a71e3a8066ef272c860ca39b3a05c57c2379fd10275ea3320e",
+    "width": 941,
+    "height": 1672,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Three separate cases and their owners' hands emphasize shared achievement.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S04-V2-13",
+    "path": "storyboard-v2/images/S04-V2-13.png",
+    "sha256": "10d55d2d7801a5c37120ca865f92e3ed0129eb71a39053e228f0d0dba6c82950",
+    "width": 941,
+    "height": 1672,
+    "reuse": null,
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Amber route returns to the original arm-to-heart idea.",
+    "motion": "not generated"
+  },
+  {
+    "cutId": "S04-V2-14",
+    "path": "media/S04-E-Seedream.png",
+    "sha256": "f2f72297de0ed31ea4ebc059da78842cc3d10538a9246396913694f2f02611ce",
+    "width": 1536,
+    "height": 2720,
+    "reuse": {
+      "assetId": "4062a2f3-0307-45e2-815f-0cbc1a9784a9",
+      "versionId": "b9400db3-307f-477a-bf9b-b1fa51c8d427",
+      "path": "media/S04-E-Seedream.png"
+    },
+    "reviewStatus": "selected-still-reviewed",
+    "observed": "Deliberate closing return to all three laureates over the accepted narration tail.",
+    "motion": "not generated"
+  }
+]
