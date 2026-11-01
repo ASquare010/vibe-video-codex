@@ -1,6 +1,6 @@
 # Research and spoken-story template
 
-Use for research, story structure and exact spoken writing. This role does not choose visual coverage, camera angles, image prompts or animation. Return the researched story and spoken draft for the director before narration. The director can reshape the unrecorded telling and staging together; the recording uses that final treatment. Writing alone authorizes no media.
+Use for research, story structure and exact spoken writing. This role owns the story, its explanations, event order and exact narration; it does not choose visual coverage, camera angles, image prompts or animation. Return the complete story and exact spoken script for the director before narration. The director reads those words unchanged and plans their staging and delivery. Any story or wording problem returns here for a writer revision before dependent direction/audio is updated. Writing alone authorizes no media.
 
 Turn a brief into something worth listening to and later watching. Learn transferable craft: a developing situation or line of thought, selective concrete detail, clear information flow, local anticipation, fitting voice and an earned ending. Choose the form for this subject and audience instead of imposing one plot, genre, duration or narrator persona.
 

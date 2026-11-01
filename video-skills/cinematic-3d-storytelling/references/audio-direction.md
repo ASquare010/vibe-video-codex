@@ -1,6 +1,6 @@
 # Narration: performance before speed
 
-Record the director's final spoken treatment, not the writer's earlier draft. Preserve the selected Holden identity, source files, exact requests and receipts. Existing accepted audio is not replaced by a new default.
+Record the writer's exact script using the director's separate performance intentions. The director and audio role do not rewrite the words. Preserve the selected Holden identity, source files, exact requests and receipts. Existing accepted audio is not replaced by a new default.
 
 ## Voice and controls
 Use [the saved preset](../config/narrator-default.json): Higgsfield Seed Audio, Holden, the exact preset ID/type, WAV 48 kHz. Native rate30 is provisional. The creator found Apollo 12's rate40 slightly rushed and emotionally flat. If needed compare a slower supported rate such as20 on the same passage; do not choose40 simply because it removes seconds.
@@ -21,7 +21,7 @@ Narration: "{EXACT_FINAL_TREATMENT_WORDS}"
 
 Resolve this for the scene rather than copying generic urgency throughout. Pass numeric controls separately. Preserve meaningful space for visible action or sound designed by the director; silence is not automatically an error, and the narrator need not describe every movement.
 
-Use a short performance arc rather than a list of adjectives: a confidential discovery becomes concern when the threat is understood, then a decisive phrase lands on the action. Name the actual phrase/turn in the scene. Before recording, normalize ambiguous numbers, abbreviations and names into the intended spoken form in the treatment; preserve meaning and retain the original text mapping. After recording, do not silently rewrite the accepted script to match a mispronunciation.
+Use a short performance arc rather than a list of adjectives: a confidential discovery becomes concern when the threat is understood, then a decisive phrase lands on the action. Name the actual phrase/turn in the scene. Before recording, return ambiguous spoken numbers or abbreviations to the writer for exact wording; keep name pronunciation guidance outside the script. After recording, do not silently rewrite the accepted script to match a mispronunciation.
 
 For the current route, the resolved Seed prompt goes in `generate_audio.params.prompt`; set `model: seed_audio`, the saved voice pair and the preset's supported numeric settings alongside it. Do not paste provider instructions into exact-text dialogue endpoints.
 
