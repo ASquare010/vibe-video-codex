@@ -25,7 +25,7 @@ Assess:
 - Does the requested length buy development? In longer work, do subquestions connect and deepen rather than restart?
 - Does the ending fulfill the real promise and honor the script's established commitments? Check relevant people, resources, rules, time, quantities and broad group claims against their actual last-known states.
 - Are factual claims and invention distinguishable, without invented evidence or distracting sourcing commentary?
-- Does the scene text preserve the whole script exactly, do anchors exist in order, and does each shot remain one continuous event/view?
+- Does the scene text preserve the whole script exactly? Can a first-time listener identify each necessary causal or explanatory connection in the actual words? Shot planning is the director's later responsibility and is not a writer deliverable.
 
 Return a compact verdict and concrete findings with exact short quotations, severity, what already works, and the function a repair must achieve. Do not supply an ideal replacement plot unless asked. Separate actual defects from taste. Distinguish story time, estimated screen time and unmeasured delivery. Never infer voice quality, retention, audience approval or media success from this text.
 ```

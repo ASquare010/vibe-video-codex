@@ -48,3 +48,11 @@ After the image and animation stages enrich the direction record, its combined c
 | Record | Required meaning |
 | --- | --- |
 | `cuts` | Beat IDs, audio scene/phrase, interval/status, dramatic job, viewpoint intent, attachment/look-at/focus/framing/path, action geometry, incoming/outgoing state, keyframe roles and image/video lineage. |
+
+## Timing and prompt-writer packet
+
+The director owns scene/cut membership and the measured-audio frame intervals. Each audio scene contains at least three useful cuts. Durations are unequal where attention, essential contact, suspense or reaction requires it; a meaningful subsecond insert is valid. Image/animation writers can return a coverage concern, not silently add, combine or retime cuts.
+
+Supply `previous` (selected outgoing state/reference or explicitly planned state), `current` (cut/beat IDs, exact narration/window, visual intent, required change and incoming/outgoing state) and `next` (required incoming state and join/time relationship). Add the image writer's chosen opening composition and actual selected image/version before animation. Neighboring events are LLM context, not extra events to send to the provider.
+
+Keep `nativeDuration`, `usefulSourceInterval`, `editDuration`, `playbackRate`, `timeTreatment` and the reason for any retiming separate. Record preparation/contact/result windows with their time base and status. Effects follow actual selected contact after retiming; narration remains continuous at its accepted pace. A timing table or placeholder animatic is provisional evidence until selected footage and permitted playback establish the result.

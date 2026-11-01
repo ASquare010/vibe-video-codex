@@ -6,7 +6,7 @@ Use the camera-motion and physical-action guidance included below. Return the ex
 
 Write the animation prompt from the director's cut and its actual selected still. Apply the camera-motion and physics sections included in this template. Carry forward image-stage viewpoint and composition. Do not reinterpret the story or turn one take into several editorial cuts.
 
-Describe only subjects actually visible in the input. An unoccupied object/set insert does not need human anatomy, face or clothing clauses; state its empty subject count and rigid object supports instead. Distinguish the virtual viewpoint from any camera apparatus inside the set, so moving the viewpoint does not imply a new operator or moving the apparatus. Do not treat a correct upload or successful job as proof that the output honored this subject count.
+Describe the subjects visible in the selected input and any established offscreen participant explicitly directed to enter through a known route or occlusion. Preserve identity, starting location and reason for that entrance. Do not add an unplanned person. For an intentionally unoccupied object/set insert, keep the living-subject count at zero and describe rigid supports rather than human anatomy. Distinguish the virtual viewpoint from camera apparatus inside the set so viewpoint travel does not invent an operator.
 
 Order the action phases before rendering. Keep movement and transfers in causal order; do not reset an event to an earlier state across a cut. Track identity, costume, location, direction, support, ownership, prop condition and set landmarks. A genuine time/travel ellipsis or explanatory callback may change state, but it must be deliberate and legible. Resolve the next prompt from the actual selected image, including whether a hand has already released an object; never invent a second grasp to reproduce a written plan.
 
@@ -39,6 +39,12 @@ Scope reference roles explicitly. A face/prop reference for a new location must 
 ## Native duration and edit interval
 
 Read the installed MiniMax instructions and live config. Use native frame count and actual duration, not a guessed padding rule. Keep the scene narration at its accepted pace. Cover it with motivated shots; do not stretch an attack or loop a performance to fill speech. If tool duration limits conflict with a planned shot, adjust shot coverage deliberately before generation instead of cutting words or secretly creating a montage inside the take.
+
+Keep native generation duration, useful action duration and retained edit duration separate. A one-second essential insert may come from a longer native take. Direct a useful early action phase and its visible result in the intended interval; extra native frames continue the outgoing state. Do not spread a quick grasp, strike or release across the native handle merely because it is longer. A longer suspenseful opening or reveal can be intentional; record what changes during that time rather than calling every slow movement defective.
+
+Use the director's previous/current/next packet and actual selected image. Preserve incoming motion, ownership, direction and action count across a cut. A reach begun in one view can continue into contact in another without starting again. Neighboring events stay editorial context: the provider prompt describes only this cut and its outgoing state. A source that ends in the wrong action is not repaired by retiming.
+
+Distinguish intended natural-time action from a deliberate speed-emphasis insert. Trim idle lead/tail first. The director may retime a complete useful movement to correct floaty cadence or create an explicit stylized beat, then check contact, support, readable result and camera pace at the selected speed. Record source in/out and playback rate; preserve the native take and narration. Source seconds divided by desired edit seconds gives the playback factor, subject to actual editor limits and visual review. Do not apply a universal speed multiplier, loop motion or slow all action to cover speech. Effects are aligned to the final observed contact after retiming.
 
 ## Camera motion and framing
 
@@ -87,8 +93,6 @@ Keep the full layout and next-cut plan in editorial records. Compile each provid
 
 - [ASC: John Seale on Fury Road framing](https://theasc.com/video/john-seale-asc-acs-framing-mad-max-fury-road/) — consistent screen attention supported that film's fast editing. This is a useful option, not an all-shots-center rule.
 
-These sources support filmmaking and animation principles. They do not establish a measured success rate for GPT or MiniMax. Our blockout/reference/acceptance workflow is an engineering adaptation to observed failures, to be tested on actual outputs. Keep written intention, computed plan, selected still and generated motion as separate evidence stages.
-
 ### Moving-subject coverage
 
 | Information/experience needed | Useful starting coverage | What must remain legible |
@@ -116,5 +120,7 @@ For a story-critical mechanical movement, specify what moves relative to what: c
 ### Research basis
 
 - [Animation Mentor: Believable weight](https://www.animationmentor.com/blog/how-to-create-believable-weight-in-animation/) and [timing/spacing](https://www.animationmentor.com/blog/tutorial-animate-with-timing-and-spacing-in-mind/) — force is communicated through opposing effort, posture and timing.
+
+- [Animation Mentor: Anticipation](https://www.animationmentor.com/blog/anticipation-the-12-basic-principles-of-animation/) — preparation makes a coming action intelligible. Apply enough preparation for this beat; do not add the same slow wind-up to every movement. Source principles support varying timing, not a model guarantee or a universal shot duration.
 
 These sources support filmmaking and animation principles. They do not establish a measured success rate for GPT or MiniMax. Our blockout/reference/acceptance workflow is an engineering adaptation to observed failures, to be tested on actual outputs. Keep written intention, computed plan, selected still and generated motion as separate evidence stages.
