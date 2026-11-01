@@ -9,7 +9,7 @@ metadata:
 # Scope
 A complete-video request authorizes a new VibeCut project, necessary narration/images/video, bounded repairs, local assembly and export. Carry that scope through to the actual film without repeated stage approvals. A script-only request, budget, review gate or stop narrows it. Publishing is separate. Recover the same project and existing job IDs on continuation; preserve frozen instructions, accepted media, creator edits, requests, failures and costs.
 
-The current creative baseline is cinematic live-action naturalism: tangible materials, motivated light and clear spatial depth. This is a choice for new projects, not a claim that one style always wins. Follow an explicit theme override or an existing project's saved look.
+Choose and lock the look for the story. For character-led animated action, consider feature-style stylized 3D with tangible materials, strong silhouettes and expressive poses; MiniMax publishes a dedicated workflow for it. Cinematic live-action naturalism remains an option for realistic subjects. Neither is a locally proven winner. The [image template](templates/image.md) owns the visual specification; follow an explicit theme override or an existing project's saved look.
 
 # Workflow
 1. **Writer:** use [script.md](templates/script.md) to research and tell a compelling complete story. Return the full spoken draft and continuous scene texts. The writer does not plan shots.

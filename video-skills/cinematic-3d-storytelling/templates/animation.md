@@ -29,6 +29,11 @@ The provider's native handle is not the final cut length. Put useful action and 
 Keep the full sequence, phrase alignment, source in/out, speed and review notes in editorial records. The provider needs the current event, image relationships, physical/camera development and intended sound. Do not pad the request with job IDs, source frame arithmetic, word-sync disclaimers, every next-cut event or generic review rules.
 
 ## MiniMax H3 format
+### Style evidence and performance
+MiniMax's [3D animation workflow](https://github.com/MiniMax-AI/MiniMax-H3/blob/main/skills/3d-animation-short-generator/SKILL.md) supports stylized dimensional characters, lively acting and readable energetic poses. Its [papercraft workflow](https://github.com/MiniMax-AI/MiniMax-H3/blob/main/skills/papercraft-stop-motion-explainer/SKILL.md) is a different, deliberately stepped-motion option for tactile explainers. These are authored creative workflows, not comparative benchmarks. Neither requires importing the Hub's tools or approval gates into this workflow.
+
+For stylized 3D, carry the image's proportions/materials forward and describe the actual line of action, weight shift and recovery. Reserve squash/stretch for intended elastic subjects; keep metal machines rigid. For naturalistic work use appropriate mass, anatomy and contact. Do not request stop-motion, dreamy slow motion or only tiny gestures unless the cut calls for them. The reference image establishes the medium; animation must develop the event within that medium.
+
 The installed client currently uses `MiniMaxH3ReferenceToVideo` with the Ref2VA checkpoint. Follow its official six-section format below, with real labels and concrete content. The service passes the prompt through; do not assume a Qwen prompt enhancer rewrites it. If a genuinely different supported model/mode is selected, consult that mode's guide instead of inventing controls.
 
 ```text
