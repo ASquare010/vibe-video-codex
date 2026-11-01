@@ -1,12 +1,18 @@
-# MiniMax shot-animation template
+# Animation prompt-writer template for the LLM
 
-Animate the director's cut from its actual selected still. Use [camera motion](../references/camera-motion.md) for pans, orbits, following, attachment and parallax, and [animation physics](../references/animation-physics.md) for support, momentum, contact and force. Carry forward image-stage viewpoint and composition. Do not reinterpret the story or turn one take into several editorial cuts.
+You are the LLM writing the animation prompt for one supplied cut. Your inputs are its director record, exact narration/phrase window, selected reference image and actual opening state, continuity, intended action and selected duration. Write how the subject moves and how the camera moves, including the relevant force, contact, momentum and outgoing state. This complete file is your instruction template; it is not the request sent directly to MiniMax or another video model.
+
+Use the camera-motion and physical-action guidance included below. Return the existing cut ID and one resolved videoPrompt for that cut, with the actual image reference roles. Resolve relevant output fields into concrete instructions and omit irrelevant fields. Do not generate video as part of prompt writing. Workflow execution and final director verification remain in SKILL.md. The provider-facing layout below is an output structure for the prompt you write; do not send this whole instruction file or unresolved placeholders to the video model. For a batch, apply the same process to each supplied cut.
+
+Write the animation prompt from the director's cut and its actual selected still. Apply the camera-motion and physics sections included in this template. Carry forward image-stage viewpoint and composition. Do not reinterpret the story or turn one take into several editorial cuts.
 
 Describe only subjects actually visible in the input. An unoccupied object/set insert does not need human anatomy, face or clothing clauses; state its empty subject count and rigid object supports instead. Distinguish the virtual viewpoint from any camera apparatus inside the set, so moving the viewpoint does not imply a new operator or moving the apparatus. Do not treat a correct upload or successful job as proof that the output honored this subject count.
 
 Order the action phases before rendering. Keep movement and transfers in causal order; do not reset an event to an earlier state across a cut. Track identity, costume, location, direction, support, ownership, prop condition and set landmarks. A genuine time/travel ellipsis or explanatory callback may change state, but it must be deliberate and legible. Resolve the next prompt from the actual selected image, including whether a hand has already released an object; never invent a second grasp to reproduce a written plan.
 
 For an entrance or exit, resolve the subject's current facing direction before describing travel. If the destination is behind them, include the turn, then the steps and the doorway occlusion that proves arrival or departure. A screen direction alone can leave the model walking past the destination or toward the viewer. Keep the viewpoint restrained when the turn, carried load and another person's doorway contact already make the event complex.
+
+## Animation-provider prompt output structure
 
 ```text
 LOOK AND INPUT: Detailed low-poly Blender-style cinematic 3D at {FPS}: preserve simplified modeled forms, faceted silhouettes, stylized cast, material response and lighting, without drifting to photographic realism or toy-like plastic. {PROJECT_DESIGN_LOCKS_OR_EXPLICIT_CREATOR_STYLE_OVERRIDE}. <Picture 1> fixes this shot's actual opening composition, subject designs, material and geometry. {ROLES_OF_ANY_ADDITIONAL_COMPATIBLE_INPUTS}.
@@ -33,3 +39,82 @@ Scope reference roles explicitly. A face/prop reference for a new location must 
 ## Native duration and edit interval
 
 Read the installed MiniMax instructions and live config. Use native frame count and actual duration, not a guessed padding rule. Keep the scene narration at its accepted pace. Cover it with motivated shots; do not stretch an attack or loop a performance to fill speech. If tool duration limits conflict with a planned shot, adjust shot coverage deliberately before generation instead of cutting words or secretly creating a montage inside the take.
+
+## Camera motion and framing
+
+Use with the instructions in this file. The selected still supplies the starting viewpoint. This guide owns pans, arcs/orbits, tracking/following, camera attachment, focus handoffs, parallax and continuous movement. Static angle and appearance decisions belong to [image composition](image.md#camera-angles-perspective-and-appearance).
+
+### Define a camera rig rather than a movement adjective
+
+Record separately:
+- `positionAttachment`: fixed world, vehicle/body, moving object or path; with an offset in the named coordinate frame.
+- `lookAt`: exact object, feature or point the camera points toward, including any intended handoff.
+- `focusOn`: the depth/feature that should be sharp. This is distinct from aiming the camera.
+- `framingTarget`: desired subject scale and screen position, plus allowed foreground occlusion.
+- `pathAndEnd`: physical camera travel and resulting view; distinguish it from subject travel.
+- `rollAndHorizon`: stable, body-relative or deliberately disturbed. Following a rotating projectile does not automatically mean copying its spin.
+
+In a prompt these are clear intentions, not invented MiniMax parameters. In a real 3D rig, attachment controls camera translation while target tracking controls its aim. The rig is only actually constrained when implemented. A phrase such as 'camera attached to object' alone leaves offset, angle, focus and roll ambiguous.
+
+For a fast-object insert establish its origin and path first. Keep the same source point and target when cutting into the close following view. A side-follow camera can keep the object nearly stationary in frame while the environment sweeps past; it must still advance through world space and leave the source behind. Avoid a free-floating object that hovers beside its origin. Show the payload/projectile appropriate to the event, not an entire cartridge or unrelated prop. A speed-emphasized insert may expand time intentionally; label the temporal treatment and keep it brief in the edit rather than stretching the whole encounter into slow motion. Long native generation handles do not determine its editorial duration.
+
+### Motivated travel and attention
+
+- Move alongside, lead or follow a person/object when their progress carries the event. An attached viewpoint moves with its subject while the fixed environment produces coherent parallax.
+
+- Arc, pan or rise when this reveals previously hidden information, scale or a reaction. A camera turning in place and a camera translating through space are different instructions.
+
+Favor visible subject activity plus a purposeful camera move over repeated drifting past held poses. One smooth move does not mean slow action: the camera can follow fast action continuously at natural speed. Let camera inertia, subject acceleration, foreground crossings and depth create energy; do not use zoom, blur, orbit or shake as decoration. Avoid impossible travel through solid objects, a full orbit that must invent an unseen room, or occlusion that hides the action the cut is meant to explain. A restrained or briefly held camera is appropriate when extra movement would obscure the event.
+
+Give each camera move a subject and a reason: follow the entering person, travel beside the carried object, move from the hand contact toward its result, arc enough to reveal an obscured detail, or track the event's path. Specify the camera's starting position, path, point of attention and ending view in the same fixed world. A closer crop alone is not a new viewpoint; a generic slow push or orbit is not a substitute for an event. Quiet reactions still need a thought, eyeline or task that changes. Preserve the selected low-poly or other rendering language rather than making every model input photorealistic.
+
+Smooth camera movement must not turn a quick event into slow motion. State the intended action speed separately from camera speed and name the moving attention target. A following camera may match the subject's travel; an orbit moves relative to it; an attached view shares its motion. In each case the background stays fixed and produces depth-dependent parallax rather than sliding or warping as a flat plate. Preserve planted support, weight transfer, momentum, resistance and recovery even with stylized geometry. For reactions specify the observable behavior, not an abstract instruction to feel an emotion. Keep each prompt focused enough for one short continuous take; a new location, reverse, impact insert or time jump belongs in the edit unless the planned physical camera move actually connects it.
+
+A camera may lead, follow, attach to a moving object, pan to new danger, arc to reveal a blocked relationship or briefly hold so contact reads. Plan start, path, attention and end in the same world. Cutting on a continuing action can carry momentum into a new view without replaying the full action. Match ownership, damage, velocity, direction and relevant supports across the join.
+
+### Motion prompt additions
+
+```text
+CAMERA RIG: {WORLD_OR_OBJECT_ATTACHMENT; OFFSET; PHYSICAL_PATH; LOOK_AT_CHANGE_OR_LOCK; ROLL_POLICY; END_VIEW}
+EDIT CONNECTION: {CONTINUING_PHASE_OR_ELLIPSIS; DIRECTION; ATTENTION_MATCH; REAL_TIME_OR_EXPLICIT_TIME_EMPHASIS}
+```
+
+Keep the full layout and next-cut plan in editorial records. Compile each provider prompt to this shot's actual visible state and change, without importing a future event or absent cast. Camera numbers in prose are not calibrated outputs; only a rendered/projected guide has an actual computed camera.
+
+### Research basis
+
+- [ASC interview with Pixar's Onward cinematographers](https://theasc.com/article/onward-quest-for-magic/) — camera/staging, lens choices, previsualization and physically motivated camera behavior are developed together.
+
+- [ASC: John Seale on Fury Road framing](https://theasc.com/video/john-seale-asc-acs-framing-mad-max-fury-road/) — consistent screen attention supported that film's fast editing. This is a useful option, not an all-shots-center rule.
+
+These sources support filmmaking and animation principles. They do not establish a measured success rate for GPT or MiniMax. Our blockout/reference/acceptance workflow is an engineering adaptation to observed failures, to be tested on actual outputs. Keep written intention, computed plan, selected still and generated motion as separate evidence stages.
+
+### Moving-subject coverage
+
+| Information/experience needed | Useful starting coverage | What must remain legible |
+| --- | --- | --- |
+| A fast moving object carries attention | A following/attached/parallel camera with an explicit target and offset | Origin, travel direction and destination; the background changes coherently. |
+
+Specify camera translation/attachment, look-at, optical focus and roll separately; 'follow the object' alone is incomplete.
+
+A quiet attempt to avoid notice and a fast mechanism need different movement treatments. Do not apply the same orbit, slow push or level of agitation to both.
+
+## Physical action and force
+
+Use with the instructions in this file. These are movement and physical-state instructions, distinct from the image's appearance or the camera's travel.
+
+Describe force through observable mechanics and timing: stable preparation/support, decisive acceleration or discharge, actual contact or miss, a specific material/target response, then recovery or irreversible change. For rigid machines put recoil in the designed mechanism, suspension, loose equipment or terrain; do not squash the whole hull as if it were rubber. Let loose matter and camera response follow the source event. Do not replace force with shake, white flash, slow debris or a larger explosion. The appropriate response depends on the object and event; greater spectacle does not imply greater physical correctness.
+
+Physical direction depends on the event. A strike needs loaded balance, acceleration, visible contact, target displacement and recovery; dust and shake cannot substitute for them. Running needs push-off/flight/landing, counter-motion and equipment lag. A machine needs an actuator, linkage, resistance and output. Quiet acting needs a thought, eyeline or purposeful task; do not append combat recoil to a conversation. Camera movement needs motivation and a changing view, not an orbit on every shot.
+
+For mechanical completion resolve the optional template line into plain physical language, using only relevant measurements. Show the part's final relation to its body/support, not merely a dramatic camera orbit. Check that the selected starting image leaves the intended travel possible. Verify completion in the actual retained frames before accepting a following operation. A prompt saying 'fully' or a successful generation receipt is insufficient. For a decisive fast action, choose a viewpoint and attention target that expose the operation and its effect; split coverage where one view cannot communicate both, preserving action count and avoiding replay.
+
+Set an action-specific pace, separately from camera smoothness. A camera can move smoothly while an attack accelerates sharply. Give contact a readable instant and consequences enough screen time; do not stretch a fast event across a whole narration clause. Use dialogue/narration across cuts, deliberate visual ellipses and changing attention to cover longer speech. Assess every long interval for actual visual development rather than applying a fixed maximum duration.
+
+For a story-critical mechanical movement, specify what moves relative to what: component, joint/axis, starting relation, intended path, final relation and visible evidence of completion. Camera motion and chassis motion are separate from component motion. A direction change seen only in screen space does not prove a rotating part completed its travel. Use a stable body/landmark reference and choose a view that exposes the relation. Record degrees when meaningful, but pair them with a readable physical endpoint; a numeric instruction alone is not verification. Budget acceleration, traversal, settling and a brief readable result inside the selected edit interval. A following operation must start from the achieved final state, not a partial movement quietly relabelled as complete. If full traversal is unreliable, show a motivated continuation or explicit ellipsis into a verified final state; do not imply a continuously demonstrated movement that was never shown.
+
+### Research basis
+
+- [Animation Mentor: Believable weight](https://www.animationmentor.com/blog/how-to-create-believable-weight-in-animation/) and [timing/spacing](https://www.animationmentor.com/blog/tutorial-animate-with-timing-and-spacing-in-mind/) — force is communicated through opposing effort, posture and timing.
+
+These sources support filmmaking and animation principles. They do not establish a measured success rate for GPT or MiniMax. Our blockout/reference/acceptance workflow is an engineering adaptation to observed failures, to be tested on actual outputs. Keep written intention, computed plan, selected still and generated motion as separate evidence stages.
