@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cinematic 3D storytelling"
+  short_description: "Expressive stories and audio-led low-poly 3D films"
+  default_prompt: "Use $cinematic-3d-storytelling for my brief: expressive scene audio, directed action, checked spatial layout and purposeful cameras, then detailed low-poly Blender-style images and video at the authorized stage."

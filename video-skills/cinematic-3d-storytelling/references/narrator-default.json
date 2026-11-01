@@ -1,0 +1,20 @@
+{
+  "provider": "Higgsfield",
+  "model": "seed_audio",
+  "voice_name": "Holden",
+  "voice_id": "3c9d6053-6334-592c-8997-4e325286af3f",
+  "voice_type": "preset",
+  "format": "wav",
+  "sample_rate": 48000,
+  "speech_rate": 20,
+  "loudness_rate": 0,
+  "pitch_rate": 0,
+  "voice_authorization": "Creator explicitly selected Holden as default on 2026-10-30.",
+  "controls_status": "Selected production baseline for expressive full narration; generated performance awaits listening review.",
+  "prompt_mode": "seed_directed_audio",
+  "delivery_goal": "Expressive conversational storytelling addressed to one listener; meaning-led emphasis and natural energy/pitch/rhythm changes, with brisk connected speech and brief purposeful pauses.",
+  "creative_priority": "Quality and detailed expressive direction take priority over price; do not shorten useful performance cues solely to reduce cost.",
+  "pause_edit": {"noise_db": -45, "minimum_internal_gap_seconds": 0.6, "keep_gap_seconds": 0.24, "edge_pad_seconds": 0.1},
+  "tempo_edit": {"default_factor": 1.0, "maximum_factor": 1.15, "purpose": "Optional modest pitch-preserving adjustment after measured generation, separate from pause editing."},
+  "scope": "Default for this creator unless they override it; do not infer that this is accepted listening quality or reset nonzero speed to zero."
+}
