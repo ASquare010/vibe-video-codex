@@ -35,6 +35,18 @@ Then use the image-stage compilation in [image.md](../templates/image.md) before
 
 Carry state forward across cuts and mark ellipses or callbacks explicitly. Record why an action is omitted when omission could make the operation or handoff unclear. Before video resolve the prompt against the actual selected still, not merely the intended image description. Keep following-cut events in the editorial continuity record outside this shot's generation prompt. A template revision must not silently rewrite submitted requests, approved audio, selected assets or a running production plan.
 
+Use the existing direction/receipt artifacts to retain these compact additions, without adding production stages or requiring new manifest fields:
+
+| Evidence | Record |
+| --- | --- |
+| Reference inputs | Actual path/version/hash, role (appearance, layout, mechanism/pose, current state), relevant feature and whether that feature was checked. |
+| Difficult action | Planned opening, decisive contact/change and edit-out target; physical connection/support and the condition that would make the shot unusable. |
+| Neighboring cut | What passes forward, what the next cut receives, matching action/eyeline/direction/space/sound or deliberate time/place change. |
+| Actual request | Exact expanded provider text, settings and actual attached inputs, saved with the job ID; preserve shorter planning text separately. |
+| Selection | Exact image/version or retained footage range, each critical requirement's observed evidence, unresolved failures and decision with reason. A file's existence is not a visual pass. |
+
+Keep review contact sheets separate from clean generation inputs. A planning target or generated storyboard is not a timed provider control unless the selected route actually supports it.
+
 For story-critical mechanisms add a `completionTest` to the relevant beat/cut: moving component, fixed reference, start/end relation, path/extent, planned completion window, visible evidence and actual result (`not-checked`, `complete`, `partial`, `elided` or `unclear`). Save the reviewed source-frame range and the retained edit range; a complete native take can still become incomplete when trimmed. Keep planned numeric precision separate from visually verified precision. Add the payoff's observable evidence and any inference to the ending review. Record the isolated narration's pause audit and selected edit map before definitive visual timing; audio speed, gap removal and timeline padding are distinct operations.
 
 For geometry-sensitive action attach the layout/camera evidence from [image-layout.md](../templates/image.md#layout-and-blockout): dimensions and positions, actual mechanism aim, source/path/target, camera attachment/offset, look-at, optical focus, framing and roll. Mark each relation as planned, computed in a guide, verified in a selected still or checked in video; do not collapse those stages into an approval. Record emitted guide files and their hashes when used as image references. Preserve the distinction between rendering style and physical miniature scale, and between intentional time-emphasis inserts and real-time action.
@@ -58,3 +70,5 @@ Supply `previous` (selected outgoing state/reference or explicitly planned state
 Keep `nativeDuration`, `usefulSourceInterval`, `editDuration`, `playbackRate`, `timeTreatment` and the reason for any retiming separate. Record preparation/contact/result windows with their time base and status. Effects follow actual selected contact after retiming; narration remains continuous at its accepted pace. A timing table or placeholder animatic is provisional evidence until selected footage and permitted playback establish the result.
 
 For director-first v3 projects, plan.directorBasis is application evidence tied to the treated story, words, performance and cut events. Timing and provider prompt changes do not alter it; changed treatment content invalidates it. The writer cannot certify this stage. Preserve raw director results and recorded speech. A later timing pass may adjust frame intervals and directionBasis without silently changing the treatment.
+
+Custom production helpers must use the same treatment validation/stamping and saved-skill resource handling as the managed path; never invent a treatment marker to bypass that check. At new-project creation preserve the resolved skill resources through the existing snapshot mechanism, not just a name or entrypoint. Existing frozen copies remain historical. If a validation path is unavailable, preserve the treatment and identify the missing evidence rather than claiming application certification. This is an execution requirement within the same workflow, not a new approval step.
