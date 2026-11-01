@@ -25,7 +25,7 @@ Hypothetical 24 fps scene, 192 frames, before measured speech exists:
 | Hand/contact insert | 72–95 | 1 s | Clear grasp and ownership change, continuing the approach/reach. |
 | Inside-door reveal | 96–191 | 4 s | Door begins opening from the established state and reveals the next space/threat. |
 
-The short middle cut is not redundant: deleting it can remove the causal fact needed for the next shot. The longer final view earns its time through anticipation and revelation. Another brief may need a different order, count or duration. An eight-second narration does not impose equal cut lengths or eight-second native generations.
+The short middle cut is not redundant: deleting it can remove the causal fact needed for the next shot. The longer final view earns its time through anticipation and revelation. The one-second value is illustrative, not a target: a brief insert could take about 0.8 seconds, 2 seconds or another duration according to the movement, readability and dramatic purpose. Another brief may need a different order, count or duration. An eight-second narration does not impose equal cut lengths or eight-second native generations.
 
 ## Scope and evidence limits
 

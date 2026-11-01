@@ -20,7 +20,7 @@ For each beat state its audience effect and new information: dominance, vulnerab
 
 Each scene contains at least three meaningful cuts for this creator's workflow; the total grows with useful coverage. Choose scene boundaries and script scope before recording so a scene can support that coverage. If frozen audio makes the requirement infeasible, expose that constraint rather than padding, accelerating speech or silently rewriting it. Neither the minimum nor the previous film's 42 cuts is an equal-length recipe.
 
-Allocate time by what must be perceived and felt. Geography and an approaching major action may need the longest view; a short contact insert can carry a decisive fact; a reaction or reveal may need its own beat. Do not remove the insert merely to reach a preferred minimum shot length. Equally, do not make every verb another shot. Separate cuts where a new view, attention target or phase makes the event clearer or more expressive.
+Allocate time by what must be perceived and felt. Geography and an approaching major action may need the longest view; a short contact insert can carry a decisive fact; a reaction or reveal may need its own beat. "Short" is relative to the motion, readability and dramatic purpose: it has no fixed one-second target or fixed share of the scene. Do not remove the insert merely to reach a preferred minimum shot length. Equally, do not make every verb another shot. Separate cuts where a new view, attention target or phase makes the event clearer or more expressive.
 
 Use these functions when they serve the scene, not as a mandatory sequence:
 - Establish/re-establish where participants, routes and important objects are.

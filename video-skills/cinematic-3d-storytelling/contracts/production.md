@@ -51,7 +51,7 @@ After the image and animation stages enrich the direction record, its combined c
 
 ## Timing and prompt-writer packet
 
-The director owns scene/cut membership and the measured-audio frame intervals. Each audio scene contains at least three useful cuts. Durations are unequal where attention, essential contact, suspense or reaction requires it; a meaningful subsecond insert is valid. Image/animation writers can return a coverage concern, not silently add, combine or retime cuts.
+The director owns scene/cut membership and the measured-audio frame intervals. Each audio scene contains at least three useful cuts. Durations follow motion, readability and dramatic purpose; a meaningful brief insert is valid, including below a second when readable, without a fixed one-second target. Image/animation writers can return a coverage concern, not silently add, combine or retime cuts.
 
 Supply `previous` (selected outgoing state/reference or explicitly planned state), `current` (cut/beat IDs, exact narration/window, visual intent, required change and incoming/outgoing state) and `next` (required incoming state and join/time relationship). Add the image writer's chosen opening composition and actual selected image/version before animation. Neighboring events are LLM context, not extra events to send to the provider.
 

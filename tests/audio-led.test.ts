@@ -33,8 +33,14 @@ test('partial prompt and speed results preserve omitted narration, source offset
   assert.deepEqual(parsed.settings,{videoResolution:'1080'});
 });
 
-test('essential one-second insert is valid; gaps, repeats and stale audio are rejected',()=>{
+test('essential inserts have variable durations; gaps, repeats and stale audio are rejected',()=>{
   const {p,s,a,directed}=fixture();assert.equal(directionIssue(p,directed),null);
+  for(const frames of [19,24,48]) { // About 0.8, 1 and 2 seconds at 24 fps; no fixed insert target.
+    const varied=structuredClone(directed);varied.shots[1].durationFrames=frames;
+    varied.shots[2].startFrame=72+frames;varied.shots[2].durationFrames=192-72-frames;
+    assert.equal(directionIssue(p,varied),null);
+    assert.doesNotThrow(()=>validateProductionResult(p,job(s.id,'storyboard'),resultSchema.parse({summary:'Variable timing',sceneUpdates:[varied]})));
+  }
   assert.doesNotThrow(()=>validateProductionResult(p,job(s.id,'storyboard'),resultSchema.parse({summary:'Direction',sceneUpdates:[directed]})));
   const gap=structuredClone(directed);gap.shots[1].startFrame++;assert.match(directionIssue(p,gap)!,/gaps or overlaps/);
   const duplicate=structuredClone(directed);duplicate.shots[1].id=duplicate.shots[0].id;assert.match(directionIssue(p,duplicate)!,/unique/);
