@@ -50,6 +50,8 @@ Use one continuous narration file per scene, with complete thoughts and intentio
 ## Pause preparation and assembly
 Inspect the isolated voice. Detector settings in the preset identify candidates, not automatic deletions: preserve intentional suspense, breaths and quiet consonants. Ambience cannot repair bad articulation or excessive dead air.
 
+Do not append a fixed lead, tail or transition gap to every scene. A longer unspoken interval needs a specific directed action/sound purpose; a provider's accidental pause is not that purpose. Inspect multi-second gaps and scene joins before selecting the audio. Use the existing pause-preparation step before cut timing when excessive dead air is found; keep short natural phrasing and do not speed up spoken words to compensate for padding.
+
 The [existing preparation helper](../scripts/prepare_narration.py) preserves originals, refuses overwrites and defaults to tempo1.0. It copies retained PCM for pause-only cleanup and records the removed intervals. Use --protect START:END for intended holds. Non-1.0 tempo is an explicit, bounded existing-audio preview, not the routine performance fix; its timing map is approximate. Recheck speech and realign after editing.
 
 ```text
