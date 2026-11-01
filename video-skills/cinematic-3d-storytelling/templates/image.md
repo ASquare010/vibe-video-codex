@@ -5,9 +5,9 @@ You are the LLM writing one resolved GPT image prompt per directed cut. This fil
 ## What to design
 Choose the audience's view of this development: angle, perspective, scale, staging, expression, light and one useful action phase. Use the project's explicit look and accepted designs. For a new animated narrative, a supported candidate is feature-style stylized 3D: sculpted forms, expressive brows/posture, tactile cloth/metal/skin, dimensional lighting and readable silhouettes. Specify the actual materials and proportions rather than relying on a studio name. For a realistic story, cinematic live-action naturalism is another candidate. Do not insert an unwanted low-poly, cartoon, toy or photographic style into a style-locked project.
 
-Make the intended movement possible from the still. A running subject should have a supported, committed action phase and space to travel; a hand/mechanism needs a plausible contact path and a visible result area. An opening may be mid-action or aftermath when the directed join supports it. Do not commission another neutral preparation merely because this is an image-to-video input.
+Make the intended movement possible from the still. A running subject should have a supported, committed action phase and space to travel; a hand/mechanism needs a plausible contact path and a visible result area. Resolve torso facing, joint reach, grip surface, planted support, resistance and room for the intended movement. A hand on a nearby fixed rail is a different state from gripping the moving control. An opening may be mid-action or aftermath when the directed join supports it; preparation before contact is valid when the director explicitly budgets that reach. Do not commission another neutral preparation merely because this is an image-to-video input.
 
-Expose the cue that matters at the delivery crop/viewing size. A subject name, generic shocked face or attractive object may not show the required relationship. Plan depth through foreground/middle/background separation, overlap, coherent scale, texture, contact shadows and motivated light. Leave depth and travel room for animation rather than painting every element onto one flat plane.
+Build the view around the director's first-notice priority and expose its cue at delivery crop/viewing size. Face, mechanism and landscape need not compete equally in every image. Preserve essential contact and travel space within the portrait or landscape crop and any known display overlays; do not impose another format's fixed margins. A subject name, generic shocked face or attractive object may not show the required relationship. Plan depth through foreground/middle/background separation, overlap, coherent scale, texture, contact shadows and motivated light. Leave depth and travel room for animation rather than painting every element onto one flat plane.
 
 ## Camera angles, perspective and appearance
 Choose for meaning, not a compulsory rotation of shot types:
@@ -25,7 +25,7 @@ Specify camera position relative to the actual subject/set, height/distance, loo
 Use expression, gaze, posture and task together. A sustained emotional face without a developing event is weak coverage. Preserve identity, costume, ownership, damage and lighting across views. Scope references by design, geometry or current state: a design reference must not force every new shot to repeat its original composition. Adjacent cuts should add information or changed behavior, not just a different label.
 
 ## Layout and blockout
-For difficult source/path/target geometry, project or render a cheap guide using the existing [blocking helper](../scripts/blocking_previs.py) where useful. Check positions, facing, scale, action axis, contact and occlusion. Give the actual guide to the image tool through its supported reference mechanism. A computed plan does not prove the generated image obeys it.
+For difficult source/path/target geometry, project or render a cheap guide using the existing [blocking helper](../scripts/blocking_previs.py) where useful. Establish connections, positions, facing surfaces, scale, action axis, support and occlusion before adding visual polish. Derive a new camera view from that same world rather than independently rearranging objects to fit it. The helper's boxes/cameras can establish coarse space; they do not prove anatomy, grip or mechanism function. Give the actual guide to the image tool through its supported reference mechanism. A computed plan does not prove the generated image obeys it.
 
 Keep camera/subject motion distinct from the apparatus visible in the scene. Do not invent an operator because the view is moving. Preserve established exits and world landmarks across viewpoint changes. Provide rigid supports for machines and purposeful body support for people.
 
@@ -35,19 +35,23 @@ The saved Apollo calls used the built-in image tool, which does not expose a mod
 
 For new shots, describe subject/action, composition, lighting, materials and essential constraints concretely. Assign each attached reference its role: identity/costume, set geometry, current prop state or visual medium. Repeat the few identity details that matter across shots. A fresh angle may change the composition while preserving design; a local repair should name the one change and explicitly preserve the surrounding frame. Supply the selected image as an actual input, inspect the result, and refine one issue at a time. Do not repeatedly regenerate an entire scene to repair one hand or prop.
 
+Choose references by the question they answer. A character/design view establishes appearance; a checked set/layout view establishes relative positions; a prop/detail view establishes mechanism shape and contact; the selected current frame establishes an edit target or continuation state. One image may serve several roles only where those features are actually clear and correct. Do not make an unverified wide frame the geometry authority for every dependent close view. Resolve conflicting references explicitly and attach only relevant inputs; extra references are not automatically better.
+
+For a correction, decide whether the base arrangement is valid. If it is, change the local defect while preserving the rest. If the connection, viewpoint or working pose is wrong, reconstruct that arrangement from the checked layout instead of instructing the model to preserve it. Keep initial attempts and actual request/reference records. Acceptance and decisions to expand a dependent image set belong to the director checks in SKILL.md.
+
 Source: [OpenAI image prompting](https://developers.openai.com/api/docs/guides/image-prompting). Provider parameter names differ by route; refresh the actual tool schema rather than copying API fields into the built-in tool.
 
-Write a coherent standalone description from the following ingredients; do not copy the field labels or irrelevant modules into every request:
+Write a coherent standalone description from the following ingredients. Short labeled lines are useful for complex geometry; natural sentences are useful within them. Remove unresolved placeholders and irrelevant modules. Prompt length follows the shot's requirements, not a fixed word limit:
 
 ```text
-{PROJECT_LOOK}, one edge-to-edge {FORMAT} film frame.
-{CURRENT_SUBJECTS_AND_SETTING; PRECISE_DIRECTED_ACTION_PHASE; RELEVANT_PROP_OWNERSHIP_AND_CONDITION}.
-{COMPOSITION_AND_CAMERA_POSITION; LOOK_AT_AND_FOCUS; IMPORTANT_FOREGROUND_DEPTH_RELATIONSHIPS}.
-{EXPRESSION_POSTURE_CONTACT_OR_MECHANISM_GEOMETRY; TRAVEL_SPACE_AND_READABLE_CUE}.
-{MOTIVATED_LIGHT_MATERIALS_AND_REQUIRED_DESIGN_LOCKS}.
-{ACTUAL_REFERENCE_ROLES_AND_ONLY_NEEDED_LOCAL_CONSTRAINTS}.
+Frame: {PROJECT_LOOK}, one edge-to-edge {FORMAT} film frame.
+Current event: {SUBJECTS_AND_SETTING; PRECISE_DIRECTED_ACTION_PHASE; RELEVANT_PROP_OWNERSHIP_AND_CONDITION}.
+View and space: {COMPOSITION_AND_CAMERA_POSITION; LOOK_AT_AND_FOCUS; IMPORTANT_CONNECTIONS_AND_DEPTH_RELATIONSHIPS}.
+Pose and contact: {EXPRESSION_POSTURE_SUPPORT_GRIP_AND_REACH; TRAVEL_SPACE_AND_READABLE_CUE}.
+Light and materials: {MOTIVATED_LIGHT_AND_REQUIRED_DESIGN_LOCKS}.
+Inputs and constraints: {ACTUAL_ATTACHED_REFERENCE_ROLES; WHAT_CHANGES_AND_WHAT_STAYS; ONLY_NEEDED_LOCAL_CONSTRAINTS}.
 ```
 
 A still is one instant. Do not combine before/after poses, duplicate actors, motion trails or storyboard panels unless the director explicitly wants an explanatory graphic. Keep future events and editorial notes out of the provider prompt. Do not paste narration, every cast design, the whole palette inventory or app review instructions where the image needs only the current scene.
 
-Return the cut ID, imagePrompt, selected opening phase, camera/composition, actual reference roles and any unresolved concern. Workflow execution, inspection of the selected still and final director verification belong to SKILL.md. Pass the actual selected image to animation; never relabel a generated result as the original input.
+Return the cut ID, resolved imagePrompt, selected opening phase, camera/composition, actual reference roles and any unresolved concern. Preserve the exact expanded provider input and attached reference paths/version IDs with the generation receipt; the shorter planning description is not that request. Workflow execution, inspection of the selected still and final director verification belong to SKILL.md. Pass the actual selected image to animation; never relabel a generated result as the original input.

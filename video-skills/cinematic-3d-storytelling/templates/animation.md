@@ -2,6 +2,8 @@
 
 You are the LLM writing the resolved MiniMax prompt for one directed cut. Use the actual selected image, cut purpose and incoming/outgoing state, narration context, adjacent-cut packet and selected duration. Preserve the current event and action count. If the image cannot perform it, return the discrepancy rather than replacing the action with a tiny reaction.
 
+Resolve the planned opening, decisive action and edit-out target against what is actually visible. A planned reach can lead into contact, but do not ask animation to repair an impossible connection, unsupported body or unreachable grip. Identify the direction/state that this cut receives and passes forward. These are motion-planning inputs; do not add another shot or send a review checklist to the provider.
+
 ## Physical action and force
 Continue the selected image's actual phase. Describe the moving subject, direction/path, effort or resistance, contact/miss, response and readable result. Use the physical detail this event needs; avoid generic micro-movements or "cinematic energy" as substitutes for its central action. Do not restart preparation already shown in the preceding view.
 
