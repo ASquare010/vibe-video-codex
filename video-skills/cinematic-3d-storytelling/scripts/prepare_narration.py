@@ -1,9 +1,10 @@
-"""Make a separate pause-tightened, pitch-preserving tempo preview of PCM WAV narration."""
+"""Prepare a separate pause-tightened PCM WAV; retain articulation speed by default."""
 import argparse
 import hashlib
 import json
 from pathlib import Path
 import re
+import shutil
 import subprocess
 import wave
 
@@ -16,10 +17,12 @@ def read_wav(path):
 
 
 def main():
+    policy = json.loads((Path(__file__).resolve().parents[1] / 'config' / 'narrator-default.json').read_text(encoding='utf-8-sig'))
+    tempo_policy = policy['tempo_edit']
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--input', type=Path, required=True)
     parser.add_argument('--out-dir', type=Path, required=True)
-    parser.add_argument('--tempo', type=float, default=1.15)
+    parser.add_argument('--tempo', type=float, default=tempo_policy['default_factor'], help='Explicit optional tempo preview; native speech rate is preferred for new narration.')
     parser.add_argument('--noise-db', type=float, default=-45)
     parser.add_argument('--min-gap', type=float, default=.60)
     parser.add_argument('--keep-gap', type=float, default=.24)
@@ -27,8 +30,8 @@ def main():
     parser.add_argument('--protect', action='append', default=[], help='Preserve an original-time range START:END.')
     parser.add_argument('--ffmpeg', type=Path, default=Path(__file__).resolve().parents[3] / 'node_modules/ffmpeg-static/ffmpeg.exe')
     args = parser.parse_args()
-    if not .9 <= args.tempo <= 1.3:
-        parser.error('Use a conservative preview tempo between 0.9 and 1.3.')
+    if not .9 <= args.tempo <= tempo_policy['maximum_factor']:
+        parser.error(f"Tempo must be between 0.9 and the saved maximum {tempo_policy['maximum_factor']}; use native generation speed for faster new speech.")
     if not 0 < args.keep_gap < args.min_gap or args.edge_pad <= 0:
         parser.error('Require 0 < keep-gap < min-gap and positive edge-pad.')
     if not -80 <= args.noise_db <= -30:
@@ -45,7 +48,7 @@ def main():
     duration = frames / rate
     args.out_dir.mkdir(parents=True, exist_ok=True)
     tightened = args.out_dir / (source.stem + '-pause-tightened.wav')
-    final = args.out_dir / (source.stem + '-faster.wav')
+    final = args.out_dir / (source.stem + ('-prepared.wav' if args.tempo == 1 else '-tempo-preview.wav'))
     report = args.out_dir / (source.stem + '-edit-report.json')
     for output in (tightened, final, report):
         if output.resolve() == source or output.exists():
@@ -95,10 +98,13 @@ def main():
     with wave.open(str(tightened), 'wb') as stream:
         stream.setparams(params)
         stream.writeframes(output_pcm)
-    subprocess.run([
-        str(args.ffmpeg), '-nostdin', '-n', '-v', 'error', '-i', str(tightened),
-        '-af', f'atempo={args.tempo}', '-c:a', 'pcm_s16le', str(final)
-    ], check=True)
+    if args.tempo == 1:
+        shutil.copyfile(tightened, final)
+    else:
+        subprocess.run([
+            str(args.ffmpeg), '-nostdin', '-n', '-v', 'error', '-i', str(tightened),
+            '-af', f'atempo={args.tempo}', '-c:a', 'pcm_s16le', str(final)
+        ], check=True)
     final_params, _ = read_wav(final)
     native_seconds, approximate_mapping = 0, []
     for a, b in retained:
@@ -116,7 +122,9 @@ def main():
         'tempoFactor': args.tempo, 'silenceThresholdDb': args.noise_db,
         'minimumInternalGapSeconds': args.min_gap, 'retainedInternalGapBeforeTempoSeconds': args.keep_gap,
         'protectedInputRanges': protected, 'removedInputRanges': [[a / rate, b / rate] for a, b in removed],
-        'mapping': approximate_mapping, 'mappingPrecision': 'Approximate after atempo; re-align final words before shot timing.',
+        'mapping': approximate_mapping,
+        'mappingPrecision': ('Exact retained PCM frame intervals at unchanged sample rate.' if args.tempo == 1 else 'Approximate after atempo; re-align final words before shot timing.'),
+        'articulationSpeedPreserved': args.tempo == 1,
         'sourcePreserved': True, 'listeningStatus': 'pending-user-review',
         'note': 'Silence detection is a candidate edit, not proof of no speech loss. Preserve breaths and intended pauses; verify words and listen. Tempo editing does not create expressive acting.'
     }
