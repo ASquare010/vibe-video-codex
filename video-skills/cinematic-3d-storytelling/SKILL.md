@@ -67,4 +67,6 @@ Higgsfield handles audio, GPT handles still images, and the creator's installed 
 
 For MiniMax read `tools/minimax_h3/AI_INSTRUCTIONS.md`, use the existing client/live configuration and documented private IAP route, and reconcile saved jobs before submission. The shared GPU is sequential and automatically unloads weights after all submitted work is finished. Do not alter services, GPU stack, IAM or networking as routine production.
 
+Choose supported native generation settings for the delivery crop and critical detail; an upscaled export does not establish native detail quality. If the representative sequence exposes a resolution or quality limitation, compare a bounded alternative with the same accepted inputs before scaling, recording changed settings, costs and actual results. More steps or pixels do not correct a wrong event or guarantee a better take.
+
 Report what the evidence establishes. Text reviews are not listening tests or audience metrics. Frames and probes do not establish native-rate motion. Preserve pending playback checks and unpriced infrastructure costs honestly. No media retry batch follows a writing comparison automatically.

@@ -1,0 +1,135 @@
+{
+  "projectId": "34dd7600-10be-483d-8b19-4bc92f818408",
+  "projectRevision": 71,
+  "frozenSkillFilesUnchanged": 24,
+  "frozenFiles": [
+    {
+      "path": "SKILL.md",
+      "snapshotSha256": "08b54af0661d02ba3049f4f3d00f1e27b272895d0c2f08d46462bf7afc19881f",
+      "unchanged": true
+    },
+    {
+      "path": "agents\\openai.yaml",
+      "snapshotSha256": "dff23f5a85f3bbe5ac54425bc148e67bf5e21d06a9d2ba66456238cc6432e94f",
+      "unchanged": true
+    },
+    {
+      "path": "config\\narrator-default.json",
+      "snapshotSha256": "e848a227347b40491a1e7d6d936fa9cfa57bf3713abcabf0db8ef24936b83a15",
+      "unchanged": true
+    },
+    {
+      "path": "contracts\\production.md",
+      "snapshotSha256": "3c281e0e29383ffc1443584258853f3846aabf5fcbd494c8ae4b4ec84c438e26",
+      "unchanged": true
+    },
+    {
+      "path": "references\\action-direction.md",
+      "snapshotSha256": "30900b2b1ef95257bfe1dff848d0d246646c104f4d60d7e349e472bff77bfbe7",
+      "unchanged": true
+    },
+    {
+      "path": "references\\animation-physics.md",
+      "snapshotSha256": "eae86dc90c01e960794d8345e3de44845e7b033777dedb97064f4848d9ad483a",
+      "unchanged": true
+    },
+    {
+      "path": "references\\audio-direction.md",
+      "snapshotSha256": "061655ba5265b2d0a454d931d8a61ee6cc7a289c628d901c080b93d3ace47a6e",
+      "unchanged": true
+    },
+    {
+      "path": "references\\camera-and-layout.md",
+      "snapshotSha256": "73542742a3dce67fb55dc7613539400295cd5874fec92eafe69f1c32d5dbb530",
+      "unchanged": true
+    },
+    {
+      "path": "references\\camera-motion.md",
+      "snapshotSha256": "83fe66e025780a31591d629bf6943f8be33372c22071ffad02c9639086bfbd7e",
+      "unchanged": true
+    },
+    {
+      "path": "references\\director.md",
+      "snapshotSha256": "a1306d1ba5524a1eae141da4c78ff82329d198aafa4e37aad000b50c59f90795",
+      "unchanged": true
+    },
+    {
+      "path": "references\\image-composition.md",
+      "snapshotSha256": "b08cd4418bbb446df54cbe3a71f196e4ee3f5d264272dcf3813cf3518c0744b7",
+      "unchanged": true
+    },
+    {
+      "path": "references\\image-layout.md",
+      "snapshotSha256": "17594d60c61e108b4981596b84d384ca27a65c9f12e0db50e54810e866307f23",
+      "unchanged": true
+    },
+    {
+      "path": "references\\narrator-default.json",
+      "snapshotSha256": "97ef76301590a9516080039ec68f7a118b140d19778e10c991a64ef4cb2df3c6",
+      "unchanged": true
+    },
+    {
+      "path": "references\\output-contract.md",
+      "snapshotSha256": "1307c6ece936d4bd7e4de28abb72e30a6b5fdf6d5b0eecd199e607fff36deab1",
+      "unchanged": true
+    },
+    {
+      "path": "references\\quality-review.md",
+      "snapshotSha256": "82d1eb5a76ef750729e0945cf6fe2d693d2843e8884292cfeebfa807ea792958",
+      "unchanged": true
+    },
+    {
+      "path": "references\\story-engine.md",
+      "snapshotSha256": "a2ab08ede55b03b7ff7f144bba3ace87f94c45661f7724735d86343e8c92e69b",
+      "unchanged": true
+    },
+    {
+      "path": "references\\template-refinement.md",
+      "snapshotSha256": "184ac170a49f090978dc4a0f4cf2c6a300aedeebea84c2df93b30b86e8ad3b4f",
+      "unchanged": true
+    },
+    {
+      "path": "references\\visual-prompts.md",
+      "snapshotSha256": "5e4d02b000b30e71cd41e2bebda57d16ee76038b63a7f30cc4894705b021566a",
+      "unchanged": true
+    },
+    {
+      "path": "scripts\\blocking_previs.py",
+      "snapshotSha256": "1d99d0ac659cc8d5aad06b1ac49016ebba9a0925ce4a3ff9e11e5d336f6ade18",
+      "unchanged": true
+    },
+    {
+      "path": "scripts\\prepare_narration.py",
+      "snapshotSha256": "3b1f201ac01c52683bfc4475345fe1c736dee56480b70b2d9808bf664bcf21fb",
+      "unchanged": true
+    },
+    {
+      "path": "templates\\animation.md",
+      "snapshotSha256": "3e9b132e1acd9d9ced40b07bc613055c10fc3eb317a416f3db550ca0605720fc",
+      "unchanged": true
+    },
+    {
+      "path": "templates\\image.md",
+      "snapshotSha256": "f9fcbb7e3d3da722599f01d3413286dcdb336ea273544375fe131572c60268fb",
+      "unchanged": true
+    },
+    {
+      "path": "templates\\script.md",
+      "snapshotSha256": "564be00e53a8b50844c8c133cf6985b46497bf3c5d381d4fae05016305e79dbf",
+      "unchanged": true
+    },
+    {
+      "path": "scripts\\__pycache__\\blocking_previs.cpython-312.pyc",
+      "snapshotSha256": "8995e2bb6faef5a010e77c5371a7f1cc3c72bc36f7960b4afe48fd69b98986b1",
+      "unchanged": true
+    }
+  ],
+  "canonicalSkillValidated": true,
+  "localMarkdownLinksChecked": 38,
+  "fencedJsonExamplesParsed": 2,
+  "fencesBalanced": true,
+  "exportFrames": 2235,
+  "blackExportIntervals": 0,
+  "selectedNarrationPcmExact": true,
+  "creativeValidation": "Based on observed benchmark failures; no new media generation or controlled creative comparison claimed."
+}

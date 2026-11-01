@@ -16,7 +16,7 @@ Read [image layout](#layout-and-blockout) before resolving the board. For demand
 Write the image-generation prompt for the supplied directed cut. For a batch, apply the same instructions independently to each supplied cut. Do not generate media from this planning request alone.
 FULL IDEA AND ENDING: {COMPLETE_ACCEPTED_STORY}
 SCENE AUDIO: {EXACT_SCENE_WORDS; MEASURED_DURATION; ORDERED_PHRASE_TIMES}
-DIRECTOR PLAN: {SEQUENCE_OBJECTIVE_AND_AUDIENCE_CONCERN; ESSENTIAL_DEVELOPMENTS; BEAT_IDS_DEPENDENCIES_AND_BEFORE_AFTER_STATES; AUDIO_MODE_AND_EVIDENCE; REVIEWED_WORLD}
+DIRECTOR PLAN: {SEQUENCE_OBJECTIVE_AND_AUDIENCE_CONCERN; ESSENTIAL_DEVELOPMENTS; BEAT_IDS_DEPENDENCIES_AND_BEFORE_AFTER_STATES; MEANINGFUL_EVENT_PHASE; OBSERVABLE_CUES_FOR_LOAD_BEARING_CHANGES; AUDIO_MODE_AND_EVIDENCE; REVIEWED_WORLD}
 LAYOUT AND CAMERA BASIS: {SUBJECT_DIMENSIONS_POSITIONS_ORIENTATIONS; SOURCE_PATH_TARGET; CHECKED_GUIDE_OR_UNVERIFIED_STATUS; VIEWPOINT_INTENT; ATTACHMENT_LOOK_AT_FOCUS_AND_FRAMING}
 ESTABLISHED WORLD: {ACCEPTED_CAST_PROP_AND_SET_REFERENCES_WITH_SCOPED_ROLES; CURRENT_STATE}
 FORMAT: {ASPECT_RATIO; FPS; TARGET_IMAGE_SIZE}
@@ -41,16 +41,20 @@ Protect a short insert when it carries a causal fact the viewer needs: a hand ma
 
 Choose the view for the intended audience effect and new information. A dominating entrance, hidden threat, precise discovery and forceful action need different audience positions and visual emphasis. Use perspective, silhouette, expression, foreground scale and light together. Preserve the saved rendering style; these choices do not prescribe a villain shot, a genre or one compulsory camera pattern.
 
+Translate the director's visible evidence target into a concrete composition. Show the specified current phase and the detail that makes it distinguishable from an earlier or later state, at the intended delivery crop and viewing size. Reserve an unobstructed view for the subsequent operation and its result; do not combine before/after states in one ordinary still. A subject name, facial expression or attractive prop alone may leave the needed relationship invisible. Return an insufficiently defined evidence target to the director rather than inventing a mechanism, interface or outcome.
+
+Use neighboring views to choose what this frame adds: a newly exposed relation, meaningful behavior, scale, attention target or information. A changed lens number or tighter crop does not by itself distinguish recognition from uncertainty or a completed task. Repeated composition can be useful when its changed content carries the development. A requested reverse or diagnostic detail must actually expose its intended relationship; identity/style references should not pull every new view back to their original composition.
+
 ## Image-provider prompt output structure
 
 ```text
 OUTPUT: One edge-to-edge {ASPECT_RATIO_AND_SIZE} detailed low-poly Blender-style cinematic 3D movie frame, not a collage or storyboard sheet: simplified modeled forms, faceted readable silhouettes, consistent stylized anatomy and props, tangible restrained materials, contact shadows, atmospheric depth and motivated light. {SPECIFIC_PALETTE_MATERIAL_AND_LIGHTING_LOCKS_OR_EXPLICIT_CREATOR_STYLE_OVERRIDE}.
-STORY JOB: At the spoken phrase {EXACT_AUDIO_ANCHOR}, the viewer needs to see {NEW_INFORMATION_OR_CAUSAL_STATE}.
+STORY JOB: At the spoken phrase {EXACT_AUDIO_ANCHOR}, the viewer needs to see {NEW_INFORMATION_OR_CAUSAL_STATE; CURRENT_EVENT_PHASE_AND_ITS_DISTINGUISHING_VISIBLE_CUE}.
 DRAMATIC BEAT: {BEAT_ID_AND_PHASE; WHAT_THE_VIEWER_ANTICIPATES_OR_REALIZES; HOW_THIS_VIEW_SHOWS_THE_ACTIVE_PRESSURE_DISCOVERY_OR_CONSEQUENCE}.
 REFERENCES: {ACTUAL_ORDERED_INPUT_PURPOSES: CURRENT_SETUP / SUBJECT_DESIGN / MATERIAL_DETAIL}. {EXACT_EDIT_IF_EDITING}.
 SPACE: {VISIBLE_SUBJECT_COUNT_AND_SCALE; FOREGROUND_MIDGROUND_BACKGROUND; PERSISTENT_LANDMARK_RELATIONSHIPS; LIGHT_DIRECTION}.
 INSTANT: {ONE_LEGIBLE_ACTION_PHASE; BODY_SUPPORT; GAZE; HAND_OR_MECHANISM_CONTACT; PROP_OWNER_AND_CONDITION}. {ACTION_SOURCE_TARGET_AND_PATH; VISIBLE_FORCE_OR_EFFECT_OR_NONE; DAMAGE_ALREADY_PRESENT}. Capture the state before the action this cut must perform, unless this cut deliberately begins at contact or aftermath.
-VIEWPOINT INTENT: {AUDIENCE_RELATION_TO_SUBJECT; THREAT_ALIGNMENT_VULNERABILITY_OR_DIAGNOSTIC_PURPOSE; ONE_DOMINANT_DETAIL_AT_VIEWING_SIZE}.
+VIEWPOINT INTENT: {AUDIENCE_RELATION_TO_SUBJECT; THREAT_ALIGNMENT_VULNERABILITY_OR_DIAGNOSTIC_PURPOSE; ONE_DOMINANT_DETAIL_AT_VIEWING_SIZE; HOW_THE_VIEW_EXPOSES_THE_NEEDED_RELATIONSHIP}.
 CAMERA: {ACTUAL_STARTING_VIEW_AND_CROP; HEIGHT_AND_DISTANCE_RELATIVE_TO_FULL_SCALE_SUBJECT; POSITION; RELEVANT_LENS_CHARACTER; LOOK_AT; OPTICAL_FOCUS; IMPORTANT_OCCLUSION}. Frame for {PLANNED_CONTINUOUS_MOTION} without rendering multiple times or views into one image. {APPROVED_LAYOUT_REFERENCE_AND_THE_EXACT_PROJECTED_RELATIONS_TO_PRESERVE}.
 MOTION READINESS: {SPACE_AND_VISIBLE_GEOMETRY_FOR_THE_SUBJECT_PATH; REQUIRED_CONTACT_OR_SUPPORT; DEPTH_LAYERS_FOR_CAMERA_PARALLAX}. Capture {PRECISE_OPENING_PHASE}, leaving the intended action available to perform rather than already completed. {IF_MECHANICALLY_CRITICAL: CLEAR_MOVING_PART_JOINT_AND_FIXED_REFERENCE; UNOBSTRUCTED_SWEEP_OR_TRAVEL_SPACE; VIEW_THAT_WILL_REVEAL_THE_REQUIRED_ENDPOINT}.
 CONTINUITY: Carry forward {SPECIFIC_PREVIOUS_STATE}. Keep {ACTUAL_INVARIANTS}; show {ONLY_AUTHORIZED_CHANGE}. {FEW_SHOT_SPECIFIC_FAILURES_TO_AVOID}.
