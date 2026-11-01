@@ -4,10 +4,12 @@ import { spawn } from 'node:child_process';
 import ffmpeg from 'ffmpeg-static';
 import ffprobe from 'ffprobe-static';
 import { id, activeVersion, clampSceneClips, invalidateNarration, makeClip, sceneFrames, resultSchema, projectSchema, cleanTransitions, type Asset, type Project, type Version } from '../shared/project.ts';
+import { placeSourceRender } from '../shared/source-timeline.ts';
+import { nativeRenderAudio } from './source-render.ts';
 import { HttpError, ProjectStore } from './store.ts';
 
 export const ffmpegPath = () => process.env.FFMPEG_PATH || ffmpeg || 'ffmpeg';
-const probePath = () => process.env.FFPROBE_PATH || ffprobe.path;
+export const probePath = () => process.env.FFPROBE_PATH || ffprobe.path;
 export function runMedia(executable: string, args: string[], maxBytes = 16 * 1024 * 1024): Promise<Buffer> {
   return new Promise((resolve, reject) => {
     const process = spawn(executable, args, { windowsHide: true });
@@ -19,15 +21,15 @@ export function runMedia(executable: string, args: string[], maxBytes = 16 * 102
     process.on('exit', code => { clearTimeout(timer); if (code === 0) resolve(Buffer.concat(output)); else reject(new Error(error || 'Media tool failed')); });
   });
 }
-export async function measure(file: string, originalName = file): Promise<{ kind: Asset['kind']; durationFrames?: number; width?: number; height?: number; waveform?: number[] }> {
+export async function measure(file: string, originalName = file, fps = 30): Promise<{ kind: Asset['kind']; durationFrames?: number; width?: number; height?: number; waveform?: number[] }> {
   const data = JSON.parse((await runMedia(probePath(), ['-v', 'error', '-show_streams', '-show_format', '-of', 'json', file])).toString());
   const video = data.streams?.find((s: any) => s.codec_type === 'video');
   const audio = data.streams?.find((s: any) => s.codec_type === 'audio');
   const still = /\.(png|jpe?g|webp|bmp)$/i.test(originalName);
   if (video && still) return { kind: 'image', width: video.width, height: video.height };
   const duration = Number(data.format?.duration ?? video?.duration ?? audio?.duration);
-  if (!Number.isFinite(duration) || duration < 1 / 30) throw new HttpError(400, 'This file does not have a valid media duration');
-  const durationFrames = Math.floor(duration * 30 + 1e-5);
+  if (!Number.isFinite(duration) || duration < 1 / fps) throw new HttpError(400, 'This file does not have a valid media duration');
+  const durationFrames = Math.floor(duration * fps + 1e-5);
   if (video) return { kind: 'video', durationFrames, width: video.width, height: video.height };
   if (!audio) throw new HttpError(400, 'Use an image, audio file or video');
   const pcm = await runMedia(ffmpegPath(), ['-v', 'error', '-i', file, '-vn', '-ac', '1', '-ar', '500', '-f', 'f32le', 'pipe:1']);
@@ -40,7 +42,9 @@ export async function measure(file: string, originalName = file): Promise<{ kind
 }
 export function attachAsset(p: Project, asset: Asset, place = false) {
   p.assets.push(asset);
+  if(place && p.sourceVideo && asset.kind==='video' && p.scenes.find(s=>s.id===asset.sceneId)?.source){placeSourceRender(p,asset);return;}
   const scene = p.scenes.find(s => s.id === asset.sceneId)!;
+  if(p.sourceVideo && scene.source && asset.kind==='audio'){if(place)p.clips.push(makeClip(scene.id,asset,0,Math.min(scene.estimatedFrames,activeVersion(asset).durationFrames??scene.estimatedFrames),'music'));return;}
   if (asset.kind === 'audio' && !scene.audioAssetId) {
     scene.audioAssetId = asset.id; clampSceneClips(p, scene.id);
   } else if (place && asset.kind !== 'audio') {
@@ -52,15 +56,18 @@ export function attachAsset(p: Project, asset: Asset, place = false) {
 export async function importMedia(store: ProjectStore, projectId: string, sceneId: string, file: string, name: string) {
   const allowed = /\.(png|jpe?g|webp|bmp|mp4|mov|webm|mkv|wav|mp3|m4a|aac|ogg|flac)$/i;
   if (!allowed.test(name)) throw new HttpError(400, 'Supported files: PNG, JPG, WebP, MP4, MOV, WebM, WAV, MP3, M4A, OGG, FLAC');
-  const metadata = await measure(file, name);
+  const before = await store.read(projectId);
+  const metadata = await measure(file, name, before.settings.fps);
   const relative = `media/${id()}${path.extname(name).toLowerCase()}`;
   const destination = path.join(store.folder(projectId), relative);
   await fs.copyFile(file, destination);
   const version: Version = { ...metadata, id: id(), path: relative, provenance: { prompt: '', tool: 'Imported file', createdAt: new Date().toISOString(), sourceVersionIds: [] } };
   const asset: Asset = { id: id(), name: path.basename(name), kind: metadata.kind, sceneId, versions: [version], activeVersionId: version.id, outdated: false };
+  const nativeAudio = before.sourceVideo && metadata.kind==='video' ? await nativeRenderAudio(store,before,sceneId,destination,version.id) : undefined;
   return store.mutate(projectId, p => {
+    if (p.settings.fps !== before.settings.fps) throw new HttpError(409, 'Frame rate changed during import');
     if (!p.scenes.some(s => s.id === sceneId)) throw new HttpError(400, 'Scene not found');
-    attachAsset(p, asset, true);
+    if(before.sourceVideo&&asset.kind==='video'){p.assets.push(asset);if(nativeAudio)p.assets.push(nativeAudio);placeSourceRender(p,asset,nativeAudio);}else attachAsset(p, asset, true);
   });
 }
 export async function applyResult(store: ProjectStore, projectId: string, jobId: string, options: { activateVersions?: boolean } = {}) {
@@ -76,9 +83,10 @@ export async function applyResult(store: ProjectStore, projectId: string, jobId:
   if (job.scope === 'scene' && result.removeClipIds.some(id => before.clips.some(c => c.id === id && c.sceneId !== job.sceneId))) throw new HttpError(400, 'Result tried to remove a placement outside its scope');
   const prepared = await Promise.all(result.assets.map(async a => {
     const file = await store.safeFile(projectId, a.path);
-    const metadata = await measure(file);
+    const metadata = await measure(file, file, before.settings.fps);
     if (metadata.kind !== a.kind) throw new HttpError(400, 'Result media type does not match its file');
-    return { proposal: a, metadata };
+    const nativeAudio = before.sourceVideo && a.kind==='video' ? await nativeRenderAudio(store,before,a.sceneId,file,'pending-render-version') : undefined;
+    return { proposal: a, metadata, nativeAudio };
   }));
   return store.mutate(projectId, p => {
     if (p.jobs.find(j => j.id === jobId)?.resultApplied) throw new HttpError(409, 'Result already applied');
@@ -124,7 +132,7 @@ export async function applyResult(store: ProjectStore, projectId: string, jobId:
       if (job.scope === 'scene' && result.transitions.some(t => [t.fromClipId, t.toClipId].some(id => !p.clips.some(c => c.id === id && c.sceneId === job.sceneId)))) throw new HttpError(400, 'Transition is outside the selected scene');
       p.transitions = job.scope === 'project' ? result.transitions : [...p.transitions.filter(t => p.clips.find(c => c.id === t.fromClipId)?.sceneId !== job.sceneId), ...result.transitions];
     }
-    for (const { proposal: a, metadata } of prepared) {
+    for (const { proposal: a, metadata, nativeAudio } of prepared) {
       const source = p.assets.find(asset => asset.id === a.sourceAssetId);
       if (a.sourceAssetId && (!source || source.kind !== a.kind || source.sceneId !== a.sceneId)) throw new HttpError(400, 'Invalid source asset for version');
       const image = p.assets.find(asset => asset.id === a.sourceImageId && asset.kind === 'image');
@@ -143,6 +151,11 @@ export async function applyResult(store: ProjectStore, projectId: string, jobId:
       else {
         attachAsset(p, { id: id(), name: a.name, kind: a.kind, sceneId: a.sceneId, shotId: a.shotId, versions: [version], activeVersionId: version.id, outdated: false });
         if (a.kind === 'audio' && options.activateVersions) { p.scenes.find(s => s.id === a.sceneId)!.audioAssetId = p.assets.at(-1)!.id; p.assets.filter(asset => asset.sceneId === a.sceneId && asset.kind !== 'audio').forEach(asset => { asset.outdated = true; }); clampSceneClips(p, a.sceneId); }
+      }
+      if(p.sourceVideo && a.kind==='video' && p.scenes.find(s=>s.id===a.sceneId)?.source && (!source || options.activateVersions)) {
+        const rendered=source ?? p.assets.at(-1)!;
+        if(nativeAudio){nativeAudio.versions[0].provenance.sourceVersionIds=[version.id];p.assets.push(nativeAudio);}
+        placeSourceRender(p,rendered,nativeAudio,{durationFrames:a.durationFrames});continue;
       }
       // New generated visuals are placed according to the agent's audio-bounded shot plan.
       if (!source && a.kind !== 'audio') {
