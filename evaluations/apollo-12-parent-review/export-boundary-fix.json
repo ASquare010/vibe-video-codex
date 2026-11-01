@@ -1,0 +1,129 @@
+{
+  "film": "D:\\Git\\vibe-video-codex\\data\\projects\\34dd7600-10be-483d-8b19-4bc92f818408\\exports\\dd4bf352-ebbc-4307-bcd7-558fe2797129\\film.mp4",
+  "relative": "exports/dd4bf352-ebbc-4307-bcd7-558fe2797129/film.mp4",
+  "frames": "2235",
+  "seconds": 93.125,
+  "width": 1280,
+  "height": 720,
+  "sha256": "bbb07eee36c1c3fd6d6ba08d071ffeb52fe99959e8d96638ec5072c68ef0e352",
+  "previousSha256": "268c1be93d2ade770f97737f5369bbfda57295c0738f12b1ff2fe6aae6ded12d",
+  "nearBlackIntervals": 0,
+  "repairedBoundaries": [
+    {
+      "cutId": "S01-B",
+      "frame": 89,
+      "seconds": 3.7083333333333335,
+      "rgb": [
+        96,
+        65,
+        54
+      ],
+      "repaired": true
+    },
+    {
+      "cutId": "S01-C",
+      "frame": 154,
+      "seconds": 6.416666666666667,
+      "rgb": [
+        83,
+        71,
+        64
+      ],
+      "repaired": true
+    },
+    {
+      "cutId": "S02-B",
+      "frame": 369,
+      "seconds": 15.375,
+      "rgb": [
+        89,
+        79,
+        83
+      ],
+      "repaired": true
+    },
+    {
+      "cutId": "S02-E",
+      "frame": 631,
+      "seconds": 26.291666666666668,
+      "rgb": [
+        83,
+        63,
+        52
+      ],
+      "repaired": true
+    },
+    {
+      "cutId": "S04-D",
+      "frame": 1323,
+      "seconds": 55.125,
+      "rgb": [
+        80,
+        70,
+        64
+      ],
+      "repaired": true
+    },
+    {
+      "cutId": "S04-F",
+      "frame": 1450,
+      "seconds": 60.416666666666664,
+      "rgb": [
+        83,
+        63,
+        59
+      ],
+      "repaired": true
+    },
+    {
+      "cutId": "S05-C",
+      "frame": 1754,
+      "seconds": 73.08333333333333,
+      "rgb": [
+        91,
+        64,
+        55
+      ],
+      "repaired": true
+    },
+    {
+      "cutId": "S05-D",
+      "frame": 1826,
+      "seconds": 76.08333333333333,
+      "rgb": [
+        92,
+        71,
+        61
+      ],
+      "repaired": true
+    },
+    {
+      "cutId": "S06-C",
+      "frame": 2111,
+      "seconds": 87.95833333333333,
+      "rgb": [
+        138,
+        123,
+        118
+      ],
+      "repaired": true
+    },
+    {
+      "cutId": "S06-D",
+      "frame": 2159,
+      "seconds": 89.95833333333333,
+      "rgb": [
+        78,
+        67,
+        64
+      ],
+      "repaired": true
+    }
+  ],
+  "unchangedAudioScenes": 6,
+  "sourceMediaUnchanged": true,
+  "projectManifestUnchanged": true,
+  "listening": "pending",
+  "nativeMotion": "pending",
+  "creatorApproval": false
+}

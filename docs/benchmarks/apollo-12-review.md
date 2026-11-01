@@ -1,5 +1,7 @@
 # Apollo 12 benchmark: parent-chat review
 
+Follow-up: the export boundary defect below has now been repaired and verified in a new export. See [the repair record](apollo-12-export-fix.md). The original review, frame evidence and creative findings remain preserved below.
+
 ## Scope and verdict
 
 Reviewed the complete saved 297-word script, all 27 selected stills, 92 unique sampled frames from the delivered 93.125-second export, denser selected-range samples through the SCE action, relevant director/prompt records, and source-versus-export frames at ten suspect boundaries. Project: `34dd7600-10be-483d-8b19-4bc92f818408`, revision 71. Export SHA-256: `268c1be93d2ade770f97737f5369bbfda57295c0738f12b1ff2fe6aae6ded12d`.

@@ -27,7 +27,11 @@ export async function renderProject(store: ProjectStore, p: Project): Promise<st
     for (const clip of clips) {
       const begin = clip.startFrame / fps, duration = clip.durationFrames / fps;
       const incoming = p.transitions.find(t => t.toClipId === clip.id), outgoing = p.transitions.find(t => t.fromClipId === clip.id);
-      const hold = outgoing && outgoing.type !== 'dip-black' ? outgoing.durationFrames / fps : 0;
+      const holdFrames = outgoing && outgoing.type !== 'dip-black' ? outgoing.durationFrames : 0;
+      const hold = holdFrames / fps;
+      // Timeline placements are integer frames. Comparing decimal seconds can disable
+      // the first frame at fractional boundaries (for example 89/24), revealing black.
+      const enabled = (extraFrames = 0) => `between(round(t*${fps}),${clip.startFrame},${clip.startFrame + clip.durationFrames + extraFrames - 1})`;
       if (isText(clip)) {
         const textFile = `text-${clip.id}.txt`;
         await fs.writeFile(path.join(folder, textFile), clip.text);
@@ -40,7 +44,7 @@ export async function renderProject(store: ProjectStore, p: Project): Promise<st
         const textInput = input++;
         args.push('-f', 'lavfi', '-i', `color=c=black@0:s=${width}x${height}:r=${fps}:d=${seconds},format=rgba`);
         filters.push(`[${textInput}:v]drawtext=textfile='${textFile}'${font}:expansion=none:fontsize=${clip.fontSize * width / 1280}:fontcolor=${clip.color}:alpha='${fade}':borderw=${clip.outlineWidth * width / 1280}:bordercolor=${clip.outlineColor}:text_align=${clip.textAlign === 'left' ? 'L' : clip.textAlign === 'right' ? 'R' : 'C'}:x=(w-tw)/2:y=(h-th)/2${clip.shadow ? ':shadowcolor=black@0.7:shadowx=1:shadowy=2' : ''}${clip.rotation ? `,rotate=${clip.rotation}*PI/180:c=none` : ''}[text${textInput}]`);
-        filters.push(`[v${layer}][text${textInput}]overlay=x=W*${clip.x / 100}:y=H*${clip.y / 100}:enable='between(t,${begin},${begin + duration - 1 / (fps * 2)})':eof_action=pass[v${layer + 1}]`);
+        filters.push(`[v${layer}][text${textInput}]overlay=x=W*${clip.x / 100}:y=H*${clip.y / 100}:enable='${enabled()}':eof_action=pass[v${layer + 1}]`);
         layer++; continue;
       }
       const asset = p.assets.find(a => a.id === clip.assetId)!;
@@ -74,7 +78,7 @@ export async function renderProject(store: ProjectStore, p: Project): Promise<st
       let dx = clip.motion === 'pan-left' ? `${clip.x / 100}+${clip.motionAmount}*(0.5-${t})` : clip.motion === 'pan-right' ? `${clip.x / 100}+${clip.motionAmount}*(${t}-0.5)` : clip.motion === 'custom' ? `${clip.x / 100}+(${clip.endX - clip.x})/100*${t}` : `${clip.x / 100}`;
       const dy = clip.motion === 'pan-up' ? `${clip.y / 100}+${clip.motionAmount}*(0.5-${t})` : clip.motion === 'pan-down' ? `${clip.y / 100}+${clip.motionAmount}*(${t}-0.5)` : clip.motion === 'custom' ? `${clip.y / 100}+(${clip.endY - clip.y})/100*${t}` : `${clip.y / 100}`;
       if (incoming?.type === 'slide-left') dx += `+max(0,1-(t-${begin})/${incoming.durationFrames / fps})`;
-      filters.push(`[v${layer}][c${stream}]overlay=x='(W-w)/2+W*(${dx})':y='(H-h)/2+H*(${dy})':enable='between(t,${begin},${begin + duration + hold - 1 / (fps * 2)})':eof_action=pass[v${layer + 1}]`);
+      filters.push(`[v${layer}][c${stream}]overlay=x='(W-w)/2+W*(${dx})':y='(H-h)/2+H*(${dy})':enable='${enabled(holdFrames)}':eof_action=pass[v${layer + 1}]`);
       layer++;
     }
     const narration = p.assets.find(a => a.id === scene.audioAssetId);
