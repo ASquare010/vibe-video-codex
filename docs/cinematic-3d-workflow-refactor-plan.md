@@ -1,8 +1,37 @@
 # Cinematic 3D workflow: audit and staged refactor
 
-Status: audit and baseline checkpoint only; proposed changes below are not implemented.
+Status: file organization completed after the audit; runtime and quality fixes remain deferred. The historical audit/proposal below is retained. The creator's subsequent ownership clarification takes precedence over its camera/review recommendations.
 Baseline: `1bb975b` (`Checkpoint current cinematic 3D storytelling workflow`).
 Scope: the current `video-skills/cinematic-3d-storytelling/` workflow. Preserve later camera, geometry, force, audio and review improvements. Do not change the completed Mona Lisa film or run media generation as part of this refactor.
+
+## Completed organization pass
+
+The creator requested organization before issue fixes: the writer handles research and spoken story only; image-stage files own camera angles, audience perspective and appearance; animation-stage files own camera movement. The director owns events and continuity, then returns for final verification through `SKILL.md`. No final-verification request is appended to generation prompts and no separate automatic reviewer role is introduced.
+
+| Maintained home under `video-skills/cinematic-3d-storytelling/` | Content |
+| --- | --- |
+| `SKILL.md` | Workflow, scope, role routing, continuation, provider limits and the director's verification duties. |
+| `templates/script.md` | Existing research/writing craft, exact speech, scene text and the spoken-story record; no shot-planning deliverable. |
+| `templates/image.md` | Image-stage compilation and standalone GPT still template. |
+| `templates/animation.md` | Standalone MiniMax motion template and selected-image/native-duration guidance. |
+| `references/director.md` | Existing story-to-event direction, persistent world, choreography, timing evidence and cut states. |
+| `references/image-composition.md` | Static camera angles, perspective, framing, appearance, gaze/expression, light and full-scale visual style. |
+| `references/image-layout.md` | Geometry, blockout, projection and source/path/target relations needed to stage the still. |
+| `references/camera-motion.md` | Pans/arcs/orbits, following, attachment, focus handoffs, parallax and continuous camera travel. |
+| `references/animation-physics.md` | Support, weight transfer, momentum, contact, force, mechanical completion and recovery. |
+| `references/audio-direction.md` | Existing model-aware speech/performance and narration preparation; updated links. |
+| `references/template-refinement.md` | Existing creator-requested script/template evaluation and comparison procedure; not an automatic production-review role. |
+| `contracts/production.md` | Stage records, state/evidence/lineage fields and app storage mapping. Camera fields store image/animation outputs. |
+| `config/narrator-default.json` | Canonical unchanged Holden settings. |
+| `scripts/` and `agents/openai.yaml` | Unchanged executable helpers and skill metadata. |
+
+Six old Markdown paths remain as short compatibility redirects for saved project instructions: `story-engine.md`, `visual-prompts.md`, `action-direction.md`, `camera-and-layout.md`, `output-contract.md` and `quality-review.md`. The old `references/narrator-default.json` remains an unchanged compatibility snapshot for saved callers; new maintained guidance points to `config/narrator-default.json`. Thus there are 16 maintained role/support files and 7 compatibility files, 23 total excluding ignored bytecode. There are exactly three creative template files.
+
+This pass relocated existing guidance, split mixed passages, adjusted ownership labels and repaired links. Writer shot fields moved to the director/production record; camera details moved to image/motion guides; existing final-review material moved to the skill. It did not rewrite the story engine to address the Jupiter quality findings, implement the minimum-three-cut readiness check, add a semantic contradiction gate, change app stages or refresh saved project snapshots. Those remain the next work.
+
+Preservation and validation: compare against baseline `1bb975b`; retain all 95 original prompt slots and all 10 external source URLs; retain the narrator values, both helper sources and agent metadata unchanged. Check local Markdown links, fenced JSON and code-fence balance. The bundled skill validator is now available through the existing `.venv/Scripts/python.exe` environment, whose installed PyYAML avoids any dependency installation. These structural checks do not establish story quality, physical motion or cross-stage semantic reliability.
+
+## Historical audit and proposal
 
 ## Creator requirements
 

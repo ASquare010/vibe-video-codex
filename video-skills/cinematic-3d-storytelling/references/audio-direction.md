@@ -2,7 +2,7 @@
 
 The spoken text and its performance are separate artifacts. Good wording does not prove that a speech engine will deliver it well. A fast setting can still produce long dramatic gaps; high words-per-minute can still sound like a monotone readout.
 
-Before spending on a replacement after a rejected script, return to the telling angle and exact spoken opening in the story engine. Present the revised opening as text for the creator's review unless they authorize proceeding directly to audio. Changing voice or speed cannot repair an introduction the creator does not want to hear. A previously accepted voice preset approves that configuration, not the writing of a new script.
+Before spending on a replacement after a rejected script, return to the telling angle and exact spoken opening in [the script template](../templates/script.md). Present the revised opening as text for the creator's review unless they authorize proceeding directly to audio. Changing voice or speed cannot repair an introduction the creator does not want to hear. A previously accepted voice preset approves that configuration, not the writing of a new script.
 
 ## Scene audio template
 ```text
@@ -64,7 +64,7 @@ Sources: [Higgsfield audio model and prompting guide](https://higgsfield.ai/blog
 
 ## Keep the chosen voice and delivery
 
-The creator explicitly selected **Holden** as the default on 2026-10-30, superseding the unresolved “Gregey” preference. Load [the saved narrator default](narrator-default.json): Higgsfield `seed_audio`, Holden `voice_id` `3c9d6053-6334-592c-8997-4e325286af3f`, `voice_type` `preset`, 48 kHz WAV, baseline `speech_rate` 20, loudness/pitch 0. These controls are the chosen production baseline, not an assertion of listening approval. Reuse them across scenes and new projects unless overridden; do not ask for a new voice choice when this pair is available. Preserve historical receipts unchanged.
+The creator explicitly selected **Holden** as the default on 2026-10-30, superseding the unresolved “Gregey” preference. Load [the saved narrator default](../config/narrator-default.json): Higgsfield `seed_audio`, Holden `voice_id` `3c9d6053-6334-592c-8997-4e325286af3f`, `voice_type` `preset`, 48 kHz WAV, baseline `speech_rate` 20, loudness/pitch 0. These controls are the chosen production baseline, not an assertion of listening approval. Reuse them across scenes and new projects unless overridden; do not ask for a new voice choice when this pair is available. Preserve historical receipts unchanged.
 
 On continuation or a fresh test, read the latest applicable approved delivery preset. Do not reset an accepted nonzero speed to 0 merely because it is the model default. Preserve voice identity, model, sample rate and performance baseline across scenes; adapt only the scene-specific beat direction. For an uncalibrated Seed voice, +15 or +20 is a reasonable provisional faster test, not accepted settings. Change speed independently of text/voice when attributing the effect of speed; changing voice and expression together is a new treatment, not a controlled speed comparison.
 
@@ -84,11 +84,13 @@ Save native file, job ID, exact provider prompt/controls, duration, script word 
 
 Preserve narration separately from ambience and effects. Do not generate unwanted speech or music in MiniMax. Camera cuts must not reset the narration or create AAC padding gaps. Do not accelerate approved speech merely to fit bad footage.
 
+Scene and shot divisions do not dictate sentence breaks.
+
 ## Handoff to the visual director
 
 After acceptance, hand over the full story and ending, exact scene text, selected audio version/path/hash, measured duration, voice/delivery preset and any actual phrase alignment. Identify whether each file is narration only, a supplied action soundtrack or a hybrid. Provide the selected edited file's time base; alignment from a longer native take is not automatically valid after pause removal or tempo changes. Preserve the edit map when available and re-align the selected performance before setting definitive cut times.
 
-Keep observed sound events separate from planned effects. A narration describing a shot does not supply a recorded firing/impact anchor. The visual director uses [action-direction.md](action-direction.md) to build the action/dependency timeline and cut plan; effects can then be aligned to actual generated contact where authorized. Do not add explosions or other sound to the clean voice track merely to make it seem more exciting, or revise accepted speech to match a weak visual plan. The director may replace provisional writer shot suggestions without replacing the narration.
+Keep observed sound events separate from planned effects. A narration describing a shot does not supply a recorded firing/impact anchor. The visual director uses [director.md](director.md) to build the action/dependency timeline and cut plan; effects can then be aligned to actual generated contact where authorized. Do not add explosions or other sound to the clean voice track merely to make it seem more exciting, or revise accepted speech to match a weak visual plan. For an existing draft, the director may replace provisional writer shot suggestions without replacing the narration.
 
 ## Faster speech and less dead air
 
