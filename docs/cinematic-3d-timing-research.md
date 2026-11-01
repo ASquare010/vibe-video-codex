@@ -32,3 +32,11 @@ The short middle cut is not redundant: deleting it can remove the causal fact ne
 The sources establish film/animation practices, not guaranteed GPT/MiniMax compliance. Our adjacent-cut packet, minimum-three-cut requirement, model-prompt compilation and pipeline readiness rules are engineering adaptations. Sources were not used to claim a universal anime cadence, a mandatory establishing shot in every scene, or a fixed 2–5-second lower bound.
 
 No old film, accepted narration or saved project skill is changed by this research. New native speech settings require output measurement and listening; waveform/ASR checks do not prove acting. Changes to timing rules are structurally verifiable but still need actual production review for perceived rhythm and force.
+
+## Implemented runtime checks
+
+New skill snapshots carry `metadata.workflow: audio-led-cuts-v2`. VibeCut opts only those original-narration projects into the measured-audio director stage; old snapshots and source-video routes retain their existing behavior. Story-only drafts can omit visual prompts. The director stage requires at least three cuts with exact measured coverage, usable state/anchor records and a basis tied to the selected audio version, narration and frame rate. Prompt-writing results preserve those cut IDs, intervals and states. Generated media retains its actual provider prompt. Native generation duration remains separate from edited placement duration.
+
+Media-stage completion leaves the new workflow awaiting review; it does not certify native playback, expression, factual correctness or creator approval. The existing scene text approval field is not used to claim approval of generated motion.
+
+The tests also exercise two reliability fixes: partial results preserve omitted audio/source/settings fields instead of applying schema defaults, and finished video prevents archived preview images from triggering duplicate generation. Synthetic PCM tests verify pause-only sample preservation, protected holds, explicit bounded tempo previews and overwrite refusal. Fixture media tests exercise pipeline state/lineage only; they do not evaluate acting or creative motion.

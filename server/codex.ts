@@ -7,7 +7,8 @@ import { z } from 'zod';
 import { id, resultSchema, jobSchema, sceneFrames, type Job, type Project } from '../shared/project.ts';
 import { ProjectStore, HttpError } from './store.ts';
 import { measure, applyResult } from './media.ts';
-import { nextProductionTask, validateProductionResult } from './production.ts';
+import { nextProductionTask, validatePlanResult, validateProductionResult } from './production.ts';
+import { directionIssue, usesAudioLedCuts } from '../shared/audio-led.ts';
 
 type Message = { id?: string | number; method?: string; params?: any; result?: any; error?: { message: string } };
 export class CodexClient extends EventEmitter {
@@ -168,6 +169,7 @@ export class AgentManager {
     if (!scene) throw new HttpError(400, 'Select a scene');
     if (data.clipIds.some(id => !p.clips.some(c => c.id === id && (data.scope === 'project' || c.sceneId === scene.id)))) throw new HttpError(400, 'Selected clips must belong to this scene');
     if (['images', 'video'].includes(data.action) && (!scene.audioAssetId || p.assets.find(a => a.id === scene.audioAssetId)?.outdated)) throw new HttpError(400, 'Create or approve current scene audio first. Its measured length sets the visual limit.');
+    if (usesAudioLedCuts(p) && ['images', 'video'].includes(data.action)) { const issue = directionIssue(p, scene); if (issue) throw new HttpError(409, issue); }
     if (['audio', 'images', 'video'].includes(data.action) && !scene.approved) throw new HttpError(400, 'Approve this scene’s text before generating media');
     const updated = await this.store.mutate(projectId, current => {
       if (current.jobs.some(j => ['queued', 'running', 'awaiting-approval'].includes(j.status) && j.action === data.action && j.sceneId === data.sceneId)) throw new HttpError(409, 'This scene already has that task queued');
@@ -180,7 +182,9 @@ export class AgentManager {
   async produce(projectId: string) {
     if ((await this.store.read(projectId)).conversation.mode === 'observe') throw new HttpError(409, 'Request production in the main Codex chat. The editor only observes progress.');
     const p = await this.store.mutate(projectId, current => {
-      if (!current.scenes.every(s => s.narration.trim() && s.direction.trim() && (s.shots.length || (s.imagePrompt.trim() && s.videoPrompt.trim())))) throw new HttpError(409, 'Draft the complete video with narration, image prompts and video prompts before production.');
+      if (usesAudioLedCuts(current)) {
+        if (!current.plan.story.trim() || !current.plan.fullNarration.trim() || !current.scenes.every(s => s.narration.trim())) throw new HttpError(409, 'Finish the complete story and exact scene narration before production. Visual prompts are prepared after measured audio.');
+      } else if (!current.scenes.every(s => s.narration.trim() && s.direction.trim() && (s.shots.length || (s.imagePrompt.trim() && s.videoPrompt.trim())))) throw new HttpError(409, 'Draft the complete video with narration, image prompts and video prompts before production.');
       if (current.jobs.some(j => ['queued', 'running', 'awaiting-approval'].includes(j.status))) throw new HttpError(409, 'Wait for the current request before starting full production');
       current.scenes.forEach(s => { s.approved = true; }); current.plan.approved = true;
       current.production = { status: 'running', stage: 'audio' };
@@ -199,12 +203,12 @@ export class AgentManager {
           if (next) {
             await this.store.mutate(projectId, current => {
               if (current.production.status !== 'running') return;
-              current.production.stage = next.action as 'audio' | 'images' | 'video';
+              current.production.stage = next.action === 'storyboard' ? 'direction' : next.action as 'audio' | 'images' | 'video';
               current.jobs.push(jobSchema.parse({ ...next, id: id(), clipIds: [], scope: 'scene', status: 'queued', revision: current.revision, createdAt: new Date().toISOString() }));
             });
             continue;
           }
-          if (p.production.status === 'running') await this.store.mutate(projectId, current => { current.production = { status: 'completed', stage: 'video' }; });
+          if (p.production.status === 'running') await this.store.mutate(projectId, current => { current.production = { status: usesAudioLedCuts(current) ? 'awaiting-review' : 'completed', stage: 'video' }; });
           break;
         }
         const task = job;
@@ -243,7 +247,7 @@ export class AgentManager {
             const proposed = resultSchema.parse(JSON.parse(await fs.readFile(path.join(folder, 'result.json'), 'utf8')));
             const expected = ({ audio: 'audio', images: 'image', video: 'video' } as Record<string, string>)[job.action];
             if (expected && !proposed.assets.some(a => a.kind === expected)) throw new Error(`Codex did not return a real ${expected} result`);
-            if (job.action === 'plan' && (!proposed.plan?.story.trim() || !proposed.plan.fullNarration.trim() || !proposed.scenes?.length || !proposed.scenes.every(s => s.narration.trim() && s.direction.trim() && s.spokenStyle.trim() && s.audioPrompt.trim() && s.shots.length && s.shots.every(shot => shot.imagePrompt.trim() && shot.videoPrompt.trim())))) throw new Error('The whole-video draft must include the full story, every scene, exact narration, voice/audio direction, image prompts and video prompts.');
+            if (job.action === 'plan') validatePlanResult(p, proposed);
             validateProductionResult(p, job, proposed);
             for (const asset of proposed.assets) {
               const file = await this.store.safeFile(projectId, asset.path);
@@ -295,6 +299,9 @@ export class AgentManager {
   }
   instructions(p: Project, job: Job) {
     const scene = p.scenes.find(s => s.id === job.sceneId)!;
+    const staged = usesAudioLedCuts(p);
+    const drafting = staged ? 'WHOLE STORY FIRST: Return the full researched story and exact uninterrupted narration plus all continuous audio scenes with stable IDs, purpose, narration and delivery intention. Keep production instructions outside the spoken words. Image/video prompts, camera notes, shot lists and direction can remain empty at writing stage. The director creates cut records only after narration is measured. Never generate media during a draft request. Save the complete script without missing or repeated words.' : `WHOLE VIDEO FIRST: A plan request must draft the full video, not one scene. Return plan (synopsis, classification, hook, story, fullNarration, researchNotes, targetSeconds) plus scenes covering the complete narrative. Each scene needs a stable ID, title, purpose, exact narration, spokenStyle, audioPrompt, direction, imagePrompt, videoPrompt, soundDesign, continuity and shots. Every shot needs id, title, purpose, narrationAnchor, provisional startFrame/durationFrames, standalone imagePrompt, standalone videoPrompt, camera, startState, endState, sound and media (image or video). Several images/shots can cover a single scene's audio. Never generate audio/images/videos during drafting. Do not return an incomplete draft as ready for production.`;
+    const ordering = staged ? 'PRODUCTION ORDER: story -> ALL measured scene narration -> director storyboard/timing stage -> write per-cut image prompts then generate/select images -> write per-cut animation prompts from actual selected images then generate/select videos -> director assembly/verification. A scene has at least three meaningful cuts with uneven durations, including indispensable short inserts. The director owns IDs, timing and action states; prompt writers preserve them and consume previous/current/next context. Use native speech_rate and scene-specific performance direction for fast expressive narration; pause cleanup preserves articulation speed. Keep narration continuous and approved files unchanged. Return actual provider prompts, shotId, sourceImageId and replacement placement lineage.' : `PRODUCTION ORDER: full approved plan -> ALL scene audio (one asset per scene) -> measure every scene -> ALL required scene images -> planned image-to-video shots -> assembled full timeline. For a scene audio request use exact approved words and its voice direction; do not generate visuals yet. For scene images, cover all planned shots, not just the first image. For video, animate accepted images with their actual video prompts. Preserve approved narration, references and source files. Fit pictures to actual audio; source clips may be longer but placements must stay inside the audio. Scene ${scene.id} currently has ${sceneFrames(p, scene)} frames at ${p.settings.fps} fps. Include shotId on visuals, sourceImageId on image-to-video results and replaceClipId to replace a still placement. Use sourceAssetId only for another version of the same media kind.`;
     return `You are Codex, the main creative brain of VibeCut. This is your persistent project conversation, not a separate Director persona. The editor is your visual harness. You may plan the entire film, create/update scenes, settings, shots, captions, clips and media through structured results. Choose the actual tools and models yourself. Never invent a file, model, cost, duration, tool success or completed action.
 
 USER REQUEST: ${job.instructions}
@@ -302,13 +309,15 @@ ACTION: ${job.action}. SCOPE: ${job.scope === 'project' ? 'ENTIRE VIDEO, all sce
 
 Read jobs/${job.id}/input.json for the complete immutable project snapshot, selected skill, story, scenes, shot prompts, actual assets, annotations and settings. Read jobs/${job.id}/result.schema.json for the exact return contract. Write jobs/${job.id}/result.json when changing the project. This is applied automatically when autoApply is enabled. Do not race the UI by directly overwriting project.json.
 
-WHOLE VIDEO FIRST: A plan request must draft the full video, not one scene. Return plan (synopsis, classification, hook, story, fullNarration, researchNotes, targetSeconds) plus scenes covering the complete narrative. Each scene needs a stable ID, title, purpose, exact narration, spokenStyle, audioPrompt, direction, imagePrompt, videoPrompt, soundDesign, continuity and shots. Every shot needs id, title, purpose, narrationAnchor, provisional startFrame/durationFrames, standalone imagePrompt, standalone videoPrompt, camera, startState, endState, sound and media (image or video). Several images/shots can cover a single scene's audio. Never generate audio/images/videos during drafting. Do not return an incomplete draft as ready for production.
+${drafting}
 
-PRODUCTION ORDER: full approved plan -> ALL scene audio (one asset per scene) -> measure every scene -> ALL required scene images -> planned image-to-video shots -> assembled full timeline. For a scene audio request use exact approved words and its voice direction; do not generate visuals yet. For scene images, cover all planned shots, not just the first image. For video, animate accepted images with their actual video prompts. Preserve approved narration, references and source files. Fit pictures to actual audio; source clips may be longer but placements must stay inside the audio. Scene ${scene.id} currently has ${sceneFrames(p, scene)} frames at ${p.settings.fps} fps. Include shotId on visuals, sourceImageId on image-to-video results and replaceClipId to replace a still placement. Use sourceAssetId only for another version of the same media kind.
+${ordering}
 
 REQUESTED SIZES: aspect ${p.settings.aspectRatio}; images ${p.settings.imageResolution}p; video ${p.settings.videoResolution}p; export ${p.settings.resolution}p. Check actual callable capability limits; report a limitation rather than inventing size support. Put real returned files in media/ and use project-relative paths. The bridge measures them again. Record actual provider, model, tool and prompt where known.
 
 CONTROL CONTRACT: project-scope results may return scenes (complete ordered scene list), sceneUpdates, settings, clipUpdates, newClips, removeClipIds and transitions. Preserve stable IDs and existing audio links when revising scenes. Change only the requested scope. A chat asking only for discussion needs no result file. A chat asking for changes should return the structured edit and explain what changed. Only set startProduction:true when the creator actually asks to produce/generate the film; never as part of a draft request. The app will then run all audio before images and video. Ask concise questions inside this conversation only when an essential decision cannot be inferred. Use the runtime's built-in question tool when available. Ordinary faithful execution needs no redundant approval; actual tool policy and the selected budget still apply.
+
+SKILL RESOURCE ROOT: ${path.resolve('video-skills', p.skill?.id ?? 'cinematic-story')}. Read the current stage's linked LLM template from this root; do not send the meta-template directly to a provider.
 
 SELECTED PROJECT SKILL (${p.skill?.name ?? 'Cinematic storyteller'}):
 ${p.skill?.content ?? 'Natural connected narration, clear causal story, purposeful images and video, consistent characters and locations. Plan the whole film before media.'}`;

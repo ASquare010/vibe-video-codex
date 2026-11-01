@@ -55,6 +55,7 @@ export const sceneSchema = z.object({
   purpose: z.string().default(''), spokenStyle: z.string().default(''), audioPrompt: z.string().default(''),
   imagePrompt: z.string().default(''), videoPrompt: z.string().default(''), soundDesign: z.string().default(''), continuity: z.string().default(''),
   shots: z.array(shotSchema).default([]),
+  directionBasis: z.object({ audioVersionId: z.string(), narration: z.string(), fps: z.union([z.literal(24), z.literal(30)]) }).optional(),
   estimatedFrames: frame.min(1).default(180), audioAssetId: z.string().nullable().default(null),
   generationPlan: z.object({mode:z.enum(['generate','reuse']),state:z.enum(['planned','reserved','rendered']),provider:z.enum(['veo','higgsfield','minimax']),nativeSeconds:z.array(z.number().positive()),estimatedCredits:z.number().nonnegative(),reason:z.string(),reuseJobId:z.string().optional()}).optional(),
   approved: z.boolean().default(false),
@@ -122,12 +123,19 @@ export const jobSchema = z.object({
   turnId: z.string().optional(), resultApplied: z.boolean().default(false),
   activity: z.array(z.object({ id: z.string(), label: z.string(), status: z.enum(['running', 'completed', 'failed']), detail: z.string().default(''), at: z.string() })).default([]),
 });
+// A patch must preserve omitted fields. Zod 4 applies inner defaults even inside
+// partial() objects; stripping those defaults prevents clearing audio/source state.
+type PatchShape<T extends z.ZodRawShape> = { [K in keyof T]: z.ZodOptional<T[K] extends z.ZodDefault<infer U> ? U : T[K]> };
+function patchSchema<T extends z.ZodRawShape>(schema: z.ZodObject<T>) {
+  const shape = Object.fromEntries(Object.entries(schema.shape).map(([key, field]) => [key, z.optional(field instanceof z.ZodDefault ? field.removeDefault() : field)]));
+  return z.object(shape as PatchShape<T>);
+}
 export const resultSchema = z.object({
   summary: z.string(),
-  sceneUpdates: z.array(sceneSchema.partial().required({ id: true })).default([]),
+  sceneUpdates: z.array(patchSchema(sceneSchema).required({ id: true })).default([]),
   scenes: z.array(sceneSchema).optional(), plan: videoPlanSchema.optional(),
-  clipUpdates: z.array(clipSchema.partial().required({ id: true })).default([]),
-  settings: settingsSchema.partial().optional(),
+  clipUpdates: z.array(patchSchema(clipSchema).required({ id: true })).default([]),
+  settings: patchSchema(settingsSchema).optional(),
   newClips: z.array(clipSchema).default([]), removeClipIds: z.array(z.string()).default([]),
   transitions: z.array(transitionSchema).optional(), startProduction: z.boolean().optional(),
   assets: z.array(z.object({
@@ -147,7 +155,7 @@ const currentProjectSchema = z.object({
   theme: z.string().default(''),
   skill: skillSchema.nullable().default(null), plan: videoPlanSchema.prefault({}),
   review: reviewSchema.prefault({}),
-  production: z.object({ status: z.enum(['idle', 'drafting', 'awaiting-review', 'running', 'paused', 'failed', 'completed']).default('idle'), stage: z.enum(['plan', 'audio', 'images', 'video', 'render']).default('plan'), error: z.string().optional() }).prefault({}),
+  production: z.object({ status: z.enum(['idle', 'drafting', 'awaiting-review', 'running', 'paused', 'failed', 'completed']).default('idle'), stage: z.enum(['plan', 'audio', 'direction', 'images', 'video', 'render']).default('plan'), error: z.string().optional() }).prefault({}),
   conversation: z.object({
     runtime: z.enum(['codex', 'chatgpt']), threadId: z.string().nullable(), url: z.string().nullable(), error: z.string().nullable(),
     mode: z.enum(['observe', 'managed']).default('observe'),

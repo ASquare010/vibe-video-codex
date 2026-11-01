@@ -3,6 +3,7 @@ name: cinematic-3d-storytelling
 description: Develop compelling spoken stories for YouTube across subjects, genres and lengths, then build audio-led cinematic 3D films. Use for Shorts and long-form fiction, explainers, investigations, history, comedy and what-if videos.
 metadata:
   display-name: Cinematic 3D storytelling
+  workflow: audio-led-cuts-v2
 ---
 
 # Purpose
