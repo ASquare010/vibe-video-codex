@@ -58,11 +58,14 @@ Evaluate preparation, movement and result across the whole sequence. Carry a rea
 ## One world, useful handoffs
 Keep stable cast/prop/set IDs, scale, positions/facing, routes, supports, ownership, condition, knowledge and light. Match the meaningful event phase, not only its subject name. World locations remain fixed across angles; screen directions are camera-relative.
 
+Establish object identity, count and part/whole relationships wherever confusing them would break the action: this deck belongs to this ship, this interior to this carriage, this control to this mechanism. Identify which place supports the actor and which object the action changes. Carry those relationships into each cut's handoff without prescribing its lens or exact angle. If the world relationship is missing, the director resolves it before image writing; the image role must not invent a second vehicle/set to make a composition fit.
+
 For connected objects and consequential movement, establish the shared arrangement once: what connects to what, which surfaces face each other, the route and fixed landmarks, and how the actor can reach the next required location or control. Identify unresolved physical assumptions before requesting polished views. The image role turns this world into concrete camera/layout and pose references; a character reference alone cannot establish the set or mechanism.
 
 Give each prompt writer the same compact packet:
 - Previous actual outgoing frame/state, or explicitly planned state if not generated, and the action/object/eyeline/location/sound it passes forward.
 - Current cut/beat ID, speech window, first-notice priority, new information, opening phase, decisive action/change and required outgoing state.
+- Relevant object identities/counts, which whole contains each visible part, the actor's support/location and any connection the current action relies on. Reuse the same world across views; distinguish an exterior design reference from a place to add in the background.
 - Next required incoming state and join type: continuation, reaction, new location or deliberate ellipsis; identify what lets the viewer connect the two.
 - Selected duration and intended action phases; actual references, source range/rate and evidence status when available.
 
@@ -78,6 +81,8 @@ Before animation, review the timed image sequence over the exact selected narrat
 Compare actual adjacent stills without their descriptive titles. Keep repeated composition when changed content earns it; otherwise redirect/consolidate coverage or ask the image role to expose the missing relation. A new lens number alone is not a new idea. Validate critical geometry with the available blockout tools when needed.
 
 Compare the requested view with the actual selected crop: a full-body portrait does not pass a diagnostic hand/contact brief just because the right person and prop appear somewhere. Check the graphic character design against its actual style reference at readable size, alongside task-directed gaze, emotion and story clarity. Return a mismatch for a focused image repair before carrying it into animation. Beautiful lighting or a consistent landmark cannot certify the intended composition.
+
+Inspect the whole generated frame, including the background, against the same world: object count, part/whole identity, actor support and inside/outside relationships. A duplicated ship behind its own deck or disconnected train car is a spatial failure even if the foreground action looks good. Preserve the failed take and inspect its actual prompt/attached references. If the director's relationship is wrong or absent, repair the handoff; if the world is coherent but the prompt/reference framing is ambiguous, repair that compilation; if those are clear and the output still fails, record model noncompliance and make the smallest justified image repair. Do not send the failed still to animation or repeat the same request blindly.
 
 For a consolidated cut, check that all selected keyframes depict the same world and progressing event, and distinguish a planned destination from an attached reference or an actual supported timed control. Check the generated path and action order in the retained footage rather than assuming interpolation worked because both stills are good. Camera travel, a hold or micro acting must carry a development; they cannot turn duplicate views into useful coverage by themselves.
 

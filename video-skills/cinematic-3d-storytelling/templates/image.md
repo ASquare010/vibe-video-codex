@@ -46,6 +46,15 @@ For a directed multi-keyframe cut, keep one cut ID and label each image's role/p
 Generate each needed keyframe as a separate clean image, never a labelled collage for the video input. Record whether it is only a planning target, an attached composition reference or a supported timed/endpoint control. Those roles are not interchangeable. A requested destination image does not itself establish that the installed video route can enforce its frame or timestamp.
 
 ## Layout and blockout
+Resolve the current view from one shared world before writing the provider prompt. Establish where the camera and actors are relative to the containing object/place: aboard which vessel, inside which carriage or room, on which platform. Treat its deck, mast, sail or wall as parts of that same object, not additional copies of the whole. Carry the director's object identities, counts and connections into concrete spatial language; do not infer another vehicle or building merely because an exterior reference contains it.
+
+Compile only what this view can see:
+- Name the current action, support/contact and visible parts of their shared setting. Describe the foreground, relevant connection and plausible background from this camera position. Keep the rest of the world in the continuity record rather than repeating its full inventory in every prompt.
+- Assign each attached image its specific role and limits. An exterior vessel reference may establish paint, materials and rigging design; it does not require the complete exterior silhouette behind a camera already aboard. A character reference does not supply set geography. If the required connection is unclear in the reference, use a checked local view/blockout rather than asking the model to invent it.
+- Read the expanded prompt for competing instructions before submission: close detail versus full landmark, interior versus outside hull, one connected vehicle versus separate adjacent vehicles, or current state versus a later result. Resolve the contradiction at its source. Appending a list of forbidden duplicates to conflicting positive descriptions is not a repair strategy.
+
+For example, a sail-detail prompt can establish: “Camera aboard the same vessel, looking upward at its own mast. The foreground sheet line joins this sail corner to the deck fitting; only that mast, rigging, canvas and open sky occupy the view.” An exterior ship-wide reference supplies design only. The complete vessel belongs in a separate exterior view when the director needs it. This is a viewpoint/part relationship, not a universal ban on multiple ships or objects.
+
 For difficult source/path/target geometry, project or render a cheap guide using the existing [blocking helper](../scripts/blocking_previs.py) where useful. Establish connections, positions, facing surfaces, scale, action axis, support and occlusion before adding visual polish. Derive a new camera view from that same world rather than independently rearranging objects to fit it. The helper's boxes/cameras can establish coarse space; they do not prove anatomy, grip or mechanism function. Give the actual guide to the image tool through its supported reference mechanism. A computed plan does not prove the generated image obeys it.
 
 Keep camera/subject motion distinct from the apparatus visible in the scene. Do not invent an operator because the view is moving. Preserve established exits and world landmarks across viewpoint changes. Provide rigid supports for machines and purposeful body support for people.
@@ -67,7 +76,7 @@ Write a coherent standalone description from the following ingredients. Short la
 ```text
 Frame: {PROJECT_LOOK}, one edge-to-edge {FORMAT} film frame.
 Current event: {SUBJECTS_AND_SETTING; PRECISE_DIRECTED_ACTION_PHASE; RELEVANT_PROP_OWNERSHIP_AND_CONDITION}.
-View and space: {COMPOSITION_AND_CAMERA_POSITION; LOOK_AT_AND_FOCUS; IMPORTANT_CONNECTIONS_AND_DEPTH_RELATIONSHIPS}.
+View and space: {COMPOSITION_AND_CAMERA_POSITION_RELATIVE_TO_THE_SAME_SET_OR_VEHICLE; LOOK_AT_AND_FOCUS; VISIBLE_PARTS_CONNECTIONS_AND_PLAUSIBLE_BACKGROUND}.
 Pose and contact: {EXPRESSION_POSTURE_SUPPORT_GRIP_AND_REACH; TRAVEL_SPACE_AND_READABLE_CUE}.
 Light and materials: {MOTIVATED_LIGHT_AND_REQUIRED_DESIGN_LOCKS}.
 Inputs and constraints: {ACTUAL_ATTACHED_REFERENCE_ROLES; WHAT_CHANGES_AND_WHAT_STAYS; ONLY_NEEDED_LOCAL_CONSTRAINTS}.

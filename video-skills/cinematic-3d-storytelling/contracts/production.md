@@ -40,6 +40,7 @@ Use the existing direction/receipt artifacts to retain these compact additions, 
 | Evidence | Record |
 | --- | --- |
 | Reference inputs | Actual path/version/hash, role (appearance, layout, mechanism/pose, current state), relevant feature and whether that feature was checked. |
+| Spatial identity | Relevant object IDs/counts, part/whole containment, actor location/support and required connections; the image role resolves the visible parts and plausible background from its chosen view. Keep these in the existing direction/reference artifact, not invented manifest fields. |
 | Difficult action | Planned opening, decisive contact/change and edit-out target; physical connection/support and the condition that would make the shot unusable. |
 | Continuous-cut keyframes | One cut ID, ordered target roles/action phases and speech windows, each image's camera/state lineage, what completes before the attention handoff, and the connecting path resolved by the image/animation roles. Distinguish planning targets, attached references and actual supported timed controls. Save these in the direction artifact rather than inventing manifest/API fields. |
 | Neighboring cut | What passes forward, what the next cut receives, matching action/eyeline/direction/space/sound or deliberate time/place change. |
