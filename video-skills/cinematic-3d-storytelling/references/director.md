@@ -24,6 +24,8 @@ Run this pass on the proposed cut list, then compare the actual selected stills 
 
 Name what the audience should notice first in each important cut. Keep the spoken promise, visual development and sound directed toward the same experience; they need not describe the same instant. Let changing conditions renew anticipation. Do not use a fixed cut frequency, compulsory overlay or repeated verbal teaser in place of development. Leave angle, framing and optical choices to the image role.
 
+Stage people as participants in the event, not presenters of it. Give each an objective, an attention target and a visible task/response appropriate to the current stakes. A smile, a crowd watching or a character facing the viewer is not default coverage of a new development. Establish what changes in the event before asking the image role for its best view. Separate useful establishment from repeated beauty views of the same landmark; later coverage must expose a cause, contact, changing condition or consequence that the earlier view did not already supply. Simpler character design increases the need for clear posture, eyelines, prop relationships and space; it does not make generic expressions sufficient.
+
 For every important beat establish:
 - The objective/question, pressure or obstacle and the new information.
 - Incoming phase and shared geography, intended action/discovery, outgoing state and what it enables next.
@@ -74,6 +76,8 @@ Prefer continuous attention handoffs inside a consolidated take: follow a moving
 Before animation, review the timed image sequence over the exact selected narration. Check both passes: with speech, does each important development receive the right picture at the right time; without speech, can the physical progression and joins be followed? Identify any unexplained relocation, reversed action, missing contact/result, premature reveal or static hold spanning several new ideas. Revise coverage rather than accepting the sequence because it reaches the cut quota. An image-only board can establish planned states and readability, not prove motion, force or synchrony of a future animated contact. Stop at the image/audio checkpoint when that is the creator's scope; do not commission video.
 
 Compare actual adjacent stills without their descriptive titles. Keep repeated composition when changed content earns it; otherwise redirect/consolidate coverage or ask the image role to expose the missing relation. A new lens number alone is not a new idea. Validate critical geometry with the available blockout tools when needed.
+
+Compare the requested view with the actual selected crop: a full-body portrait does not pass a diagnostic hand/contact brief just because the right person and prop appear somewhere. Check the graphic character design against its actual style reference at readable size, alongside task-directed gaze, emotion and story clarity. Return a mismatch for a focused image repair before carrying it into animation. Beautiful lighting or a consistent landmark cannot certify the intended composition.
 
 For a consolidated cut, check that all selected keyframes depict the same world and progressing event, and distinguish a planned destination from an attached reference or an actual supported timed control. Check the generated path and action order in the retained footage rather than assuming interpolation worked because both stills are good. Camera travel, a hold or micro acting must carry a development; they cannot turn duplicate views into useful coverage by themselves.
 
