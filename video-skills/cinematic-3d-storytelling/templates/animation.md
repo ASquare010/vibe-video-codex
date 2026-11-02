@@ -1,6 +1,6 @@
 # Animation prompt writer
 
-You are the LLM writing the resolved MiniMax prompt for one directed continuous cut. Use the actual selected opening image, any selected later keyframes and their roles, cut purpose and incoming/outgoing state, narration context, adjacent-cut packet and selected duration. Preserve the current event and action count. If the images cannot support it, return the discrepancy rather than replacing the action with a tiny reaction or adding an internal edit.
+You are the LLM writing the resolved MiniMax prompt for one directed continuous cut. Use the actual selected opening image, any selected later composition references and their roles, cut purpose and incoming/outgoing state, narration context, adjacent-cut packet and selected duration. These reference positions guide the view and action order, not timed frame locks. Preserve the current event and action count. If the images cannot support it, return the discrepancy rather than replacing the action with a tiny reaction or adding an internal edit.
 
 Resolve the planned opening, decisive action and edit-out target against what is actually visible. A planned reach can lead into contact, but do not ask animation to repair an impossible connection, unsupported body or unreachable grip. Identify the direction/state that this cut receives and passes forward. These are motion-planning inputs; do not add another shot or send a review checklist to the provider.
 
@@ -76,6 +76,23 @@ Keep the six names and order; resolve every placeholder. `fully_preserved` descr
 ## Effects-only sound
 Default to scene ambience and concrete physical sounds: footsteps on visible foot contacts, a door's hinge/latch, cloth movement, tool contact or the material response to an impact. Describe each sound alongside its visible cause, with restrained room tone in `overall_soundscape`. Distinguish visual effects (smoke, sparks, blur) from sound effects; neither requires a voice. Keep vocal grunts, gasps, crowd chatter, radios and speech out, even during expressive acting. Set `non_diegetic_music` to none unless a score is requested.
 
-The approved narration is context for the LLM, not dialogue to reproduce or an audio reference to upload. Omit narrator words, dialogue/speaker markup and speech references from the provider request. Keep the explicit no-voices clause concise. The installed model generates joint audio/video; its input-video mute flag does not disable output voices and there is no exposed speech-only suppression switch. Effects-only prompting reduces the invitation to speak but is not a guarantee. Preserve raw sound for the director's separate listening/selection and effects mix under the unchanged narration. Workflow review and contaminated-audio handling belong to SKILL.md, not a provider-facing checklist.
+Write the audible material, onset and duration/tail that matter: a short metal click at latch release, a wooden hinge creak lasting through the door swing, or distinct shoe taps at ground contact. Match perspective and room acoustics to the view. Do not request a generic whoosh over every camera move or invent sounds for a quiet action. Replace inherited silence/no-sound-effects boilerplate when physical effects are intended; never ask for both silence and audible footsteps.
+
+Example fragments inside the existing six-section request, adapted to this cut's actual actions rather than copied onto every shot:
+
+```text
+detailed_description:
+[Shot 1] The character crosses the tiled floor and opens the wooden door. Each shoe landing produces a short hard tap with a faint room reflection. The latch makes one dry metal click as it releases; a low hinge creak follows the door's swing and fades when it stops. The character acts without speaking.
+
+overall_soundscape:
+Generate synchronized physical sound effects over quiet indoor room tone. Only the footsteps, latch and hinge are audible above the ambience. No speech, dialogue, narration, singing or human vocalizations.
+
+non_diegetic_music:
+None.
+```
+
+The approved narration is context for the LLM, not dialogue to reproduce or an audio reference to upload. For this default effects-only workflow, leave standalone audio inputs empty and omit speech-bearing video soundtracks; if a video is authorized as a motion reference, disable its input soundtrack and supply no speech replacement track. Omit narrator words, voice names, dialogue/speaker markup and instructions about later narration/assembly from the provider prompt. Define only references actually attached; do not invent an `<Audio N>` label when no audio is supplied. Keep the explicit no-voices clause concise.
+
+The installed model generates joint audio/video even without audio references; an empty audio list is not a mute/speech-off command. Its input-video mute flag does not disable output voices and there is no exposed speech-only suppression switch. Effects-only prompting reduces the invitation to speak but is not a guarantee. Preserve raw sound for the director's separate listening/selection and effects mix under the unchanged narration. Workflow review and contaminated-audio handling belong to SKILL.md, not a provider-facing checklist.
 
 Sources: [official Ref2VA guide](https://raw.githubusercontent.com/MiniMax-AI/MiniMax-H3/main/skills/h3-prompt-writing/references/ref-en.txt), [official mode selector](https://raw.githubusercontent.com/MiniMax-AI/MiniMax-H3/main/skills/h3-prompt-writing/SKILL.md), [ComfyUI H3 guide](https://docs.comfy.org/tutorials/video/minimax/minimax-h3). Provider support is not proof of an individual take's quality.

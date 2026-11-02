@@ -31,6 +31,8 @@ Specify camera position relative to the actual subject/set, height/distance, loo
 Use expression, gaze, posture and task together. A sustained emotional face without a developing event is weak coverage. Preserve identity, costume, ownership, damage and lighting across views. Scope references by design, geometry or current state: a design reference must not force every new shot to repeat its original composition. Adjacent cuts should add information or changed behavior, not just a different label.
 
 ## Keyframes within one continuous cut
+Here, keyframe positions mean reference views of action/composition stages, not images locked to output timestamps. Pass their intended order and role without inventing timed controls.
+
 Resolve an opening image first. Add a later composition/action keyframe only when it clarifies a meaningful camera destination, difficult action phase or required result; do not commission a still for every gesture. Similar views of the same continuous event normally belong to one cut. Return duplicate proposed cuts to the director for consolidation before generating more images.
 
 For a directed multi-keyframe cut, keep one cut ID and label each image's role/phase, such as opening, after-contact or closer result view. Derive later views from the same checked set and selected design references. Carry body support, handedness, prop position/condition and completed progress forward. The later image is a new instant, not a reset to the opening pose. Make the camera route between compositions physically possible and preserve space for it. For example, a tube-guiding medium view can lead to a closer view of the same hand/arm after the first guiding movement; it must not restart the insertion or relocate the doctor.
