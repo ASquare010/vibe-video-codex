@@ -1,0 +1,16 @@
+{
+  "key": "04-salary-dance-original",
+  "projectId": "f3b8e87b-dff2-4913-9c78-5bf2b4dde124",
+  "frames": 720,
+  "fps": 24,
+  "width": 720,
+  "height": 1280,
+  "masterGainDb": 0,
+  "originalDeliveryFile": "04-salary-dance-720x1280-FINAL-2026-11-04T09-35-50-390Z.mp4",
+  "originalDeliverySHA256": "033254dc30545353a740095efa6394f8917b5aef452c1a2eb2a24a485c58fba7",
+  "mediaRecords": 8,
+  "selectedVideoJobs": [
+    "1f8b9d5f-e5a9-4f4f-b98b-b6fdf1131b63",
+    "68d091a8-75fc-47ea-bb79-408cab111db6"
+  ]
+}

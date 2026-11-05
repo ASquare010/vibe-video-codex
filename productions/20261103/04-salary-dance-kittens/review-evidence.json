@@ -1,0 +1,160 @@
+{
+  "motion-selections.json": {
+    "S01-A": {
+      "decision": "usable",
+      "jobId": "492d3008-43d8-4348-8e94-7a7ced574f79",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\04-salary-dance\\revision-after-payday-kittens-20261104\\video\\S01-A-v1.mp4",
+      "sha256": "2f86414be0c737e02d6d0d52247077868ca2c5e2c505a14223ca7fa62348f22c",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 360,
+      "sourceFrames": 360,
+      "editFrames": 360,
+      "playbackRate": 1,
+      "nativeFrames": 362,
+      "reviewedAt": "2026-11-04T13:41:29.549782+00:00",
+      "observed": "Exactly2 tinyjuvenilekittens retained. White/blackfront pads startatuppercheek/mouthcorners; visiblyslide down samefur towardlowerjaw by~f72, mouthlengthensintoO, eyeswide, intactface/paws. Padsmaintainlowercheekcontactwhilefrontslowlysways/taps withoppositehindpaw support. Rearginger independentlyalternates forepaws andhindpawtaps throughout, staysrearleftandneveroccludesfrontface. Attachedtails andreadablefloorcontacts. Darkphotographic kitchenwarm/coollighting/fur/materialscoherent. Camera lateraloutward/returntravel andgentlerise/dip, bothfullbodiesretained withkitchenparallax; nointernalcut.",
+      "evidence": "Completeactualnativeoverview0-361 every12frames, dense48-63/80-95/112-127/144-159 and enlarged0/72/359 inspected. Actualupper-to-lower cheekdrag/Oresultconfirmed enlarged0vs72. Selected0-360native1x,2handleframesexcluded.",
+      "limitations": [
+        "Sequentialframe inspection, not realtimeplayback/listening; nativeaudioexcluded.",
+        "Actualcheekdrag finishesaround3s ratherthanplanned4-6s; frontsubsequentpadsheldatlowercheekswithlivingstep/sway. Faceintactandcomicallylengthened, no extremeelasticstretch claimed.",
+        "Camera visiblyswingsandreturnswithverticalvariation; exactgeometricfigure-eightpath notcertified.",
+        "Rearretro twostep/armgroove achieved; not certified exact RickAstleychoreography."
+      ]
+    },
+    "S01-B": {
+      "decision": "usable",
+      "jobId": "e62826b6-b225-4add-aa8d-65b858d07502",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\04-salary-dance\\revision-after-payday-kittens-20261104\\video\\S01-B-v3.mp4",
+      "sha256": "a974bb8746022da4e854fcf391cbe44fd24eaaab393e04c25041773c882a33e1",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 360,
+      "sourceFrames": 360,
+      "editFrames": 360,
+      "playbackRate": 1,
+      "nativeFrames": 362,
+      "reviewedAt": "2026-11-04T16:23:13.990500+00:00",
+      "observed": "Exactly2 tinykittens retained fullbody, ginger independentlyvisibleleft throughout. Front startsjawpads/Oface matchingAend, releasespadstochest~32-48 whilealternating supportedhindpawsteps, liftsbacktocheeks~140-150, gentlycompresses/slidescheekfurandopenscomicO~180-192. Repeatsupper/lowercheekgesturewithslowswayandsettlespadsatupperchestnearend. Realroundedpaws, attachedtails, intactface/fur. Gingeropposingforepawgrooveandhindpawtapscontinues independentlywithoutocclusion. Camera staysessentiallylockedfrontgroup; kitchengeometryandlightingstable.",
+      "evidence": "Completeactualnativeoverview0-361 every12frames; dense32-47/128-191 and enlarged0/188/359 inspected. ActualA359/B0 viewed enlarged, stronglymatchingposition/face/pads/geography, benignrearforepawphasechange. Selected0-360native1x,2handlestrimmed.",
+      "limitations": [
+        "Sequentialframeinspection only, not realtimeplayback/listening. Nativeaudioexcluded.",
+        "B usesnearstaticgroupcamera tokeepgingervisible after2rejectedcirclingattempts. A suppliespendulumout/return; exactrequestedfigure8throughoutnotachieved.",
+        "B secondcheekgesturehasgentlefurcompression/smallslide ratherthanlargeelasticstretch; strongestcompletedjawdragisA. Endsreleasedchestpadsratherthanplannedjawpadhold.",
+        "Retrogingergroove notcertifiedexactRickAstleychoreography; originalinstrumentalnotcommercialsong."
+      ]
+    }
+  },
+  "final-review/verification.json": {
+    "file": "${REPO}\\drafts\\production-batch-20261103\\04-salary-dance\\revision-after-payday-kittens-20261104\\04-salary-dance-after-payday-kittens-20261104-720x1280-FINAL-2026-11-04T16-24-13-515Z.mp4",
+    "frames": 720,
+    "allFramesDecoded": true,
+    "sourceFrameChecks": [
+      {
+        "cut": "S01-A",
+        "jobId": "492d3008-43d8-4348-8e94-7a7ced574f79",
+        "frames": 360,
+        "meanPixelMAE": 1.8804066919618183,
+        "maxFrameMAE": 2.00169038772583,
+        "badFrames": []
+      },
+      {
+        "cut": "S01-B",
+        "jobId": "e62826b6-b225-4add-aa8d-65b858d07502",
+        "frames": 360,
+        "meanPixelMAE": 1.8644984265168507,
+        "maxFrameMAE": 1.9189510345458984,
+        "badFrames": []
+      }
+    ],
+    "deliveryCopyHashes": {
+      "projectExport": "8a743c7398220043e966d7a224513a5d105000a0e7a1ccffb3de32eb376334ec",
+      "jobOutput": "8a743c7398220043e966d7a224513a5d105000a0e7a1ccffb3de32eb376334ec",
+      "delivery": "8a743c7398220043e966d7a224513a5d105000a0e7a1ccffb3de32eb376334ec"
+    },
+    "originalAudioSources": [
+      {
+        "clipId": "kitten-score-clip",
+        "sourceHashPassed": true,
+        "sha256": "f26205572ad6128bbac1c59d29842a0a0ea9235ce3798f8aaac5aa357d0a247e"
+      },
+      {
+        "clipId": "kitten-A-brush",
+        "sourceHashPassed": true,
+        "sha256": "f0297644f98e4d5934f08c15aa4f94ccdf43efadb237c35acddb7eab543f5622"
+      },
+      {
+        "clipId": "kitten-B-brush",
+        "sourceHashPassed": true,
+        "sha256": "f0297644f98e4d5934f08c15aa4f94ccdf43efadb237c35acddb7eab543f5622"
+      },
+      {
+        "clipId": "kitten-paw-125",
+        "sourceHashPassed": true,
+        "sha256": "c33d392b2ad8382acde456f0560ecb87ecd164dc4e936d7169ac6e220acdf83b"
+      },
+      {
+        "clipId": "kitten-paw-148",
+        "sourceHashPassed": true,
+        "sha256": "c33d392b2ad8382acde456f0560ecb87ecd164dc4e936d7169ac6e220acdf83b"
+      },
+      {
+        "clipId": "kitten-paw-407",
+        "sourceHashPassed": true,
+        "sha256": "c33d392b2ad8382acde456f0560ecb87ecd164dc4e936d7169ac6e220acdf83b"
+      },
+      {
+        "clipId": "kitten-paw-494",
+        "sourceHashPassed": true,
+        "sha256": "c33d392b2ad8382acde456f0560ecb87ecd164dc4e936d7169ac6e220acdf83b"
+      }
+    ],
+    "audioCorrelation": 0.9993211217890895,
+    "audioGain": 0.997036749211676,
+    "audioPeak": 0.7006269097328186,
+    "blackDetected": [],
+    "boundaryBoards": [
+      "${REPO}\\drafts\\production-batch-20261103\\04-salary-dance\\revision-after-payday-kittens-20261104\\final-review\\boundaries-1.jpg"
+    ],
+    "boundaryVisualReview": "usable",
+    "evidenceLimit": "Numerical every-frame/source and waveform checks plus exported still boundaries; not a claim of realtime playback/listening",
+    "numericPassed": true,
+    "boundaryReviewedAt": "2026-11-04T16:25:19.843160+00:00",
+    "boundaryEvidence": "Viewedactualexportboundaries-1.jpg: captionAFTERPAYDAY only, readabletopclearofkittens; first/lastbothshots andactualjoin359/360 consistentface/padpose/kittenidentity/light/kitchen. Complete2fullbodykittens visible atallboundaryframes, no black/duplicate gap. Bendsforepawschestrelaxed, intentionalendstate accepted. All720frame/source andoriginalaudio waveformnumericpassed. Sequentialframe/exportboardinspection only, not realtimeviewing/listening."
+  },
+  "assembly-review.json": {
+    "decision": "usable",
+    "reviewedAt": "2026-11-04T16:23:13.990500+00:00",
+    "expectedFrames": 720,
+    "fps": 24,
+    "evidence": "ActualA0-359 andBv30-359 completeaction/source reviews retained. EnlargedA359/B0: frontjawpads/Oface, blackpatch, kittenage/positions/kitchenlight nearlymatch; benignrearforepawphasechange. Continuous15s+15s structure, no beforepaydayversion. Bothkittensindependentlyvisible; Bnearstaticcameraexplicitqualitytradeoffafter2rejectedcirclingattempts, Apendulumout/return. Original30s spookyretroinstrumentalonce, quietproceduralpaw/furphaseaccents, no nativeaudio/narration. AFTERPAYDAYonlycaption canonical; exportpixel/legibilityreviewpending.",
+    "limits": "Sequentialframe review only, no realtimeplayback/listening. Exactfigure8andRickchoreography notcertified; Bcamera static. Currentfilm completiononly,06/07skippedbycreator."
+  },
+  "motion-rejections.json": [
+    {
+      "decision": "rejected",
+      "cutId": "S01-B",
+      "take": "v1",
+      "jobId": "34cb9d45-d78d-4069-bc1d-bd863cd1d9c7",
+      "reviewedAt": "2026-11-04T14:23:34.379870+00:00",
+      "observed": "Front kitten releases/re-lifts pads and retains identity but camera makes large circling travel: ginger leaves left edge around3s and stays absent until~6s, then moves behind frontkitten as viewpoint revolves. Nativef96 enlarged shows frontkitten alone. This breaks independent visible rear dance and shallowfrontpendulum requirement. No contiguous360frame range avoids absence.",
+      "evidence": [
+        "video/review-S01-B-v1/overview.jpg",
+        "video/review-S01-B-v1/f0097.png"
+      ],
+      "limits": "Completeactualnativeoverview0-361 every12frames and enlarged96 inspected; not realtimeplayback/listening. Nativeaudio excluded.",
+      "repair": "One bounded camera-only repair: narrowly defined front-only20cmleft/40cmright/20cmreturn slide, smallrise/dip, aim between kittens. Same action/reference/uploads/actualseed."
+    },
+    {
+      "decision": "rejected",
+      "cutId": "S01-B",
+      "take": "v2",
+      "jobId": "6b656c62-19e2-4a7a-8874-046fd659dcaf",
+      "reviewedAt": "2026-11-04T15:22:26.712532+00:00",
+      "observed": "Camera againmakeslargecircle/pan; gingerleavesleftedge~2.5s andisabsentthroughmostmiddle,returning~12s. Actualfrontrelease/re-lift/facegesturepresentbutkeyindependentreardanceisnotvisible; cannotselect360contiguousframeswithbothkittens.",
+      "evidence": [
+        "video/review-S01-B-v2/overview.jpg"
+      ],
+      "limits": "Completeactualnative0-361overviewevery12frames inspected. No realtimeplayback/listening; rawsoundexcluded.",
+      "repair": "Second/finalbounded camera-only repair removes all camera travel andlocksopeninggroupframing, preservingimages/action/actualseed. A alreadyhaspendulummovement; Bstaticcamera variationmustbeacknowledged."
+    }
+  ]
+}

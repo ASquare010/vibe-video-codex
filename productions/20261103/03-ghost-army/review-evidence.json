@@ -1,0 +1,729 @@
+{
+  "motion-selections.json": {
+    "S01-E": {
+      "decision": "usable",
+      "jobId": "825425ca-bedd-4975-9299-8e6a64567079",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S01-E-v1.mp4",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 63,
+      "sourceFrames": 63,
+      "editFrames": 42,
+      "playbackRate": 1.5,
+      "reviewedAt": "2026-11-03T18:31:02.818897+00:00",
+      "evidence": "Actual decoded native frames0-63 each inspected on four dense boards, plus full-take overview and enlarged0/32/60. This is sequential frame inspection, not real-time playback or listening.",
+      "observed": "Four crew remain, near hand-loop contacts follow rising tank; planted near boots and far crew heads remain consistent (far hand/boot contacts occluded by hull). Whole inflated silhouette rises with clear earth gap around24-49 then returns to supported footprint by56; coherent small camera drift retains whole tank and visible supports. No driving or liquid geometry. Pump stays fixed, no hose tension visible.",
+      "trimReason": "First cycle complete; later second lift excluded.63native frames accelerated1.5x fit unchanged42frame narration window with preparation, lift, clear gap and grounded result.",
+      "limitations": [
+        "Far crew lower-body/grip contacts occluded; not claimed verified.",
+        "Native real-time playback/listening pending; raw sound excluded."
+      ],
+      "nativeFrames": 124,
+      "sha256": "b2ca60e1a0c733a40f1b2b81732ed6e9ca8b2fcc0191e21e8509c32f8247867f"
+    },
+    "S01-C": {
+      "decision": "usable",
+      "jobId": "32d98d04-5586-45e8-8093-cc0687b8e71c",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S01-C-v1.mp4",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 86,
+      "sourceFrames": 86,
+      "editFrames": 86,
+      "playbackRate": 1,
+      "reviewedAt": "2026-11-03T19:05:54.829801+00:00",
+      "evidence": "Decoded full-take overview plus dense every-other-frame boards0-122 inspected. Sequential frame inspection, not real-time playback/listening.",
+      "observed": "Same two crew stay clear. Initially collapsed tank on full footprint; turret and tube unfold first, hull then rises to supported inflated shape by aboutframe76. Bottom stays on earth, tracks do not drive. Hose remains attached and pump fixed. Camera arcs right with coherent background parallax and no cut.",
+      "deviations": [
+        "Turret inflates before hull rather than planned hull-first; still coherent compressed inflation.",
+        "White stylized air puff near coupling fades after inflation; source is visually external rather than invisible airflow.",
+        "Barrel tip moves beyond left edge during camera arc; hull,turret,track support and hose remain readable."
+      ],
+      "limitations": [
+        "Actual native playback/listening not claimed; raw sound excluded."
+      ],
+      "nativeFrames": 124,
+      "sha256": "2d2fa6c6f761e516b52a6a171ce8de7b74c6c5de9703c1c29903929001738345"
+    },
+    "S01-A": {
+      "decision": "usable",
+      "jobId": "c2758e72-cc7c-4d84-91bf-39c6e9cdbf57",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S01-A-v2.mp4",
+      "sourceInFrames": 4,
+      "sourceOutExclusive": 124.0,
+      "sourceFrames": 120.0,
+      "editFrames": 112,
+      "playbackRate": 1.0714285714285714,
+      "observed": "Two soldiers lift folded rubber clear of open bag, hold supported by hands then lower onto earth and release by108. Cast/grips coherent; ground and bag remain fixed. Camera follows material with backdrop parallax. Full lowering/result retained by extending cut16frames; no narration edit.",
+      "evidence": "Full-take overview at5frame intervals, dense92-123actualframes inspected; sequential frames,not real-time playback.",
+      "reviewedAt": "2026-11-04T02:01:23.402175+00:00",
+      "nativeFrames": 124,
+      "sha256": "7bc072ed4d8e3d33c0957045c4dd6dbfd44d36ca62a0ca4f84f7c14be6a50083",
+      "limitations": [
+        "Real-time playback/listening not claimed; native sound excluded."
+      ]
+    },
+    "S01-H": {
+      "decision": "usable",
+      "jobId": "63212258-e630-4e94-9739-ce2055b7e2a3",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S01-H-v2.mp4",
+      "sourceInFrames": 41,
+      "sourceOutExclusive": 345,
+      "sourceFrames": 304,
+      "editFrames": 304,
+      "playbackRate": 1,
+      "observed": "Discard unrelated lake frames0-40 and hard transition. Selected41-345 begins on correct truck/tailgate; two carriers lift single bag clear, step left along supported earth to camp tents, maintain same ownership and finish beside camp. Camera tracks left coherently and keeps bag. Later carry hold retained in narrative context.",
+      "evidence": "Full-take overview and dense28-75actualframes inspected; first valid frame41. Sequential frames,not realtime playback.",
+      "reviewedAt": "2026-11-04T02:01:23.402175+00:00",
+      "nativeFrames": 345,
+      "sha256": "558b939bffd2af940a178f6846d8ee6ccafc2e8d786463cc34ffb86a122bdc32",
+      "limitations": [
+        "Real-time playback/listening not claimed; native sound excluded."
+      ]
+    },
+    "S01-B": {
+      "decision": "usable",
+      "jobId": "044dcadc-a44b-411e-90cc-5f41ee55c3fd",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S01-B-v2.mp4",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 24.0,
+      "sourceFrames": 24.0,
+      "editFrames": 18,
+      "playbackRate": 1.3333333333333333,
+      "observed": "Coupling travels along same valve axis and seats against fixed collar by~frame18. Hand retains connection and hose curves down; no added face/cast. Tiny securing movement; no full finger withdrawal in retained range.",
+      "evidence": "Fullnative overview and everyframe0-31dense boards inspected. Sequential actualframes; not realtime playback/listening.",
+      "nativeFrames": 124,
+      "sha256": "89fce27fe6a8d314337a0cb5397e4c6314881d3bc61d4cf33a4091e6b45c2ef0",
+      "reviewedAt": "2026-11-04T02:39:17.845883+00:00",
+      "limitations": [
+        "Native realtime playback/listening notclaimed; rawgeneratedsoundexcluded."
+      ]
+    },
+    "S01-D": {
+      "decision": "usable",
+      "jobId": "f31c756e-92e7-40b8-bd69-b633609ed9ed",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S01-D-v2.mp4",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 18,
+      "sourceFrames": 18,
+      "editFrames": 18,
+      "playbackRate": 1,
+      "observed": "Already closed hand maintains stitched loop ownership; wrist/grip tighten and attached loop takes upward tension, patches remainfixed. Excludes later finger release/regrasp after27.",
+      "evidence": "Fullnative overview and everyframe0-31dense boards inspected. Sequential actualframes; not realtime playback/listening.",
+      "nativeFrames": 124,
+      "sha256": "72407eee286294e7424cd9e903923003ef8ff7df296a6b73d49521873091f9f4",
+      "reviewedAt": "2026-11-04T02:39:17.845883+00:00",
+      "limitations": [
+        "Native realtime playback/listening notclaimed; rawgeneratedsoundexcluded."
+      ]
+    },
+    "S01-F": {
+      "decision": "usable",
+      "jobId": "d980a64e-3531-4512-bb81-3049221d5ced",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S01-F-v2.mp4",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 80,
+      "sourceFrames": 80,
+      "editFrames": 40,
+      "playbackRate": 2,
+      "observed": "Near rubber seam/fulltank remains grounded as crew clear it. Camera moves right past tank/pump into rows beyond hedge with coherent terrain.2xselected footage compresses purposeful attention transfer into40editframes.",
+      "evidence": "Fullnative overview every5frames inspected; source0-80retained. Sequential actualframes; not realtime playback/listening.",
+      "nativeFrames": 124,
+      "sha256": "f20b61ee89d71f5dbbab387e81a3abfa78042692902bcb72a04df0e0553f3dd1",
+      "reviewedAt": "2026-11-04T02:39:17.845883+00:00",
+      "limitations": [
+        "Native realtime playback/listening notclaimed; rawgeneratedsoundexcluded.",
+        "Another crew figure is revealed near hull during camera move; no claim of originalsinglevisiblepersonthroughout. Distant rows show partlyflatprepareddecoys; finalfullformation cutG follows later."
+      ]
+    },
+    "S01-G": {
+      "decision": "usable",
+      "jobId": "52d8c492-ce01-4702-b815-f45595ac4547",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S01-G-v2.mp4",
+      "sourceInFrames": 20,
+      "sourceOutExclusive": 133,
+      "sourceFrames": 113,
+      "editFrames": 113,
+      "playbackRate": 1,
+      "observed": "Crate handling finishes, camera rises across hedge to stationary decoy formation and camp. Clear parallax/reveal, grounded rubber shapes. Actual wide formation contains about9decoys rather than planned6; no exactequipmentcount in narrator, preserve actual observed image rather than claim6.",
+      "evidence": "Fullnative overview every6frames inspected;source20-133retained. Sequential actualframes; not realtime playback/listening.",
+      "nativeFrames": 158,
+      "sha256": "966ae1622e772bbc3934bdccb33744451c6957f3c63d389bd215bcbf34cc3459",
+      "reviewedAt": "2026-11-04T02:39:17.845883+00:00",
+      "limitations": [
+        "Native realtime playback/listening notclaimed; rawgeneratedsoundexcluded.",
+        "Formation count deviates from provisional6toabout9; unit-scale visual meaning retained and no literal six-count claimed."
+      ]
+    },
+    "S01-I": {
+      "decision": "usable",
+      "jobId": "50b477ec-47a6-4377-962f-280db93f6505",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S01-I-v2.mp4",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 262,
+      "sourceFrames": 262,
+      "editFrames": 262,
+      "playbackRate": 1,
+      "observed": "Two specialists measure supported rubber seam and complete pencil sketch, then put attention/hands onto folded rubber and open upperfold. Camera transfers across same worktable and returns to material, no locationcut. Task-directed brows/eyes, table contact maintained.",
+      "evidence": "Fullnative overview every12frames inspected;source0-262retained including exposedfold result. Sequential actualframes; not realtime playback/listening.",
+      "nativeFrames": 294,
+      "sha256": "b5200a9bfe3e3364afb91373b6dc70f952ec79f9c7799abf8f1204cd96b4888d",
+      "reviewedAt": "2026-11-04T02:39:17.845883+00:00",
+      "limitations": [
+        "Native realtime playback/listening notclaimed; rawgeneratedsoundexcluded."
+      ]
+    },
+    "S02-A": {
+      "decision": "usable",
+      "jobId": "f7fab42b-e030-4880-8c05-fa262cb6677e",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S02-A-v2.mp4",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 253,
+      "sourceFrames": 253,
+      "editFrames": 253,
+      "playbackRate": 1,
+      "observed": "Single soldier rests on groundedpump without pumping, turns gaze toward vacancy. Camera travels across unoccupied meadow and woodland into tree corridor. Decoy/pump remain fixed before leavingcrop; stable warm/coollight and actualemptyspace reveal.",
+      "evidence": "Fullactualnative overview every11frames inspected; retained0-253. Sequentialframes,not native realtimeplayback/listening.",
+      "nativeFrames": 277,
+      "sha256": "12efc12f00c5bfcbdb3ca9f7a349c48941afdbfd311ef889e39dee06eab7a260",
+      "reviewedAt": "2026-11-04T03:20:14.075218+00:00",
+      "limitations": [
+        "Native realtime playback/listening notclaimed; rawsoundpreserved/excluded."
+      ]
+    },
+    "S02-B": {
+      "decision": "usable",
+      "jobId": "480552f0-5ee4-498b-a77f-18fbebd10a2f",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S02-B-v2.mp4",
+      "sourceInFrames": 12,
+      "sourceOutExclusive": 66,
+      "sourceFrames": 54,
+      "editFrames": 18,
+      "playbackRate": 3,
+      "observed": "Fingertip engages originaltoggle; lever changes position, finger then lifts away before later pointingatmeter.54sourceframes compressed3x to18frame decisiveinsert, visibleincoming/contact/outgoing. Cabinet/reel andoperatoridentity retained.",
+      "evidence": "Fullactualnative overview every5frames plus dense12-43 inspected; originalswitch close detail retained12-66, later meterpoint excluded. Sequentialframes,not native realtimeplayback/listening.",
+      "nativeFrames": 124,
+      "sha256": "b618efe67dad9cedd9179c7e1a1a5f3146e5ee44c0d346d5fe5ac37780532af7",
+      "reviewedAt": "2026-11-04T03:20:14.075218+00:00",
+      "limitations": [
+        "Native realtime playback/listening notclaimed; rawsoundpreserved/excluded."
+      ]
+    },
+    "S02-C": {
+      "decision": "usable",
+      "jobId": "9735473b-f5c0-4f4e-9cf8-5c462ea2e7c4",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S02-C-v2.mp4",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 215,
+      "sourceFrames": 215,
+      "editFrames": 215,
+      "playbackRate": 1,
+      "observed": "Operator makes control adjustment, reel advances; camera tilts from groundedcabinet along sametruck to twohorns on boltedroofrails, then handsattention into valley. Enlargedframes130/150 show rigidrail/bracket; farhornsupport becomes occluded behind nearhorn, not an observed separation. Nohornwobble or detach required.",
+      "evidence": "Fullactualnative overview every10frames,dense140-155,and enlarged130/150 reviewed. Retained0-215includes operator,roofhorns andvalleyhandoff. Sequentialframes,not native realtimeplayback/listening.",
+      "nativeFrames": 243,
+      "sha256": "1d816e4c5f7606d4cb9594469272d96c739a69992afe187482c943d8b45b014a",
+      "reviewedAt": "2026-11-04T03:20:14.075218+00:00",
+      "limitations": [
+        "Native realtime playback/listening notclaimed; rawsoundpreserved/excluded.",
+        "Farhorn bracket becomes occluded by nearhorn duringarc; no claim of continuously visible far attachment."
+      ]
+    },
+    "S02-D": {
+      "decision": "usable",
+      "jobId": "23b39f19-f360-4847-9c06-52b5bd0c37e7",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S02-D-v2.mp4",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 118,
+      "sourceFrames": 118,
+      "editFrames": 118,
+      "playbackRate": 1,
+      "observed": "Oneheadphoneoperator remains supported attable, taps mountedMorsekey in short sequences with finger lift/return andfixedbase. Eyesfollowkey/cabinet; camera arcs towardgraphicface with warmtasklight. No fullbody/support reset.",
+      "evidence": "Fullactualnative overview every6frames plus dense0-31 inspected; retained0-118. Sequentialframes,not native realtimeplayback/listening.",
+      "nativeFrames": 158,
+      "sha256": "95556af14903e84fbdb23d4719ba6189ebe3269210da1e3eaf51e145c43913d4",
+      "reviewedAt": "2026-11-04T03:20:14.075218+00:00",
+      "limitations": [
+        "Native realtime playback/listening notclaimed; rawsoundpreserved/excluded."
+      ]
+    },
+    "S02-E": {
+      "decision": "usable",
+      "jobId": "9d8aaa8b-ac1c-4e58-b918-8a7dd05735fe",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S02-E-v2.mp4",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 148,
+      "sourceFrames": 148,
+      "editFrames": 148,
+      "playbackRate": 1,
+      "observed": "Single coherent camera travels from connectedwideview of fixedsoundtruck,decoyformation andradiotent towardtentoperator. Actual finalattention closes onto radio, rather than preserving allthreechannels at end; connectedgeography established first. Groundeddecoys/truck/tent remain stable, crew task work readable.",
+      "evidence": "Fullactualnative overview every7frames inspected,retained0-148. Sequentialactualframes;not realtimeplayback/listening.",
+      "nativeFrames": 175,
+      "sha256": "e4f99f69076ffa95dc48bdfba56016c057c2bfd0fad8eda17c1081fa15eba26e",
+      "reviewedAt": "2026-11-04T04:00:39.356617+00:00",
+      "limitations": [
+        "Native realtime playback/listening notclaimed; rawsoundpreserved/excluded.",
+        "Camera finalframing differs from plannedthree-sourcewide; actualsingle-spacehandoff toradio used."
+      ]
+    },
+    "S02-F": {
+      "decision": "usable",
+      "jobId": "95e931d7-6ff6-4da9-ae5f-b7b91f6097fa",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S02-F-v2.mp4",
+      "sourceInFrames": 10,
+      "sourceOutExclusive": 46,
+      "sourceFrames": 36,
+      "editFrames": 18,
+      "playbackRate": 2,
+      "observed": "Distant ridgeflash blooms; eyes narrow/blink,brow tightens and head/shoulder ducks slightly, then steadies as smokeforms. Graphicface remains closedmouth,no injury or local exposureflash.36sourceframes compressed2x into18frameinsert.",
+      "evidence": "Fullactualoverview and everyframe10-45dense boards inspected,retained10-46. Sequentialactualframes;not realtimeplayback/listening.",
+      "nativeFrames": 124,
+      "sha256": "7cde64c59d59dec0d05704b4a3ad02adb21bebee02a70ee0fb90cc254b692c42",
+      "reviewedAt": "2026-11-04T04:00:39.356617+00:00",
+      "limitations": [
+        "Native realtime playback/listening notclaimed; rawsoundpreserved/excluded."
+      ]
+    },
+    "S02-G": {
+      "decision": "usable",
+      "jobId": "99150042-6cee-43f4-b10a-37aa019ece9f",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S02-G-v2.mp4",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 276.0,
+      "sourceFrames": 276.0,
+      "editFrames": 240,
+      "playbackRate": 1.15,
+      "observed": "Exactlytwo crew throughout inspected sequence. Coupling startsdetached,attachedcap closes by~77; coil gathers and lifts after closure~110-132, both carryleft intohedge. Inflatedtank stayssupportedbehind. Camera follows withoutreset. Retained0-276captures both fullygonebehindhedge at end; modest1.15x briskrate preservescompletephaseorder.",
+      "evidence": "Fullactualoverview every11frames plusenlarged88,99,110,121,228,239 examined; twofaces/fourhandownership clarified,notextraactors. Retained0-276sourceframes. Sequentialactualframes;not realtimeplayback/listening.",
+      "nativeFrames": 277,
+      "sha256": "22d5342f9f982cfdb0ecadac16dbcc15d4b606f97e397ce07502af987d811f8e",
+      "reviewedAt": "2026-11-04T04:00:39.356617+00:00",
+      "limitations": [
+        "Native realtime playback/listening notclaimed; rawsoundpreserved/excluded."
+      ]
+    },
+    "S03-B": {
+      "decision": "usable",
+      "jobId": "aeb22dd4-8b93-496f-9213-fc5d61d504d2",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S03-B-v2.mp4",
+      "sourceInFrames": 54,
+      "sourceOutExclusive": 100.0,
+      "sourceFrames": 46.0,
+      "editFrames": 37,
+      "playbackRate": 1.2432432432432432,
+      "observed": "Two crew hold same carriage trails while lightweightdummy gun rollsright; wheelsrotateonground,carriagerigid,fabricshieldtextured. Retainednative54-100coversfinalshortroll andsupportedstop,1.243xbriskrate in37editframes.",
+      "evidence": "Fullnativeoverviewevery5frames+dense84-99inspected. Sequentialframes,notnative realtimeplayback/listening.",
+      "nativeFrames": 124,
+      "sha256": "2ec4cece42a7cb9d816f8d9b7c6c09d502d9ccc932eccddacf2fd73522986c03",
+      "reviewedAt": "2026-11-04T04:41:58.507906+00:00",
+      "limitations": [
+        "Native realtimeplayback/listeningnotclaimed;rawsoundexcluded."
+      ]
+    },
+    "S03-C": {
+      "decision": "usable",
+      "jobId": "fe48d1a0-974d-455b-8c0b-22bbc9ce3edc",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S03-C-v2.mp4",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 218,
+      "sourceFrames": 218,
+      "editFrames": 218,
+      "playbackRate": 1,
+      "observed": "Realmetaltrackedvehicle advancesright withcoherentcyclingtracks/terrainmotion,3footcrew stridewithheelcontacts andonehatchcrew stayswaistcontained. Camera tracksparallel,foregroundtree brieflycrosseslate; leadwalker andvehiclenoseleavecropbeforeend while remainingcolumncontinues. No fabricvehiclemorph.",
+      "evidence": "Fullnativeoverviewevery10framesinspected,retained0-218;firstclearwideestablisheswholevehicle/leadcrew. Sequentialframes,notnative realtimeplayback/listening.",
+      "nativeFrames": 243,
+      "sha256": "3ebbbf7377c4125f957b166ccb1c242df4f50c4a25252a7e1c264135a2ec5f9a",
+      "reviewedAt": "2026-11-04T04:41:58.507906+00:00",
+      "limitations": [
+        "Native realtimeplayback/listeningnotclaimed;rawsoundexcluded.",
+        "Camera does not retain leadwalker/nose toveryend; actual departingcolumncoverage retained ratherthan claimplannedwholegroupframing."
+      ]
+    },
+    "S03-D": {
+      "decision": "usable",
+      "jobId": "3b27b184-bc37-4eac-ae22-687e5ce3890a",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S03-D-v2.mp4",
+      "sourceInFrames": 4,
+      "sourceOutExclusive": 40,
+      "sourceFrames": 36,
+      "editFrames": 18,
+      "playbackRate": 2,
+      "observed": "Fingertip depressesblackMorseknob against fixedhingedbar/contact assembly then keyrisesback; cabinet/woodtable/cablefixed.36sourceframescompressed2xinto18framecontactinsert.",
+      "evidence": "Fullnativeoverviewevery5frames+everyframe4-39denseinspected. Sequentialframes,notnative realtimeplayback/listening.",
+      "nativeFrames": 124,
+      "sha256": "5e460ea2a7906140e760664bbebe55df9744a88b8b52ce09bb77fed62698f099",
+      "reviewedAt": "2026-11-04T04:41:58.507906+00:00",
+      "limitations": [
+        "Native realtimeplayback/listeningnotclaimed;rawsoundexcluded."
+      ]
+    },
+    "S03-E": {
+      "decision": "usable",
+      "jobId": "a3730b13-37b6-40fa-b03c-39af6dbdfd37",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S03-E-v2.mp4",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 352,
+      "sourceFrames": 352,
+      "editFrames": 352,
+      "playbackRate": 1,
+      "observed": "Twoexistingmaps eachretainone79disk: leftlower vsrightupper. Officer pointsleftthenright, compares, camera handsattention to concentratedrealization then returns tostaticmaprelationship. No sheetalignmentaction or markerrelocation observed in selectedsequence.",
+      "evidence": "Fullactualnativeoverviewevery15framesinspected;retained0-352. Sequentialframes,not realtimeplayback/listening.",
+      "nativeFrames": 362,
+      "sha256": "e805f67788b9b49faaf3fd19a14e0a8f67d414b5cdacd521fadb82c866adb752",
+      "reviewedAt": "2026-11-04T05:20:51.505317+00:00",
+      "limitations": [
+        "Native realtimeplayback/listeningnotclaimed;rawsoundexcluded."
+      ]
+    },
+    "S03-F": {
+      "decision": "usable",
+      "jobId": "656c8c35-c905-40d7-9db4-aa082d3fa5a3",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S03-F-v2.mp4",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 18,
+      "sourceFrames": 18,
+      "editFrames": 18,
+      "playbackRate": 1,
+      "observed": "Existingpenciltip makes tinyemphasis atsingle79disk inlowercircledarea,withreadable79/rivergeography. Brief0-18retainedbeforelatercameraangle/materialchanges; no newdisk or geographicrelocation.",
+      "evidence": "Fullactualnativeoverview+everyframe0-31denseinspected;retained0-18. Sequentialframes,not realtimeplayback/listening.",
+      "nativeFrames": 124,
+      "sha256": "db19ad10c46cd587c964865049fb52883ab414177a749a39e1b03f526961dd2c",
+      "reviewedAt": "2026-11-04T05:20:51.505317+00:00",
+      "limitations": [
+        "Native realtimeplayback/listeningnotclaimed;rawsoundexcluded."
+      ]
+    },
+    "S03-G": {
+      "decision": "usable",
+      "jobId": "e3ba0b8b-8765-48f6-b138-62ca0773d030",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S03-G-v2.mp4",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 107,
+      "sourceFrames": 107,
+      "editFrames": 107,
+      "playbackRate": 1,
+      "observed": "Fourcrew maintainhandles, liftsoftdecoyrearedge then lowerintoearthat~50-60; handsrelax onlyaftergroundcontact. Camera transfers fromrear/support to nearpairfaces aftersettling. Endingclosedmouthreliefsmile appears briefly late; rearcrewremainbehindwholeinflatedtank.",
+      "evidence": "Fullactualnativeoverviewevery5frames+dense34-65inspected,retained0-107. Sequentialframes,not realtimeplayback/listening.",
+      "nativeFrames": 124,
+      "sha256": "4ce7b9698c3a362def35973564eb73039dfdf02bbfaff43093ed076d40a31f58",
+      "reviewedAt": "2026-11-04T05:20:51.505317+00:00",
+      "limitations": [
+        "Native realtimeplayback/listeningnotclaimed;rawsoundexcluded.",
+        "Nearpair endfaces orient towardcamera withbriefclosedmouthsmile; actualreliefending retained,notclaimedconstanttaskgaze."
+      ]
+    },
+    "S03-A": {
+      "decision": "usable",
+      "jobId": "49cf69b6-399f-400e-a50a-525e9ca385b6",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\video\\S03-A-v3.mp4",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 311,
+      "sourceFrames": 311,
+      "editFrames": 311,
+      "playbackRate": 1,
+      "observed": "Exactly two existing disks move in sequence from lower to upper left-bank circle. First disk continuously slides upward while other stays lower, settles by about100; empty hand returns and slides second upward by234; both lower starting positions bare, exactly two upper disks. Both appear paper-supported throughout; river/circles unchanged and whole path visible. Finger releases after final placement; officer compares result. Camera moves closer/downward rather than planned final rise.",
+      "evidence": "Complete native overview0-344 every14frames, dense consecutive32-79,96-111,128-143,176-255,272-287 inspected. Retained0-311 with completed two-token result from~234 onward. Sequential frame review, not native realtime playback/listening.",
+      "nativeFrames": 345,
+      "sha256": "0cfb543c402b6f884b5ac4ec430794473e1f7a41181fe43944ac613fc57eebd7",
+      "reviewedAt": "2026-11-04T05:44:56.610533+00:00",
+      "limitations": [
+        "Native realtime playback/listening not claimed; raw sound excluded.",
+        "Transfer pace completes second at about9.75s rather than requested5s; no slow-motion stretch; actual1x retained. Camera pushes in rather than final rising path."
+      ]
+    }
+  },
+  "final-review/verification.json": {
+    "file": "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\03-Ghost-Army-720x1280-FINAL-2026-11-04T05-49-07-553Z.mp4",
+    "sha256": "5277c56994e815e8b6324945e8a7ae17c164030ee8af2da1f6ea83c0df4a114b",
+    "frames": 3066,
+    "allFramesDecoded": true,
+    "sourceFrameChecks": [
+      {
+        "cut": "S01-A",
+        "jobId": "c2758e72-cc7c-4d84-91bf-39c6e9cdbf57",
+        "frames": 112,
+        "meanPixelMAE": 1.0341531756733144,
+        "maxFrameMAE": 1.1476608514785767,
+        "badFrames": []
+      },
+      {
+        "cut": "S01-H",
+        "jobId": "63212258-e630-4e94-9739-ce2055b7e2a3",
+        "frames": 304,
+        "meanPixelMAE": 1.0246100359057124,
+        "maxFrameMAE": 1.2155976295471191,
+        "badFrames": []
+      },
+      {
+        "cut": "S01-I",
+        "jobId": "50b477ec-47a6-4377-962f-280db93f6505",
+        "frames": 262,
+        "meanPixelMAE": 0.9954863898171723,
+        "maxFrameMAE": 1.1884137392044067,
+        "badFrames": []
+      },
+      {
+        "cut": "S01-B",
+        "jobId": "044dcadc-a44b-411e-90cc-5f41ee55c3fd",
+        "frames": 18,
+        "meanPixelMAE": 1.1255736317899492,
+        "maxFrameMAE": 1.2568531036376953,
+        "badFrames": []
+      },
+      {
+        "cut": "S01-C",
+        "jobId": "32d98d04-5586-45e8-8093-cc0687b8e71c",
+        "frames": 86,
+        "meanPixelMAE": 1.0318582751030145,
+        "maxFrameMAE": 1.2595943212509155,
+        "badFrames": []
+      },
+      {
+        "cut": "S01-F",
+        "jobId": "d980a64e-3531-4512-bb81-3049221d5ced",
+        "frames": 40,
+        "meanPixelMAE": 1.0862093359231948,
+        "maxFrameMAE": 1.1483004093170166,
+        "badFrames": []
+      },
+      {
+        "cut": "S01-D",
+        "jobId": "f31c756e-92e7-40b8-bd69-b633609ed9ed",
+        "frames": 18,
+        "meanPixelMAE": 0.96036387152142,
+        "maxFrameMAE": 1.003015398979187,
+        "badFrames": []
+      },
+      {
+        "cut": "S01-E",
+        "jobId": "825425ca-bedd-4975-9299-8e6a64567079",
+        "frames": 42,
+        "meanPixelMAE": 1.014988640944163,
+        "maxFrameMAE": 1.0987756252288818,
+        "badFrames": []
+      },
+      {
+        "cut": "S01-G",
+        "jobId": "52d8c492-ce01-4702-b815-f45595ac4547",
+        "frames": 113,
+        "meanPixelMAE": 1.0003849035870713,
+        "maxFrameMAE": 1.0882675647735596,
+        "badFrames": []
+      },
+      {
+        "cut": "S02-A",
+        "jobId": "f7fab42b-e030-4880-8c05-fa262cb6677e",
+        "frames": 253,
+        "meanPixelMAE": 0.9930857113698726,
+        "maxFrameMAE": 1.1731085777282715,
+        "badFrames": []
+      },
+      {
+        "cut": "S02-B",
+        "jobId": "480552f0-5ee4-498b-a77f-18fbebd10a2f",
+        "frames": 18,
+        "meanPixelMAE": 0.97611070672671,
+        "maxFrameMAE": 1.0704039335250854,
+        "badFrames": []
+      },
+      {
+        "cut": "S02-C",
+        "jobId": "9735473b-f5c0-4f4e-9cf8-5c462ea2e7c4",
+        "frames": 215,
+        "meanPixelMAE": 0.9695825679357661,
+        "maxFrameMAE": 1.0797240734100342,
+        "badFrames": []
+      },
+      {
+        "cut": "S02-D",
+        "jobId": "23b39f19-f360-4847-9c06-52b5bd0c37e7",
+        "frames": 118,
+        "meanPixelMAE": 1.0145467019687264,
+        "maxFrameMAE": 1.1608643531799316,
+        "badFrames": []
+      },
+      {
+        "cut": "S02-E",
+        "jobId": "9d8aaa8b-ac1c-4e58-b918-8a7dd05735fe",
+        "frames": 148,
+        "meanPixelMAE": 1.0046798474079854,
+        "maxFrameMAE": 1.0692616701126099,
+        "badFrames": []
+      },
+      {
+        "cut": "S02-F",
+        "jobId": "95e931d7-6ff6-4da9-ae5f-b7b91f6097fa",
+        "frames": 18,
+        "meanPixelMAE": 0.9273599982261658,
+        "maxFrameMAE": 1.001142144203186,
+        "badFrames": []
+      },
+      {
+        "cut": "S02-G",
+        "jobId": "99150042-6cee-43f4-b10a-37aa019ece9f",
+        "frames": 240,
+        "meanPixelMAE": 1.030463036398093,
+        "maxFrameMAE": 1.1024305820465088,
+        "badFrames": []
+      },
+      {
+        "cut": "S03-A",
+        "jobId": "49cf69b6-399f-400e-a50a-525e9ca385b6",
+        "frames": 311,
+        "meanPixelMAE": 0.961259808571009,
+        "maxFrameMAE": 1.1675803661346436,
+        "badFrames": []
+      },
+      {
+        "cut": "S03-B",
+        "jobId": "aeb22dd4-8b93-496f-9213-fc5d61d504d2",
+        "frames": 37,
+        "meanPixelMAE": 0.9894586173263756,
+        "maxFrameMAE": 1.0611293315887451,
+        "badFrames": []
+      },
+      {
+        "cut": "S03-D",
+        "jobId": "3b27b184-bc37-4eac-ae22-687e5ce3890a",
+        "frames": 18,
+        "meanPixelMAE": 0.8392345905303955,
+        "maxFrameMAE": 0.8927723169326782,
+        "badFrames": []
+      },
+      {
+        "cut": "S03-C",
+        "jobId": "fe48d1a0-974d-455b-8c0b-22bbc9ce3edc",
+        "frames": 218,
+        "meanPixelMAE": 1.0075473875627605,
+        "maxFrameMAE": 1.1175986528396606,
+        "badFrames": []
+      },
+      {
+        "cut": "S03-E",
+        "jobId": "a3730b13-37b6-40fa-b03c-39af6dbdfd37",
+        "frames": 352,
+        "meanPixelMAE": 1.016508498313752,
+        "maxFrameMAE": 1.1308022737503052,
+        "badFrames": []
+      },
+      {
+        "cut": "S03-F",
+        "jobId": "656c8c35-c905-40d7-9db4-aa082d3fa5a3",
+        "frames": 18,
+        "meanPixelMAE": 0.9977613223923577,
+        "maxFrameMAE": 1.1226242780685425,
+        "badFrames": []
+      },
+      {
+        "cut": "S03-G",
+        "jobId": "e3ba0b8b-8765-48f6-b138-62ca0773d030",
+        "frames": 107,
+        "meanPixelMAE": 0.9946148974873196,
+        "maxFrameMAE": 1.1859923601150513,
+        "badFrames": []
+      }
+    ],
+    "audioLineageChecks": [
+      {
+        "sceneId": "S01",
+        "sourceWavHashPassed": true,
+        "comparedSamples": 1990000,
+        "narratorCorrelation": 0.9998022883749837,
+        "gain": 0.7052829306492356,
+        "mixedPeak": 0.8148657083511353
+      },
+      {
+        "sceneId": "S02",
+        "sourceWavHashPassed": true,
+        "comparedSamples": 2020000,
+        "narratorCorrelation": 0.9998295255808698,
+        "gain": 0.7055317390641053,
+        "mixedPeak": 0.6655715703964233
+      },
+      {
+        "sceneId": "S03",
+        "sourceWavHashPassed": true,
+        "comparedSamples": 2122000,
+        "narratorCorrelation": 0.9998165987842952,
+        "gain": 0.7055192157152004,
+        "mixedPeak": 0.7088227272033691
+      }
+    ],
+    "blackDetected": [],
+    "actualAudioPeak": 0.8170794248580933,
+    "evidenceLimit": "Numerical whole-file/source and waveform checks plus exported boundary stills; not a claim of realtime playback/listening",
+    "boundaryVisualReview": "usable",
+    "deliveryCopyHashes": {
+      "projectExport": "5277c56994e815e8b6324945e8a7ae17c164030ee8af2da1f6ea83c0df4a114b",
+      "jobOutput": "5277c56994e815e8b6324945e8a7ae17c164030ee8af2da1f6ea83c0df4a114b",
+      "delivery": "5277c56994e815e8b6324945e8a7ae17c164030ee8af2da1f6ea83c0df4a114b"
+    },
+    "numericPassed": true,
+    "visualReviewedAt": "2026-11-04T05:52:22.156069+00:00",
+    "visualEvidence": "Both actual exported boundary boards viewed:46 first/last frames covering all23 cuts and22 joins. No black/gap/misordered source at any boundary; all source compositions match reviewed selections, both scenejoins preserved. Two disks at final mapA result, comparative79maps and final groundeddecoy/crew ending visible. Native realtime playback/listening not claimed."
+  },
+  "assembly-review.json": {
+    "decision": "usable",
+    "reviewedAt": "2026-11-04T05:47:36.209708+00:00",
+    "evidence": [
+      "S01-assembly-review.json",
+      "S02-assembly-review.json",
+      "S03-assembly-review.json",
+      "sound-assembly-review.json",
+      "video/cross-scene-joins.jpg"
+    ],
+    "coverage": {
+      "scenes": [
+        995,
+        1010,
+        1061
+      ],
+      "frames": 3066,
+      "fps": 24,
+      "cuts": 23,
+      "internalSceneJoinsChecked": 20,
+      "crossSceneJoinsChecked": 2
+    },
+    "observedCrossSceneJoins": "S01 aerialdecoys -> S02 restingpump/decoy; S02 crewfullydepartedhedge -> S03 two-lowertokenmap. Actual framepairs viewed from native scene previews; fullfilm boundaries will be rechecked after export.",
+    "narration": "Three accepted originalWAVs/words, no speech retiming; quiet originalnonverbalFX; nativeaudioexcluded",
+    "limitations": "Not a claim of native realtime playback or listening. Creator audition remains pending. Final numerical/source/frame/audio and boundary verification follows export."
+  },
+  "motion-rejections.json": {
+    "S03-A-v2": {
+      "cutId": "S03-A",
+      "rejectedJobId": "0c7e71bc-fc4e-4b55-bdf7-9ccbda2cf81c",
+      "reason": "Actual native frames140+show three disks: twoupper and oneunmovedlower. Mandatory two-token transfer/result failed.",
+      "evidence": "video/review-S03-A-v2/overview.jpg and enlargedf0141.png",
+      "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Simplified tabletop map: Rhine vertical, two distinct west-bank assembly areas.\n<Picture 2> is later result-state guidance within the SAME continuous shot, not another shot or timed endpoint.\n\nsummary:\n[keyframe completion] One continuous take: Officer moves two plain division tokens from lower false area toward upper real assembly area, leaves outline markers at false area.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n<Picture 2>: preserve the demonstrated outgoing relationship after the current action; reach it through visible motion, no cut or dissolve.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. There are exactly TWO wooden disks on the entire map, both initially inside the lower circled area on the LEFT bank of the blue river. The upper left-bank circle is empty. The officer uses one fingertip against the BACK EDGE of the right lower disk, leaving its round top visible, and SLIDES that same disk on the paper upward along the left bank into the upper circle. The vacated lower-right spot becomes bare paper. Release that disk in the upper circle; it stays stationary there. Return the empty hand to the only remaining lower disk, touch its back edge and slide that same disk upward along the same bank into the upper circle beside the first disk. Its vacated lower-left spot also becomes bare paper. Both lower starting spots are now empty; exactly two disks are in the upper circle, with no third disk anywhere. Both disks stay continuously on paper through their slides. Complete first slide promptly in about two seconds and second by about five seconds; then lift the fingertip away and let the officer compare the empty lower area with the two-disk upper result using a focused eyeline. Preserve the unchanged river, map ink, circles and tabletop geography. Camera holds a diagnostic high three-quarter view containing BOTH circles, the whole connecting path and river throughout both transfers. After the second disk settles, a small coherent camera rise reveals the entire completed two-disk relationship while keeping both empty lower positions visible. Keep the graphic face and dimensional hand/uniform/set of the references, readable warm task light and cool shadows. The unbroken take shows each actual disk travel once, rather than covering a disk and revealing a copy. Paper and sliding wood sounds only; mouth closed.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Wood tokens on paper. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+      "payload": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Simplified tabletop map: Rhine vertical, two distinct west-bank assembly areas.\n<Picture 2> is later result-state guidance within the SAME continuous shot, not another shot or timed endpoint.\n\nsummary:\n[keyframe completion] One continuous take: Officer moves two plain division tokens from lower false area toward upper real assembly area, leaves outline markers at false area.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n<Picture 2>: preserve the demonstrated outgoing relationship after the current action; reach it through visible motion, no cut or dissolve.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. There are exactly TWO wooden disks on the entire map, both initially inside the lower circled area on the LEFT bank of the blue river. The upper left-bank circle is empty. The officer uses one fingertip against the BACK EDGE of the right lower disk, leaving its round top visible, and SLIDES that same disk on the paper upward along the left bank into the upper circle. The vacated lower-right spot becomes bare paper. Release that disk in the upper circle; it stays stationary there. Return the empty hand to the only remaining lower disk, touch its back edge and slide that same disk upward along the same bank into the upper circle beside the first disk. Its vacated lower-left spot also becomes bare paper. Both lower starting spots are now empty; exactly two disks are in the upper circle, with no third disk anywhere. Both disks stay continuously on paper through their slides. Complete first slide promptly in about two seconds and second by about five seconds; then lift the fingertip away and let the officer compare the empty lower area with the two-disk upper result using a focused eyeline. Preserve the unchanged river, map ink, circles and tabletop geography. Camera holds a diagnostic high three-quarter view containing BOTH circles, the whole connecting path and river throughout both transfers. After the second disk settles, a small coherent camera rise reveals the entire completed two-disk relationship while keeping both empty lower positions visible. Keep the graphic face and dimensional hand/uniform/set of the references, readable warm task light and cool shadows. The unbroken take shows each actual disk travel once, rather than covering a disk and revealing a copy. Paper and sliding wood sounds only; mouth closed.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Wood tokens on paper. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "6ba3c585-41ea-46de-aab3-669bdb90b5b8",
+          "988bbf7a-12ea-48ea-9e42-6f7992feb738"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 14.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 7120989532159469639,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "localImages": [
+        "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\images\\S03-A-v1.png",
+        "${REPO}\\drafts\\production-batch-20261103\\03-ghost-army\\images\\S03-A-result-v1.png"
+      ],
+      "inputSha256": [
+        "0467139cf4b7518d47dad6251f302a05c438eab0f5ac5eb6224e168a4ebb52f2",
+        "e0a3719384c327089474b6a32a285eb005499d3b6073a6afd776a8850457e6d6"
+      ],
+      "createdAt": "2026-11-04T04:40:47.421002+00:00"
+    }
+  }
+}

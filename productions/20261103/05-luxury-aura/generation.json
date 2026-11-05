@@ -1,0 +1,232 @@
+{
+  "provenance": [
+    {
+      "assetId": "luxury-score-original-v1",
+      "versionId": "luxury-score-original-v1-source",
+      "kind": "audio",
+      "selected": true,
+      "provenance": {
+        "provider": "Local original procedural composition",
+        "tool": "audio/compose.py",
+        "prompt": "Original Dm9/Gm9/Bbmaj9/A7 lounge groove; bass, electric-piano synthesis, brushed high percussion, dry rim and kick. 16 bars plus resolving tail.",
+        "createdAt": "2026-11-03T03:11:21.016Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "luxury-fx-source-1-v1",
+      "versionId": "luxury-fx-source-1-v1-source",
+      "kind": "audio",
+      "selected": true,
+      "provenance": {
+        "provider": "Local original procedural composition",
+        "tool": "audio/compose.py",
+        "prompt": "Original Dm9/Gm9/Bbmaj9/A7 lounge groove; bass, electric-piano synthesis, brushed high percussion, dry rim and kick. 16 bars plus resolving tail.",
+        "createdAt": "2026-11-03T03:11:21.016Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "luxury-fx-source-2-v1",
+      "versionId": "luxury-fx-source-2-v1-source",
+      "kind": "audio",
+      "selected": true,
+      "provenance": {
+        "provider": "Local original procedural composition",
+        "tool": "audio/compose.py",
+        "prompt": "Original Dm9/Gm9/Bbmaj9/A7 lounge groove; bass, electric-piano synthesis, brushed high percussion, dry rim and kick. 16 bars plus resolving tail.",
+        "createdAt": "2026-11-03T03:11:21.016Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "S01-A-opening-image-v1",
+      "versionId": "S01-A-opening-image-v1-source",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "built-in image_gen",
+        "tool": "image_gen.imagegen",
+        "prompt": "Exact request preserved in preproduction/requests/S01-A-image-v1.json",
+        "createdAt": "2026-11-03T03:11:21.016Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "S01-B-opening-image-v1",
+      "versionId": "S01-B-opening-image-v1-source",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "built-in image_gen",
+        "tool": "image_gen.imagegen",
+        "prompt": "Exact request preserved in preproduction/requests/S01-B-image-v1.json",
+        "createdAt": "2026-11-03T03:11:21.016Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "S01-C-opening-image-v1",
+      "versionId": "S01-C-opening-image-v1-source",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "built-in image_gen",
+        "tool": "image_gen.imagegen",
+        "prompt": "Exact request preserved in preproduction/requests/S01-C-image-v1.json",
+        "createdAt": "2026-11-03T03:11:21.016Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "native-S01-C",
+      "versionId": "S01-C-73c2b848-1b98-40a4-bc4f-c070a352cfd3",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Sable: cream lynx-point fur with dark ears/striped face, blue eyes, burgundy velvet jacket and short gold chain attached across lapels. It establishes the actual supported pose, original gallery location and photographic materials.\n\nsummary:\n[keyframe completion] One unbroken photographic portrait luxury-cat performance: a composed pose becomes controlled complete steps, supported settle and a confident head/eye response, with a motivated smooth low camera handoff.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - original feline identity, fur markings, clothing, accessory ownership, gallery geometry, body support and photographic lighting. Pose and camera then develop physically within this same space.\n\ndetailed_description:\nHyperrealistic feline fur, natural cat face and paws, miniature tailored clothes, warm gallery key and cool window fill. No human face or hands.\n[Shot 1] Sable starts exactly from the actual near-frontal supported stance, gaze slightly camera-left, with both hindpaws on stone and the bench separated behind-right. A small breath moves the velvet. Its eyes notice the camera moving across the salon. Sable shifts weight onto one hindpaw, lifts the other and takes one measured short forward step; the trailing hindpaw lifts, closes the distance and plants beside it into a comfortable supported stance. The body transfers weight with each landing, the tail counterbalances then settles, and both relaxed forepaws remain genuine furry paws. Only after both paws settle does the head make a small final turn to meet the camera, followed by a single natural blink. The lapel-chain stays attached at both ends and responds to gravity as velvet moves; never floats or grows. The camera starts from the actual reference angle, makes a shallow low diagonal arc toward frontal while preserving the complete step, then a small purposeful rise/push ends on a waist-up face-and-chain composition. The bench remains behind the cat and never supports it. Let the final composed look land with live breathing; no pose reset or still-image freeze. Slow controlled performance is intentional, with clear progression rather than a static slideshow. One cat throughout.\n\noverall_soundscape:\nQuiet indoor ambience and soft bare-paw contacts at actual landings, faint fabric friction with movement. No speech, dialogue, narration, singing, meows or human vocalizations.\n\nnon_diegetic_music:\nNone.\n",
+        "createdAt": "2026-11-04T09:38:32.404Z",
+        "jobId": "73c2b848-1b98-40a4-bc4f-c070a352cfd3",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "native-S01-A",
+      "versionId": "S01-A-0e6704e4-dc8a-46db-ad79-2bbeffc8cbe4",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Vale: silver-gray short fur with faint tabby pattern, green eyes, charcoal double-breasted wool jacket and bronze oval spectacles. It establishes the actual supported pose, original gallery location and photographic materials.\n\nsummary:\n[keyframe completion] One unbroken photographic portrait luxury-cat performance: a composed pose becomes controlled complete steps, supported settle and a confident head/eye response, with a motivated smooth low camera handoff.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - original feline identity, fur markings, clothing, accessory ownership, gallery geometry, body support and photographic lighting. Pose and camera then develop physically within this same space.\n\ndetailed_description:\nHyperrealistic feline fur, natural cat face and paws, miniature tailored clothes, warm gallery key and cool window fill. No human face or hands.\n[Shot 1] Vale begins exactly in the supported standing pose of the image, calmly watching the doorway to camera-right. A small breath moves the wool at the chest. Its eyes track the doorway, then its hips shift over one planted hindpaw. It lifts the other furry hindpaw, places it a short distance forward and transfers body weight onto it; the trailing hindpaw lifts and takes a second small forward step. Both hindpaws then settle with contact shadows; no skating. The relaxed forepaws remain rounded feline paws beside the jacket, counterbalancing naturally. After the second foot lands, its head and ears turn toward the camera and its tail tip releases slightly. The wool and spectacles remain stable on the same cat. The camera starts from the actual low left-three-quarter reference view and makes a shallow smooth arc toward frontal while tracking backward enough to retain head, paws and the tail at the left edge. Only after the steps finish does a small camera rise hand attention to the green eyes and bronze spectacles. Keep the tail within the frame as space opens, preserve the same doorway and floor with genuine parallax. Hold the final composed breathing stance briefly without freezing. Slow controlled performance is intentional, with clear progression rather than a static slideshow. One cat throughout.\n\noverall_soundscape:\nQuiet indoor ambience and soft bare-paw contacts at actual landings, faint fabric friction with movement. No speech, dialogue, narration, singing, meows or human vocalizations.\n\nnon_diegetic_music:\nNone.\n",
+        "createdAt": "2026-11-04T10:12:54.924Z",
+        "jobId": "0e6704e4-dc8a-46db-ad79-2bbeffc8cbe4",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "native-S01-B",
+      "versionId": "S01-B-5a41c0db-1b4e-4620-8f0c-980efdbda49e",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Miro: cinnamon curly fur, amber eyes, asymmetric indigo linen coat and one copper brooch. It establishes the actual supported pose, original gallery location and photographic materials.\n\nsummary:\n[keyframe completion] One unbroken photographic portrait luxury-cat performance: a composed pose becomes controlled complete steps, supported settle and a confident head/eye response, with a motivated smooth low camera handoff.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - original feline identity, fur markings, clothing, accessory ownership, gallery geometry, body support and photographic lighting. Pose and camera then develop physically within this same space.\n\ndetailed_description:\nHyperrealistic feline fur, natural cat face and paws, miniature tailored clothes, warm gallery key and cool window fill. No human face or hands.\n[Shot 1] Miro begins in the actual supported stance, watching the copper sculpture to frame-right. One ear orients toward the open gallery lane; the head and torso turn together a little toward that lane. Its weight shifts over one planted hindpaw, then the other hindpaw lifts and takes a small sideways-forward step into the open floor on the right; the trailing hindpaw follows and plants. Both paws clearly settle, with soft body counterbalance and a small tail adjustment. After the steps complete Miro raises its chin into one curious knowing head angle; mouth remains closed. The forepaws remain furry rounded feline paws relaxed by the linen coat. The indigo hem sways then settles, the single copper brooch stays attached. The camera remains at the opening full-body scale for this ENTIRE unbroken shot. It tracks only a short horizontal distance sideways with Miro while keeping an almost fixed distance and height. The optical axis stays level and aimed at the center of the complete standing body, not the lower coat. Include generous floor below both hind paws and generous air above both ears at ALL times. Keep the entire cat, head, ears, paws and tail continuously inside the image, as in the opening reference. There is NO forward approach, NO zoom, NO rising camera, NO tilt and NO close-up at any point. Maintain a medium-wide full-body image from first frame to last frame. Once both steps settle, Miro gives the knowing chin/eye response WITHIN this same full-body framing. Shallow horizontal background parallax is the only camera development. The copper sculpture, bronze doorway and walnut display stay fixed in the same gallery and remain separate from the cat. Slow controlled performance is intentional, with clear progression rather than a static slideshow. One cat throughout.\n\noverall_soundscape:\nQuiet indoor ambience and soft bare-paw contacts at actual landings, faint fabric friction with movement. No speech, dialogue, narration, singing, meows or human vocalizations.\n\nnon_diegetic_music:\nNone.\n",
+        "createdAt": "2026-11-04T12:11:29.825Z",
+        "jobId": "5a41c0db-1b4e-4620-8f0c-980efdbda49e",
+        "sourceVersionIds": []
+      }
+    }
+  ],
+  "actualSelectedJobReceipts": [
+    {
+      "id": "0e6704e4-dc8a-46db-ad79-2bbeffc8cbe4",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Vale: silver-gray short fur with faint tabby pattern, green eyes, charcoal double-breasted wool jacket and bronze oval spectacles. It establishes the actual supported pose, original gallery location and photographic materials.\n\nsummary:\n[keyframe completion] One unbroken photographic portrait luxury-cat performance: a composed pose becomes controlled complete steps, supported settle and a confident head/eye response, with a motivated smooth low camera handoff.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - original feline identity, fur markings, clothing, accessory ownership, gallery geometry, body support and photographic lighting. Pose and camera then develop physically within this same space.\n\ndetailed_description:\nHyperrealistic feline fur, natural cat face and paws, miniature tailored clothes, warm gallery key and cool window fill. No human face or hands.\n[Shot 1] Vale begins exactly in the supported standing pose of the image, calmly watching the doorway to camera-right. A small breath moves the wool at the chest. Its eyes track the doorway, then its hips shift over one planted hindpaw. It lifts the other furry hindpaw, places it a short distance forward and transfers body weight onto it; the trailing hindpaw lifts and takes a second small forward step. Both hindpaws then settle with contact shadows; no skating. The relaxed forepaws remain rounded feline paws beside the jacket, counterbalancing naturally. After the second foot lands, its head and ears turn toward the camera and its tail tip releases slightly. The wool and spectacles remain stable on the same cat. The camera starts from the actual low left-three-quarter reference view and makes a shallow smooth arc toward frontal while tracking backward enough to retain head, paws and the tail at the left edge. Only after the steps finish does a small camera rise hand attention to the green eyes and bronze spectacles. Keep the tail within the frame as space opens, preserve the same doorway and floor with genuine parallax. Hold the final composed breathing stance briefly without freezing. Slow controlled performance is intentional, with clear progression rather than a static slideshow. One cat throughout.\n\noverall_soundscape:\nQuiet indoor ambience and soft bare-paw contacts at actual landings, faint fabric friction with movement. No speech, dialogue, narration, singing, meows or human vocalizations.\n\nnon_diegetic_music:\nNone.\n",
+        "images": [
+          "df079991-f0af-41a6-9db7-9aa24655f2a7"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 15.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 3279496376394533612,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 362,
+      "fps": 24,
+      "actual_duration": 15.083333333333334,
+      "created_at": 1793787174.9249794,
+      "finished_at": 1793788970.8791707,
+      "reference_labels": [
+        "<Picture 1>: df079991-f0af-41a6-9db7-9aa24655f2a7"
+      ]
+    },
+    {
+      "id": "5a41c0db-1b4e-4620-8f0c-980efdbda49e",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Miro: cinnamon curly fur, amber eyes, asymmetric indigo linen coat and one copper brooch. It establishes the actual supported pose, original gallery location and photographic materials.\n\nsummary:\n[keyframe completion] One unbroken photographic portrait luxury-cat performance: a composed pose becomes controlled complete steps, supported settle and a confident head/eye response, with a motivated smooth low camera handoff.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - original feline identity, fur markings, clothing, accessory ownership, gallery geometry, body support and photographic lighting. Pose and camera then develop physically within this same space.\n\ndetailed_description:\nHyperrealistic feline fur, natural cat face and paws, miniature tailored clothes, warm gallery key and cool window fill. No human face or hands.\n[Shot 1] Miro begins in the actual supported stance, watching the copper sculpture to frame-right. One ear orients toward the open gallery lane; the head and torso turn together a little toward that lane. Its weight shifts over one planted hindpaw, then the other hindpaw lifts and takes a small sideways-forward step into the open floor on the right; the trailing hindpaw follows and plants. Both paws clearly settle, with soft body counterbalance and a small tail adjustment. After the steps complete Miro raises its chin into one curious knowing head angle; mouth remains closed. The forepaws remain furry rounded feline paws relaxed by the linen coat. The indigo hem sways then settles, the single copper brooch stays attached. The camera remains at the opening full-body scale for this ENTIRE unbroken shot. It tracks only a short horizontal distance sideways with Miro while keeping an almost fixed distance and height. The optical axis stays level and aimed at the center of the complete standing body, not the lower coat. Include generous floor below both hind paws and generous air above both ears at ALL times. Keep the entire cat, head, ears, paws and tail continuously inside the image, as in the opening reference. There is NO forward approach, NO zoom, NO rising camera, NO tilt and NO close-up at any point. Maintain a medium-wide full-body image from first frame to last frame. Once both steps settle, Miro gives the knowing chin/eye response WITHIN this same full-body framing. Shallow horizontal background parallax is the only camera development. The copper sculpture, bronze doorway and walnut display stay fixed in the same gallery and remain separate from the cat. Slow controlled performance is intentional, with clear progression rather than a static slideshow. One cat throughout.\n\noverall_soundscape:\nQuiet indoor ambience and soft bare-paw contacts at actual landings, faint fabric friction with movement. No speech, dialogue, narration, singing, meows or human vocalizations.\n\nnon_diegetic_music:\nNone.\n",
+        "images": [
+          "5b040d94-528b-49a7-bcfd-6b2edaa83112"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 15.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 2412748705643551455,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 362,
+      "fps": 24,
+      "actual_duration": 15.083333333333334,
+      "created_at": 1793794289.8254435,
+      "finished_at": 1793796084.4935575,
+      "reference_labels": [
+        "<Picture 1>: 5b040d94-528b-49a7-bcfd-6b2edaa83112"
+      ]
+    },
+    {
+      "id": "73c2b848-1b98-40a4-bc4f-c070a352cfd3",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Sable: cream lynx-point fur with dark ears/striped face, blue eyes, burgundy velvet jacket and short gold chain attached across lapels. It establishes the actual supported pose, original gallery location and photographic materials.\n\nsummary:\n[keyframe completion] One unbroken photographic portrait luxury-cat performance: a composed pose becomes controlled complete steps, supported settle and a confident head/eye response, with a motivated smooth low camera handoff.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - original feline identity, fur markings, clothing, accessory ownership, gallery geometry, body support and photographic lighting. Pose and camera then develop physically within this same space.\n\ndetailed_description:\nHyperrealistic feline fur, natural cat face and paws, miniature tailored clothes, warm gallery key and cool window fill. No human face or hands.\n[Shot 1] Sable starts exactly from the actual near-frontal supported stance, gaze slightly camera-left, with both hindpaws on stone and the bench separated behind-right. A small breath moves the velvet. Its eyes notice the camera moving across the salon. Sable shifts weight onto one hindpaw, lifts the other and takes one measured short forward step; the trailing hindpaw lifts, closes the distance and plants beside it into a comfortable supported stance. The body transfers weight with each landing, the tail counterbalances then settles, and both relaxed forepaws remain genuine furry paws. Only after both paws settle does the head make a small final turn to meet the camera, followed by a single natural blink. The lapel-chain stays attached at both ends and responds to gravity as velvet moves; never floats or grows. The camera starts from the actual reference angle, makes a shallow low diagonal arc toward frontal while preserving the complete step, then a small purposeful rise/push ends on a waist-up face-and-chain composition. The bench remains behind the cat and never supports it. Let the final composed look land with live breathing; no pose reset or still-image freeze. Slow controlled performance is intentional, with clear progression rather than a static slideshow. One cat throughout.\n\noverall_soundscape:\nQuiet indoor ambience and soft bare-paw contacts at actual landings, faint fabric friction with movement. No speech, dialogue, narration, singing, meows or human vocalizations.\n\nnon_diegetic_music:\nNone.\n",
+        "images": [
+          "b79e05a6-445d-4775-97ce-fe96c81429e5"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 15.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 5973168254651715933,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 362,
+      "fps": 24,
+      "actual_duration": 15.083333333333334,
+      "created_at": 1793785112.4043446,
+      "finished_at": 1793786908.442271,
+      "reference_labels": [
+        "<Picture 1>: b79e05a6-445d-4775-97ce-fe96c81429e5"
+      ]
+    }
+  ],
+  "note": "Original prompt/request/seed and actual IDs retained. This is not authorization to resubmit. Original binary inputs come from the external archive."
+}

@@ -1,0 +1,1957 @@
+{
+  "provenance": [
+    {
+      "assetId": "audio-S01",
+      "versionId": "S01-prepared-v1",
+      "kind": "audio",
+      "selected": true,
+      "provenance": {
+        "provider": "Higgsfield / ByteDance",
+        "model": "seed_audio / Holden",
+        "tool": "generate_audio",
+        "prompt": "One clean dry Holden narrator addressing an interested listener. Start the exact hook with factual astonishment, not shouting. Establish place clearly, sharpen capsizes and upside down, then release slightly on breathe. End with quiet tension. Comfortable connected pace, clear consonants, natural pitch and rhythm. Pronounce Okene oh-KEH-neh; Jascon JASS-kon. No ambience, music, effects, other voices or added words. Speak the exact narration once; do not speak directions.\nNarration: \"His ship sank. Nearly three days later, rescuers found him alive inside. In May twenty thirteen, Harrison Okene is working as a cook aboard the Jascon Four, a tugboat off Nigeria. The vessel capsizes and goes down, coming to rest upside down on the seabed, about a hundred feet below the surface. Okene is inside. Water rushes through the overturned ship, cutting off the ordinary way out. He feels his way through the wreck until he finds a cabin where the water hasn't reached the highest part of the room. Above it, air is trapped. He can get his head clear of the water and breathe. The ship has become a prison. One small part of it is also keeping him alive.\"",
+        "createdAt": "2026-11-03T00:31:15.884Z",
+        "jobId": "5470a377-630f-415a-9260-d85741ebd58d",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "audio-S02",
+      "versionId": "S02-prepared-v1",
+      "kind": "audio",
+      "selected": true,
+      "provenance": {
+        "provider": "Higgsfield / ByteDance",
+        "model": "seed_audio / Holden",
+        "tool": "generate_audio",
+        "prompt": "One clean dry Holden narrator addressing an interested listener. Ask the question with real curiosity. Explain the cup analogy warmly and clearly; tighten on isn't an unlimited supply. Shift to patient isolation, then focused anticipation as the diver enters. Comfortable connected pace, clear consonants, natural pitch and rhythm. Pronounce Okene oh-KEH-neh. No ambience, music, effects, other voices or added words. Speak the exact narration once; do not speak directions.\nNarration: \"But how can there be breathable air inside a ship on the bottom of the ocean? Water doesn't necessarily fill every enclosed space. Like an overturned cup pushed into water, part of the wreck can hold a pocket of air above the waterline. That gives Okene somewhere to breathe, but it isn't an unlimited supply. Each breath uses oxygen and adds carbon dioxide. The air is under pressure, too. Meanwhile, he is cold, isolated, and waiting in darkness. He builds up a place to rest above the water using mattresses on a platform. Far above him, the search continues. Divers enter the wreck expecting to recover people who have died. Their lights move through flooded passages. They have no reason to expect a living man at the end of them.\"",
+        "createdAt": "2026-11-03T00:31:15.891Z",
+        "jobId": "4924cb7b-d04a-4259-ba50-85c63dab91b9",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "audio-S03",
+      "versionId": "S03-prepared-v1",
+      "kind": "audio",
+      "selected": true,
+      "provenance": {
+        "provider": "Higgsfield / ByteDance",
+        "model": "seed_audio / Holden",
+        "tool": "generate_audio",
+        "prompt": "One clean dry Holden narrator addressing an interested listener. Build decisively through light and swims, pause naturally before grips back. Warm surprise on survivor. Explain controlled recovery calmly, acknowledge the eleven deaths with restraint, then land living hand reached back without an outro. Comfortable connected pace, clear consonants, natural pitch and rhythm. Pronounce Okene oh-KEH-neh. No ambience, music, effects, other voices or added words. Speak the exact narration once; do not speak directions.\nNarration: \"After roughly sixty hours, a diver's light reaches the darkness near Okene. Reaching that light means leaving the air pocket and entering the water again. He swims toward the diver. A hand appears. When the diver reaches for it, the hand grips back. This is a survivor. The diver follows him into the air pocket, and the rescue changes completely. Finding him alive is only the beginning of getting him out safely. After so long breathing air under pressure, he needs a controlled recovery. The team uses specialist diving equipment and a pressurized transfer, followed by decompression, before he can return to ordinary conditions. Eleven crewmates have died. Okene survives. The rescuers went into a sunken ship looking for the dead. A living hand reached back.\"",
+        "createdAt": "2026-11-03T00:31:15.892Z",
+        "jobId": "7f194100-d67e-4d1b-8125-0bb9f05147b3",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S01-A",
+      "versionId": "S01-A-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Single edge-to-edge 9:16 portrait cinematic frame, dimensional hand-painted 3D toon ocean and ship, graphic shapes with tactile painted surfaces and coherent perspective, deep layered space. One medium red-hulled cream-superstructure industrial tugboat in rough dark blue Atlantic water off Nigeria, 2013. No people visible. OPENING instant: tug is heeled sharply to its right, deck almost vertical, heavy waves climbing over low side, still partly above ocean, rigid connected hull/superstructure, tow gear and short mast attached. Low sea-level wide shot from bow quarter, whole single vessel fits with room above/right for rolling over; horizon distant and world-horizontal, boat tilted not entire ocean. Cool storm daylight, silver foam, warm red hull accents. A real single capsizing tug, not Titanic, no fire, sharks, bodies, duplicated vessels or floating human objects. One instant, no panels, arrows, labels, logos or text. This image supports a fast rigid roll then disappearance below water, do not show that later result in the still.",
+        "createdAt": "2026-11-03T00:31:15.892Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S01-G",
+      "versionId": "S01-G-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Single edge-to-edge 9:16 portrait dimensional hand-painted 3D toon film frame. Use reference only to match exact ONE red-hulled cream-superstructure industrial tugboat shape; change orientation/location completely. NOW vessel fully inverted at bottom of ocean, keel uppermost, original superstructure crushed/partly occluded beneath hull at seabed. Low three-quarter stern view from seabed shows curved red inverted hull above, ONE upward-facing propeller/rudder system connected at stern, cream wheelhouse mostly underneath. World horizontal sandy seabed below, deep cyan murky water above all around; no surface, sky or air visible. Silt settled under hull and fine particles, faint shafts from distant surface, cool dim underwater illumination. Whole single wreck fits middle frame, foreground dark rocks give depth. Physically UPSIDE DOWN, not an upright ship under water. No people, sharks, corpses, second ship, transparent interior, text, overlays, panels or fantasy glowing bubble around entire ship. Exact unseen interior air pocket remains contained and opaque.",
+        "createdAt": "2026-11-03T00:31:15.896Z",
+        "sourceVersionIds": [
+          "S01-A-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S01-B",
+      "versionId": "S01-B-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "One 9:16 portrait cinematic diagnostic close insert, hybrid flat graphic cartoon limb in dimensional hand-painted 3D toon corroded teal steel inverted ship corridor, cool cyan reflected light. Match reference only for Harrison's opaque thick-outlined bare arm skin and hand design, release composition. One bare right hand dominates frame, palm pressed around fixed vertical steel doorway jamb with thumb opposite fingers, wrist entering lower left and forearm connected beyond crop. Water surges across lower third at wrist level; most hand above water. Show actual contact on solid rigid doorframe with visible gripping fingers and thumb, not hovering. Background dark receding corridor with upside-down small fitting, world-level water; no extra hand, face, full-body pose, ceiling lamp, bubble mouth, exposed anatomy, text or panels. Useful still phase is fingers beginning to wrap fixed frame before strong pull. Strong foreground contact, background depth and travel opening.",
+        "createdAt": "2026-11-03T00:31:15.896Z",
+        "sourceVersionIds": [
+          "S01-F-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S01-B",
+      "versionId": "S01-B-white-body-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Precise COLOR-ONLY edit of image 1; image 2 provides the approved WHITE BODY color/material and graphic medium only, not pose/composition. Make ALL exposed protagonist skin fully WHITE with the SAME neutral ivory-white base as the face: bare hands/fingers/wrists, neck/torso/chest/belly/back, shoulders/arms, both legs/feet wherever visible. Remove all tan/peach/brown/pink flesh color; no realistic skin texture. Underwater skin stays visibly white with cool cyan/blue-grey reflections. Match approved white-body reference. Keep EXACT composition/camera, anatomy and cast counts, hand contacts/grips/support, pose, gaze, water level/boundary, hair/beard/eyes, clothing/blanket/masks, navy gloves/diver, hoses/bell, set geometry/light and props. Do not recolor clothing, equipment, hair, beard or environment. A hand-only insert must remain a hand-only insert. Fully white means consistent graphic character material, not a white shirt or extra clothing. No labels/panels/text. Single same portrait film frame.",
+        "createdAt": "2026-11-03T01:26:05.651Z",
+        "sourceVersionIds": [
+          "S01-B-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S01-C",
+      "versionId": "S01-C-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Single 9:16 portrait film frame, reference supplies Harrison's exact ivory round graphic face, black short hair/beard, flat opaque outlined body, dark maroon shorts and corroded teal set medium ONLY; release its framing. Dimensional hand-painted 3D toon inverted tugboat interior with deep water at Harrison's upper chest. One Harrison seen THREE QUARTER FROM BEHIND/LEFT, moving rightward through an actual rectangular doorway into a small cabin with air above water. His right hand firmly holds doorframe at right; left forearm braced on lower horizontal steel beam on left; torso leans toward opening and both legs extend submerged below him, no floating torso, feet obscured naturally by turbid water. Head upright above horizontal water, nose in air, eyes toward dry gap through doorway. Compact desperate effort not smiling. Low water-level medium-wide side view shows connected jamb, opening, the near wall thickness and cabin beyond; clear room for one decisive pull through doorway. Inverted small fittings, plain steel overhead without ceiling lights. Cyan reflected light, darker corridor behind, legible face edge. No second character, mattress yet, lamp, duplicated ship, see-through body, text or multiple poses.",
+        "createdAt": "2026-11-03T00:31:15.896Z",
+        "sourceVersionIds": [
+          "S01-F-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S01-C",
+      "versionId": "S01-C-white-body-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Precise COLOR-ONLY edit of image 1; image 2 provides the approved WHITE BODY color/material and graphic medium only, not pose/composition. Make ALL exposed protagonist skin fully WHITE with the SAME neutral ivory-white base as the face: bare hands/fingers/wrists, neck/torso/chest/belly/back, shoulders/arms, both legs/feet wherever visible. Remove all tan/peach/brown/pink flesh color; no realistic skin texture. Underwater skin stays visibly white with cool cyan/blue-grey reflections. Match approved white-body reference. Keep EXACT composition/camera, anatomy and cast counts, hand contacts/grips/support, pose, gaze, water level/boundary, hair/beard/eyes, clothing/blanket/masks, navy gloves/diver, hoses/bell, set geometry/light and props. Do not recolor clothing, equipment, hair, beard or environment. A hand-only insert must remain a hand-only insert. Fully white means consistent graphic character material, not a white shirt or extra clothing. No labels/panels/text. Single same portrait film frame.",
+        "createdAt": "2026-11-03T01:26:05.652Z",
+        "sourceVersionIds": [
+          "S01-C-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S01-D",
+      "versionId": "S01-D-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "One edge-to-edge 9:16 portrait diagnostic film insert. Dimensional hand-painted 3D toon inverted tugboat cabin, rusted teal steel wall with vertical rivet line in extreme close view at a horizontal water surface. Compose water plane at lower half; above it clearly DRY steel in trapped air with a droplet clinging, below it submerged darker steel with soft refracted cyan light. A single gentle ripple curves toward wall but water horizon remains level; water/air boundary is the first-notice subject. Camera at waterline, optical focus on tiny meniscus against rivet seam; receding cabin corner softly blurred establishes depth. No person, hand, light fixture, diagrams, arrows, text, split-screen, panels, ocean horizon or extra water surfaces. Quiet low cyan reflection and neutral bounce. Same corroded teal material as reference, reference is material/style only, release composition.",
+        "createdAt": "2026-11-03T00:31:15.896Z",
+        "sourceVersionIds": [
+          "S01-F-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S01-E",
+      "versionId": "S01-E-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "One edge-to-edge 9:16 portrait film still. Preserve exact Harrison design from reference: ivory round flat face, tiny oval black eyes and simple dark eyebrows, short flat black hair/beard, compact broad adult body, bare torso, dark maroon shorts, firm dark contours, NOT sculpted 3D face. Dimensional hand-painted toon inverted teal steel cabin. NEW COMPOSITION: close profile from Harrison's left at WATER LEVEL, his head and shoulder dominate middle right, nose/mouth safely 15cm above horizontal water surface, chin just raised to clear water. Gaze upward at the trapped air zone with focused relief, closed small mouth no smile, one hand firmly wraps fixed rusty steel wall bracket at lower right, visible wrist connected. Shoulders just above water, lower torso naturally obscured. Air gap and solid structural steel roof above head shown at top, no mattress needed and no lamp overhead. Far background left: submerged doorway, cool cyan light and dark flooded corridor. Dry plain steel above surface and submerged steel below separated by one coherent level plane. Foreground ripples create depth, restrained cool reflected light on graphic face; readable but dim. One supported man, no bubbles from his mouth, extra arms, text, borders, magic glow, photoreal anatomy or tableau.",
+        "createdAt": "2026-11-03T00:31:15.897Z",
+        "sourceVersionIds": [
+          "S01-F-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S01-E",
+      "versionId": "S01-E-white-body-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Precise COLOR-ONLY edit of image 1; image 2 provides the approved WHITE BODY color/material and graphic medium only, not pose/composition. Make ALL exposed protagonist skin fully WHITE with the SAME neutral ivory-white base as the face: bare hands/fingers/wrists, neck/torso/chest/belly/back, shoulders/arms, both legs/feet wherever visible. Remove all tan/peach/brown/pink flesh color; no realistic skin texture. Underwater skin stays visibly white with cool cyan/blue-grey reflections. Match approved white-body reference. Keep EXACT composition/camera, anatomy and cast counts, hand contacts/grips/support, pose, gaze, water level/boundary, hair/beard/eyes, clothing/blanket/masks, navy gloves/diver, hoses/bell, set geometry/light and props. Do not recolor clothing, equipment, hair, beard or environment. A hand-only insert must remain a hand-only insert. Fully white means consistent graphic character material, not a white shirt or extra clothing. No labels/panels/text. Single same portrait film frame.",
+        "createdAt": "2026-11-03T01:26:05.652Z",
+        "sourceVersionIds": [
+          "S01-E-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S01-F",
+      "versionId": "S01-F-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Repair this single 9:16 portrait film frame. Preserve exact graphic character identity/design, pose, face, water height, supported forearm contact, right hand gripping steel bracket, slate blue mattress, medium framing and dimensional hand-painted toon finish. Essential correction: this cabin belongs to an UPSIDE DOWN sunken tugboat. The generated warm overhead ceiling lamp makes it look upright and is wrong. Remove that ceiling lamp entirely. Above his head is plain corroded structural steel, no functioning ceiling light. Replace the upright cabinet face beneath mattress with a plain rigid ribbed structural platform, no upright furniture. Behind Harrison's left shoulder add one small fixed wall sign plate rotated upside down (no readable text necessary), an orientation clue. Keep horizontal level water and world gravity down; man upright relative to gravity, head in dry air pocket. Doorway background mostly submerged. Lighting only faint cyan water reflection and soft neutral bounce for face legibility, no new light fixture or yellow source, no exposure glow. Do not change his two hands, torso, beard, shorts, support, waterline, one-person count or composition. No text/borders/grid. It is a coherent inverted structural compartment, not a second room.",
+        "createdAt": "2026-11-03T00:31:15.897Z",
+        "sourceVersionIds": [
+          "refuge-v1-rejected-source"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S01-F",
+      "versionId": "S01-F-white-body-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Edit image 1 only. Image 2 is the creator's COLOR/MEDIUM reference, not its scene or character. Correct the protagonist's BODY COLOR to fully WHITE matching his white cartoon face: every exposed surface of neck, torso, chest, belly, shoulders, both arms, both hands/fingers, both legs and feet must use the SAME neutral ivory-WHITE base material. Remove ALL tan, peach, brown, pink or flesh-colored skin. Make head and entire exposed body one consistent white graphic cartoon design, dark black outlines preserved. Submerged portions remain visibly WHITE beneath cool cyan water reflections; water can cast cool blue-grey shadows but must not make body look tan. No realistic human skin texture or flesh shading. Keep EXACT pose, body anatomy/count, silhouette, hair/beard/eyes, maroon shorts, grip around fixed bracket, supported forearm on mattress, water height/surface, submerged doorway, inverted fittings, whole cabin, camera/framing, light sources and painted set unchanged. Do not recolor black hair/beard, shorts, water, equipment or mattress. Single corrected 9:16 frame, no labels, panels or text. The request is a precise color correction, not a redesign.",
+        "createdAt": "2026-11-03T01:26:05.652Z",
+        "sourceVersionIds": [
+          "S01-F-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S02-A",
+      "versionId": "S02-A-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "One 9:16 portrait cinematic EDUCATIONAL CUTAWAY illustration, not an ordinary live view. Dimensional hand-painted 3D toon corroded teal inverted tug compartment suspended within dark blue ocean at seabed. Expose one side wall as a clean cutaway so viewer sees cross section: solid closed roof at top, three intact enclosing walls, horizontal water surface about halfway up, visibly dry AIR VOID ABOVE water inside enclosure. Opening/doorway at lower-left entirely BELOW the water surface connects compartment to surrounding flooded corridor/ocean. One small Harrison, same flat ivory round face/short black hair and beard/bare body/maroon shorts, stands supported beside fixed platform at right, nose and mouth clearly above water within air space, torso partly underwater. Use reference for identity/material only, release exact view. Camera is slightly elevated side orthographic-ish diagram view, entire compartment fit center, dark ocean visible outside cut edges, clear separation of trapped air and external water without labels, arrows, letters, oxygen molecules or glowing dome. No bubble enclosing whole ship, no free passage from air void directly to outside water above waterline, no open roof. Intact roof forms upper seal; floor below is structural steel (original upside-down ceiling), no ceiling lamp. Cross-section is explanatory reconstruction, coherent gravity downward and one water plane.",
+        "createdAt": "2026-11-03T00:31:15.897Z",
+        "sourceVersionIds": [
+          "S01-F-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S02-A",
+      "versionId": "S02-A-white-body-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Precise COLOR-ONLY edit of image 1; image 2 provides the approved WHITE BODY color/material and graphic medium only, not pose/composition. Make ALL exposed protagonist skin fully WHITE with the SAME neutral ivory-white base as the face: bare hands/fingers/wrists, neck/torso/chest/belly/back, shoulders/arms, both legs/feet wherever visible. Remove all tan/peach/brown/pink flesh color; no realistic skin texture. Underwater skin stays visibly white with cool cyan/blue-grey reflections. Match approved white-body reference. Keep EXACT composition/camera, anatomy and cast counts, hand contacts/grips/support, pose, gaze, water level/boundary, hair/beard/eyes, clothing/blanket/masks, navy gloves/diver, hoses/bell, set geometry/light and props. Do not recolor clothing, equipment, hair, beard or environment. A hand-only insert must remain a hand-only insert. Fully white means consistent graphic character material, not a white shirt or extra clothing. No labels/panels/text. Single same portrait film frame.",
+        "createdAt": "2026-11-03T01:26:05.652Z",
+        "sourceVersionIds": [
+          "S02-A-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S02-B",
+      "versionId": "S02-B-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Single edge-to-edge 9:16 portrait scientific explanatory film insert with dimensional hand-painted 3D toon materials. Clean dark teal background, one transparent rectangular water tank seen exactly side-on at water level. In tank ONE transparent drinking glass inverted open-rim-down, closed base at TOP. Glass is pushed mostly underwater so its open rim near bottom is below external waterline; NO hand visible, a small fixed support above frame may hold glass by closed base. Outside tank water surface lies near upper quarter. INSIDE inverted glass there is a visible DRY AIR SPACE above its lower internal horizontal water level, showing water only entering lower quarter of glass. Entire glass top is below external tank waterline; trapped air not floating above rim, no bubbles leaking. Shape of glass silhouette and thick upper closed base clear. Focus tight on glass-air-water relation, glass dominates frame with tank edges cropped; subtle cyan water/white glints and soft shadows, plain pedagogical clarity rather than photoreal product ad. No text, molecule icons, arrows, panels, people, extra glasses or labels. World gravity down. One still explanatory analogy, not a literal object aboard the wreck.",
+        "createdAt": "2026-11-03T00:31:15.897Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S02-C",
+      "versionId": "S02-C-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Single 9:16 portrait film still. Reference1 supplies exact cartoon Harrison identity and teal cabin/slate-blue mattress medium; release framing. NEW VIEW: Harrison in left-side PROFILE seated crouched on top of TWO wet slate-blue mattresses stacked on rigid steel platform at right wall inside same inverted cabin; legs bent, feet supported on platform edge just above water, one forearm rests on thighs. Head and nose/mouth fully in dry air pocket, compact shoulders tense, one hand lightly pressed to chest feeling breathing. He gazes at low solid steel roof across small enclosed air space, not at viewer, brows worried and lips closed. Frame medium-wide from opposite corner with foreground water covering lower quarter and dark submerged doorway at left; one horizontal world-level water plane remains BELOW mattress top and his seated hips. Mattress/platform bears his whole weight with visible seat indentation, not floating. Plain structural roof/no functioning lamp; small inverted wall plate. Dim cyan reflected light with soft neutral face bounce, air space visible above his head, rich depth/contact shadows. Flat ivory circular face, tiny oval black eyes, black graphic hair/beard, firm contour, bare torso and maroon shorts. No air bubble dome, gas icons, text, duplicated people, transparent torso or 3D sculpted face.",
+        "createdAt": "2026-11-03T00:31:15.898Z",
+        "sourceVersionIds": [
+          "S01-F-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S02-C",
+      "versionId": "S02-C-white-body-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Precise COLOR-ONLY edit of image 1; image 2 provides the approved WHITE BODY color/material and graphic medium only, not pose/composition. Make ALL exposed protagonist skin fully WHITE with the SAME neutral ivory-white base as the face: bare hands/fingers/wrists, neck/torso/chest/belly/back, shoulders/arms, both legs/feet wherever visible. Remove all tan/peach/brown/pink flesh color; no realistic skin texture. Underwater skin stays visibly white with cool cyan/blue-grey reflections. Match approved white-body reference. Keep EXACT composition/camera, anatomy and cast counts, hand contacts/grips/support, pose, gaze, water level/boundary, hair/beard/eyes, clothing/blanket/masks, navy gloves/diver, hoses/bell, set geometry/light and props. Do not recolor clothing, equipment, hair, beard or environment. A hand-only insert must remain a hand-only insert. Fully white means consistent graphic character material, not a white shirt or extra clothing. No labels/panels/text. Single same portrait film frame.",
+        "createdAt": "2026-11-03T01:26:05.652Z",
+        "sourceVersionIds": [
+          "S02-C-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S02-E",
+      "versionId": "S02-E-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Create a single edge-to-edge 9:16 portrait DIAGNOSTIC EXTREME CLOSE film insert of Harrison's eyes/brows and upper cheek only, match reference exact flat ivory face/short black graphic hair/firm contour/two tiny plain black oval eyes/simple thick brows. Release reference wide composition completely. His head turns three-quarter left, eyes fix toward an unseen dark doorway to screen left, brow slightly raised with concentrated waiting; no smile or direct camera gaze. Crop from black hairline down to just ABOVE beard/mouth, face fills almost entire portrait. Faint cyan water reflections low on cheek, soft dark teal cabin bokeh behind, no water covering face and no droplets that look like tears. Ivory flat graphic skin, no realistic pupils, sclera, modeled nose, eyelashes or sculpted face. Dim restrained light yet eyes readable at phone size. One face only, no hands, lamp, text, borders, panels, captions or extra body. This is an anticipation/listening eye shift insert, not a full-body portrait.",
+        "createdAt": "2026-11-03T00:31:15.898Z",
+        "sourceVersionIds": [
+          "S02-C-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S02-E",
+      "versionId": "S02-E-white-body-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Precise COLOR-ONLY edit of image 1; image 2 provides the approved WHITE BODY color/material and graphic medium only, not pose/composition. Make ALL exposed protagonist skin fully WHITE with the SAME neutral ivory-white base as the face: bare hands/fingers/wrists, neck/torso/chest/belly/back, shoulders/arms, both legs/feet wherever visible. Remove all tan/peach/brown/pink flesh color; no realistic skin texture. Underwater skin stays visibly white with cool cyan/blue-grey reflections. Match approved white-body reference. Keep EXACT composition/camera, anatomy and cast counts, hand contacts/grips/support, pose, gaze, water level/boundary, hair/beard/eyes, clothing/blanket/masks, navy gloves/diver, hoses/bell, set geometry/light and props. Do not recolor clothing, equipment, hair, beard or environment. A hand-only insert must remain a hand-only insert. Fully white means consistent graphic character material, not a white shirt or extra clothing. No labels/panels/text. Single same portrait film frame.",
+        "createdAt": "2026-11-03T01:26:05.652Z",
+        "sourceVersionIds": [
+          "S02-E-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S02-D2",
+      "versionId": "S02-D2-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Single edge-to-edge 9:16 portrait diagnostic CONTACT INSERT from this exact wet-mattress lifting scene. Reference only hand/object identity/material; RELEASE wide framing. Extreme close low view of Harrison's TWO opaque graphic bare hands, each connected to a short forearm from lower left, palms firmly supporting underside/near edge of ONE wet slate-blue mattress raised just above a second matching mattress lying on rigid rusted teal steel platform. Show fingers wrapping mattress fabric and visible cloth indentation where load rests, mattress upper edge crosses top-right. ONLY hands, mattress edges and narrow fixed platform support in frame, a few drips falling vertically toward horizontal water at very bottom. No face, full body, extra hands, duplicate fingers, floating mattress, labels, panels or text. Dark outlines/flat warm skin match reference; mattress and steel dimensional painted 3D toon, cyan reflected light, dark corridor bokeh behind. The practical cue is contact and real load support, before placing mattress flat; do not show result already completed.",
+        "createdAt": "2026-11-03T00:31:15.898Z",
+        "sourceVersionIds": [
+          "S02-D-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S02-D2",
+      "versionId": "S02-D2-white-body-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Precise COLOR-ONLY edit of image 1; image 2 provides the approved WHITE BODY color/material and graphic medium only, not pose/composition. Make ALL exposed protagonist skin fully WHITE with the SAME neutral ivory-white base as the face: bare hands/fingers/wrists, neck/torso/chest/belly/back, shoulders/arms, both legs/feet wherever visible. Remove all tan/peach/brown/pink flesh color; no realistic skin texture. Underwater skin stays visibly white with cool cyan/blue-grey reflections. Match approved white-body reference. Keep EXACT composition/camera, anatomy and cast counts, hand contacts/grips/support, pose, gaze, water level/boundary, hair/beard/eyes, clothing/blanket/masks, navy gloves/diver, hoses/bell, set geometry/light and props. Do not recolor clothing, equipment, hair, beard or environment. A hand-only insert must remain a hand-only insert. Fully white means consistent graphic character material, not a white shirt or extra clothing. No labels/panels/text. Single same portrait film frame.",
+        "createdAt": "2026-11-03T01:26:05.652Z",
+        "sourceVersionIds": [
+          "S02-D2-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S02-D",
+      "versionId": "S02-D-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Single edge-to-edge 9:16 portrait cinematic action opening. Exact Harrison identity and dimensional painted teal inverted cabin/slate-blue mattress design from refs. NEW VIEW: low SIDE view from cabin left, ONE Harrison waist-deep in world-horizontal water beside rigid steel platform at right. One slate-blue mattress already lies flat on platform safely above water. A SECOND wet slate-blue mattress is tilted halfway upward in Harrison's two hands; both palms visibly support its underside/near side, elbows bent, torso leaned into real effort, knees supported beneath turbid water, one foot visible planted on submerged fixed steel step. The second mattress has NOT yet landed; its far edge just clears the lower mattress so short forward lift can lay it fully on top. Mattress width/length same as lower, no floating bedding pile. Show full hand/object contacts, fixed platform support, space for upward-forward lift. Harrison looks at landing edge with focused brows, lips closed. Flat ivory round face/tiny black oval eyes/short black graphic hair and beard/bare torso/maroon shorts, dark outlines. World down unchanged; plain structural roof and upside-down small wall plate. Dim cyan reflected light, soft neutral bounce, water splashing at thighs. No lamp, second person, extra hands, see-through body, cutaway, text, panels or already seated man.",
+        "createdAt": "2026-11-03T00:31:15.898Z",
+        "sourceVersionIds": [
+          "S01-F-opening-v1",
+          "S02-C-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S02-D",
+      "versionId": "S02-D-white-body-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Precise COLOR-ONLY edit of image 1; image 2 provides the approved WHITE BODY color/material and graphic medium only, not pose/composition. Make ALL exposed protagonist skin fully WHITE with the SAME neutral ivory-white base as the face: bare hands/fingers/wrists, neck/torso/chest/belly/back, shoulders/arms, both legs/feet wherever visible. Remove all tan/peach/brown/pink flesh color; no realistic skin texture. Underwater skin stays visibly white with cool cyan/blue-grey reflections. Match approved white-body reference. Keep EXACT composition/camera, anatomy and cast counts, hand contacts/grips/support, pose, gaze, water level/boundary, hair/beard/eyes, clothing/blanket/masks, navy gloves/diver, hoses/bell, set geometry/light and props. Do not recolor clothing, equipment, hair, beard or environment. A hand-only insert must remain a hand-only insert. Fully white means consistent graphic character material, not a white shirt or extra clothing. No labels/panels/text. Single same portrait film frame.",
+        "createdAt": "2026-11-03T01:26:05.652Z",
+        "sourceVersionIds": [
+          "S02-D-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S02-F",
+      "versionId": "S02-F-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "One 9:16 portrait cinematic film frame, dimensional hand-painted 3D toon underwater wreck matching reference1: ONE red hulled/cream inverted tug resting on seabed, hull top/keel uppermost, cream superstructure crushed partly beneath. NEW VIEW near one real opening in cream superstructure side, entire wreck need NOT fit. One professional diver D swims diagonally from upper-left toward opening at lower-right. D identity from reference2 only: rigid yellow helmet with dark glass viewport and attached lamp, navy suit, dark navy gloves, black fins, one continuous pale thick umbilical connected behind helmet and curving back upward left offscreen toward surface. Full diver visible in side profile with bent knees and fins extended, one glove reaches toward fixed entry rim, no extra cylinders or second diver. Helmet light illuminates actual opening rim and silt. World vertical gravity: bubbles go up, sandy seabed below. Dim blue-green water, coherent perspective/scale (entry fits diver), foreground hull rib frames movement, room to enter. No Harrison, bodies, fish, exposed human face, second ship, text, labels, panels or air pocket visible outside hull.",
+        "createdAt": "2026-11-03T00:31:15.898Z",
+        "sourceVersionIds": [
+          "S01-G-opening-v1",
+          "S03-D-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S02-G",
+      "versionId": "S02-G-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Single edge-to-edge 9:16 portrait cinematic underwater film frame. Dimensional hand-painted 3D toon corroded teal-steel INVERTED tug corridor fully flooded, no air-water interface anywhere in frame. Match professional diver D from reference2: one rigid yellow helmet/glass viewport/attached lamp, navy drysuit, dark navy gloves, black fins, ONE pale umbilical continuous from back of helmet trailing through opening behind. NEW COMPOSITION: low frontal three-quarter medium view camera AHEAD of diver looking back down narrow corridor, diver at middle-right swimming toward camera and slightly screen left. Left gloved hand planted against fixed steel jamb at right of picture, right glove holds no object and reaches into open travel space. Knees bent with two separate fins behind, whole body contained inside corridor. Lamp beam sweeps past camera toward unseen passage left; light exposes silt and a real corner opening beyond foreground left edge, not through solid wall. Small inverted pipe fixture, original overhead fitting now low, structural roof plain. Deep foreground/middle/background doorway rhythm coherent, dim blue-green water and warm lamp pool, no modeled exposed face. One diver, no Harrison yet, bodies, fish, extra helmet, severed hose, glowing bubble, text, panels or imagined dialogue. Clear supported pause before fin kick carries him around real corner.",
+        "createdAt": "2026-11-03T00:31:15.898Z",
+        "sourceVersionIds": [
+          "S01-F-opening-v1",
+          "S02-F-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S03-A",
+      "versionId": "S03-A-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Repair this exact 9:16 frame. Preserve Harrison identity, poised seated turn, both supporting hand contacts, mattress/platform position, water level, all framing and medium. CRITICAL spatial correction: the current doorway on LEFT rises ABOVE the waterline, making the diver light look in air. Change ONLY that doorway and light: lower and shorten entire doorway so its TOP curved lintel is clearly 25cm BELOW the same horizontal water surface. Top of submerged doorway must be visibly below Harrison's seated feet/platform, not up at his face. The surrounding teal steel wall stays solid above water. Place diver lamp only inside this fully SUBMERGED small opening at lower-left, beam seen refracting diffusely upward THROUGH the water before scattering at the water surface. No visible round lamp or beam in dry air, no doorway above water, no bubbles in air. Fixed platform remains above water, his mouth/nose remain dry. Leave enough scale in opening for one person to swim through at lower left. Do not change waterline to fix this, do not submerge mattress or man, no extra figure or text. One clean still.",
+        "createdAt": "2026-11-03T00:31:15.898Z",
+        "sourceVersionIds": [
+          "discovery-v1-rejected-source"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S03-A",
+      "versionId": "S03-A-white-body-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Precise COLOR-ONLY edit of image 1; image 2 provides the approved WHITE BODY color/material and graphic medium only, not pose/composition. Make ALL exposed protagonist skin fully WHITE with the SAME neutral ivory-white base as the face: bare hands/fingers/wrists, neck/torso/chest/belly/back, shoulders/arms, both legs/feet wherever visible. Remove all tan/peach/brown/pink flesh color; no realistic skin texture. Underwater skin stays visibly white with cool cyan/blue-grey reflections. Match approved white-body reference. Keep EXACT composition/camera, anatomy and cast counts, hand contacts/grips/support, pose, gaze, water level/boundary, hair/beard/eyes, clothing/blanket/masks, navy gloves/diver, hoses/bell, set geometry/light and props. Do not recolor clothing, equipment, hair, beard or environment. A hand-only insert must remain a hand-only insert. Fully white means consistent graphic character material, not a white shirt or extra clothing. No labels/panels/text. Single same portrait film frame.",
+        "createdAt": "2026-11-03T01:26:05.652Z",
+        "sourceVersionIds": [
+          "S03-A-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S03-B",
+      "versionId": "S03-B-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "One edge-to-edge 9:16 portrait film still. Fully UNDERWATER inverted teal-steel tug corridor, NO air-water surface anywhere. Match Harrison from ref1 exact flat ivory graphic round head, short black hair/beard, tiny black eyes, bare compact body, dark maroon shorts, dark outlined opaque limbs. Match diver from ref2 yellow rigid helmet/navy suit/gloves/black fins/pale connected umbilical. NEW SIDE-ON action view: Harrison at left swims horizontally toward right, entire body inside corridor, both legs behind with one knee bent ready to kick, left arm bent near chest, RIGHT bare arm extended toward diver 60cm ahead at right. Mouth firmly closed, no bubbles from face or breathing; eyes on diver glove. Diver turns toward Harrison, LEFT navy glove begins to reach back with palm open, RIGHT glove braced on fixed doorway rim, body/helmet at right with umbilical trailing back through visible doorway. Hands NOT touching yet, clear water gap and feasible straight reach, exactly two people four hands (some may be naturally occluded). Long corridor perspective, room for brisk swim and contact, upright world gravity, coherent scale. Helmet lamp highlights approaching hand, dim cyan ambient, particles and small bubbles only near diver's equipment. No mattress, extra diver, corpses, fish, open air, text, panels, duplicated limbs or realistic sculpted human face.",
+        "createdAt": "2026-11-03T00:31:15.899Z",
+        "sourceVersionIds": [
+          "S01-F-opening-v1",
+          "S02-G-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S03-B",
+      "versionId": "S03-B-white-body-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Precise COLOR-ONLY edit of image 1; image 2 provides the approved WHITE BODY color/material and graphic medium only, not pose/composition. Make ALL exposed protagonist skin fully WHITE with the SAME neutral ivory-white base as the face: bare hands/fingers/wrists, neck/torso/chest/belly/back, shoulders/arms, both legs/feet wherever visible. Remove all tan/peach/brown/pink flesh color; no realistic skin texture. Underwater skin stays visibly white with cool cyan/blue-grey reflections. Match approved white-body reference. Keep EXACT composition/camera, anatomy and cast counts, hand contacts/grips/support, pose, gaze, water level/boundary, hair/beard/eyes, clothing/blanket/masks, navy gloves/diver, hoses/bell, set geometry/light and props. Do not recolor clothing, equipment, hair, beard or environment. A hand-only insert must remain a hand-only insert. Fully white means consistent graphic character material, not a white shirt or extra clothing. No labels/panels/text. Single same portrait film frame.",
+        "createdAt": "2026-11-03T01:26:05.652Z",
+        "sourceVersionIds": [
+          "S03-B-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S03-C",
+      "versionId": "S03-C-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Single edge-to-edge 9:16 portrait DIAGNOSTIC HAND INSERT in same dimensional hand-painted teal inverted ship corridor, fully underwater with fine suspended silt. Use reference for bare opaque outlined cartoon hand and medium only; release composition. Harrison's ONE bare hand emerges from lower-left into a narrow warm white diver lamp beam from upper-right. Hand alone dominates central half, fingers slightly bent and separated, palm angled toward unseen diver; connected wrist/forearm trails off lower-left, no severed edges. Five simple coherent digits total with single thumb, dark graphic outline and flat warm skin. No diver glove or helmet in this crop; negative space to upper-right shows the destination. The hand is ALIVE with poised finger flex, not limp and not already clasped. Dim cyan background receding steel doorway in soft focus, localized beam physically in water, no air surface or bubbles from a human mouth, no other body parts/people, text, labels, panels or gore. Focus on hand silhouette at phone size, no full-body figure.",
+        "createdAt": "2026-11-03T00:31:15.899Z",
+        "sourceVersionIds": [
+          "S03-D-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S03-C",
+      "versionId": "S03-C-white-body-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Precise COLOR-ONLY edit of image 1; image 2 provides the approved WHITE BODY color/material and graphic medium only, not pose/composition. Make ALL exposed protagonist skin fully WHITE with the SAME neutral ivory-white base as the face: bare hands/fingers/wrists, neck/torso/chest/belly/back, shoulders/arms, both legs/feet wherever visible. Remove all tan/peach/brown/pink flesh color; no realistic skin texture. Underwater skin stays visibly white with cool cyan/blue-grey reflections. Match approved white-body reference. Keep EXACT composition/camera, anatomy and cast counts, hand contacts/grips/support, pose, gaze, water level/boundary, hair/beard/eyes, clothing/blanket/masks, navy gloves/diver, hoses/bell, set geometry/light and props. Do not recolor clothing, equipment, hair, beard or environment. A hand-only insert must remain a hand-only insert. Fully white means consistent graphic character material, not a white shirt or extra clothing. No labels/panels/text. Single same portrait film frame.",
+        "createdAt": "2026-11-03T01:26:05.652Z",
+        "sourceVersionIds": [
+          "S03-C-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S03-D",
+      "versionId": "S03-D-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "One edge-to-edge 9:16 portrait film still in reference's hybrid graphic 2D-character/dimensional hand-painted 3D toon style. Reference supplies Harrison identity and medium only, RELEASE its composition. Underwater inside the same inverted corroded teal-steel tug corridor, all content below water, horizontal gravity not tilted. DIAGNOSTIC CLOSE VIEW: Harrison's bare RIGHT forearm enters from lower left, ending in one compact opaque cartoon right hand, fingers open and just touching the fingers of professional diver's LEFT dark navy glove entering from upper right. Hands dominate central half of frame. There is a small clear gap at palms, not yet gripping; thumb sides anatomically coherent. Wrists and a short connected forearm visible on both sides, no extra hands. Behind the diver glove at upper right a partial rigid yellow diving helmet, dark glass viewport, navy shoulder; no exposed human face. Pale umbilical connected behind diver trails deeper into background corridor. Harrison's bare arm has thick dark contour, flat warm skin, no anatomical detail. Dim cyan water and tightly focused beam from diver lamp lights the hands, no magical glow. Some suspended silt, no motion trails, no drowning gasp or mouth. Intent is a physically possible imminent bare-right-hand to gloved-left-hand clasp with room for fingers to wrap; do not already clasp. One moment only, no panels, text, arrows, extra people, body remains, fish, copies of same limb or image borders.",
+        "createdAt": "2026-11-03T00:31:15.899Z",
+        "sourceVersionIds": [
+          "S01-F-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S03-D",
+      "versionId": "S03-D-white-body-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Precise COLOR-ONLY edit of image 1; image 2 provides the approved WHITE BODY color/material and graphic medium only, not pose/composition. Make ALL exposed protagonist skin fully WHITE with the SAME neutral ivory-white base as the face: bare hands/fingers/wrists, neck/torso/chest/belly/back, shoulders/arms, both legs/feet wherever visible. Remove all tan/peach/brown/pink flesh color; no realistic skin texture. Underwater skin stays visibly white with cool cyan/blue-grey reflections. Match approved white-body reference. Keep EXACT composition/camera, anatomy and cast counts, hand contacts/grips/support, pose, gaze, water level/boundary, hair/beard/eyes, clothing/blanket/masks, navy gloves/diver, hoses/bell, set geometry/light and props. Do not recolor clothing, equipment, hair, beard or environment. A hand-only insert must remain a hand-only insert. Fully white means consistent graphic character material, not a white shirt or extra clothing. No labels/panels/text. Single same portrait film frame.",
+        "createdAt": "2026-11-03T01:26:05.652Z",
+        "sourceVersionIds": [
+          "S03-D-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "reference-S03-D-result",
+      "versionId": "S03-D-result-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Create one 9:16 portrait film still as the LATER RESULT target of this same exact contact scene. Preserve exact hand identities, bare right arm from lower-left and navy gloved left arm from upper-right, yellow helmet at upper-right, teal fully underwater corridor, connected pale umbilical behind diver and focused helmet lamp. Change ONLY hand action: Harrison's bare right fingers now wrap firmly around diver's left glove in a mutual secure HANDCLASP, palms contacting, thumbs hooked with coherent joint bending, both wrists remain separate and connected to their own forearms. Hands at center and dominant. Diver's glove responds with a supportive closure around bare hand, neither one grasps its own wrist. Exactly two hands and two arms, no extra digits/duplicated thumb, no fused mitten, no floating wrist. This is completed reassuring contact, not fingers hovering or fist bump. Same dark outlined graphic bare arm, dimensional navy glove/materials and painterly set; no text/panels/collage. Underwater, no air-water plane crossing this view. Do not change camera or invent later recovery equipment.",
+        "createdAt": "2026-11-03T00:31:16.083Z",
+        "sourceVersionIds": [
+          "S03-D-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "reference-S03-D-result",
+      "versionId": "S03-D-result-white-body-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Precise COLOR-ONLY edit of image 1; image 2 provides the approved WHITE BODY color/material and graphic medium only, not pose/composition. Make ALL exposed protagonist skin fully WHITE with the SAME neutral ivory-white base as the face: bare hands/fingers/wrists, neck/torso/chest/belly/back, shoulders/arms, both legs/feet wherever visible. Remove all tan/peach/brown/pink flesh color; no realistic skin texture. Underwater skin stays visibly white with cool cyan/blue-grey reflections. Match approved white-body reference. Keep EXACT composition/camera, anatomy and cast counts, hand contacts/grips/support, pose, gaze, water level/boundary, hair/beard/eyes, clothing/blanket/masks, navy gloves/diver, hoses/bell, set geometry/light and props. Do not recolor clothing, equipment, hair, beard or environment. A hand-only insert must remain a hand-only insert. Fully white means consistent graphic character material, not a white shirt or extra clothing. No labels/panels/text. Single same portrait film frame.",
+        "createdAt": "2026-11-03T01:26:05.652Z",
+        "sourceVersionIds": [
+          "S03-D-result-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S03-E",
+      "versionId": "S03-E-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "One edge-to-edge 9:16 portrait film still, hybrid graphic Harrison in dimensional painted 3D toon inverted teal-steel cabin. Reference1 character/refuge only, reference2 diver equipment identity only, NEW shared composition. Harrison at right beside mattress platform, bare torso/maroon shorts, ivory graphic round face/tiny black oval eyes/short black hair and beard. His shoulders/head ABOVE horizontal water surface, one forearm rests securely on slate-blue mattress, other hand braces platform edge. He turns toward diver with relieved but exhausted brows, lips closed. At left one professional diver D is rising out of water: yellow rigid helmet with dark viewport and attached lamp already HALF ABOVE surface, navy shoulders at waterline, two gloved hands below/near surface naturally partly occluded. Pale continuous umbilical attached behind D helmet curves downward into submerged opening behind. Both heads in SAME trapped dry air zone below plain steel roof. Waterline runs coherently across both bodies below H shoulders and D viewport, no water crossing either mouth/face, helmet remains sealed. Mattress top above water; both bodies supported via platform/underwater footing, D may be buoyant. Camera at water-level two-shot showing profile eyelines, bracket wall right, submerged doorway low left if visible. Cool reflected light plus practical helmet lamp pool, no ceiling light, extra rescuer, bodies, masks on Harrison yet, text/panels, sculpted realistic face or open ocean.",
+        "createdAt": "2026-11-03T00:31:16.083Z",
+        "sourceVersionIds": [
+          "S01-F-opening-v1",
+          "S02-G-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S03-E",
+      "versionId": "S03-E-white-body-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Precise COLOR-ONLY edit of image 1; image 2 provides the approved WHITE BODY color/material and graphic medium only, not pose/composition. Make ALL exposed protagonist skin fully WHITE with the SAME neutral ivory-white base as the face: bare hands/fingers/wrists, neck/torso/chest/belly/back, shoulders/arms, both legs/feet wherever visible. Remove all tan/peach/brown/pink flesh color; no realistic skin texture. Underwater skin stays visibly white with cool cyan/blue-grey reflections. Match approved white-body reference. Keep EXACT composition/camera, anatomy and cast counts, hand contacts/grips/support, pose, gaze, water level/boundary, hair/beard/eyes, clothing/blanket/masks, navy gloves/diver, hoses/bell, set geometry/light and props. Do not recolor clothing, equipment, hair, beard or environment. A hand-only insert must remain a hand-only insert. Fully white means consistent graphic character material, not a white shirt or extra clothing. No labels/panels/text. Single same portrait film frame.",
+        "createdAt": "2026-11-03T01:26:05.652Z",
+        "sourceVersionIds": [
+          "S03-E-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S03-F",
+      "versionId": "S03-F-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "One edge-to-edge 9:16 portrait diagnostic film insert in dimensional hand-painted 3D toon finish. Close detail of ONE rugged circular mechanical pressure gauge securely bolted to dark grey diving transfer equipment panel, metal housing and continuous pipe fitting connected below gauge. Needle clearly visible and steady around mid dial, generic small tick marks but NO readable numbers/brand/instructions needed. Pale warm practical light and cool teal reflection on metal, single condensation bead on lower rim with gravity down. Panel and connected pipe occupy most portrait, shallow depth background suggests chamber machinery. It is normal pressure-monitoring equipment context, not futuristic hologram, no countdown/red alert, no loose unconnected gauge, hands, people, labels, overlays, panels, arrows or instruction text. Camera square to gauge at low slight angle, fixed mounting and needle readable at phone size. One instant, no visualized medical mechanism.",
+        "createdAt": "2026-11-03T00:31:16.083Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S03-G",
+      "versionId": "S03-G-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "One 9:16 portrait cinematic film frame, respectful illustrative later rescue stage. Dimensional hand-painted 3D toon underwater equipment and hybrid flat graphic Harrison. Reference1 only H identity/skin/short black hair/beard/bare torso/maroon shorts; reference2 only D yellow helmet/navy suit/gloves/fins/pale umbilical. NEW LOCATION outside wreck underwater beside specialist rigid yellow-grey TRANSFER DIVING BELL. Bell domed upper enclosed chamber at upper-right inside protective metal frame, single open BOTTOM entry hatch facing down; suspended by ONE thick lifting cable leading upward offscreen. Camera at low side looking slightly up at bottom entry, whole near opening and support rung visible. H wears a securely strapped full-face breathing mask over same graphic head, visible short hose connected to bell supply, no speech. H at center is positioned just BELOW the entry facing upward/right, one bare hand grips fixed interior rung, both feet below his body, torso outside but head near threshold. D left of him supports H other forearm with one navy glove, other glove on fixed bell frame, continuous D umbilical trails back left. Clear feasible up-and-into-bell path and physical contacts, two people only, no floating detached limb. Air confined INSIDE upper bell above its lower water boundary, outside entirely water. Cool blue water/warm equipment light, coherent perspective, no surface rush, red crosses, medical instructions, captions, grid, bodies or duplicate bells. One instant before completed supported entry, not collage.",
+        "createdAt": "2026-11-03T00:31:16.083Z",
+        "sourceVersionIds": [
+          "S01-F-opening-v1",
+          "S02-F-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S03-G",
+      "versionId": "S03-G-white-body-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Precise COLOR-ONLY edit of image 1; image 2 provides the approved WHITE BODY color/material and graphic medium only, not pose/composition. Make ALL exposed protagonist skin fully WHITE with the SAME neutral ivory-white base as the face: bare hands/fingers/wrists, neck/torso/chest/belly/back, shoulders/arms, both legs/feet wherever visible. Remove all tan/peach/brown/pink flesh color; no realistic skin texture. Underwater skin stays visibly white with cool cyan/blue-grey reflections. Match approved white-body reference. Keep EXACT composition/camera, anatomy and cast counts, hand contacts/grips/support, pose, gaze, water level/boundary, hair/beard/eyes, clothing/blanket/masks, navy gloves/diver, hoses/bell, set geometry/light and props. Do not recolor clothing, equipment, hair, beard or environment. A hand-only insert must remain a hand-only insert. Fully white means consistent graphic character material, not a white shirt or extra clothing. No labels/panels/text. Single same portrait film frame.",
+        "createdAt": "2026-11-03T01:26:05.652Z",
+        "sourceVersionIds": [
+          "S03-G-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "reference-S03-G-result",
+      "versionId": "S03-G-result-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Create one 9:16 portrait LATER RESULT target of this EXACT supported diving bell entry. Preserve same ONE yellow-grey rigid bell shape and open bottom hatch, lifting cable, frame, dim underwater scene and one helmeted navy diver outside on left with connected pale umbilical. Harrison has now COMPLETELY entered the upper bell: his whole body and both feet contained INSIDE rigid chamber, not hanging below, not intersecting glass or steel. Through the existing large upper viewport see only Harrison's same ivory graphic face/black hair/beard behind his strapped full-face mask, plus upper torso and one hand holding interior rung, his lower body naturally occluded inside bell. It is okay to raise camera a little to reveal him inside window, but bell structure cannot turn into a different object. Bottom opening below stays clear of Harrison's limbs, no second Harrison. Diver outside left has one glove bracing bottom frame and other relaxed, contact with H released only after containment achieved; two fins and connected umbilical remain. Practical light inside upper air zone, water outside. Do not show surface, dry exterior, human walking underwater, extra rescue people, duplicate bell, text or panels. Match input style. This is the achieved containment target, not instructions to skip entry movement.",
+        "createdAt": "2026-11-03T00:31:16.260Z",
+        "sourceVersionIds": [
+          "S03-G-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "reference-S03-G-result",
+      "versionId": "S03-G-result-white-body-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Precise COLOR-ONLY edit of image 1; image 2 provides the approved WHITE BODY color/material and graphic medium only, not pose/composition. Make ALL exposed protagonist skin fully WHITE with the SAME neutral ivory-white base as the face: bare hands/fingers/wrists, neck/torso/chest/belly/back, shoulders/arms, both legs/feet wherever visible. Remove all tan/peach/brown/pink flesh color; no realistic skin texture. Underwater skin stays visibly white with cool cyan/blue-grey reflections. Match approved white-body reference. Keep EXACT composition/camera, anatomy and cast counts, hand contacts/grips/support, pose, gaze, water level/boundary, hair/beard/eyes, clothing/blanket/masks, navy gloves/diver, hoses/bell, set geometry/light and props. Do not recolor clothing, equipment, hair, beard or environment. A hand-only insert must remain a hand-only insert. Fully white means consistent graphic character material, not a white shirt or extra clothing. No labels/panels/text. Single same portrait film frame.",
+        "createdAt": "2026-11-03T01:26:05.652Z",
+        "sourceVersionIds": [
+          "S03-G-result-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S03-H",
+      "versionId": "S03-H-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Single edge-to-edge 9:16 portrait cinematic film still, later recovery ellipsis. Reference supplies exact Harrison graphic face identity only, RELEASE cabin framing/water setting. Harrison seated inside DRY cylindrical steel decompression chamber on a padded bench, securely supported feet on solid grated floor, wrapped in a plain warm grey blanket with only his same ivory round face/short black graphic hair and beard/tiny plain black oval eyes/brows and two bare hands visible. One hand rests on blanket over thighs, other relaxed by side, shoulders slightly tense with exhausted restrained relief, lips closed no smile. He looks toward circular thick-glass viewport in chamber side wall to screen left, where one small technician outside is partly visible: simple graphic ivory face, dark hair, teal workwear, gaze on Harrison. Chamber sealed/controlled, round viewport bolted, connected simple pipes and pressure gauge, warm practical ceiling lamp appropriate in this UPRIGHT dry recovery setting. Medium-low three-quarter composition includes seated support, hand detail and viewport, generous dimensional depth, hand-painted 3D toon steel/materials/contact shadows with flat outlined graphic human face. No water inside chamber, hospital bed tubes, crowds, survivor celebration, corpses, tears, text/labels/panels, photoreal face or medical procedure instructions. One recovery patient and one distant technician only.",
+        "createdAt": "2026-11-03T00:31:16.260Z",
+        "sourceVersionIds": [
+          "S01-F-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "image-S03-H",
+      "versionId": "S03-H-white-body-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "Precise COLOR-ONLY edit of image 1; image 2 provides the approved WHITE BODY color/material and graphic medium only, not pose/composition. Make ALL exposed protagonist skin fully WHITE with the SAME neutral ivory-white base as the face: bare hands/fingers/wrists, neck/torso/chest/belly/back, shoulders/arms, both legs/feet wherever visible. Remove all tan/peach/brown/pink flesh color; no realistic skin texture. Underwater skin stays visibly white with cool cyan/blue-grey reflections. Match approved white-body reference. Keep EXACT composition/camera, anatomy and cast counts, hand contacts/grips/support, pose, gaze, water level/boundary, hair/beard/eyes, clothing/blanket/masks, navy gloves/diver, hoses/bell, set geometry/light and props. Do not recolor clothing, equipment, hair, beard or environment. A hand-only insert must remain a hand-only insert. Fully white means consistent graphic character material, not a white shirt or extra clothing. No labels/panels/text. Single same portrait film frame.",
+        "createdAt": "2026-11-03T01:26:05.652Z",
+        "sourceVersionIds": [
+          "S03-H-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "reference-creator-style",
+      "versionId": "creator-style-source",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "Creator skill reference",
+        "tool": "local-reference",
+        "prompt": "",
+        "createdAt": "2026-11-03T00:37:13.771Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "reference-refuge-v1-rejected",
+      "versionId": "refuge-v1-rejected-source",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "",
+        "createdAt": "2026-11-03T00:37:13.966Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "reference-discovery-v1-rejected",
+      "versionId": "discovery-v1-rejected-source",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image_gen",
+        "tool": "image_gen",
+        "prompt": "",
+        "createdAt": "2026-11-03T00:37:14.165Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S03-D",
+      "versionId": "S03-D-9eb62c13-4f0d-4802-8bf5-cefb37e84d7e-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing H right hand and D left glove fingertips just meeting, both wrists visible.\n<Picture 2> is the later result/composition target within this SAME [Shot 1], after the opening action completes; it is not another cut or timed frame lock.\n\nsummary:\n[keyframe completion] One continuous shot: Grips back. Continue current event to Mutual living grip achieved.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n<Picture 2> (later result in [Shot 1]): retain the result relationship reached by continuous action, not an instant pose switch.\n\ndetailed_description:\nKeep clearly motivated face and contact lighting with useful shadow detail and readable expressions/grips. Retain the selected graphic face and existing dimensional hand/hair/clothing/set materials. Follow the planned purposeful camera path for its reveal; there is no percent-stable camera quota. Decisive subject actions finish briskly at natural real-time speed, with task-directed grip/weight/eye/brow micro-acting. Camera smoothness does not slow the actor.\nProtagonist has a consistently WHITE head and fully WHITE exposed body, including neck, torso, shoulders, both arms/hands/fingers, legs and feet. All skin is the same flat neutral ivory-white graphic material with dark outlines; submerged white remains white under cool cyan reflections. No tan, peach, brown or pink flesh color, realistic skin texture, added white clothing, or body-color drift during movement. Preserve black hair/beard/eyes, maroon shorts and equipment colors.\nHybrid flat graphic cartoon people with ivory round heads, tiny plain black oval eyes, firm dark outlines and flat black hair/costume shapes, integrated into dimensional hand-painted 3D toon sets with real depth and contact shadows. Preserve actual selected design; no sculpted realistic human face. Light/material changes only follow lamp/water/movement.\n[Shot 1] The shot begins from <Picture 1>. Continue actual near-touch phase. Bare fingers close firmly around navy glove, glove responds with one secure mutual handclasp. Both wrists remain separate and anatomically connected to their own forearms. D recoils only a few centimetres in surprise, then steadies while clasp stays visibly closed. Reach/contact within first second, recoil/recovery next, show held living grip clearly before camera attention changes. Camera holds contact through completion then short ease-out tilt reveals more yellow helmet without hiding joined hands; no pose morph, dissolves, duplicate hands or replay. Physical sound: Fabric contact, bubbles, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nFabric contact, bubbles. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T11:58:41.339Z",
+        "jobId": "9eb62c13-4f0d-4802-8bf5-cefb37e84d7e",
+        "sourceVersionIds": [
+          "S03-D-white-body-v2",
+          "S03-D-result-white-body-v2"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S01-A",
+      "versionId": "S01-A-417abc62-dc35-4985-827f-e99723499142-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing One red-and-cream tug at sea, sharply listing; no people visible.\n\nsummary:\n[keyframe completion] One continuous shot: The ship goes over. Continue current event to Capsized vessel descending.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nOnly the actual subjects visible in the selected opening remain in frame. This view contains environment/equipment only; no person, hand or face enters it.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\nDimensional hand-painted 3D toon environment/equipment, painted materials and coherent depth, light stable except for motivated water reflection. Preserve reference medium, rigid supports and actual object count.\n[Shot 1] The shot begins from <Picture 1>. Begin in committed list. The one rigid tug rolls decisively onto its side over the first three seconds; deck disappears beneath a breaking wave, connected mast and cabin rotate with hull. Buoyant hull then slips down beneath surface rather than exploding. Let foam collapse and disturbed sea remain. No slow motion or resetting ship. Camera starts at low sea level, follows the fast roll with brief tilt/pan, then eases out on disturbed water; horizon remains world-level. Physical sound: Ocean surge, steel stress, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nOcean surge, steel stress. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T12:46:25.725Z",
+        "jobId": "417abc62-dc35-4985-827f-e99723499142",
+        "sourceVersionIds": [
+          "S01-A-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S01-G",
+      "versionId": "S01-G-2fdc1793-1f21-408d-8f2c-a172d595b44f-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Single inverted red hull rests on seabed, original deck/superstructure beneath hull, water all around.\n\nsummary:\n[keyframe completion] One continuous shot: Thirty metres down. Continue current event to Sealed wreck geography established.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nOnly the actual subjects visible in the selected opening remain in frame. This view contains environment/equipment only; no person, hand or face enters it.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\nDimensional hand-painted 3D toon environment/equipment, painted materials and coherent depth, light stable except for motivated water reflection. Preserve reference medium, rigid supports and actual object count.\n[Shot 1] The shot begins from <Picture 1>. Wreck already rests inverted. Silt drifts outward and begins to settle, small particles rise. Begin low at stern near fixed seabed, short controlled rise exposes red keel above cream superstructure, then stable view establishes total submersion and opaque hull. Do not resurrect or rotate the settled wreck. Physical sound: Muffled underwater ambience, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nMuffled underwater ambience. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T13:00:45.411Z",
+        "jobId": "2fdc1793-1f21-408d-8f2c-a172d595b44f",
+        "sourceVersionIds": [
+          "S01-G-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S01-B",
+      "versionId": "S01-B-459e0556-b953-4872-b003-e847c85cfd44-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Inside inverted flooded corridor; H reaches toward fixed doorframe.\n\nsummary:\n[keyframe completion] One continuous shot: A hand finds support. Continue current event to Supported hand on rigid frame.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nTight diagnostic crop contains only 1 existing WHITE bare cartoon hand and its connected forearm. Preserve the visible hand shapes and white graphic material from the opening. Heads, full bodies and additional hands remain outside the crop. Retain actual support and object contacts.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. Already gripping the fixed jamb. Fingers tighten once, forearm takes load, one surge strikes wrist and drains. Maintain solid contact and rigid steel. Near-stable diagnostic view, no wandering camera; useful pressure action within first half second, retain result. Physical sound: Water against steel, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nWater against steel. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T13:05:37.295Z",
+        "jobId": "459e0556-b953-4872-b003-e847c85cfd44",
+        "sourceVersionIds": [
+          "S01-B-white-body-v2"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S01-C",
+      "versionId": "S01-C-7a9a8f1c-b0a9-4d2e-a981-0a6c2a74b7b9-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing H in inverted corridor, water up to shoulders, fixed frame within reach.\n\nsummary:\n[keyframe completion] One continuous shot: Through the wreck. Continue current event to H reaches cabin edge.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nRetain the exact actual cast and body parts visible in the opening, including their existing support/contacts. The protagonist has consistently WHITE visible face/body/hands/feet matching the selected image, with dark graphic outlines and cool water reflections where submerged. Keep existing black hair/beard, clothing and equipment where visible; do not add a hidden limb, spare body or new person. Preserve simple round graphic face and the existing dimensional materials.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. Continue existing brace: pull torso firmly through connected doorway toward cabin, one hand transfers from near beam to far jamb only after weight transfers; legs kick/push beneath water, head remains in air while water swells below chin. Complete entry briskly, water slaps frame then settles. Low water-level lateral camera tracks real doorway width, ease-out settles on H inside cabin after pull result, no passage through solid wall. Physical sound: Water slap and steel creak, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nWater slap and steel creak. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T13:23:41.313Z",
+        "jobId": "7a9a8f1c-b0a9-4d2e-a981-0a6c2a74b7b9",
+        "sourceVersionIds": [
+          "S01-C-white-body-v2"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S01-D",
+      "versionId": "S01-D-27e14856-af0a-493a-96a4-82491ba7f724-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Cabin wall with waterline below roof, no cast visible.\n\nsummary:\n[keyframe completion] One continuous shot: The boundary. Continue current event to Air remains above horizontal water.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nOnly the actual subjects visible in the selected opening remain in frame. This view contains environment/equipment only; no person, hand or face enters it.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. One small ripple reaches vertical seam, climbs slightly into meniscus then settles back. Droplet falls downward into water. Keep boundary coherent, dry steel above and submerged steel below. Stable diagnostic composition; useful ripple/drip within opening half second, do not tilt horizon. Physical sound: Small ripple, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nSmall ripple. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T13:28:35.625Z",
+        "jobId": "27e14856-af0a-493a-96a4-82491ba7f724",
+        "sourceVersionIds": [
+          "S01-D-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S01-E",
+      "versionId": "S01-E-99474f07-06ae-45a8-b57e-a10cd55a5d45-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame and exact appearance, body, connected hands, set and lighting reference for this one continuous shot. Preserve the illustrated WHITE cartoon man with simple black eyes, black hair/beard, dark outlines and dimensional painted steel/water. Retain the actual visible body parts; bare skin remains opaque neutral white under cool reflections, never peach photoreal skin. Keep one man, two connected arms/hands, two legs. No new person or foreground hand.\n\nretention_analysis:\n<Picture 1>: fully_preserved. This is a sealed air pocket inside an inverted wreck deep underwater. Solid opaque rusted steel encloses the entire overhead space. Keep existing beams, closed panels and fixed supports in exactly their opening relationship. Air is only inside above the same horizontal waterline; the ocean is outside steel. No roof opens, no skylight, sky, sunlight hole, new room, porthole or changing architecture. Existing set stays wet/rusted and never turns into a furnished clean room.\n\ndetailed_description:\nThe WHITE man's nose and mouth already clear the water. He raises his chin a few centimetres in one prompt real-time settling motion, brow softens once, and the existing hand tightens on the same fixed bracket. Shoulder/neck tension settles; gentle breathing moves his chest without speech or exaggerated vapor. Camera makes only a very short lateral tracking settle within the SAME close head/hand framing, then holds this achieved supported pose. Do not tilt upward, zoom out or expose additional ceiling. Joined hand/bracket contact remains clear, face stays above water and cool reflected light stays readable. Ripples move below chest, no bubbles from mouth. The overhead steel remains completely sealed throughout.\n\noverall_soundscape:\nQuiet water ripples and one soft material contact, no speech, narration, singing, music or vocalizations.\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T16:19:01.992Z",
+        "jobId": "99474f07-06ae-45a8-b57e-a10cd55a5d45",
+        "sourceVersionIds": [
+          "S01-E-white-body-v2"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S01-F",
+      "versionId": "S01-F-e8cd4a01-914d-4d53-90e3-aa026c0c7d08-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame and exact appearance, body, connected hands, set and lighting reference for this one continuous shot. Preserve the illustrated WHITE cartoon man with simple black eyes, black hair/beard, dark outlines and dimensional painted steel/water. Retain the actual visible body parts; bare skin remains opaque neutral white under cool reflections, never peach photoreal skin. Keep one man, two connected arms/hands, two legs. No new person or foreground hand.\n\nretention_analysis:\n<Picture 1>: fully_preserved. This is a sealed air pocket inside an inverted wreck deep underwater. Solid opaque rusted steel encloses the entire overhead space. Keep existing beams, closed panels and fixed supports in exactly their opening relationship. Air is only inside above the same horizontal waterline; the ocean is outside steel. No roof opens, no skylight, sky, sunlight hole, new room, porthole or changing architecture. Existing set stays wet/rusted and never turns into a furnished clean room.\n\ndetailed_description:\nThe WHITE man stays supported by the same fixed right-side bracket and his other forearm on the existing blue mattress/platform. He glances briefly toward the dark submerged passage behind him, then returns his eyes upward toward the existing CLOSED steel roof; his bracket fingers tighten once and his supported forearm settles. Keep his mouth/nose in air and both support contacts connected. One small shoulder/weight adjustment completes briskly; water ripples naturally below chest. Camera tracks only ten centimetres laterally, keeping his face, bracket hand and resting forearm together in the SAME opening composition; settle without any further pan, orbit, zoom or room reveal. Do not swing past the mattress, expose a doorway above water, introduce pillows/bedding or invent windows. Preserve the existing selected dark background, sealed roof and fixed furniture.\n\noverall_soundscape:\nQuiet water ripples and one soft material contact, no speech, narration, singing, music or vocalizations.\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T16:19:07.446Z",
+        "jobId": "e8cd4a01-914d-4d53-90e3-aa026c0c7d08",
+        "sourceVersionIds": [
+          "S01-F-white-body-v2"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S02-A",
+      "versionId": "S02-A-71ce19de-94d8-4b8c-a004-385e88e66640-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Explicit explanatory cutaway of one inverted cabin, H in actual air zone above level water.\n\nsummary:\n[keyframe completion] One continuous shot: The trapped air explained. Continue current event to Air space and route distinguished.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nRetain the exact actual cast and body parts visible in the opening, including their existing support/contacts. The protagonist has consistently WHITE visible face/body/hands/feet matching the selected image, with dark graphic outlines and cool water reflections where submerged. Keep existing black hair/beard, clothing and equipment where visible; do not add a hidden limb, spare body or new person. Preserve simple round graphic face and the existing dimensional materials.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. Keep this an explicitly illustrative cross-section throughout, one closed upper compartment and submerged lower doorway. H breathes quietly, head stays inside dry air zone with feet/hand support. Water ripples slightly beneath retained air. A short precise camera push exposes solid upper seal and underwater entry, then near-stable view; do not turn cutaway into a literal transparent hull or flood dry face. Physical sound: Quiet water, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nQuiet water. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T13:48:45.296Z",
+        "jobId": "71ce19de-94d8-4b8c-a004-385e88e66640",
+        "sourceVersionIds": [
+          "S02-A-white-body-v2"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S02-B",
+      "versionId": "S02-B-73cf7052-cb52-4fa0-9c8b-43018924772b-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> supplies this one transparent inverted cup, its rigid support rod, fixed horizontal exterior water surface and internal air/water boundary. Preserve the selected explanatory glass/water medium, no people, hands, faces or extra cups.\n\nretention_analysis:\n<Picture 1>: fully_preserved. Cup has CLOSED top and OPEN lower rim, the rim remains submerged. The large transparent region under its closed top is TRAPPED AIR; only the lowest small region by its open rim contains water. Glass stays one rigid connected object.\n\ndetailed_description:\nAn unseen fixed mechanism presses the supported inverted cup only five centimetres DOWN farther into the water in the first second, then holds the achieved deeper position. Camera locks side-on to the tank, external water surface stays at the SAME screen height; the closed cup top moves down relative to that surface and stays BELOW the exterior waterline. The trapped air remains visibly inside the upper80percent of the cup with its internal water surface near the lower rim; increasing pressure may raise that internal meniscus only slightly, never flood the upper cup or vent air. No upward cup lift, bobbing replay, tilt, spill, collapsing glass or water filling the air pocket. A small ripple at the actual displacement settles. Hold the clear result: one intact fully submerged inverted cup containing a large trapped air pocket.\n\noverall_soundscape:\nQuiet water ripples and one soft material contact, no speech, narration, singing, music or vocalizations.\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T16:28:28.801Z",
+        "jobId": "73cf7052-cb52-4fa0-9c8b-43018924772b",
+        "sourceVersionIds": [
+          "S02-B-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S02-C",
+      "versionId": "S02-C-a1d713a2-7b12-4b8c-bbf5-babdf292219e-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing H resting with chin above water in cabin, one palm on support.\n\nsummary:\n[keyframe completion] One continuous shot: The finite refuge. Continue current event to Finite enclosed refuge, no fresh air source.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nRetain the exact actual cast and body parts visible in the opening, including their existing support/contacts. The protagonist has consistently WHITE visible face/body/hands/feet matching the selected image, with dark graphic outlines and cool water reflections where submerged. Keep existing black hair/beard, clothing and equipment where visible; do not add a hidden limb, spare body or new person. Preserve simple round graphic face and the existing dimensional materials.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. H already seated on two supported mattresses. Hand at chest rises/falls with comfortable small breaths; gaze examines low roof then dry air gap and lowers toward unseen doorway, brow tightens as situation registers. No talking or gas clouds. Keep seated hips/feet supported and mouth above water. Near-stable profile framing, one short tilt follows his gaze to enclosed roof then ease-out stops. Purposeful quiet acting, not an urgent action slowed down. Physical sound: Drips and small ripples, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nDrips and small ripples. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T14:23:51.238Z",
+        "jobId": "a1d713a2-7b12-4b8c-bbf5-babdf292219e",
+        "sourceVersionIds": [
+          "S02-C-white-body-v2"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S02-E",
+      "versionId": "S02-E-3cdc5ab5-4d1e-419e-b76a-77807b474f36-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing H above air/water boundary resting on mattress, face in faint cyan reflected light.\n\nsummary:\n[keyframe completion] One continuous shot: Waiting eyes. Continue current event to Listening attention, no smile.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nOnly the existing tight graphic eye/brow/white cheek crop is visible. Maintain the same white face material, tiny plain oval eyes and brow shapes; do not expand to a full body or introduce another face.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. Continue tight graphic face crop: one small head/eye attention shift toward screen-left unseen doorway, brows lift then hold. No new pupils, speaking mouth, detailed nose or camera expansion. Near-stable diagnostic insert with useful change immediately. Physical sound: Quiet drips, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nQuiet drips. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T14:28:31.133Z",
+        "jobId": "3cdc5ab5-4d1e-419e-b76a-77807b474f36",
+        "sourceVersionIds": [
+          "S02-E-white-body-v2"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S02-D2",
+      "versionId": "S02-D2-c3a61395-ae58-4055-a694-6b9bc7a65922-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Two bare hands firmly support wet upper mattress above lower mattress and fixed platform.\n\nsummary:\n[keyframe completion] One continuous shot: Hands bear the load. Continue current event to Load supported, ready to place mattress flat.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nTight diagnostic crop contains only 2 existing WHITE bare cartoon hands and their connected forearms. Preserve the visible hand shapes and white graphic material from the opening. Heads, full bodies and additional hands remain outside the crop. Retain actual support and object contacts.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. Two connected bare hands tighten under upper wet mattress; fabric compresses, drip falls downward. Hold actual load contact and support chain, no floating mattress or extra hand. Near-stable diagnostic view; first pressure change completes promptly and stays. Physical sound: Wet fabric and water, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nWet fabric and water. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T14:33:20.746Z",
+        "jobId": "c3a61395-ae58-4055-a694-6b9bc7a65922",
+        "sourceVersionIds": [
+          "S02-D2-white-body-v2"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S02-D",
+      "versionId": "S02-D-90355699-df23-4a46-b529-5e7d1c44b504-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Two wet mattresses on fixed low platform inside same cabin, H beside it, water waist-high.\n\nsummary:\n[keyframe completion] One continuous shot: A place above the water. Continue current event to Mattress stack bears forearm weight above water.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nRetain the exact actual cast and body parts visible in the opening, including their existing support/contacts. The protagonist has consistently WHITE visible face/body/hands/feet matching the selected image, with dark graphic outlines and cool water reflections where submerged. Keep existing black hair/beard, clothing and equipment where visible; do not add a hidden limb, spare body or new person. Preserve simple round graphic face and the existing dimensional materials.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. Continue halfway-raised mattress: planted foot pushes against fixed submerged step, elbows lift/extend and slide upper mattress forward until it lies fully flat on lower mattress. Hands release only after full supported landing, mattress rebounds once and settles; H rests forearms on finished stack. Main lift/contact/recoil/result within three seconds. Camera tracks the short lift from low side, settles on completed stack; do not loop lifting or let mattress hover. Physical sound: Wet fabric and water, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nWet fabric and water. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T14:38:10.782Z",
+        "jobId": "90355699-df23-4a46-b529-5e7d1c44b504",
+        "sourceVersionIds": [
+          "S02-D-white-body-v2"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S02-F",
+      "versionId": "S02-F-d9b8080f-7680-4001-ba4f-9ee09d6e4cbb-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing One helmeted D diver beside inverted hull exterior, umbilical curves upward, lamp aimed at entry.\n\nsummary:\n[keyframe completion] One continuous shot: The diver descends. Continue current event to D poised at opening, hose continuous.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nOnly the actual subjects visible in the selected opening remain in frame. One fully equipped yellow-helmet/navy-suit diver, connected umbilical and the same submerged wreck; no bare protagonist or other person enters this view.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. D kicks fins decisively toward real opening, braces one glove on rim and draws helmet/shoulders through; hose follows continuously and bends around opening without detaching. Complete entry rather than hovering. Camera follows beside diver for approach then briefly pans along lamp into opening, ease-out on entry result. Bubbles rise world-up, no other person. Physical sound: Muffled bubbles, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nMuffled bubbles. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T14:43:02.292Z",
+        "jobId": "d9b8080f-7680-4001-ba4f-9ee09d6e4cbb",
+        "sourceVersionIds": [
+          "S02-F-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S02-G",
+      "versionId": "S02-G-3016230e-403b-4685-a1b4-10e36ee0d53b-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing D inside submerged inverted corridor; umbilical runs back through entry, no bodies.\n\nsummary:\n[keyframe completion] One continuous shot: The recovery search. Continue current event to Light advances toward refuge.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nOnly the actual subjects visible in the selected opening remain in frame. One fully equipped yellow-helmet/navy-suit diver, connected umbilical and the same submerged wreck; no bare protagonist or other person enters this view.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. D pushes off planted glove and makes two purposeful fin strokes down actual corridor, turns helmet lamp around real left opening after clearing jamb. Hose trails with weight/drag through original entry. Camera retreats ahead of him, then brief ease-out pan follows beam to corner; keep fully submerged corridor and two fins. Do not walk on dry floor or travel through wall. Physical sound: Bubbles and hose against steel, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nBubbles and hose against steel. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T14:57:32.362Z",
+        "jobId": "3016230e-403b-4685-a1b4-10e36ee0d53b",
+        "sourceVersionIds": [
+          "S02-G-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S03-A",
+      "versionId": "S03-A-d905f2a5-d4a2-4fca-9104-b19b2810719f-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing H in air pocket on platform; bright beam now crosses submerged doorway below waterline.\n\nsummary:\n[keyframe completion] One continuous shot: Light at the doorway. Continue current event to H prepares brief swim from air pocket.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nRetain the exact actual cast and body parts visible in the opening, including their existing support/contacts. The protagonist has consistently WHITE visible face/body/hands/feet matching the selected image, with dark graphic outlines and cool water reflections where submerged. Keep existing black hair/beard, clothing and equipment where visible; do not add a hidden limb, spare body or new person. Preserve simple round graphic face and the existing dimensional materials.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. H notices submerged light, turns toward it, transfers weight onto bracket and planted mattress palm, lowers one leg into water then slips torso from platform into water while maintaining support; short push-off follows toward submerged opening. Head stays above surface until committed final brief dip, no breathing underwater. Camera starts over shoulder, brisk but smooth pan follows gaze/light only after body turn, eases out at fully submerged route. Keep solid wall above lowered doorway and same water level. Physical sound: Water displacement, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nWater displacement. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T15:07:07.988Z",
+        "jobId": "d905f2a5-d4a2-4fca-9104-b19b2810719f",
+        "sourceVersionIds": [
+          "S03-A-white-body-v2"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S03-B",
+      "versionId": "S03-B-b5c3ec66-de81-4b82-8f94-472a275d9982-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing H just submerged, no breathing animation; D ahead through open doorway with hose to rear.\n\nsummary:\n[keyframe completion] One continuous shot: Into the water. Continue current event to H right hand within reach of D left glove.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nRetain the exact actual cast and body parts visible in the opening, including their existing support/contacts. The protagonist has consistently WHITE visible face/body/hands/feet matching the selected image, with dark graphic outlines and cool water reflections where submerged. Keep existing black hair/beard, clothing and equipment where visible; do not add a hidden limb, spare body or new person. Preserve simple round graphic face and the existing dimensional materials.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. Fully submerged H holds breath with mouth closed. One committed kick and compact left/right arm balance carry him briskly across remaining gap, extended bare hand approaches open navy glove. D turns helmet toward movement and begins reaching while spare glove stays braced. Preserve actual extended pair of hands from image rather than swapping limbs. Camera follows sideward H approach for about a second then ease-out settles before grasp; bubbles only near diving equipment, no slow-motion hovering. Physical sound: Muffled bubbles and water, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nMuffled bubbles and water. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T15:11:58.997Z",
+        "jobId": "b5c3ec66-de81-4b82-8f94-472a275d9982",
+        "sourceVersionIds": [
+          "S03-B-white-body-v2"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S03-C",
+      "versionId": "S03-C-5a92c885-18a4-41d8-b2f5-46d0731dc768-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> supplies the ONE white graphic cartoon hand and its connected forearm in this tight diagnostic underwater insert. Preserve precisely this hand shape, flat opaque ivory-white fill, black contour, teal painted steel corridor and existing warm lamp beam. Only this one hand is present in the shot.\n\nretention_analysis:\n<Picture 1>: fully_preserved. Keep the existing portrait crop and continuous forearm entering from lower-left, white palm/fingers in centre and fixed lamp at upper-right. Preserve closed steel/water background and lighting. Frame contains just the same one bare hand/forearm, no faces or bodies.\n\ndetailed_description:\nImmediately in the opening half-second the same white fingers make ONE small lively flex toward the lamp beam, then extend back to an open reaching shape and hold. Forearm advances only a few centimetres, wrist remains anatomically connected. This is an unassisted reach before contact; nothing touches or holds the wrist. Keep opaque white cartoon material and existing dark outline throughout, no pink/peach photoreal skin. Camera stays in the same diagnostic close composition, with a tiny forward settle only. Continue quiet water particles; the fixed lamp illuminates the white hand without flaring or revealing additional architecture. The visible cast count stays exactly one hand. No added arm enters the foreground.\n\noverall_soundscape:\nQuiet water ripples and one soft material contact, no speech, narration, singing, music or vocalizations.\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T16:28:34.090Z",
+        "jobId": "5a92c885-18a4-41d8-b2f5-46d0731dc768",
+        "sourceVersionIds": [
+          "S03-C-white-body-v2"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S03-E",
+      "versionId": "S03-E-73ef2c65-cff5-4d9b-9c71-7804f9436a30-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing H in cabin air pocket, supported on mattress; D helmet emerging through water near platform, hose behind.\n\nsummary:\n[keyframe completion] One continuous shot: Two people in the air. Continue current event to Both heads in air pocket; D maintains equipment.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nRetain the exact actual cast and body parts visible in the opening, including their existing support/contacts. The protagonist has consistently WHITE visible face/body/hands/feet matching the selected image, with dark graphic outlines and cool water reflections where submerged. Keep existing black hair/beard, clothing and equipment where visible; do not add a hidden limb, spare body or new person. Preserve simple round graphic face and the existing dimensional materials.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. D helmet already above surface; continue raising shoulders a little farther into air pocket as water drains downward. H turns his gaze toward helmet, brow releases and supported forearm relaxes onto mattress; both heads stay above same level water. Hose remains connected and dips back underwater. Camera makes a short water-level arc only after D steadies, reveals two participants sharing enclosed air then holds. No new face inside opaque viewport, no speaking or extra person. Physical sound: Water off helmet, drips, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nWater off helmet, drips. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T15:36:55.707Z",
+        "jobId": "73ef2c65-cff5-4d9b-9c71-7804f9436a30",
+        "sourceVersionIds": [
+          "S03-E-white-body-v2"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S03-F",
+      "versionId": "S03-F-622a03cf-0f1d-4584-ae09-d6f93af3ae19-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Close detail of rugged pressure gauge fixed to diving transfer equipment, no readable number required.\n\nsummary:\n[keyframe completion] One continuous shot: Pressure still matters. Continue current event to Stable controlled-pressure equipment.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nOnly the actual subjects visible in the selected opening remain in frame. This view contains environment/equipment only; no person, hand or face enters it.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\nDimensional hand-painted 3D toon environment/equipment, painted materials and coherent depth, light stable except for motivated water reflection. Preserve reference medium, rigid supports and actual object count.\n[Shot 1] The shot begins from <Picture 1>. Needle remains nearly steady with tiny physical vibration; single condensation bead descends from metal rim. Mounted gauge/pipe stay rigidly connected, no spinning needle or changing countdown. Stable diagnostic insert, droplet onset prompt. Physical sound: Muted metal room tone, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nMuted metal room tone. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T15:41:47.887Z",
+        "jobId": "622a03cf-0f1d-4584-ae09-d6f93af3ae19",
+        "sourceVersionIds": [
+          "S03-F-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S03-G",
+      "versionId": "S03-G-2ea06627-6832-4f3f-86e3-6a67ee0fe332-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Later recovery ellipsis: H with secured diving mask, D supports his forearm beside open transfer bell underwater; hose connected.\n<Picture 2> is the later result/composition target within this SAME [Shot 1], after the opening action completes; it is not another cut or timed frame lock.\n\nsummary:\n[keyframe completion] One continuous shot: Protected transfer. Continue current event to H inside transfer bell, door unobstructed.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n<Picture 2> (later result in [Shot 1]): retain the result relationship reached by continuous action, not an instant pose switch.\n\ndetailed_description:\nRetain the exact actual cast and body parts visible in the opening, including their existing support/contacts. The protagonist has consistently WHITE visible face/body/hands/feet matching the selected image, with dark graphic outlines and cool water reflections where submerged. Keep existing black hair/beard, clothing and equipment where visible; do not add a hidden limb, spare body or new person. Preserve simple round graphic face and the existing dimensional materials.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. H pulls upward on fixed interior rung while D supports opposite forearm, H bends knees and draws whole torso then both feet upward THROUGH existing open bottom entry into bell. Frame and window remain rigid. D releases supported arm only after H is contained. H face/upper body becomes visible inside upper viewport as camera makes short upward track, eases out on H inside and clear bottom entry, D remains outside with connected umbilical. Complete entry within about three seconds then show result; no body through metal/glass, hanging feet, duplicate H, bell morph, instant teleport or racing to surface. Physical sound: Bubbles, equipment contact, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nBubbles, equipment contact. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T15:47:09.898Z",
+        "jobId": "2ea06627-6832-4f3f-86e3-6a67ee0fe332",
+        "sourceVersionIds": [
+          "S03-G-white-body-v2",
+          "S03-G-result-white-body-v2"
+        ]
+      }
+    },
+    {
+      "assetId": "video-S03-H",
+      "versionId": "S03-H-7f517bf4-f769-4aa5-8ccf-41e3fc9556a0-native",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "Installed MiniMax H3 private IAP API",
+        "model": "MiniMaxH3ReferenceToVideo / Ref2VA non-turbo20steps",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the exact FIRST FRAME: one WHITE graphic cartoon survivor seated on a dry blue bench, wrapped in brown blanket, black boots on steel grating. His two connected white hands rest on blanket and bench. One technician is beyond the existing sealed circular viewport, never inside the chamber. Preserve black hair/beard, simple round graphic eyes, dimensional brown fabric, dry steel and clear motivated warm lamp light.\n\nretention_analysis:\n<Picture 1>: fully_preserved. Keep the SAME WIDE seated portrait composition, entire seated body, both boots, dry grating, bench and viewport visible for this whole take. This is a DRY sealed pressure chamber after transfer. Ordinary downward gravity. There is NO water, pool, tank, reflective liquid, wet floor, floating blanket or submerged hand anywhere in this shot. No table or additional furniture. Do not move camera into a hand insert or change framing to start near a hand.\n\ndetailed_description:\nBegin exactly in this wide image composition. In the first second, the survivor flexes the fingers of the hand ALREADY resting on the brown blanket once, extends them and returns that same hand to rest on the blanket. Keep the other hand planted on the dry blue bench, both boots supported on dry grating. His shoulders lower slightly after this action, then eyes/head turn toward the technician through the existing sealed viewport. Technician gives one small attentive nod. Quiet restrained breathing, no speech or lip synchronization. Keep all contacts, identity and white exposed body stable; no extra hands or people. Camera makes only a small ten-centimetre lateral settle inside the SAME wide composition after the hand settles, then holds. Preserve closed steel roof/walls and existing lamp throughout. Final result is survivor seated dry and safely supported, own hand resting on blanket, gaze toward technician. No replay of gesture.\n\noverall_soundscape:\nVery low nonverbal equipment hum and soft dry blanket rustle. No water sounds, speech, singing or music.\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T16:58:54.910Z",
+        "jobId": "7f517bf4-f769-4aa5-8ccf-41e3fc9556a0",
+        "sourceVersionIds": [
+          "S03-H-white-body-v2"
+        ]
+      }
+    },
+    {
+      "assetId": "fx-assembled-S01",
+      "versionId": "fx-assembled-S01-v1",
+      "kind": "audio",
+      "selected": true,
+      "provenance": {
+        "provider": "Local deterministic signal synthesis",
+        "model": "Noise/sinusoids/envelopes",
+        "tool": "Original foley assembly",
+        "prompt": "Quiet nonverbal effects aligned to reviewed actual contact/source frames. No voice/music/native audio. Listening pending.",
+        "createdAt": "2026-11-03T17:10:44.561Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "fx-assembled-S02",
+      "versionId": "fx-assembled-S02-v1",
+      "kind": "audio",
+      "selected": true,
+      "provenance": {
+        "provider": "Local deterministic signal synthesis",
+        "model": "Noise/sinusoids/envelopes",
+        "tool": "Original foley assembly",
+        "prompt": "Quiet nonverbal effects aligned to reviewed actual contact/source frames. No voice/music/native audio. Listening pending.",
+        "createdAt": "2026-11-03T17:10:44.562Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "fx-assembled-S03",
+      "versionId": "fx-assembled-S03-v1",
+      "kind": "audio",
+      "selected": true,
+      "provenance": {
+        "provider": "Local deterministic signal synthesis",
+        "model": "Noise/sinusoids/envelopes",
+        "tool": "Original foley assembly",
+        "prompt": "Quiet nonverbal effects aligned to reviewed actual contact/source frames. No voice/music/native audio. Listening pending.",
+        "createdAt": "2026-11-03T17:10:44.562Z",
+        "sourceVersionIds": []
+      }
+    }
+  ],
+  "actualSelectedJobReceipts": [
+    {
+      "id": "417abc62-dc35-4985-827f-e99723499142",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing One red-and-cream tug at sea, sharply listing; no people visible.\n\nsummary:\n[keyframe completion] One continuous shot: The ship goes over. Continue current event to Capsized vessel descending.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nOnly the actual subjects visible in the selected opening remain in frame. This view contains environment/equipment only; no person, hand or face enters it.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\nDimensional hand-painted 3D toon environment/equipment, painted materials and coherent depth, light stable except for motivated water reflection. Preserve reference medium, rigid supports and actual object count.\n[Shot 1] The shot begins from <Picture 1>. Begin in committed list. The one rigid tug rolls decisively onto its side over the first three seconds; deck disappears beneath a breaking wave, connected mast and cabin rotate with hull. Buoyant hull then slips down beneath surface rather than exploding. Let foam collapse and disturbed sea remain. No slow motion or resetting ship. Camera starts at low sea level, follows the fast roll with brief tilt/pan, then eases out on disturbed water; horizon remains world-level. Physical sound: Ocean surge, steel stress, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nOcean surge, steel stress. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "05502f64-8021-479a-8605-90f4ce5de7e9"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 15.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 6821101925494130267,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 362,
+      "fps": 24,
+      "actual_duration": 15.083333333333334,
+      "created_at": 1793708181.3935964,
+      "finished_at": 1793709970.8326225,
+      "reference_labels": [
+        "<Picture 1>: 05502f64-8021-479a-8605-90f4ce5de7e9"
+      ]
+    },
+    {
+      "id": "459e0556-b953-4872-b003-e847c85cfd44",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Inside inverted flooded corridor; H reaches toward fixed doorframe.\n\nsummary:\n[keyframe completion] One continuous shot: A hand finds support. Continue current event to Supported hand on rigid frame.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nTight diagnostic crop contains only 1 existing WHITE bare cartoon hand and its connected forearm. Preserve the visible hand shapes and white graphic material from the opening. Heads, full bodies and additional hands remain outside the crop. Retain actual support and object contacts.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. Already gripping the fixed jamb. Fingers tighten once, forearm takes load, one surge strikes wrist and drains. Maintain solid contact and rigid steel. Near-stable diagnostic view, no wandering camera; useful pressure action within first half second, retain result. Physical sound: Water against steel, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nWater against steel. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "aed63a5d-0767-49ee-b081-bf9404365d34"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 6199033838857632867,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793708191.4855723,
+      "finished_at": 1793711124.5923564,
+      "reference_labels": [
+        "<Picture 1>: aed63a5d-0767-49ee-b081-bf9404365d34"
+      ]
+    },
+    {
+      "id": "7a9a8f1c-b0a9-4d2e-a981-0a6c2a74b7b9",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing H in inverted corridor, water up to shoulders, fixed frame within reach.\n\nsummary:\n[keyframe completion] One continuous shot: Through the wreck. Continue current event to H reaches cabin edge.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nRetain the exact actual cast and body parts visible in the opening, including their existing support/contacts. The protagonist has consistently WHITE visible face/body/hands/feet matching the selected image, with dark graphic outlines and cool water reflections where submerged. Keep existing black hair/beard, clothing and equipment where visible; do not add a hidden limb, spare body or new person. Preserve simple round graphic face and the existing dimensional materials.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. Continue existing brace: pull torso firmly through connected doorway toward cabin, one hand transfers from near beam to far jamb only after weight transfers; legs kick/push beneath water, head remains in air while water swells below chin. Complete entry briskly, water slaps frame then settles. Low water-level lateral camera tracks real doorway width, ease-out settles on H inside cabin after pull result, no passage through solid wall. Physical sound: Water slap and steel creak, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nWater slap and steel creak. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "d6ef2add-ed55-4be3-b639-d4ff989534ed"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 11.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 3362235036426881152,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 277,
+      "fps": 24,
+      "actual_duration": 11.541666666666666,
+      "created_at": 1793708196.260706,
+      "finished_at": 1793712211.9069839,
+      "reference_labels": [
+        "<Picture 1>: d6ef2add-ed55-4be3-b639-d4ff989534ed"
+      ]
+    },
+    {
+      "id": "27e14856-af0a-493a-96a4-82491ba7f724",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Cabin wall with waterline below roof, no cast visible.\n\nsummary:\n[keyframe completion] One continuous shot: The boundary. Continue current event to Air remains above horizontal water.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nOnly the actual subjects visible in the selected opening remain in frame. This view contains environment/equipment only; no person, hand or face enters it.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. One small ripple reaches vertical seam, climbs slightly into meniscus then settles back. Droplet falls downward into water. Keep boundary coherent, dry steel above and submerged steel below. Stable diagnostic composition; useful ripple/drip within opening half second, do not tilt horizon. Physical sound: Small ripple, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nSmall ripple. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "de51044c-38e7-4507-83ff-d4cc9f16324c"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 9026107123319423514,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793708201.030271,
+      "finished_at": 1793712500.2795725,
+      "reference_labels": [
+        "<Picture 1>: de51044c-38e7-4507-83ff-d4cc9f16324c"
+      ]
+    },
+    {
+      "id": "2fdc1793-1f21-408d-8f2c-a172d595b44f",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Single inverted red hull rests on seabed, original deck/superstructure beneath hull, water all around.\n\nsummary:\n[keyframe completion] One continuous shot: Thirty metres down. Continue current event to Sealed wreck geography established.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nOnly the actual subjects visible in the selected opening remain in frame. This view contains environment/equipment only; no person, hand or face enters it.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\nDimensional hand-painted 3D toon environment/equipment, painted materials and coherent depth, light stable except for motivated water reflection. Preserve reference medium, rigid supports and actual object count.\n[Shot 1] The shot begins from <Picture 1>. Wreck already rests inverted. Silt drifts outward and begins to settle, small particles rise. Begin low at stern near fixed seabed, short controlled rise exposes red keel above cream superstructure, then stable view establishes total submersion and opaque hull. Do not resurrect or rotate the settled wreck. Physical sound: Muffled underwater ambience, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nMuffled underwater ambience. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "2faec518-56b1-45dd-a9d4-c3cedbcad609"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 10.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 5934870798377910450,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 243,
+      "fps": 24,
+      "actual_duration": 10.125,
+      "created_at": 1793708186.7123318,
+      "finished_at": 1793710834.298794,
+      "reference_labels": [
+        "<Picture 1>: 2faec518-56b1-45dd-a9d4-c3cedbcad609"
+      ]
+    },
+    {
+      "id": "71ce19de-94d8-4b8c-a004-385e88e66640",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Explicit explanatory cutaway of one inverted cabin, H in actual air zone above level water.\n\nsummary:\n[keyframe completion] One continuous shot: The trapped air explained. Continue current event to Air space and route distinguished.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nRetain the exact actual cast and body parts visible in the opening, including their existing support/contacts. The protagonist has consistently WHITE visible face/body/hands/feet matching the selected image, with dark graphic outlines and cool water reflections where submerged. Keep existing black hair/beard, clothing and equipment where visible; do not add a hidden limb, spare body or new person. Preserve simple round graphic face and the existing dimensional materials.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. Keep this an explicitly illustrative cross-section throughout, one closed upper compartment and submerged lower doorway. H breathes quietly, head stays inside dry air zone with feet/hand support. Water ripples slightly beneath retained air. A short precise camera push exposes solid upper seal and underwater entry, then near-stable view; do not turn cutaway into a literal transparent hull or flood dry face. Physical sound: Quiet water, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nQuiet water. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "d1ad3596-c383-47ae-aaf2-f4209ac281fd"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 7.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 776519449830042681,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 175,
+      "fps": 24,
+      "actual_duration": 7.291666666666667,
+      "created_at": 1793708215.4416013,
+      "finished_at": 1793713713.7999873,
+      "reference_labels": [
+        "<Picture 1>: d1ad3596-c383-47ae-aaf2-f4209ac281fd"
+      ]
+    },
+    {
+      "id": "a1d713a2-7b12-4b8c-bbf5-babdf292219e",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing H resting with chin above water in cabin, one palm on support.\n\nsummary:\n[keyframe completion] One continuous shot: The finite refuge. Continue current event to Finite enclosed refuge, no fresh air source.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nRetain the exact actual cast and body parts visible in the opening, including their existing support/contacts. The protagonist has consistently WHITE visible face/body/hands/feet matching the selected image, with dark graphic outlines and cool water reflections where submerged. Keep existing black hair/beard, clothing and equipment where visible; do not add a hidden limb, spare body or new person. Preserve simple round graphic face and the existing dimensional materials.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. H already seated on two supported mattresses. Hand at chest rises/falls with comfortable small breaths; gaze examines low roof then dry air gap and lowers toward unseen doorway, brow tightens as situation registers. No talking or gas clouds. Keep seated hips/feet supported and mouth above water. Near-stable profile framing, one short tilt follows his gaze to enclosed roof then ease-out stops. Purposeful quiet acting, not an urgent action slowed down. Physical sound: Drips and small ripples, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nDrips and small ripples. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "f8dd716f-62a7-41b9-8bbc-146236d202be"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 14.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 7325374792229106136,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 345,
+      "fps": 24,
+      "actual_duration": 14.375,
+      "created_at": 1793708224.9850187,
+      "finished_at": 1793715817.925071,
+      "reference_labels": [
+        "<Picture 1>: f8dd716f-62a7-41b9-8bbc-146236d202be"
+      ]
+    },
+    {
+      "id": "90355699-df23-4a46-b529-5e7d1c44b504",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Two wet mattresses on fixed low platform inside same cabin, H beside it, water waist-high.\n\nsummary:\n[keyframe completion] One continuous shot: A place above the water. Continue current event to Mattress stack bears forearm weight above water.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nRetain the exact actual cast and body parts visible in the opening, including their existing support/contacts. The protagonist has consistently WHITE visible face/body/hands/feet matching the selected image, with dark graphic outlines and cool water reflections where submerged. Keep existing black hair/beard, clothing and equipment where visible; do not add a hidden limb, spare body or new person. Preserve simple round graphic face and the existing dimensional materials.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. Continue halfway-raised mattress: planted foot pushes against fixed submerged step, elbows lift/extend and slide upper mattress forward until it lies fully flat on lower mattress. Hands release only after full supported landing, mattress rebounds once and settles; H rests forearms on finished stack. Main lift/contact/recoil/result within three seconds. Camera tracks the short lift from low side, settles on completed stack; do not loop lifting or let mattress hover. Physical sound: Wet fabric and water, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nWet fabric and water. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "14dd3edb-fc44-4d1f-8f3d-263f0aeebf7f"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 7749785430500766762,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793708239.3931131,
+      "finished_at": 1793716681.1030385,
+      "reference_labels": [
+        "<Picture 1>: 14dd3edb-fc44-4d1f-8f3d-263f0aeebf7f"
+      ]
+    },
+    {
+      "id": "c3a61395-ae58-4055-a694-6b9bc7a65922",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Two bare hands firmly support wet upper mattress above lower mattress and fixed platform.\n\nsummary:\n[keyframe completion] One continuous shot: Hands bear the load. Continue current event to Load supported, ready to place mattress flat.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nTight diagnostic crop contains only 2 existing WHITE bare cartoon hands and their connected forearms. Preserve the visible hand shapes and white graphic material from the opening. Heads, full bodies and additional hands remain outside the crop. Retain actual support and object contacts.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. Two connected bare hands tighten under upper wet mattress; fabric compresses, drip falls downward. Hold actual load contact and support chain, no floating mattress or extra hand. Near-stable diagnostic view; first pressure change completes promptly and stays. Physical sound: Wet fabric and water, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nWet fabric and water. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "d292fca9-df1c-4a3f-b54b-29748efdb87c"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 7370332478488657700,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793708234.5016804,
+      "finished_at": 1793716390.4874365,
+      "reference_labels": [
+        "<Picture 1>: d292fca9-df1c-4a3f-b54b-29748efdb87c"
+      ]
+    },
+    {
+      "id": "3cdc5ab5-4d1e-419e-b76a-77807b474f36",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing H above air/water boundary resting on mattress, face in faint cyan reflected light.\n\nsummary:\n[keyframe completion] One continuous shot: Waiting eyes. Continue current event to Listening attention, no smile.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nOnly the existing tight graphic eye/brow/white cheek crop is visible. Maintain the same white face material, tiny plain oval eyes and brow shapes; do not expand to a full body or introduce another face.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. Continue tight graphic face crop: one small head/eye attention shift toward screen-left unseen doorway, brows lift then hold. No new pupils, speaking mouth, detailed nose or camera expansion. Near-stable diagnostic insert with useful change immediately. Physical sound: Quiet drips, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nQuiet drips. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "6a95f44e-29a2-40c8-928f-5961dd342fe1"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 1838435869286114461,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793708229.6538982,
+      "finished_at": 1793716100.1965086,
+      "reference_labels": [
+        "<Picture 1>: 6a95f44e-29a2-40c8-928f-5961dd342fe1"
+      ]
+    },
+    {
+      "id": "d9b8080f-7680-4001-ba4f-9ee09d6e4cbb",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing One helmeted D diver beside inverted hull exterior, umbilical curves upward, lamp aimed at entry.\n\nsummary:\n[keyframe completion] One continuous shot: The diver descends. Continue current event to D poised at opening, hose continuous.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nOnly the actual subjects visible in the selected opening remain in frame. One fully equipped yellow-helmet/navy-suit diver, connected umbilical and the same submerged wreck; no bare protagonist or other person enters this view.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. D kicks fins decisively toward real opening, braces one glove on rim and draws helmet/shoulders through; hose follows continuously and bends around opening without detaching. Complete entry rather than hovering. Camera follows beside diver for approach then briefly pans along lamp into opening, ease-out on entry result. Bubbles rise world-up, no other person. Physical sound: Muffled bubbles, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nMuffled bubbles. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "6e73d445-810d-4c55-ba00-1b20c96825b5"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 276621232868951876,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793708244.2807472,
+      "finished_at": 1793716971.4021828,
+      "reference_labels": [
+        "<Picture 1>: 6e73d445-810d-4c55-ba00-1b20c96825b5"
+      ]
+    },
+    {
+      "id": "3016230e-403b-4685-a1b4-10e36ee0d53b",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing D inside submerged inverted corridor; umbilical runs back through entry, no bodies.\n\nsummary:\n[keyframe completion] One continuous shot: The recovery search. Continue current event to Light advances toward refuge.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nOnly the actual subjects visible in the selected opening remain in frame. One fully equipped yellow-helmet/navy-suit diver, connected umbilical and the same submerged wreck; no bare protagonist or other person enters this view.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. D pushes off planted glove and makes two purposeful fin strokes down actual corridor, turns helmet lamp around real left opening after clearing jamb. Hose trails with weight/drag through original entry. Camera retreats ahead of him, then brief ease-out pan follows beam to corner; keep fully submerged corridor and two fins. Do not walk on dry floor or travel through wall. Physical sound: Bubbles and hose against steel, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nBubbles and hose against steel. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "7317b147-6e78-4886-9f5c-862d76e2e43b"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 10.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 6673435307101445332,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 243,
+      "fps": 24,
+      "actual_duration": 10.125,
+      "created_at": 1793708249.1852665,
+      "finished_at": 1793717834.3535898,
+      "reference_labels": [
+        "<Picture 1>: 7317b147-6e78-4886-9f5c-862d76e2e43b"
+      ]
+    },
+    {
+      "id": "d905f2a5-d4a2-4fca-9104-b19b2810719f",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing H in air pocket on platform; bright beam now crosses submerged doorway below waterline.\n\nsummary:\n[keyframe completion] One continuous shot: Light at the doorway. Continue current event to H prepares brief swim from air pocket.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nRetain the exact actual cast and body parts visible in the opening, including their existing support/contacts. The protagonist has consistently WHITE visible face/body/hands/feet matching the selected image, with dark graphic outlines and cool water reflections where submerged. Keep existing black hair/beard, clothing and equipment where visible; do not add a hidden limb, spare body or new person. Preserve simple round graphic face and the existing dimensional materials.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. H notices submerged light, turns toward it, transfers weight onto bracket and planted mattress palm, lowers one leg into water then slips torso from platform into water while maintaining support; short push-off follows toward submerged opening. Head stays above surface until committed final brief dip, no breathing underwater. Camera starts over shoulder, brisk but smooth pan follows gaze/light only after body turn, eases out at fully submerged route. Keep solid wall above lowered doorway and same water level. Physical sound: Water displacement, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nWater displacement. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "dba74cb4-28e2-48b6-91f2-ba6cdeee1ef1"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 8.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 4406888541803998204,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 192,
+      "fps": 24,
+      "actual_duration": 8.0,
+      "created_at": 1793708254.0151737,
+      "finished_at": 1793718417.7675667,
+      "reference_labels": [
+        "<Picture 1>: dba74cb4-28e2-48b6-91f2-ba6cdeee1ef1"
+      ]
+    },
+    {
+      "id": "b5c3ec66-de81-4b82-8f94-472a275d9982",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing H just submerged, no breathing animation; D ahead through open doorway with hose to rear.\n\nsummary:\n[keyframe completion] One continuous shot: Into the water. Continue current event to H right hand within reach of D left glove.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nRetain the exact actual cast and body parts visible in the opening, including their existing support/contacts. The protagonist has consistently WHITE visible face/body/hands/feet matching the selected image, with dark graphic outlines and cool water reflections where submerged. Keep existing black hair/beard, clothing and equipment where visible; do not add a hidden limb, spare body or new person. Preserve simple round graphic face and the existing dimensional materials.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. Fully submerged H holds breath with mouth closed. One committed kick and compact left/right arm balance carry him briskly across remaining gap, extended bare hand approaches open navy glove. D turns helmet toward movement and begins reaching while spare glove stays braced. Preserve actual extended pair of hands from image rather than swapping limbs. Camera follows sideward H approach for about a second then ease-out settles before grasp; bubbles only near diving equipment, no slow-motion hovering. Physical sound: Muffled bubbles and water, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nMuffled bubbles and water. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "d56ed51f-dd1d-49d8-9633-e77f678518b2"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 8698819943261295951,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793708258.8518982,
+      "finished_at": 1793718708.4326606,
+      "reference_labels": [
+        "<Picture 1>: d56ed51f-dd1d-49d8-9633-e77f678518b2"
+      ]
+    },
+    {
+      "id": "9eb62c13-4f0d-4802-8bf5-cefb37e84d7e",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing H right hand and D left glove fingertips just meeting, both wrists visible.\n<Picture 2> is the later result/composition target within this SAME [Shot 1], after the opening action completes; it is not another cut or timed frame lock.\n\nsummary:\n[keyframe completion] One continuous shot: Grips back. Continue current event to Mutual living grip achieved.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n<Picture 2> (later result in [Shot 1]): retain the result relationship reached by continuous action, not an instant pose switch.\n\ndetailed_description:\nKeep clearly motivated face and contact lighting with useful shadow detail and readable expressions/grips. Retain the selected graphic face and existing dimensional hand/hair/clothing/set materials. Follow the planned purposeful camera path for its reveal; there is no percent-stable camera quota. Decisive subject actions finish briskly at natural real-time speed, with task-directed grip/weight/eye/brow micro-acting. Camera smoothness does not slow the actor.\nProtagonist has a consistently WHITE head and fully WHITE exposed body, including neck, torso, shoulders, both arms/hands/fingers, legs and feet. All skin is the same flat neutral ivory-white graphic material with dark outlines; submerged white remains white under cool cyan reflections. No tan, peach, brown or pink flesh color, realistic skin texture, added white clothing, or body-color drift during movement. Preserve black hair/beard/eyes, maroon shorts and equipment colors.\nHybrid flat graphic cartoon people with ivory round heads, tiny plain black oval eyes, firm dark outlines and flat black hair/costume shapes, integrated into dimensional hand-painted 3D toon sets with real depth and contact shadows. Preserve actual selected design; no sculpted realistic human face. Light/material changes only follow lamp/water/movement.\n[Shot 1] The shot begins from <Picture 1>. Continue actual near-touch phase. Bare fingers close firmly around navy glove, glove responds with one secure mutual handclasp. Both wrists remain separate and anatomically connected to their own forearms. D recoils only a few centimetres in surprise, then steadies while clasp stays visibly closed. Reach/contact within first second, recoil/recovery next, show held living grip clearly before camera attention changes. Camera holds contact through completion then short ease-out tilt reveals more yellow helmet without hiding joined hands; no pose morph, dissolves, duplicate hands or replay. Physical sound: Fabric contact, bubbles, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nFabric contact, bubbles. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "aa502fcb-8df6-4bc3-84bc-91c4f1adb63a",
+          "18c7d40c-7cac-4993-91a5-51bcfabe24cc"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 4503964705553514033,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793706490.6492443,
+      "finished_at": 1793706877.0518625,
+      "reference_labels": [
+        "<Picture 1>: aa502fcb-8df6-4bc3-84bc-91c4f1adb63a",
+        "<Picture 2>: 18c7d40c-7cac-4993-91a5-51bcfabe24cc"
+      ]
+    },
+    {
+      "id": "73ef2c65-cff5-4d9b-9c71-7804f9436a30",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing H in cabin air pocket, supported on mattress; D helmet emerging through water near platform, hose behind.\n\nsummary:\n[keyframe completion] One continuous shot: Two people in the air. Continue current event to Both heads in air pocket; D maintains equipment.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nRetain the exact actual cast and body parts visible in the opening, including their existing support/contacts. The protagonist has consistently WHITE visible face/body/hands/feet matching the selected image, with dark graphic outlines and cool water reflections where submerged. Keep existing black hair/beard, clothing and equipment where visible; do not add a hidden limb, spare body or new person. Preserve simple round graphic face and the existing dimensional materials.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. D helmet already above surface; continue raising shoulders a little farther into air pocket as water drains downward. H turns his gaze toward helmet, brow releases and supported forearm relaxes onto mattress; both heads stay above same level water. Hose remains connected and dips back underwater. Camera makes a short water-level arc only after D steadies, reveals two participants sharing enclosed air then holds. No new face inside opaque viewport, no speaking or extra person. Physical sound: Water off helmet, drips, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nWater off helmet, drips. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "69480ed6-f844-4b68-a343-70691ec50878"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 12.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 1411284072601605487,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 294,
+      "fps": 24,
+      "actual_duration": 12.25,
+      "created_at": 1793708268.4347963,
+      "finished_at": 1793720203.806799,
+      "reference_labels": [
+        "<Picture 1>: 69480ed6-f844-4b68-a343-70691ec50878"
+      ]
+    },
+    {
+      "id": "622a03cf-0f1d-4584-ae09-d6f93af3ae19",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Close detail of rugged pressure gauge fixed to diving transfer equipment, no readable number required.\n\nsummary:\n[keyframe completion] One continuous shot: Pressure still matters. Continue current event to Stable controlled-pressure equipment.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n\ndetailed_description:\nOnly the actual subjects visible in the selected opening remain in frame. This view contains environment/equipment only; no person, hand or face enters it.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\nDimensional hand-painted 3D toon environment/equipment, painted materials and coherent depth, light stable except for motivated water reflection. Preserve reference medium, rigid supports and actual object count.\n[Shot 1] The shot begins from <Picture 1>. Needle remains nearly steady with tiny physical vibration; single condensation bead descends from metal rim. Mounted gauge/pipe stay rigidly connected, no spinning needle or changing countdown. Stable diagnostic insert, droplet onset prompt. Physical sound: Muted metal room tone, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nMuted metal room tone. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "882fa1e1-0fc9-4be4-815b-6d233243504b"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 4846931984709948836,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793708273.2560372,
+      "finished_at": 1793720494.090369,
+      "reference_labels": [
+        "<Picture 1>: 882fa1e1-0fc9-4be4-815b-6d233243504b"
+      ]
+    },
+    {
+      "id": "2ea06627-6832-4f3f-86e3-6a67ee0fe332",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Later recovery ellipsis: H with secured diving mask, D supports his forearm beside open transfer bell underwater; hose connected.\n<Picture 2> is the later result/composition target within this SAME [Shot 1], after the opening action completes; it is not another cut or timed frame lock.\n\nsummary:\n[keyframe completion] One continuous shot: Protected transfer. Continue current event to H inside transfer bell, door unobstructed.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve actual cast, set, support contacts, objects and graphic medium while continuing the current action.\n<Picture 2> (later result in [Shot 1]): retain the result relationship reached by continuous action, not an instant pose switch.\n\ndetailed_description:\nRetain the exact actual cast and body parts visible in the opening, including their existing support/contacts. The protagonist has consistently WHITE visible face/body/hands/feet matching the selected image, with dark graphic outlines and cool water reflections where submerged. Keep existing black hair/beard, clothing and equipment where visible; do not add a hidden limb, spare body or new person. Preserve simple round graphic face and the existing dimensional materials.\nMotivated light keeps the current subject and its contacts readable with useful shadow detail. Continue the saved purposeful camera path and brisk real-time action; camera smoothness does not slow the actor.\n[Shot 1] The shot begins from <Picture 1>. H pulls upward on fixed interior rung while D supports opposite forearm, H bends knees and draws whole torso then both feet upward THROUGH existing open bottom entry into bell. Frame and window remain rigid. D releases supported arm only after H is contained. H face/upper body becomes visible inside upper viewport as camera makes short upward track, eases out on H inside and clear bottom entry, D remains outside with connected umbilical. Complete entry within about three seconds then show result; no body through metal/glass, hanging feet, duplicate H, bell morph, instant teleport or racing to surface. Physical sound: Bubbles, equipment contact, at its visible cause. Extra native handle continues achieved state without repeating action.\n\noverall_soundscape:\nBubbles, equipment contact. Synchronized material sounds only, quiet restrained ambience. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "0c047fe1-057c-4136-aea4-6c15a6d92837",
+          "ef7c2731-74ab-4d87-967d-5697a7b631e0"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 3903006524330753058,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793708278.9824374,
+      "finished_at": 1793720813.4610941,
+      "reference_labels": [
+        "<Picture 1>: 0c047fe1-057c-4136-aea4-6c15a6d92837",
+        "<Picture 2>: ef7c2731-74ab-4d87-967d-5697a7b631e0"
+      ]
+    },
+    {
+      "id": "99474f07-06ae-45a8-b57e-a10cd55a5d45",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame and exact appearance, body, connected hands, set and lighting reference for this one continuous shot. Preserve the illustrated WHITE cartoon man with simple black eyes, black hair/beard, dark outlines and dimensional painted steel/water. Retain the actual visible body parts; bare skin remains opaque neutral white under cool reflections, never peach photoreal skin. Keep one man, two connected arms/hands, two legs. No new person or foreground hand.\n\nretention_analysis:\n<Picture 1>: fully_preserved. This is a sealed air pocket inside an inverted wreck deep underwater. Solid opaque rusted steel encloses the entire overhead space. Keep existing beams, closed panels and fixed supports in exactly their opening relationship. Air is only inside above the same horizontal waterline; the ocean is outside steel. No roof opens, no skylight, sky, sunlight hole, new room, porthole or changing architecture. Existing set stays wet/rusted and never turns into a furnished clean room.\n\ndetailed_description:\nThe WHITE man's nose and mouth already clear the water. He raises his chin a few centimetres in one prompt real-time settling motion, brow softens once, and the existing hand tightens on the same fixed bracket. Shoulder/neck tension settles; gentle breathing moves his chest without speech or exaggerated vapor. Camera makes only a very short lateral tracking settle within the SAME close head/hand framing, then holds this achieved supported pose. Do not tilt upward, zoom out or expose additional ceiling. Joined hand/bracket contact remains clear, face stays above water and cool reflected light stays readable. Ripples move below chest, no bubbles from mouth. The overhead steel remains completely sealed throughout.\n\noverall_soundscape:\nQuiet water ripples and one soft material contact, no speech, narration, singing, music or vocalizations.\nnon_diegetic_music:\nNone.",
+        "images": [
+          "03e1a73c-f0fc-4f2f-bf1d-2a87debdfe9a"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 7878209754442913346,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793714327.9748895,
+      "finished_at": 1793721969.6157434,
+      "reference_labels": [
+        "<Picture 1>: 03e1a73c-f0fc-4f2f-bf1d-2a87debdfe9a"
+      ]
+    },
+    {
+      "id": "e8cd4a01-914d-4d53-90e3-aa026c0c7d08",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame and exact appearance, body, connected hands, set and lighting reference for this one continuous shot. Preserve the illustrated WHITE cartoon man with simple black eyes, black hair/beard, dark outlines and dimensional painted steel/water. Retain the actual visible body parts; bare skin remains opaque neutral white under cool reflections, never peach photoreal skin. Keep one man, two connected arms/hands, two legs. No new person or foreground hand.\n\nretention_analysis:\n<Picture 1>: fully_preserved. This is a sealed air pocket inside an inverted wreck deep underwater. Solid opaque rusted steel encloses the entire overhead space. Keep existing beams, closed panels and fixed supports in exactly their opening relationship. Air is only inside above the same horizontal waterline; the ocean is outside steel. No roof opens, no skylight, sky, sunlight hole, new room, porthole or changing architecture. Existing set stays wet/rusted and never turns into a furnished clean room.\n\ndetailed_description:\nThe WHITE man stays supported by the same fixed right-side bracket and his other forearm on the existing blue mattress/platform. He glances briefly toward the dark submerged passage behind him, then returns his eyes upward toward the existing CLOSED steel roof; his bracket fingers tighten once and his supported forearm settles. Keep his mouth/nose in air and both support contacts connected. One small shoulder/weight adjustment completes briskly; water ripples naturally below chest. Camera tracks only ten centimetres laterally, keeping his face, bracket hand and resting forearm together in the SAME opening composition; settle without any further pan, orbit, zoom or room reveal. Do not swing past the mattress, expose a doorway above water, introduce pillows/bedding or invent windows. Preserve the existing selected dark background, sealed roof and fixed furniture.\n\noverall_soundscape:\nQuiet water ripples and one soft material contact, no speech, narration, singing, music or vocalizations.\nnon_diegetic_music:\nNone.",
+        "images": [
+          "b3f28aab-1004-4237-a2e6-ea5e841d75fa"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 6.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 1470644201256627881,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 158,
+      "fps": 24,
+      "actual_duration": 6.583333333333333,
+      "created_at": 1793714331.4568498,
+      "finished_at": 1793722393.492015,
+      "reference_labels": [
+        "<Picture 1>: b3f28aab-1004-4237-a2e6-ea5e841d75fa"
+      ]
+    },
+    {
+      "id": "73cf7052-cb52-4fa0-9c8b-43018924772b",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> supplies this one transparent inverted cup, its rigid support rod, fixed horizontal exterior water surface and internal air/water boundary. Preserve the selected explanatory glass/water medium, no people, hands, faces or extra cups.\n\nretention_analysis:\n<Picture 1>: fully_preserved. Cup has CLOSED top and OPEN lower rim, the rim remains submerged. The large transparent region under its closed top is TRAPPED AIR; only the lowest small region by its open rim contains water. Glass stays one rigid connected object.\n\ndetailed_description:\nAn unseen fixed mechanism presses the supported inverted cup only five centimetres DOWN farther into the water in the first second, then holds the achieved deeper position. Camera locks side-on to the tank, external water surface stays at the SAME screen height; the closed cup top moves down relative to that surface and stays BELOW the exterior waterline. The trapped air remains visibly inside the upper80percent of the cup with its internal water surface near the lower rim; increasing pressure may raise that internal meniscus only slightly, never flood the upper cup or vent air. No upward cup lift, bobbing replay, tilt, spill, collapsing glass or water filling the air pocket. A small ripple at the actual displacement settles. Hold the clear result: one intact fully submerged inverted cup containing a large trapped air pocket.\n\noverall_soundscape:\nQuiet water ripples and one soft material contact, no speech, narration, singing, music or vocalizations.\nnon_diegetic_music:\nNone.",
+        "images": [
+          "52fca3d5-97fc-40f9-af8b-8ebb87da0222"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 7.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 3943918390754093883,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 175,
+      "fps": 24,
+      "actual_duration": 7.291666666666667,
+      "created_at": 1793715151.9096384,
+      "finished_at": 1793722892.5155709,
+      "reference_labels": [
+        "<Picture 1>: 52fca3d5-97fc-40f9-af8b-8ebb87da0222"
+      ]
+    },
+    {
+      "id": "5a92c885-18a4-41d8-b2f5-46d0731dc768",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> supplies the ONE white graphic cartoon hand and its connected forearm in this tight diagnostic underwater insert. Preserve precisely this hand shape, flat opaque ivory-white fill, black contour, teal painted steel corridor and existing warm lamp beam. Only this one hand is present in the shot.\n\nretention_analysis:\n<Picture 1>: fully_preserved. Keep the existing portrait crop and continuous forearm entering from lower-left, white palm/fingers in centre and fixed lamp at upper-right. Preserve closed steel/water background and lighting. Frame contains just the same one bare hand/forearm, no faces or bodies.\n\ndetailed_description:\nImmediately in the opening half-second the same white fingers make ONE small lively flex toward the lamp beam, then extend back to an open reaching shape and hold. Forearm advances only a few centimetres, wrist remains anatomically connected. This is an unassisted reach before contact; nothing touches or holds the wrist. Keep opaque white cartoon material and existing dark outline throughout, no pink/peach photoreal skin. Camera stays in the same diagnostic close composition, with a tiny forward settle only. Continue quiet water particles; the fixed lamp illuminates the white hand without flaring or revealing additional architecture. The visible cast count stays exactly one hand. No added arm enters the foreground.\n\noverall_soundscape:\nQuiet water ripples and one soft material contact, no speech, narration, singing, music or vocalizations.\nnon_diegetic_music:\nNone.",
+        "images": [
+          "b7146f4b-6319-4593-bc4d-f519295a1960"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 507181297723508390,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793719537.0716496,
+      "finished_at": 1793723180.791328,
+      "reference_labels": [
+        "<Picture 1>: b7146f4b-6319-4593-bc4d-f519295a1960"
+      ]
+    },
+    {
+      "id": "7f517bf4-f769-4aa5-8ccf-41e3fc9556a0",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the exact FIRST FRAME: one WHITE graphic cartoon survivor seated on a dry blue bench, wrapped in brown blanket, black boots on steel grating. His two connected white hands rest on blanket and bench. One technician is beyond the existing sealed circular viewport, never inside the chamber. Preserve black hair/beard, simple round graphic eyes, dimensional brown fabric, dry steel and clear motivated warm lamp light.\n\nretention_analysis:\n<Picture 1>: fully_preserved. Keep the SAME WIDE seated portrait composition, entire seated body, both boots, dry grating, bench and viewport visible for this whole take. This is a DRY sealed pressure chamber after transfer. Ordinary downward gravity. There is NO water, pool, tank, reflective liquid, wet floor, floating blanket or submerged hand anywhere in this shot. No table or additional furniture. Do not move camera into a hand insert or change framing to start near a hand.\n\ndetailed_description:\nBegin exactly in this wide image composition. In the first second, the survivor flexes the fingers of the hand ALREADY resting on the brown blanket once, extends them and returns that same hand to rest on the blanket. Keep the other hand planted on the dry blue bench, both boots supported on dry grating. His shoulders lower slightly after this action, then eyes/head turn toward the technician through the existing sealed viewport. Technician gives one small attentive nod. Quiet restrained breathing, no speech or lip synchronization. Keep all contacts, identity and white exposed body stable; no extra hands or people. Camera makes only a small ten-centimetre lateral settle inside the SAME wide composition after the hand settles, then holds. Preserve closed steel roof/walls and existing lamp throughout. Final result is survivor seated dry and safely supported, own hand resting on blanket, gaze toward technician. No replay of gesture.\n\noverall_soundscape:\nVery low nonverbal equipment hum and soft dry blanket rustle. No water sounds, speech, singing or music.\nnon_diegetic_music:\nNone.",
+        "images": [
+          "dc20f7ef-28e3-4101-8548-8676057ba9e5"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 10.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 4922594273673227491,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 243,
+      "fps": 24,
+      "actual_duration": 10.125,
+      "created_at": 1793723206.870465,
+      "finished_at": 1793724116.703049,
+      "reference_labels": [
+        "<Picture 1>: dc20f7ef-28e3-4101-8548-8676057ba9e5"
+      ]
+    }
+  ],
+  "note": "Original prompt/request/seed and actual IDs retained. This is not authorization to resubmit. Original binary inputs come from the external archive."
+}

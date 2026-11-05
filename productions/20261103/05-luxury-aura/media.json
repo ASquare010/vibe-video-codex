@@ -1,0 +1,92 @@
+[
+  {
+    "assetId": "luxury-score-original-v1",
+    "versionId": "luxury-score-original-v1-source",
+    "kind": "audio",
+    "path": "media/audio/luxury-groove-original-v1.wav",
+    "usedInRender": true,
+    "bytes": 8064044,
+    "sha256": "05d637e859e86ec468f31f351a6fc00db60124e07a9cf6ac34f175a4139e5099",
+    "archiveMember": "media/05d637e859e86ec468f31f351a6fc00db60124e07a9cf6ac34f175a4139e5099.wav"
+  },
+  {
+    "assetId": "luxury-fx-source-1-v1",
+    "versionId": "luxury-fx-source-1-v1-source",
+    "kind": "audio",
+    "path": "media/audio/soft-paw-source-v1.wav",
+    "usedInRender": true,
+    "bytes": 38444,
+    "sha256": "b9ab467d76c18e7bb5a98c3c902947e2cfa14f31102a4abda1f2fd222347d1e9",
+    "archiveMember": "media/b9ab467d76c18e7bb5a98c3c902947e2cfa14f31102a4abda1f2fd222347d1e9.wav"
+  },
+  {
+    "assetId": "luxury-fx-source-2-v1",
+    "versionId": "luxury-fx-source-2-v1-source",
+    "kind": "audio",
+    "path": "media/audio/soft-fabric-source-v1.wav",
+    "usedInRender": true,
+    "bytes": 105644,
+    "sha256": "43219658e19c038dc091b4c8250d343489694370c0e63879d0a53a664d715be2",
+    "archiveMember": "media/43219658e19c038dc091b4c8250d343489694370c0e63879d0a53a664d715be2.wav"
+  },
+  {
+    "assetId": "S01-A-opening-image-v1",
+    "versionId": "S01-A-opening-image-v1-source",
+    "kind": "image",
+    "path": "media/images/S01-A-opening-v1.png",
+    "usedInRender": false,
+    "bytes": 2415791,
+    "sha256": "66d0372befadeec79cd834f4b6937694eb7f15b632eeee5b4c371500de2d2bac",
+    "archiveMember": "media/66d0372befadeec79cd834f4b6937694eb7f15b632eeee5b4c371500de2d2bac.png"
+  },
+  {
+    "assetId": "S01-B-opening-image-v1",
+    "versionId": "S01-B-opening-image-v1-source",
+    "kind": "image",
+    "path": "media/images/S01-B-opening-v1.png",
+    "usedInRender": false,
+    "bytes": 2130172,
+    "sha256": "e7badbba56b92787ff14ffa36a951f00472f023f7fd15f88aad0ba8994119b20",
+    "archiveMember": "media/e7badbba56b92787ff14ffa36a951f00472f023f7fd15f88aad0ba8994119b20.png"
+  },
+  {
+    "assetId": "S01-C-opening-image-v1",
+    "versionId": "S01-C-opening-image-v1-source",
+    "kind": "image",
+    "path": "media/images/S01-C-opening-v1.png",
+    "usedInRender": false,
+    "bytes": 2287302,
+    "sha256": "99c72b00e4e9106af09201bda88d116c0d13390a9dee6643e3f06f147c5e8f33",
+    "archiveMember": "media/99c72b00e4e9106af09201bda88d116c0d13390a9dee6643e3f06f147c5e8f33.png"
+  },
+  {
+    "assetId": "native-S01-C",
+    "versionId": "S01-C-73c2b848-1b98-40a4-bc4f-c070a352cfd3",
+    "kind": "video",
+    "path": "media/video/S01-C-v1.mp4",
+    "usedInRender": true,
+    "bytes": 7320594,
+    "sha256": "0614d47679c8eef8ec64f73f03c9463f39351608fc66c45f1d7c3310370e5e35",
+    "archiveMember": "media/0614d47679c8eef8ec64f73f03c9463f39351608fc66c45f1d7c3310370e5e35.mp4"
+  },
+  {
+    "assetId": "native-S01-A",
+    "versionId": "S01-A-0e6704e4-dc8a-46db-ad79-2bbeffc8cbe4",
+    "kind": "video",
+    "path": "media/video/S01-A-v1.mp4",
+    "usedInRender": true,
+    "bytes": 7407869,
+    "sha256": "4e559bb0ae15c92cc0b188a7ae04854d3e6f55d9e8e1f96d571d075ffdae4f2e",
+    "archiveMember": "media/4e559bb0ae15c92cc0b188a7ae04854d3e6f55d9e8e1f96d571d075ffdae4f2e.mp4"
+  },
+  {
+    "assetId": "native-S01-B",
+    "versionId": "S01-B-5a41c0db-1b4e-4620-8f0c-980efdbda49e",
+    "kind": "video",
+    "path": "media/video/S01-B-v3.mp4",
+    "usedInRender": true,
+    "bytes": 8913066,
+    "sha256": "c366097052bfebb5515bf25857b3b61ff9f1ec007d098fd538c68a8b889c08ac",
+    "archiveMember": "media/c366097052bfebb5515bf25857b3b61ff9f1ec007d098fd538c68a8b889c08ac.mp4"
+  }
+]

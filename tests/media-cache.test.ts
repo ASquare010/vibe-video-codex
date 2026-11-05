@@ -1,0 +1,6 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs/promises';import path from 'node:path';import {ProjectStore} from '../server/store.ts';import {newProject,id,type Asset} from '../shared/project.ts';
+test('video range authorization reuses the media index and refreshes after a manifest change',async()=>{
+ const root=await fs.mkdtemp(path.resolve('data/media-cache-test-')),store=new ProjectStore(root),p=newProject('Cache'),v=id();const a:Asset={id:id(),sceneId:p.scenes[0].id,name:'movie',kind:'video',outdated:false,activeVersionId:v,versions:[{id:v,path:'media/movie.mp4',durationFrames:30,provenance:{prompt:'',createdAt:'now',sourceVersionIds:[]}}]};p.assets.push(a);await store.create(p);await fs.writeFile(path.join(store.folder(p.id),'media/movie.mp4'),'fixture');let reads=0;const read=store.read.bind(store);store.read=async id=>{reads++;return read(id);};
+ const files=await Promise.all(Array.from({length:8},()=>store.mediaFile(p.id,'media/movie.mp4')));assert.ok(files.every(f=>f.endsWith('movie.mp4')));assert.equal(reads,1);await assert.rejects(store.mediaFile(p.id,'../project.json'),/not registered/);
+ await store.mutate(p.id,p=>{p.assets=[];});const count=reads;await assert.rejects(store.mediaFile(p.id,'media/movie.mp4'),/not registered/);assert.equal(reads,count+1);
+});

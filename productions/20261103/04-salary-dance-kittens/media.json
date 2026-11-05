@@ -1,0 +1,102 @@
+[
+  {
+    "assetId": "S01-A-opening",
+    "versionId": "S01-A-opening-v1",
+    "kind": "image",
+    "path": "media/salary-v1/S01-A-opening.png",
+    "usedInRender": false,
+    "bytes": 2474816,
+    "sha256": "8b0fe1f699ec535dda0e106ed4447b2a1050c8563fca62e9a259a761160a9926",
+    "archiveMember": "media/8b0fe1f699ec535dda0e106ed4447b2a1050c8563fca62e9a259a761160a9926.png"
+  },
+  {
+    "assetId": "S01-B-opening",
+    "versionId": "S01-B-opening-v1",
+    "kind": "image",
+    "path": "media/salary-v1/S01-B-opening.png",
+    "usedInRender": false,
+    "bytes": 2481742,
+    "sha256": "dcbd542dd678e292db3ac92d25fcf3b244d0d7055e2dd12441ee1af7e1bbc3bb",
+    "archiveMember": "media/dcbd542dd678e292db3ac92d25fcf3b244d0d7055e2dd12441ee1af7e1bbc3bb.png"
+  },
+  {
+    "assetId": "S01-B-result",
+    "versionId": "S01-B-result-v1",
+    "kind": "image",
+    "path": "media/salary-v1/S01-B-result.png",
+    "usedInRender": false,
+    "bytes": 2300975,
+    "sha256": "398fa6b878a3628c889cc9d78a91455381ae82ad378de750faf5b0e089b7c350",
+    "archiveMember": "media/398fa6b878a3628c889cc9d78a91455381ae82ad378de750faf5b0e089b7c350.png"
+  },
+  {
+    "assetId": "kitten-ref-1",
+    "versionId": "kitten-ref-1-v1",
+    "kind": "image",
+    "path": "media/after-payday-kittens-20261104/01-paws-on-cheeks.png",
+    "usedInRender": false,
+    "bytes": 2041206,
+    "sha256": "0a3ec19b1f84f9a3f1cadf6cb77d85657cbd6c3d3b1b46dcfa8a7f6a2ad75311",
+    "archiveMember": "media/0a3ec19b1f84f9a3f1cadf6cb77d85657cbd6c3d3b1b46dcfa8a7f6a2ad75311.png"
+  },
+  {
+    "assetId": "kitten-ref-2",
+    "versionId": "kitten-ref-2-v1",
+    "kind": "image",
+    "path": "media/after-payday-kittens-20261104/02-paws-down-face-stretch.png",
+    "usedInRender": false,
+    "bytes": 2094097,
+    "sha256": "d7e8d51bbcf3c7f188c0c804522da439dc764dac82a6b05bf934368ced38ae23",
+    "archiveMember": "media/d7e8d51bbcf3c7f188c0c804522da439dc764dac82a6b05bf934368ced38ae23.png"
+  },
+  {
+    "assetId": "kitten-score",
+    "versionId": "kitten-score-v1",
+    "kind": "audio",
+    "path": "media/after-payday-kittens-20261104/kitten-spooky-groove-original-112bpm-30s.wav",
+    "usedInRender": true,
+    "bytes": 5760044,
+    "sha256": "f26205572ad6128bbac1c59d29842a0a0ea9235ce3798f8aaac5aa357d0a247e",
+    "archiveMember": "media/f26205572ad6128bbac1c59d29842a0a0ea9235ce3798f8aaac5aa357d0a247e.wav"
+  },
+  {
+    "assetId": "kitten-cheek-fx",
+    "versionId": "kitten-cheek-fx-v1",
+    "kind": "audio",
+    "path": "media/after-payday-kittens-20261104/soft-cheek-fur-brush-original-source.wav",
+    "usedInRender": true,
+    "bytes": 105644,
+    "sha256": "f0297644f98e4d5934f08c15aa4f94ccdf43efadb237c35acddb7eab543f5622",
+    "archiveMember": "media/f0297644f98e4d5934f08c15aa4f94ccdf43efadb237c35acddb7eab543f5622.wav"
+  },
+  {
+    "assetId": "kitten-paw-fx",
+    "versionId": "kitten-paw-fx-v1",
+    "kind": "audio",
+    "path": "media/after-payday-kittens-20261104/soft-paw-original-source.wav",
+    "usedInRender": true,
+    "bytes": 30764,
+    "sha256": "c33d392b2ad8382acde456f0560ecb87ecd164dc4e936d7169ac6e220acdf83b",
+    "archiveMember": "media/c33d392b2ad8382acde456f0560ecb87ecd164dc4e936d7169ac6e220acdf83b.wav"
+  },
+  {
+    "assetId": "native-after-payday-kittens-20261104-S01-A",
+    "versionId": "S01-A-492d3008-43d8-4348-8e94-7a7ced574f79",
+    "kind": "video",
+    "path": "media/video/after-payday-kittens-20261104/S01-A-v1.mp4",
+    "usedInRender": true,
+    "bytes": 6832844,
+    "sha256": "2f86414be0c737e02d6d0d52247077868ca2c5e2c505a14223ca7fa62348f22c",
+    "archiveMember": "media/2f86414be0c737e02d6d0d52247077868ca2c5e2c505a14223ca7fa62348f22c.mp4"
+  },
+  {
+    "assetId": "native-after-payday-kittens-20261104-S01-B",
+    "versionId": "S01-B-e62826b6-b225-4add-aa8d-65b858d07502",
+    "kind": "video",
+    "path": "media/video/after-payday-kittens-20261104/S01-B-v3.mp4",
+    "usedInRender": true,
+    "bytes": 5887796,
+    "sha256": "a974bb8746022da4e854fcf391cbe44fd24eaaab393e04c25041773c882a33e1",
+    "archiveMember": "media/a974bb8746022da4e854fcf391cbe44fd24eaaab393e04c25041773c882a33e1.mp4"
+  }
+]

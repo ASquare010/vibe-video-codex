@@ -81,7 +81,7 @@ export function nextProductionTask(p: Project): { action: Job['action']; sceneId
     const audio = p.assets.find(a => a.id === scene.audioAssetId && a.kind === 'audio' && !a.archived);
     if (!audio || audio.outdated || !activeVersion(audio).durationFrames) return {
       action: 'audio', sceneId: scene.id,
-      instructions: `Generate the complete approved narration for scene ${scene.title}. Use its exact words and spoken/audio direction plus the project skill. Return one real measured audio file for this scene. Preserve the narrator identity. All scene narration must finish before any new visuals.`,
+      instructions: `Generate the complete approved narration for scene ${scene.title}. Use its exact words and spoken/audio direction plus the project skill. ${usesAudioLedCuts(p)?'Prepare the new take with scripts/prepare_narration.py by default before selection: remove excessive quiet gaps using the saved narrator preset at tempo 1.0, preserve brief natural phrasing/breaths and specifically protected holds, retain the raw source and exact edit map, and add no generic scene padding. Return the prepared measured narration, not an unchecked raw take. Do not alter existing accepted audio without creator authorization. ':''}Return one real measured audio file for this scene. Preserve the narrator identity. All scene narration must finish before any new visuals.`,
     };
   }
   if (usesAudioLedCuts(p)) {

@@ -1,0 +1,1565 @@
+{
+  "provenance": [
+    {
+      "assetId": "audio-S01",
+      "versionId": "S01-v2-prepared-v1",
+      "kind": "audio",
+      "selected": true,
+      "provenance": {
+        "provider": "Higgsfield",
+        "model": "seed_audio",
+        "tool": "generate_audio",
+        "prompt": "One isolated male Holden voice, a dry conversational historical storyteller. Begin directly with \"The U.S. Army\". No introduction, no instructions spoken, no other voices, music or effects. Speak every word between NARRATION START and NARRATION END exactly once, with clear connected phrasing and a curious, restrained tone. End immediately after \"move\".\nNARRATION START\nThe U.S. Army fooled German forces with inflatable tanks and fake battle sounds. In nineteen forty-four, a secret American unit arrives in Europe with a strange job: make the enemy see an army that isn't there. Its official name is the Twenty-third Headquarters Special Troops. Today, we call it the Ghost Army. These are real soldiers, including artists, engineers, radio operators, and sound technicians. But some of their heavy equipment can be folded up. Crews unpack rubber decoys, spread them across the ground, and pump them into the shapes of tanks and other military vehicles. From nearby, the trick looks almost ridiculous. A few men can pick up a tank. From an enemy reconnaissance aircraft, the same shape can look like armor waiting to move.\nNARRATION END",
+        "createdAt": "2026-11-03T00:37:23.383Z",
+        "jobId": "68bbbdc9-711d-4937-a6df-96f6e9681933",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "audio-S02",
+      "versionId": "S02-prepared-v1",
+      "kind": "audio",
+      "selected": true,
+      "provenance": {
+        "provider": "Higgsfield",
+        "model": "seed_audio",
+        "tool": "generate_audio",
+        "prompt": "Exact saved per-scene request in preproduction",
+        "createdAt": "2026-11-03T00:37:23.387Z",
+        "jobId": "2b671b72-72ea-45d8-9060-7cb2661b9caf",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "audio-S03",
+      "versionId": "S03-prepared-v1",
+      "kind": "audio",
+      "selected": true,
+      "provenance": {
+        "provider": "Higgsfield",
+        "model": "seed_audio",
+        "tool": "generate_audio",
+        "prompt": "Exact saved per-scene request in preproduction",
+        "createdAt": "2026-11-03T00:37:23.388Z",
+        "jobId": "6ebad65d-b7f8-4086-bf10-a23217bbfbef",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S01-A",
+      "versionId": "S01-A-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Frame: One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nCurrent event: Two soldiers kneel beside an open canvas bag with folded olive rubber decoy.\nView and space: Ground-level three-quarter medium view, faces and bag at readable scale; open bag foreground, folded decoy extends into middle ground. Both kneeling soldiers supported on earth, hands gripping folded material; task-directed eyes and curious concentrated brows. Empty space right for spreading rubber.\nPose and contact: One coherent instant before intended action; actor/object support and contact physically plausible.\nLight and materials: Dimensional hand-painted field/equipment; flat graphic characters lit by same scene, contact shadows.\nInputs and constraints: Attached creator reference supplies character design language only, not doctor/clothing/hospital. Selected Ghost Army frame supplies consistent soldier/costume and decoy material identity only; use the current composition rather than copying its angle.",
+        "createdAt": "2026-11-03T00:37:23.396Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S01-H",
+      "versionId": "S01-H-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Frame: One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nCurrent event: Truck stopped on camp track; two soldiers stand at tailgate with canvas equipment bags. Low three-quarter medium portrait from camp track, hands already grip one canvas bag on stationary truck tailgate, feet grounded with open path toward tent at right. Exactly two carriers, one bag. Faces graphic tiny eyes and separate brows, gaze on bag.\nAttach creator reference for facial design only and established soldier frame for costume/material identity; no modern objects, text or doctor.",
+        "createdAt": "2026-11-03T00:37:23.398Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S01-I",
+      "versionId": "S01-I-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Frame: One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nCurrent event: Two original graphic soldiers at camp worktable with folded rubber, seam pattern and sketch. Medium portrait of two graphic soldiers at period wooden worktable. One measuring tape against folded rubber seam, other pencil touching simple tank silhouette sketch; both look at tasks. Original olive uniforms, hands distinct, material and paper supported on table. Same dimensional tent-field setting.\nAttach creator reference for facial design only and established soldier frame for costume/material identity; no modern objects, text or doctor.",
+        "createdAt": "2026-11-03T00:37:23.399Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S01-B",
+      "versionId": "S01-B-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Frame: One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nCurrent event: Brass hose coupling beside inflation valve.\nView and space: Diagnostic close insert of gloved hand, brass hose coupling and olive inflation valve in flexible fabric; valve and hose interface fills image. Hose trails away on earth. Fingers can seat coupling; not an unrelated hand portrait.\nPose and contact: One coherent instant before intended action; actor/object support and contact physically plausible.\nLight and materials: Dimensional hand-painted field/equipment; flat graphic characters lit by same scene, contact shadows.\nInputs and constraints: Attached creator reference supplies character design language only, not doctor/clothing/hospital. Selected Ghost Army frame supplies consistent soldier/costume and decoy material identity only; use the current composition rather than copying its angle.\nMatch connected brass side valve and hose from reference exactly, much closer camera; coupling aligned just before seating, one graphic gloved hand.",
+        "createdAt": "2026-11-03T00:37:23.399Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S01-C",
+      "versionId": "S01-C-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Frame: One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nCurrent event: Flat olive tank-shaped decoy connected by hose; two soldiers clear of its perimeter.\nView and space: Low wide portrait view from front left of the flat deflated tank decoy; entire footprint visible on earth. One continuous olive rubber body, collapsed turret and gun-tube folds lie across hull material. Hose visibly connects side valve to pump outside right edge. Two soldiers stand clear to left/right, looking down. Space above for inflation; no already inflated tank.\nPose and contact: One coherent instant before intended action; actor/object support and contact physically plausible.\nLight and materials: Dimensional hand-painted field/equipment; flat graphic characters lit by same scene, contact shadows.\nInputs and constraints: Attached creator reference supplies character design language only, not doctor/clothing/hospital. Selected Ghost Army frame supplies consistent soldier/costume and decoy material identity only; use the current composition rather than copying its angle.\nUse attached FULL-SIZE result as exact set, camera and actor-scale authority. Change only tank inflation state: entire very large vehicle is completely deflated, hull and turret sagged flat to ground, fabric folds across same expanded footprint; floppy gun tube lies collapsed along fabric. Keep soldiers small in far-side same positions and hose connected. Tank must not shrink to miniature footprint; do not inflate any part yet.",
+        "createdAt": "2026-11-03T00:37:23.399Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S01-F",
+      "versionId": "S01-F-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Frame: One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nCurrent event: Tank grounded in field, crew steps away.\nView and space: Close near-side flexible rubber seam in foreground, full inflated tank middle ground and a soldier stepping away at right. Earth support and soft wrinkles betray prop, hedge and distant decoy silhouettes beyond. Camera low along hull with dimensional depth.\nPose and contact: One coherent instant before intended action; actor/object support and contact physically plausible.\nLight and materials: Dimensional hand-painted field/equipment; flat graphic characters lit by same scene, contact shadows.\nInputs and constraints: Attached creator reference supplies character design language only, not doctor/clothing/hospital. Selected Ghost Army frame supplies consistent soldier/costume and decoy material identity only; use the current composition rather than copying its angle.\nVery close foreground flexible seam must be prominent; tank remains full-size, crew is a small scale cue, field rows beyond. Change viewpoint completely from the source to a low grazing hull view.",
+        "createdAt": "2026-11-03T00:37:23.399Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S01-D",
+      "versionId": "S01-D-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Frame: One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nCurrent event: Fully inflated stationary decoy; hand approaches fabric lifting handle.\nView and space: Tight close detail: one graphic gloved hand reaches to grasp a sewn loop handle attached firmly to inflated olive rubber hull. Hull seam and handle attachment clearly visible; no disconnected strap. Soft field depth behind.\nPose and contact: One coherent instant before intended action; actor/object support and contact physically plausible.\nLight and materials: Dimensional hand-painted field/equipment; flat graphic characters lit by same scene, contact shadows.\nInputs and constraints: Attached creator reference supplies character design language only, not doctor/clothing/hospital. Selected Ghost Army frame supplies consistent soldier/costume and decoy material identity only; use the current composition rather than copying its angle.\nMatch sewn lower side carrying loop of the near soldier. Hand fully encircles the loop in a closed grip, loop is attached by stitched square patches to rubber hull. Crop to hand and handle. Glove not required if continuity uses bare ivory hand.",
+        "createdAt": "2026-11-03T00:37:23.399Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S01-E",
+      "versionId": "S01-E-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Reframe this exact image to strict9:16 portrait, e.g.900x1600. Preserve all FOUR soldiers, full tank, exact hand-to-handle grips and grounded feet, same action state. Pull camera back20percent, adding more sky and dirt above/below, so all feet and tank silhouette fit well inside central80percent of frame width. Do not crop off soldiers or change count. Keep simple flat round ivory faces tiny eyes firm contour, dimensional hand-painted3D toon set. No borders, text, panels or watermark. All visible hands retain same attached handles. Tank remains full-size relative to crew, resting on earth.",
+        "createdAt": "2026-11-03T00:37:23.400Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S01-G",
+      "versionId": "S01-G-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Frame: One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nCurrent event: High oblique view of decoy rows, crew tiny and scale coherent.\nView and space: High aerial oblique portrait view over same rectangular field bordered by hedgerows, six grounded olive tank decoys spaced in convincing rows, dirt access track on left. Crew tiny by one tank supplies scale. No other aircraft needed in frame. Coherent perspective, no impossible floating tank.\nPose and contact: One coherent instant before intended action; actor/object support and contact physically plausible.\nLight and materials: Dimensional hand-painted field/equipment; flat graphic characters lit by same scene, contact shadows.\nInputs and constraints: Attached creator reference supplies character design language only, not doctor/clothing/hospital. Selected Ghost Army frame supplies consistent soldier/costume and decoy material identity only; use the current composition rather than copying its angle.\nA completely different aerial viewpoint about100meters above field; no giant foreground tank, no close face. Six decoys full size in two rows, same ground layout hedge and track; aerial camouflage impression with tiny ground crew.",
+        "createdAt": "2026-11-03T00:37:23.400Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S02-A",
+      "versionId": "S02-A-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Frame: One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nCurrent event: Same decoy camp from field edge.\nView and space: Field-edge medium view of one graphic soldier in profile, head turned to empty dark woodland beyond full inflated tank. First notice quiet vacant space over shoulder; curious brow, mouth closed. Foreground grass, middle-ground decoy and deep woods.\nPose and contact: One coherent instant before intended action; actor/object support and contact physically plausible.\nLight and materials: Dimensional hand-painted field/equipment; flat graphic characters lit by same scene, contact shadows.\nInputs and constraints: Attached creator reference supplies character design language only, not doctor/clothing/hospital. Selected Ghost Army frame supplies consistent soldier/costume and decoy material identity only; use the current composition rather than copying its angle.\nOnly one soldier; face in profile looks at empty woods, not camera. Scene is same field edge in oblique direction; no need to reproduce truck/tent in this view.",
+        "createdAt": "2026-11-03T00:37:23.400Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S02-B",
+      "versionId": "S02-B-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Frame: One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nCurrent event: Period playback/amplifier switch beneath operator fingers.\nView and space: Diagnostic extreme close view of graphic forefinger touching the single metal toggle switch of a period olive amplifier/playback cabinet; switch not yet engaged, tiny panel meter and analog hardware, no modern screen or legible lettering.\nPose and contact: One coherent instant before intended action; actor/object support and contact physically plausible.\nLight and materials: Dimensional hand-painted field/equipment; flat graphic characters lit by same scene, contact shadows.\nInputs and constraints: Attached creator reference supplies character design language only, not doctor/clothing/hospital. Selected Ghost Army frame supplies consistent soldier/costume and decoy material identity only; use the current composition rather than copying its angle.\nUse one small metal toggle beside analog meter on this same cabinet; close diagnostic crop with single bare graphic ivory fingertip touching lever before engagement. No glove, no new digital hardware.",
+        "createdAt": "2026-11-03T00:37:23.400Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S02-C",
+      "versionId": "S02-C-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Frame: One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nCurrent event: Vehicle-mounted large period horn speakers at woodland edge, operator at playback unit.\nView and space: Medium three-quarter portrait of one period sound truck at woodland edge; large horn loudspeakers fixed to same truck roof point right across valley. Graphic operator seated at analog playback/amplifier unit in open side compartment with visible reel and grounded cables. Operator eyes on reel, one hand at control. Truck wheels touch track. Foreground controls and upward depth toward horns.\nPose and contact: One coherent instant before intended action; actor/object support and contact physically plausible.\nLight and materials: Dimensional hand-painted field/equipment; flat graphic characters lit by same scene, contact shadows.\nInputs and constraints: Attached creator reference supplies character design language only, not doctor/clothing/hospital. Selected Ghost Army frame supplies consistent soldier/costume and decoy material identity only; use the current composition rather than copying its angle.\nPeriod military analog amplifier/playback cabinets; avoid modern tape deck or digital console. If spool visible it is wire-recorder mechanism, not modern cassette or plastic reel-to-reel tape. Loudspeaker horns point together across valley, mounted securely to SAME truck; one operator hands on controls, boots supported on truck running board.",
+        "createdAt": "2026-11-03T00:37:23.400Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S02-D",
+      "versionId": "S02-D-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Frame: One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nCurrent event: Period radio operator with headphones and Morse key at tent table.\nView and space: Inside a canvas radio tent, medium view across table toward graphic helmeted operator in headphones. Right hand on period Morse key fixed to table, radio cabinet and analog meter beside it; left hand rests by paper. Focused eyes downward, one brow compressed; no speaking mouth. Tent flap behind gives a small view of woodland.\nPose and contact: One coherent instant before intended action; actor/object support and contact physically plausible.\nLight and materials: Dimensional hand-painted field/equipment; flat graphic characters lit by same scene, contact shadows.\nInputs and constraints: Attached creator reference supplies character design language only, not doctor/clothing/hospital. Selected Ghost Army frame supplies consistent soldier/costume and decoy material identity only; use the current composition rather than copying its angle.\nPeriod WWII Morse key bolted to table with clear lever and contact base. One bare graphic ivory hand fingertips on key knob, wires visibly run to analog radio cabinet; seated soldier supported by stool, eyes on key/meter, mouth closed.",
+        "createdAt": "2026-11-03T00:37:23.400Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S02-E",
+      "versionId": "S02-E-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Frame: One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nCurrent event: Elevated connected view of decoy field, speaker vehicle at woodland and radio tent.\nView and space: High oblique portrait field view with decoy rows center-right, one sound truck at near woodland edge left, small radio tent further left by track; all at coherent scale within one landscape. No glow beams, split screens or labels. Camera can rise across near truck to reveal whole field.\nPose and contact: One coherent instant before intended action; actor/object support and contact physically plausible.\nLight and materials: Dimensional hand-painted field/equipment; flat graphic characters lit by same scene, contact shadows.\nInputs and constraints: Attached creator reference supplies character design language only, not doctor/clothing/hospital. Selected Ghost Army frame supplies consistent soldier/costume and decoy material identity only; use the current composition rather than copying its angle.\nFirst reference is same field geography; second supplies sound-truck identity only. High aerial angle should include truck with two horn speakers parked at woodland edge left foreground, radio tent farther along left track and six tank decoys in same two rows. Actual coherent landscape no superimposed diagrams.",
+        "createdAt": "2026-11-03T00:37:23.401Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S02-F",
+      "versionId": "S02-F-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Frame: One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nCurrent event: Soldier at field edge catches distant artillery flash beyond ridge.\nView and space: Very tight graphic face insert, olive helmet and round ivory face, tiny dark eyes directed to right at ridge beyond edge; brow just beginning to tighten. Sliver of distant ridge background, distant light flash only, no injury/explosion at face.\nPose and contact: One coherent instant before intended action; actor/object support and contact physically plausible.\nLight and materials: Dimensional hand-painted field/equipment; flat graphic characters lit by same scene, contact shadows.\nInputs and constraints: Attached creator reference supplies character design language only, not doctor/clothing/hospital. Selected Ghost Army frame supplies consistent soldier/costume and decoy material identity only; use the current composition rather than copying its angle.\nExtreme close face and helmet only, urgent eyes toward distant ridge screen right, tiny distant flash beyond shoulder, no injury or blast near person. Simple closed line mouth, no detailed modeled eyes.",
+        "createdAt": "2026-11-03T00:37:23.401Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S02-G",
+      "versionId": "S02-G-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Frame: One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nCurrent event: Two crew crouched beside grounded decoy with open hose coupling.\nView and space: Medium low view of two graphic soldiers crouched beside rear valve of one fully inflated stationary tank. One hand at disconnected brass hose coupling, second soldier grips hose coil supported on earth; both orient toward hedge cover on left. No shrinking decoy, tank remains supported.\nPose and contact: One coherent instant before intended action; actor/object support and contact physically plausible.\nLight and materials: Dimensional hand-painted field/equipment; flat graphic characters lit by same scene, contact shadows.\nInputs and constraints: Attached creator reference supplies character design language only, not doctor/clothing/hospital. Selected Ghost Army frame supplies consistent soldier/costume and decoy material identity only; use the current composition rather than copying its angle.\nDifferent camera at rear side valve. Two soldiers kneel fully grounded; one hand holds hose coupling just clear of closed valve, other soldier grips coil on earth. Tank remains fully inflated and full-size. Clear crouched path toward hedge at left. No new pump operation.",
+        "createdAt": "2026-11-03T00:37:23.401Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S03-A",
+      "versionId": "S03-A-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Frame: One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nCurrent event: Simplified tabletop map: Rhine vertical, two distinct west-bank assembly areas.\nView and space: Near-overhead portrait tabletop explanatory map, broad blue river runs vertically north/up through center; west/left bank has two separated assembly areas, lower and upper. Two plain wood tokens in lower area with pale outline markers beneath. One graphic officer hand touches token poised to move toward upper area. No readable labels; simple clear diagrammatic geography on period paper.\nPose and contact: One coherent instant before intended action; actor/object support and contact physically plausible.\nLight and materials: Dimensional hand-painted field/equipment; flat graphic characters lit by same scene, contact shadows.\nInputs and constraints: Attached creator reference supplies character design language only, not doctor/clothing/hospital. Selected Ghost Army frame supplies consistent soldier/costume and decoy material identity only; use the current composition rather than copying its angle.\nThis is a simplified explanatory map on real wooden table, not an archival document. Two areas left of vertical river, lower false area and upper actual area. Two tokens currently lower; ghosted outline circles remain lower after future move. Bare graphic officer hand. No labels or invented historical handwriting.",
+        "createdAt": "2026-11-03T00:37:23.401Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S03-B",
+      "versionId": "S03-B-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Reframe this exact dummy-artillery scene to strict9:16 portrait, e.g.900x1600. Pull camera back20percent and add sky/dirt above and below. Preserve TWO graphic soldiers, their four hand-to-trail grips, ONE wheeled dummy artillery piece with wheels grounded, same poses and warm light. Keep full boots, gun carriage, barrel and both handles safely within central80percent frame width with room to roll right. Preserve dimensional hand-painted3D toon camp and flat graphic ivory faces/tiny oval eyes. No text, borders, added cast or split screen. Gun remains lightweight fabric dummy, not real firing artillery.",
+        "createdAt": "2026-11-03T00:37:23.401Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S03-D",
+      "versionId": "S03-D-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Frame: One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nCurrent event: Same radio desk, operator hand on Morse key.\nView and space: Extreme close insert of same period Morse key and graphic right fingertips, key depressed against table-mounted base; cable enters same radio cabinet at upper edge. No extra hands, no screen or text.\nPose and contact: One coherent instant before intended action; actor/object support and contact physically plausible.\nLight and materials: Dimensional hand-painted field/equipment; flat graphic characters lit by same scene, contact shadows.\nInputs and constraints: Attached creator reference supplies character design language only, not doctor/clothing/hospital. Selected Ghost Army frame supplies consistent soldier/costume and decoy material identity only; use the current composition rather than copying its angle.\nUse exact same Morse-key base, lever and contact posts; diagnostic extremely close crop, ivory fingers touch black knob, lever nearly down against contact. Cable connected to base right side and radio corner visible. No face, no duplicated hands.",
+        "createdAt": "2026-11-03T00:37:23.401Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S03-C",
+      "versionId": "S03-C-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Frame: One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nCurrent event: Explicit different location: genuine military vehicles with metal tracks and troops along concealed lane.\nView and space: Explicit different real troop location: compact graphic soldiers and genuine metal tracked US military vehicle advance along sheltered tree-lined lane; one vehicle entire body in middle ground, visible rigid tread contacting earth and clear forward travel to right. Graphic soldiers walk beside it in original olive uniforms. No rubber lifting loops. Deep wooded perspective, no combat injury.\nPose and contact: One coherent instant before intended action; actor/object support and contact physically plausible.\nLight and materials: Dimensional hand-painted field/equipment; flat graphic characters lit by same scene, contact shadows.\nInputs and constraints: Attached creator reference supplies character design language only, not doctor/clothing/hospital. Selected Ghost Army frame supplies consistent soldier/costume and decoy material identity only; use the current composition rather than copying its angle.\nReal Sherman-style metal vehicle, no inflatable seams or carry handles, actual metal tread links contacting dirt. Original flat graphic soldiers walking beside it under tree cover, brisk committed supported stride. Side-on three-quarter whole vehicle and three soldiers visible, travel screen right. Cool dawn light distinguishes actual troop area from warm decoy camp. No firing, no flying body, no parade salutes.",
+        "createdAt": "2026-11-03T00:37:23.401Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S03-E",
+      "versionId": "S03-E-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Frame: One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nCurrent event: US intelligence officer at table studies simplified captured map; false-area marker remains at lower west-bank area.\nView and space: Three-quarter overhead medium view of US intelligence officer at table, two simplified maps side by side with same vertical blue Rhine. Left captured-map reconstruction shows79th marker in lower west-bank area; right operations map shows79th marker upper west-bank, lower area outlined as decoy position. Only minimal79 numerals if needed; no forged signatures/stamps/archival texture. Hands hold left sheet near right sheet, fingertip points to lower position. Face visible near top, studying with alert raised brow.\nPose and contact: One coherent instant before intended action; actor/object support and contact physically plausible.\nLight and materials: Dimensional hand-painted field/equipment; flat graphic characters lit by same scene, contact shadows.\nInputs and constraints: Attached creator reference supplies character design language only, not doctor/clothing/hospital. Selected Ghost Army frame supplies consistent soldier/costume and decoy material identity only; use the current composition rather than copying its angle.\nSame graphic officer, same table, same simplified vertical-river design language. Two separate paper maps side by side. LEFT sheet has a single wood marker marked79 in LOWER west/left-bank area. RIGHT sheet has single wood marker marked79 in UPPER west/left-bank area. Officer fingertip indicates LEFT lower79 and other hand aligns map edges. Clear lower-vs-upper difference. Numerals79 only, no German symbols, handwriting, stamps or fabricated archival details. Both sheets fit portrait. New oblique overhead viewpoint.",
+        "createdAt": "2026-11-03T00:37:23.401Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S03-F",
+      "versionId": "S03-F-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Frame: One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nCurrent event: Diagnostic close view of pencil beside false-area79th marker on simplified map.\nView and space: Diagnostic extreme close of simplified paper map, lower west-bank marker with79 beside vertical blue river; sharpened pencil tip touches this lower marker. Map flat and pencil in one graphic hand entering frame edge. No other faces/objects. Paper and table contact clear.\nPose and contact: One coherent instant before intended action; actor/object support and contact physically plausible.\nLight and materials: Dimensional hand-painted field/equipment; flat graphic characters lit by same scene, contact shadows.\nInputs and constraints: Attached creator reference supplies character design language only, not doctor/clothing/hospital. Selected Ghost Army frame supplies consistent soldier/costume and decoy material identity only; use the current composition rather than copying its angle.\nExtreme diagnostic crop of LEFT sheet LOWER79 wood marker. Pencil tip touches rim of79 marker in lower circled area left of blue river. Single ivory graphic hand holding pencil enters top left, no officer face. Keep79 readable and same lower map geography. No added markers.",
+        "createdAt": "2026-11-03T00:37:23.401Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "image-S03-G",
+      "versionId": "S03-G-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Frame: One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nCurrent event: Return to same grounded inflated tank, four soldiers beside it, sunset field.\nView and space: Warm late-day return to same one full inflated tank in hedgerow field; four graphic soldiers beside handles, feet planted, task-focused quietly relieved faces. Camera low three-quarter on near flexible hull seam and two readable faces; remaining crew visible behind at handles, no fifth person. Tank rests fully on fabric tracks, room for small reposition lift. Set has deep golden light and cool shadow.\nPose and contact: One coherent instant before intended action; actor/object support and contact physically plausible.\nLight and materials: Dimensional hand-painted field/equipment; flat graphic characters lit by same scene, contact shadows.\nInputs and constraints: Attached creator reference supplies character design language only, not doctor/clothing/hospital. Selected Ghost Army frame supplies consistent soldier/costume and decoy material identity only; use the current composition rather than copying its angle.\nNew LOWER camera from opposite rear-quarter of same tank, four same soldiers at attached handles. First notice flexible rear rubber seam close foreground, two near faces readable beyond it, two more far-side crew with separate feet. Hose/pump not in this camera direction. All tank support on ground. Near crew relaxed focused brows after work, closed mouths, no celebration pose. Golden late-day light, deep field. Frame for brief rear-edge lift then settled result, not another full-body front portrait.",
+        "createdAt": "2026-11-03T00:37:23.401Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "reference-S01-C-result",
+      "versionId": "S01-C-result-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "One edge-to-edge portrait9:16 cinematic film frame. Hybrid medium: characters have large round ivory faces, tiny solid oval eyes, simple separate expressive brows, dot or short-line mouths and minimal noses; compact flat-color bodies with firm dark contours and sparse cel-shadow shapes. Clothing remains graphic. Set and equipment are dimensional 3D toon construction with hand-painted textures, rich olive greens, ochre earth and blue-purple shadows, warm motivated light, coherent depth and contact shadows. Not photoreal people, sculpted dolls or detailed anime faces. No text, captions, borders, collage or watermark.\nUse attached matching opening for exact layout and identities; change only action state: Same composition, same connected hose, same two soldiers clear of footprint; tank now fully inflated, hull turret and long gun tube complete, fabric tracks fully grounded, crews hands withdrawn. No lifting.\nCRITICAL SCALE REPAIR: This is a REAL FULL-SIZE inflatable M4 tank, approximately six meters long, three meters wide, and two and a half meters tall. The adult soldiers are1.7meters tall even though drawn with large cartoon heads. Tank turret is above their heads. Camera at1.8meter height looking across tank, tank fills lower two thirds of portrait, two whole soldiers at far side left/right appear much smaller. Expand footprint into background and left/right. Fully inflated continuous rubber hull with grounded fabric track shapes, turret and gun tube; four large sewn carry loops at human waist level. Keep one hose connected. It must be visually a full vehicle, not waist-high toy. Retain style, not previous miniature scale.",
+        "createdAt": "2026-11-03T00:37:23.401Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "reference-S01-E-result",
+      "versionId": "S01-E-result-v2",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "Use attached strict9:16 portrait as exact composition, same four soldiers and their same hands gripping same handles, same full tank and camera. Change only final action state after a brief coordinated lift: tank is resting fully on ground in EXACT SAME footprint again, four soldiers feet remain planted, knees slightly less bent, hands slightly relaxed without leaving handles. Preserve full tank and all feet contained in central80percent width with broad dirt/sky margins; same warm light. No new cast, no sideways move, no borders/text.",
+        "createdAt": "2026-11-03T00:37:23.401Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "reference-S03-A-result",
+      "versionId": "S03-A-result-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "OpenAI built-in image generation",
+        "tool": "image_gen",
+        "prompt": "One clean9:16 portrait film frame. Use attached map opening as exact camera, graphic officer, table, paper, river and lighting authority. Change ONLY token positions: both plain wooden tokens now rest inside the UPPER west-bank circled area left of river. The LOWER circled area remains empty with two dashed outline markers. Officer fingertip rests on one upper token after completing slide. Preserve two separate circles on same west bank and all paper support; no new labels, arrows, extra tokens, insets or text.",
+        "createdAt": "2026-11-03T00:37:23.401Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S01-E",
+      "versionId": "S01-E-825425ca-bedd-4975-9299-8e6a64567079",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Four soldiers at four attached lifting handles on same full tank, all boots planted.\n<Picture 2> is later result-state guidance within the SAME continuous shot, not another shot or timed endpoint.\n\nsummary:\n[keyframe completion] One continuous take: Four soldiers lift together briskly by attached handles until fabric tracks visibly clear the ground, hold briefly, then lower fully into the same footprint; hose remains slack and pump stationary.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n<Picture 2>: preserve the demonstrated outgoing relationship after the current action; reach it through visible motion, no cut or dissolve.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Exactly four soldiers each grip an attached loop. Begin coordinated knee extension immediately. Within half a second, raise whole lightweight decoy just enough that BOTH fabric track bottoms visibly clear the fixed earth. Briefly expose daylight gap, then bend knees and lower together by about1.4seconds; both bottoms fully touch earth again by1.6seconds. Hands stay joined to handles, boots keep ground contact, elbows carry tension then relax. Tank does not inflate, drive or flex like liquid; hose stays slack and pump fixed. Hold the completed grounded result for remaining native handle without another lift. Camera: Hold full four-person arrangement at onset; tiny lateral tracking follows coordinated fast lift, settle same footprint before end; no big pan hiding gap under tracks. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Boot impacts and fabric creak.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Boot impacts and fabric creak. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T17:50:32.836Z",
+        "jobId": "825425ca-bedd-4975-9299-8e6a64567079",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S01-C",
+      "versionId": "S01-C-32d98d04-5586-45e8-8093-cc0687b8e71c",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Flat olive tank-shaped decoy connected by hose; two soldiers clear of its perimeter.\n<Picture 2> is later result-state guidance within the SAME continuous shot, not another shot or timed endpoint.\n\nsummary:\n[keyframe completion] One continuous take: Air fills hull and turret to full supported shape, compressed process depiction; crew guides a loose fold then releases.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n<Picture 2>: preserve the demonstrated outgoing relationship after the current action; reach it through visible motion, no cut or dissolve.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Tank is completely collapsed on its full-size footprint; hose is connected. Air pressure rapidly raises hull, then turret, then straightens hollow gun tube over about two and a half seconds, a deliberately compressed process. Rubber unfolds, tensions and settles with small wrinkles. Bottom edges never leave earth, no metal treads turn. Two soldiers stand clear and follow the rising turret with eyes. By three seconds full tank silhouette is supported and stable. Do not shrink footprint or change crew count. Camera: Low three-quarter opening matched tov2. Gentle20degree lateral arc during brisk inflation; keep full footprint and rising turret in frame, end at inflated grounded silhouette. Inflation compressed process, not slow action. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Air rush and pump rattle.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Air rush and pump rattle. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-03T18:31:09.072Z",
+        "jobId": "32d98d04-5586-45e8-8093-cc0687b8e71c",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S01-A",
+      "versionId": "S01-A-c2758e72-cc7c-4d84-91bf-39c6e9cdbf57",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Two soldiers kneel beside an open canvas bag with folded olive rubber decoy.\n\nsummary:\n[keyframe completion] One continuous take: They pull the folded decoy free and spread it flat; hand grips and boots stay grounded.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Two soldiers grip folded rubber already exposed above bag rim. In the first two seconds, pull it clear together and lower its weight onto earth. Hands remain attached until supported, then open the fold. Elbows bend naturally, knees remain supported, eyes follow the material. Cloth settles with a quick recoil. Camera: Start low three-quarter on bag/grips; track back0.5m as folded rubber clears rim, slight tilt follows material to earth; end on spread fold and task-focused faces. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Rubber rustle and cloth.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Rubber rustle and cloth. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T01:15:03.403Z",
+        "jobId": "c2758e72-cc7c-4d84-91bf-39c6e9cdbf57",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S01-H",
+      "versionId": "S01-H-63212258-e630-4e94-9739-ce2055b7e2a3",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Truck stopped on camp track; two soldiers stand at tailgate with canvas equipment bags.\n\nsummary:\n[keyframe completion] One continuous take: Soldiers lift bag from low tailgate together and carry it briskly toward tent; camera tracks bag then reveals arriving crew.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. The bag rests on a rigid truck tailgate with both soldiers already gripping it. Lift it together in one decisive second, step backward clear of tailgate, then carry briskly left along track for three steps. Bag hangs between their hands, each heel-toe landing carries weight. After clearance camera follows bag then reveals tent; never walk through tailgate. Camera: Start at bag/tailgate; track left parallel to two carriers after bag lifts clear, reveal tent beyond right by modest arc; end bag supported at camp edge, no camera reset. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Canvas thud, boots and engine idle.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Canvas thud, boots and engine idle. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T01:15:04.584Z",
+        "jobId": "63212258-e630-4e94-9739-ce2055b7e2a3",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S01-B",
+      "versionId": "S01-B-044dcadc-a44b-411e-90cc-5f41ee55c3fd",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Brass hose coupling beside inflation valve.\n\nsummary:\n[keyframe completion] One continuous take: Gloved fingers seat coupling fully against valve; hose leads to pump offscreen.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the actual close-up: only the existing cropped hand/forearm and task object are in view. Retain dimensional hand form, uniform fabric and richly textured hand-painted3D toon surfaces. Keep established warm key/cool shadow, fixed material identity and readable object contact throughout the action. The framing stays on this hand and mechanism; no face or additional person enters.\n[Shot 1] The shot begins from <Picture 1>. Coupling is aligned just short of valve. Push coupling straight onto valve, seat it and make one small securing twist within half a second; then withdraw fingers slightly, hose stays seated. Keep interface visible. Camera: Locked diagnostic contact, tiny forward move only after coupling seats; keep mating surfaces centered. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Visible fingers and wrist respond only to the specified contact and release, with the object and its fixed support continuously readable. Do not repeat completed actions to fill the remaining handle. Physical sound: Dry coupling click.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Dry coupling click. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T01:15:06.681Z",
+        "jobId": "044dcadc-a44b-411e-90cc-5f41ee55c3fd",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S01-D",
+      "versionId": "S01-D-f31c756e-92e7-40b8-bd69-b633609ed9ed",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Fully inflated stationary decoy; hand approaches fabric lifting handle.\n\nsummary:\n[keyframe completion] One continuous take: Hand tightens its already closed grip; fabric loop takes tension before next lift.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the actual close-up: only the existing cropped hand/forearm and task object are in view. Retain dimensional hand form, uniform fabric and richly textured hand-painted3D toon surfaces. Keep established warm key/cool shadow, fixed material identity and readable object contact throughout the action. The framing stays on this hand and mechanism; no face or additional person enters.\n[Shot 1] The shot begins from <Picture 1>. Hand is already closed around stitched carrying loop. Fingers tighten quickly, loop straightens under tension and wrist braces. Preserve both stitched attachment patches and full hand support; no reach/regrasp. Camera: Locked hand/loop insert; show brief squeeze/tension, no new reach. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Visible fingers and wrist respond only to the specified contact and release, with the object and its fixed support continuously readable. Do not repeat completed actions to fill the remaining handle. Physical sound: Fabric tension.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Fabric tension. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T01:15:08.783Z",
+        "jobId": "f31c756e-92e7-40b8-bd69-b633609ed9ed",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S01-F",
+      "versionId": "S01-F-d980a64e-3531-4512-bb81-3049221d5ced",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Tank grounded in field, crew steps away.\n\nsummary:\n[keyframe completion] One continuous take: Camera attention moves from visible flexible seam to rows of decoys behind hedgerow; graphic soldier checks spacing.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Begin on soft rubber seam. One soldier briskly clears the hull at right while camera transfers attention from seam toward rows beyond hedge. Tank and pump stay fixed and supported, fabric wrinkles flutter slightly in breeze. Camera: Start close seam, glide0.5m along hull, ease tilt upward toward decoy rows beyond hedge only after seam registered. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Field wind.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Field wind. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T01:15:07.729Z",
+        "jobId": "d980a64e-3531-4512-bb81-3049221d5ced",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S01-G",
+      "versionId": "S01-G-52d8c492-ce01-4702-b815-f45595ac4547",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing High oblique view of decoy rows, crew tiny and scale coherent.\n\nsummary:\n[keyframe completion] One continuous take: Camera travels above hedgerow to reveal convincing armored-unit layout; tanks remain stationary.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Six inflated decoys remain stationary in two rows while tiny crew finish handling a crate. Camera rises diagonally above hedgerow exposing believable unit spacing; soft leaves move and distant terrain shows coherent parallax. Camera: Elevated diagonal travel above left hedge, modest crane rise reveals complete two-row layout; end on layout, tanks stationary. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Air and distant engine.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Air and distant engine. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T01:15:09.840Z",
+        "jobId": "52d8c492-ce01-4702-b815-f45595ac4547",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S01-I",
+      "versionId": "S01-I-50b477ec-47a6-4377-962f-280db93f6505",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Two original graphic soldiers at camp worktable with folded rubber, seam pattern and sketch.\n\nsummary:\n[keyframe completion] One continuous take: Engineer measures seam and artist checks tank silhouette sketch, then both move hands to folded material; task-directed micro acting.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. One soldier finishes a short seam measurement, retracts tape and holds folded rubber steady. Other finishes one pencil stroke on tank sketch and places pencil on paper. Their eyes move from sketch to seam, hands then lift one fold open; supported material drapes toward table, no duplicate fingers. Camera: Start tape/seam, lateral0.4m glide to pencil sketch after tape retracts; tilt to shared task gaze then follow hands beginning to unfold material. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Paper and material rustle.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Paper and material rustle. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T01:15:05.637Z",
+        "jobId": "50b477ec-47a6-4377-962f-280db93f6505",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S02-A",
+      "versionId": "S02-A-f7fab42b-e030-4880-8c05-fa262cb6677e",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Same decoy camp from field edge.\n\nsummary:\n[keyframe completion] One continuous take: Soldier pauses and looks toward empty tree line; camera tracks into unseen space motivating missing sound.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Soldier pauses with hands resting on grounded pump handle, turns eyes and head to vacant woodland, then releases one hand and shifts weight to front boot. No further pumping. Camera moves attention into empty trees. Camera: Track from profile soldier at pump across empty woodland opening; pause on unoccupied trees to motivate missing sound. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Light wind.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Light wind. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T01:15:10.898Z",
+        "jobId": "f7fab42b-e030-4880-8c05-fa262cb6677e",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S02-B",
+      "versionId": "S02-B-480552f0-5ee4-498b-a77f-18fbebd10a2f",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Period playback/amplifier switch beneath operator fingers.\n\nsummary:\n[keyframe completion] One continuous take: Finger flicks one switch into engaged position.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Fingertip flips metal toggle once decisively, lever reaches opposite stop and finger lifts away. Analog needle moves modestly. Do not add switches or change cabinet. Camera: Locked toggle close view, fingertip flips switch and clears lever; brief ease-in only. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Mechanical click.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Mechanical click. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T01:15:11.969Z",
+        "jobId": "480552f0-5ee4-498b-a77f-18fbebd10a2f",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S02-C",
+      "versionId": "S02-C-9735473b-f5c0-4f4e-9cf8-5c462ea2e7c4",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Vehicle-mounted large period horn speakers at woodland edge, operator at playback unit.\n\nsummary:\n[keyframe completion] One continuous take: Operator feeds playback; camera tracks from moving reel/amplifier to fixed horns aimed across valley.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Operator rotates one control, watches analog meter settle, then mechanical wire spool turns steadily. Seated weight and both boot contacts remain fixed on platform. Camera then tilts along same truck to two mounted horns, revealing their aim into valley. Horns do not detach or wobble. Operator mouth stays closed. Camera: Start hand/cabinet low, smooth upward tilt along same truck wall to securely mounted horns after control operation; then small arc exposes direction across valley. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Nonverbal engine/construction recordings, no voices.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Nonverbal engine/construction recordings, no voices. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T01:15:13.049Z",
+        "jobId": "9735473b-f5c0-4f4e-9cf8-5c462ea2e7c4",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S02-D",
+      "versionId": "S02-D-23b39f19-f360-4847-9c06-52b5bd0c37e7",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Period radio operator with headphones and Morse key at tent table.\n\nsummary:\n[keyframe completion] One continuous take: Operator taps key briskly, watches signal meter; camera arcs around hand toward attentive face.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. One headphone operator taps Morse key briskly in short irregular sequences, lever moves around its fixed hinge and springs back between contacts. Eyes shift key to analog meter; brow tightens slightly, shoulder breath subtle, mouth closed. No spoken messages. Camera: Start key/hand, lateral arc to concentrated eyes then meter; fingers tap briskly, eyes move between key and cabinet, no lip movement. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Morse clicks, no spoken radio.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Morse clicks, no spoken radio. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T01:15:14.115Z",
+        "jobId": "23b39f19-f360-4847-9c06-52b5bd0c37e7",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S02-E",
+      "versionId": "S02-E-9d8aaa8b-ac1c-4e58-b918-8a7dd05735fe",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Elevated connected view of decoy field, speaker vehicle at woodland and radio tent.\n\nsummary:\n[keyframe completion] One continuous take: Camera rises across three grounded sources into unified camp layout; no magical beams.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Begin near parked sound truck, rise toward decoy rows and tent; all equipment remains stationary and grounded. Operator makes small purposeful control adjustment, tiny crew moves crate. Reveal three sources as a connected deployment rather than a morph or split screen. Camera: Begin near sound truck, rise forward across decoy rows to radio tent left; retain coherent field landmarks, end three channels visible. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Field wind and distant mechanical rumble.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Field wind and distant mechanical rumble. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T01:15:15.183Z",
+        "jobId": "9d8aaa8b-ac1c-4e58-b918-8a7dd05735fe",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S02-F",
+      "versionId": "S02-F-95e931d7-6ff6-4da9-ae5f-b7b91f6097fa",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Soldier at field edge catches distant artillery flash beyond ridge.\n\nsummary:\n[keyframe completion] One continuous take: Eyes snap toward ridge, brow tightens and shoulder ducks; no impact on body.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Eyes snap toward ridge flash, brows tighten and head ducks a few centimeters decisively. Keep face graphic and closed-mouth, no speaking or injury; distant flash fades without changing local light exposure. Camera: Locked face, brisk eye/head response to ridge then slight duck; no shake/flash masking body motion. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Distant single artillery boom.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Distant single artillery boom. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T01:15:16.238Z",
+        "jobId": "95e931d7-6ff6-4da9-ae5f-b7b91f6097fa",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S02-G",
+      "versionId": "S02-G-99150042-6cee-43f4-b10a-37aa019ece9f",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Two crouched crew, detached coupling and hanging valve cap, second hand on hose coil.\n\nsummary:\n[keyframe completion] One continuous take: Crew closes attached valve cap first, lifts coil briskly and moves crouched into cover left; inflated tank remains grounded.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Coupling is already detached. First soldier swings the attached cap closed onto valve and seats it. Second gathers supported coil and lifts it with both hands; first takes free coupling. They rise into crouch and briskly move left behind hedge, hose stays in their hands and does not drag through tank. Tank remains inflated after cap closes. Camera: Begin detached coupling and hanging cap; show cap close, hands lift hose coil, camera tracks left at crouched chest height into hedge; leave inflated decoy behind. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Boots, hose scrape.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Boots, hose scrape. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T01:15:17.307Z",
+        "jobId": "99150042-6cee-43f4-b10a-37aa019ece9f",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S03-B",
+      "versionId": "S03-B-aeb22dd4-8b93-496f-9213-fc5d61d504d2",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Decoy camp with rubber vehicles and tents in lower-area reconstruction.\n\nsummary:\n[keyframe completion] One continuous take: Crew positions dummy artillery and checks alignment, camera follows wheeled prop then reveals camp.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Two soldiers maintain hands on carriage trails and roll lightweight dummy gun right one short distance in about one second. Wheels turn on earth, feet step briskly, rigid carriage stays connected, fabric shield gives tiny settling wrinkle. Stop wheels fully before remaining native handle. Camera: Side-track right with rolling dummy gun, maintain wheels/handle contacts and two carriers; stop only once parked. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Wood and boots.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Wood and boots. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T01:15:19.438Z",
+        "jobId": "aeb22dd4-8b93-496f-9213-fc5d61d504d2",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S03-C",
+      "versionId": "S03-C-fe48d1a0-974d-455b-8c0b-22bbc9ce3edc",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Three foot soldiers and one hatch crew with real metal tracked vehicle under tree cover.\n\nsummary:\n[keyframe completion] One continuous take: Vehicles and soldiers advance briskly behind cover; camera tracks parallel, no floating tread.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Three foot soldiers stride briskly right beside a real metal tracked vehicle. Each step completes push-off, swing, heel contact and weight transfer, packs recoil. Metal treads cycle with vehicle translation, hull remains rigid with small suspension response. Hatch crew stays contained at waist in same turret and watches lane. Camera tracks right to keep nose and lead soldier within crop. Camera: Track right parallel to true metal vehicle and three walking soldiers; modest upward arc to hatch crew, foreground parallax; all advance at brisk normal pace. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Real engine and boots.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Real engine and boots. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T01:15:21.550Z",
+        "jobId": "fe48d1a0-974d-455b-8c0b-22bbc9ce3edc",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S03-D",
+      "versionId": "S03-D-3b27b184-bc37-4eac-ae22-687e5ce3890a",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Same radio desk, operator hand on Morse key.\n\nsummary:\n[keyframe completion] One continuous take: Key depresses decisively and springs back; radio ownership clear.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the actual close-up: only the existing cropped hand/forearm and task object are in view. Retain dimensional hand form, uniform fabric and richly textured hand-painted3D toon surfaces. Keep established warm key/cool shadow, fixed material identity and readable object contact throughout the action. The framing stays on this hand and mechanism; no face or additional person enters.\n[Shot 1] The shot begins from <Picture 1>. Fingertips depress black Morse knob around fixed hinge, close contact once, then release and show spring return. Cabinet and cable remain rigidly supported. Camera: Locked Morse contact insert; one clear depression and spring return. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Visible fingers and wrist respond only to the specified contact and release, with the object and its fixed support continuously readable. Do not repeat completed actions to fill the remaining handle. Physical sound: Single Morse click.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Single Morse click. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T01:15:20.487Z",
+        "jobId": "3b27b184-bc37-4eac-ae22-687e5ce3890a",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S03-E",
+      "versionId": "S03-E-a3730b13-37b6-40fa-b03c-39af6dbdfd37",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Two aligned simplified maps, left79 lower false area and right79 upper real area.\n\nsummary:\n[keyframe completion] One continuous take: Officer compares markers with fingertip and gaze while camera reveals their different positions; sheets remain aligned.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Sheets already aligned. Officer points at left lower79, then moves fingertip across table to right upper79 while eyes follow. Camera follows this comparison; pause with both positions readable, then lift gaze to an alert brow realization and return attention to mismatched map positions. Keep exactly one79 marker per sheet, neither moves. No new paper or imaginary message appears. Camera: Start left lower79; glide to right upper79 as officer compares, then a small rising arc follows gaze to face and back to two-sheet relation. Sheets remain aligned, no repeated alignment/reset. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Paper and pencil.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Paper and pencil. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T01:15:22.611Z",
+        "jobId": "a3730b13-37b6-40fa-b03c-39af6dbdfd37",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S03-F",
+      "versionId": "S03-F-656c8c35-c905-40d7-9db4-aa082d3fa5a3",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Diagnostic close view of pencil beside false-area79th marker on simplified map.\n\nsummary:\n[keyframe completion] One continuous take: Pencil touches false-area marker, then lifts; map stays flat on table.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the actual close-up: only the existing cropped hand/forearm and task object are in view. Retain dimensional hand form, uniform fabric and richly textured hand-painted3D toon surfaces. Keep established warm key/cool shadow, fixed material identity and readable object contact throughout the action. The framing stays on this hand and mechanism; no face or additional person enters.\n[Shot 1] The shot begins from <Picture 1>. Pencil already touches lower79 marker. One tiny firm tap then lift tip a few millimeters; marker stays fixed inside lower circle, paper remains flat. Camera: Locked pencil/token diagnostic; tiny touch and lift, no token relocation. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Visible fingers and wrist respond only to the specified contact and release, with the object and its fixed support continuously readable. Do not repeat completed actions to fill the remaining handle. Physical sound: Pencil tap.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Pencil tap. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T01:15:23.661Z",
+        "jobId": "656c8c35-c905-40d7-9db4-aa082d3fa5a3",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S03-G",
+      "versionId": "S03-G-e3ba0b8b-8765-48f6-b138-62ca0773d030",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Return to same grounded inflated tank, four soldiers beside it, sunset field.\n\nsummary:\n[keyframe completion] One continuous take: Four soldiers briefly lift rear edge by attached handles, settle decoy fully into same footprint, then release grips as camera arcs from rubber seam to task-focused quietly relieved faces.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Four crew keep hands on handles. Near pair briskly raise rear edge a little, far crew stabilize, then set rear fully down within first1.8seconds. Grounded tank is visible before camera transfers from seam to faces. Fingers loosen, shoulders ease and eyes settle on completed work; no smiles at viewer or speaking mouths. Finish on the whole supported decoy and focused crew. Camera: Low rear-quarter starts seam/handles; rear edge lifts then settles quickly, camera arcs20degrees to two near faces only after grounded result; ease out on complete supported decoy. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Fabric, steps and field wind.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Fabric, steps and field wind. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T01:15:24.711Z",
+        "jobId": "e3ba0b8b-8765-48f6-b138-62ca0773d030",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "effects-S01",
+      "versionId": "effects-S01-v1",
+      "kind": "audio",
+      "selected": true,
+      "provenance": {
+        "provider": "Local original synthesis",
+        "model": "Deterministic nonverbal DSP",
+        "tool": "prepare-effects.py",
+        "prompt": "Original deterministic DSP: sine oscillators and seeded noise only; no recordings, vocals, lyrics, speech, or music source inputs",
+        "createdAt": "2026-11-04T05:24:51.984Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "effects-S02",
+      "versionId": "effects-S02-v1",
+      "kind": "audio",
+      "selected": true,
+      "provenance": {
+        "provider": "Local original synthesis",
+        "model": "Deterministic nonverbal DSP",
+        "tool": "prepare-effects.py",
+        "prompt": "Original deterministic DSP: sine oscillators and seeded noise only; no recordings, vocals, lyrics, speech, or music source inputs",
+        "createdAt": "2026-11-04T05:24:52.054Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "effects-S03",
+      "versionId": "effects-S03-v1",
+      "kind": "audio",
+      "selected": true,
+      "provenance": {
+        "provider": "Local original synthesis",
+        "model": "Deterministic nonverbal DSP",
+        "tool": "prepare-effects.py",
+        "prompt": "Original deterministic DSP: sine oscillators and seeded noise only; no recordings, vocals, lyrics, speech, or music source inputs",
+        "createdAt": "2026-11-04T05:24:52.123Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "video-S03-A",
+      "versionId": "S03-A-49cf69b6-399f-400e-a50a-525e9ca385b6",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax-H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Simplified tabletop map: Rhine vertical, two distinct west-bank assembly areas.\n<Picture 2> is later result-state guidance within the SAME continuous shot, not another shot or timed endpoint.\n\nsummary:\n[keyframe completion] One continuous take: Officer moves two plain division tokens from lower false area toward upper real assembly area, leaves outline markers at false area.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n<Picture 2>: preserve the demonstrated outgoing relationship after the current action; reach it through visible motion, no cut or dissolve.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. There are exactly TWO wooden disks on the entire map, both initially inside the lower circled area on the LEFT bank of the blue river. The upper left-bank circle is empty. The officer uses one fingertip against the BACK EDGE of the right lower disk, leaving its round top visible, and SLIDES that same disk on the paper upward along the left bank into the upper circle. The vacated lower-right spot becomes bare paper. Release that disk in the upper circle; it stays stationary there. Return the empty hand to the only remaining lower disk, touch its back edge and slide that same disk upward along the same bank into the upper circle beside the first disk. Its vacated lower-left spot also becomes bare paper. Both lower starting spots are now empty; exactly two disks are in the upper circle, with no third disk anywhere. Both disks stay continuously on paper through their slides. Complete first slide promptly in about two seconds and second by about five seconds; then lift the fingertip away and let the officer compare the empty lower area with the two-disk upper result using a focused eyeline. Preserve the unchanged river, map ink, circles and tabletop geography. Camera holds a diagnostic high three-quarter view containing BOTH circles, the whole connecting path and river throughout both transfers. After the second disk settles, a small coherent camera rise reveals the entire completed two-disk relationship while keeping both empty lower positions visible. Keep the graphic face and dimensional hand/uniform/set of the references, readable warm task light and cool shadows. The unbroken take shows each actual disk travel once, rather than covering a disk and revealing a copy. Paper and sliding wood sounds only; mouth closed.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Wood tokens on paper. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T04:40:56.150Z",
+        "jobId": "49cf69b6-399f-400e-a50a-525e9ca385b6",
+        "sourceVersionIds": []
+      }
+    }
+  ],
+  "actualSelectedJobReceipts": [
+    {
+      "id": "c2758e72-cc7c-4d84-91bf-39c6e9cdbf57",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Two soldiers kneel beside an open canvas bag with folded olive rubber decoy.\n\nsummary:\n[keyframe completion] One continuous take: They pull the folded decoy free and spread it flat; hand grips and boots stay grounded.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Two soldiers grip folded rubber already exposed above bag rim. In the first two seconds, pull it clear together and lower its weight onto earth. Hands remain attached until supported, then open the fold. Elbows bend naturally, knees remain supported, eyes follow the material. Cloth settles with a quick recoil. Camera: Start low three-quarter on bag/grips; track back0.5m as folded rubber clears rim, slight tilt follows material to earth; end on spread fold and task-focused faces. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Rubber rustle and cloth.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Rubber rustle and cloth. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "95ec34f9-7613-4d89-a251-6351b5360483"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 8533341791781344246,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1.0,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12.0,
+        "shift_audio": 3.0,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793754903.403593,
+      "finished_at": 1793755267.7605593,
+      "reference_labels": [
+        "<Picture 1>: 95ec34f9-7613-4d89-a251-6351b5360483"
+      ]
+    },
+    {
+      "id": "044dcadc-a44b-411e-90cc-5f41ee55c3fd",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Brass hose coupling beside inflation valve.\n\nsummary:\n[keyframe completion] One continuous take: Gloved fingers seat coupling fully against valve; hose leads to pump offscreen.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the actual close-up: only the existing cropped hand/forearm and task object are in view. Retain dimensional hand form, uniform fabric and richly textured hand-painted3D toon surfaces. Keep established warm key/cool shadow, fixed material identity and readable object contact throughout the action. The framing stays on this hand and mechanism; no face or additional person enters.\n[Shot 1] The shot begins from <Picture 1>. Coupling is aligned just short of valve. Push coupling straight onto valve, seat it and make one small securing twist within half a second; then withdraw fingers slightly, hose stays seated. Keep interface visible. Camera: Locked diagnostic contact, tiny forward move only after coupling seats; keep mating surfaces centered. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Visible fingers and wrist respond only to the specified contact and release, with the object and its fixed support continuously readable. Do not repeat completed actions to fill the remaining handle. Physical sound: Dry coupling click.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Dry coupling click. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "9dd01896-aaa0-400c-9cfe-213979a88252"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 6347678364561582764,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1.0,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12.0,
+        "shift_audio": 3.0,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793754906.681136,
+      "finished_at": 1793758372.3658051,
+      "reference_labels": [
+        "<Picture 1>: 9dd01896-aaa0-400c-9cfe-213979a88252"
+      ]
+    },
+    {
+      "id": "32d98d04-5586-45e8-8093-cc0687b8e71c",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Flat olive tank-shaped decoy connected by hose; two soldiers clear of its perimeter.\n<Picture 2> is later result-state guidance within the SAME continuous shot, not another shot or timed endpoint.\n\nsummary:\n[keyframe completion] One continuous take: Air fills hull and turret to full supported shape, compressed process depiction; crew guides a loose fold then releases.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n<Picture 2>: preserve the demonstrated outgoing relationship after the current action; reach it through visible motion, no cut or dissolve.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Tank is completely collapsed on its full-size footprint; hose is connected. Air pressure rapidly raises hull, then turret, then straightens hollow gun tube over about two and a half seconds, a deliberately compressed process. Rubber unfolds, tensions and settles with small wrinkles. Bottom edges never leave earth, no metal treads turn. Two soldiers stand clear and follow the rising turret with eyes. By three seconds full tank silhouette is supported and stable. Do not shrink footprint or change crew count. Camera: Low three-quarter opening matched tov2. Gentle20degree lateral arc during brisk inflation; keep full footprint and rising turret in frame, end at inflated grounded silhouette. Inflation compressed process, not slow action. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Air rush and pump rattle.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Air rush and pump rattle. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "4d0306f3-296b-437b-8a14-31a2ccef8ef2",
+          "bf7a9eaa-2247-40a7-8f55-3006eff07bfa"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 2781113434524057527,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793730669.072028,
+      "finished_at": 1793731055.6105392,
+      "reference_labels": [
+        "<Picture 1>: 4d0306f3-296b-437b-8a14-31a2ccef8ef2",
+        "<Picture 2>: bf7a9eaa-2247-40a7-8f55-3006eff07bfa"
+      ]
+    },
+    {
+      "id": "f31c756e-92e7-40b8-bd69-b633609ed9ed",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Fully inflated stationary decoy; hand approaches fabric lifting handle.\n\nsummary:\n[keyframe completion] One continuous take: Hand tightens its already closed grip; fabric loop takes tension before next lift.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the actual close-up: only the existing cropped hand/forearm and task object are in view. Retain dimensional hand form, uniform fabric and richly textured hand-painted3D toon surfaces. Keep established warm key/cool shadow, fixed material identity and readable object contact throughout the action. The framing stays on this hand and mechanism; no face or additional person enters.\n[Shot 1] The shot begins from <Picture 1>. Hand is already closed around stitched carrying loop. Fingers tighten quickly, loop straightens under tension and wrist braces. Preserve both stitched attachment patches and full hand support; no reach/regrasp. Camera: Locked hand/loop insert; show brief squeeze/tension, no new reach. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Visible fingers and wrist respond only to the specified contact and release, with the object and its fixed support continuously readable. Do not repeat completed actions to fill the remaining handle. Physical sound: Fabric tension.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Fabric tension. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "15a4ffc2-96bd-4a2c-878e-cd8f61843184"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 3146849667344901671,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1.0,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12.0,
+        "shift_audio": 3.0,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793754908.783554,
+      "finished_at": 1793758953.021146,
+      "reference_labels": [
+        "<Picture 1>: 15a4ffc2-96bd-4a2c-878e-cd8f61843184"
+      ]
+    },
+    {
+      "id": "825425ca-bedd-4975-9299-8e6a64567079",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Four soldiers at four attached lifting handles on same full tank, all boots planted.\n<Picture 2> is later result-state guidance within the SAME continuous shot, not another shot or timed endpoint.\n\nsummary:\n[keyframe completion] One continuous take: Four soldiers lift together briskly by attached handles until fabric tracks visibly clear the ground, hold briefly, then lower fully into the same footprint; hose remains slack and pump stationary.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n<Picture 2>: preserve the demonstrated outgoing relationship after the current action; reach it through visible motion, no cut or dissolve.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Exactly four soldiers each grip an attached loop. Begin coordinated knee extension immediately. Within half a second, raise whole lightweight decoy just enough that BOTH fabric track bottoms visibly clear the fixed earth. Briefly expose daylight gap, then bend knees and lower together by about1.4seconds; both bottoms fully touch earth again by1.6seconds. Hands stay joined to handles, boots keep ground contact, elbows carry tension then relax. Tank does not inflate, drive or flex like liquid; hose stays slack and pump fixed. Hold the completed grounded result for remaining native handle without another lift. Camera: Hold full four-person arrangement at onset; tiny lateral tracking follows coordinated fast lift, settle same footprint before end; no big pan hiding gap under tracks. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Boot impacts and fabric creak.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Boot impacts and fabric creak. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "27ee61eb-471e-4096-8dce-b3c170cf105a",
+          "1bcd91bf-a262-4dfc-8e3f-7bfaf8bbf662"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 4318575856998496235,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793728232.8368897,
+      "finished_at": 1793728619.245513,
+      "reference_labels": [
+        "<Picture 1>: 27ee61eb-471e-4096-8dce-b3c170cf105a",
+        "<Picture 2>: 1bcd91bf-a262-4dfc-8e3f-7bfaf8bbf662"
+      ]
+    },
+    {
+      "id": "d980a64e-3531-4512-bb81-3049221d5ced",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Tank grounded in field, crew steps away.\n\nsummary:\n[keyframe completion] One continuous take: Camera attention moves from visible flexible seam to rows of decoys behind hedgerow; graphic soldier checks spacing.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Begin on soft rubber seam. One soldier briskly clears the hull at right while camera transfers attention from seam toward rows beyond hedge. Tank and pump stay fixed and supported, fabric wrinkles flutter slightly in breeze. Camera: Start close seam, glide0.5m along hull, ease tilt upward toward decoy rows beyond hedge only after seam registered. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Field wind.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Field wind. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "46b4a00f-4a88-4e86-b262-784fcacf960b"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 4941894800946803570,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1.0,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12.0,
+        "shift_audio": 3.0,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793754907.7290487,
+      "finished_at": 1793758662.7242837,
+      "reference_labels": [
+        "<Picture 1>: 46b4a00f-4a88-4e86-b262-784fcacf960b"
+      ]
+    },
+    {
+      "id": "52d8c492-ce01-4702-b815-f45595ac4547",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing High oblique view of decoy rows, crew tiny and scale coherent.\n\nsummary:\n[keyframe completion] One continuous take: Camera travels above hedgerow to reveal convincing armored-unit layout; tanks remain stationary.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Six inflated decoys remain stationary in two rows while tiny crew finish handling a crate. Camera rises diagonally above hedgerow exposing believable unit spacing; soft leaves move and distant terrain shows coherent parallax. Camera: Elevated diagonal travel above left hedge, modest crane rise reveals complete two-row layout; end on layout, tanks stationary. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Air and distant engine.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Air and distant engine. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "ee8ed295-1269-4cc4-8e3d-da6ac60099e9"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 6.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 4676658247041976391,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1.0,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12.0,
+        "shift_audio": 3.0,
+        "embeddings": []
+      },
+      "frames": 158,
+      "fps": 24,
+      "actual_duration": 6.583333333333333,
+      "created_at": 1793754909.8407304,
+      "finished_at": 1793759377.0861702,
+      "reference_labels": [
+        "<Picture 1>: ee8ed295-1269-4cc4-8e3d-da6ac60099e9"
+      ]
+    },
+    {
+      "id": "63212258-e630-4e94-9739-ce2055b7e2a3",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Truck stopped on camp track; two soldiers stand at tailgate with canvas equipment bags.\n\nsummary:\n[keyframe completion] One continuous take: Soldiers lift bag from low tailgate together and carry it briskly toward tent; camera tracks bag then reveals arriving crew.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. The bag rests on a rigid truck tailgate with both soldiers already gripping it. Lift it together in one decisive second, step backward clear of tailgate, then carry briskly left along track for three steps. Bag hangs between their hands, each heel-toe landing carries weight. After clearance camera follows bag then reveals tent; never walk through tailgate. Camera: Start at bag/tailgate; track left parallel to two carriers after bag lifts clear, reveal tent beyond right by modest arc; end bag supported at camp edge, no camera reset. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Canvas thud, boots and engine idle.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Canvas thud, boots and engine idle. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "f13c8d3a-2e11-414d-8fb4-9e0566b79fbe"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 14.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 2164198465591498136,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1.0,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12.0,
+        "shift_audio": 3.0,
+        "embeddings": []
+      },
+      "frames": 345,
+      "fps": 24,
+      "actual_duration": 14.375,
+      "created_at": 1793754904.5848007,
+      "finished_at": 1793756875.4572659,
+      "reference_labels": [
+        "<Picture 1>: f13c8d3a-2e11-414d-8fb4-9e0566b79fbe"
+      ]
+    },
+    {
+      "id": "50b477ec-47a6-4377-962f-280db93f6505",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Two original graphic soldiers at camp worktable with folded rubber, seam pattern and sketch.\n\nsummary:\n[keyframe completion] One continuous take: Engineer measures seam and artist checks tank silhouette sketch, then both move hands to folded material; task-directed micro acting.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. One soldier finishes a short seam measurement, retracts tape and holds folded rubber steady. Other finishes one pencil stroke on tank sketch and places pencil on paper. Their eyes move from sketch to seam, hands then lift one fold open; supported material drapes toward table, no duplicate fingers. Camera: Start tape/seam, lateral0.4m glide to pencil sketch after tape retracts; tilt to shared task gaze then follow hands beginning to unfold material. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Paper and material rustle.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Paper and material rustle. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "70dcee5d-9b9d-4121-bf0f-a94a90c0ac7c"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 12.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 5201893798526374113,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1.0,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12.0,
+        "shift_audio": 3.0,
+        "embeddings": []
+      },
+      "frames": 294,
+      "fps": 24,
+      "actual_duration": 12.25,
+      "created_at": 1793754905.6376116,
+      "finished_at": 1793758081.0928645,
+      "reference_labels": [
+        "<Picture 1>: 70dcee5d-9b9d-4121-bf0f-a94a90c0ac7c"
+      ]
+    },
+    {
+      "id": "f7fab42b-e030-4880-8c05-fa262cb6677e",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Same decoy camp from field edge.\n\nsummary:\n[keyframe completion] One continuous take: Soldier pauses and looks toward empty tree line; camera tracks into unseen space motivating missing sound.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Soldier pauses with hands resting on grounded pump handle, turns eyes and head to vacant woodland, then releases one hand and shifts weight to front boot. No further pumping. Camera moves attention into empty trees. Camera: Track from profile soldier at pump across empty woodland opening; pause on unoccupied trees to motivate missing sound. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Light wind.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Light wind. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "25239def-6dd9-422f-aea3-d921cc1d8641"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 11.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 1404808977674571103,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1.0,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12.0,
+        "shift_audio": 3.0,
+        "embeddings": []
+      },
+      "frames": 277,
+      "fps": 24,
+      "actual_duration": 11.541666666666666,
+      "created_at": 1793754910.8986177,
+      "finished_at": 1793760464.59148,
+      "reference_labels": [
+        "<Picture 1>: 25239def-6dd9-422f-aea3-d921cc1d8641"
+      ]
+    },
+    {
+      "id": "480552f0-5ee4-498b-a77f-18fbebd10a2f",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Period playback/amplifier switch beneath operator fingers.\n\nsummary:\n[keyframe completion] One continuous take: Finger flicks one switch into engaged position.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Fingertip flips metal toggle once decisively, lever reaches opposite stop and finger lifts away. Analog needle moves modestly. Do not add switches or change cabinet. Camera: Locked toggle close view, fingertip flips switch and clears lever; brief ease-in only. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Mechanical click.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Mechanical click. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "b8bfac4f-ab97-4a27-886b-ea8c1b3e5f9b"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 7545675965344309822,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1.0,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12.0,
+        "shift_audio": 3.0,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793754911.9698548,
+      "finished_at": 1793760755.8530552,
+      "reference_labels": [
+        "<Picture 1>: b8bfac4f-ab97-4a27-886b-ea8c1b3e5f9b"
+      ]
+    },
+    {
+      "id": "9735473b-f5c0-4f4e-9cf8-5c462ea2e7c4",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Vehicle-mounted large period horn speakers at woodland edge, operator at playback unit.\n\nsummary:\n[keyframe completion] One continuous take: Operator feeds playback; camera tracks from moving reel/amplifier to fixed horns aimed across valley.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Operator rotates one control, watches analog meter settle, then mechanical wire spool turns steadily. Seated weight and both boot contacts remain fixed on platform. Camera then tilts along same truck to two mounted horns, revealing their aim into valley. Horns do not detach or wobble. Operator mouth stays closed. Camera: Start hand/cabinet low, smooth upward tilt along same truck wall to securely mounted horns after control operation; then small arc exposes direction across valley. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Nonverbal engine/construction recordings, no voices.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Nonverbal engine/construction recordings, no voices. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "1f0fdc1c-0a70-4beb-bea5-2f9b911ff6a7"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 10.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 8347954407027197323,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1.0,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12.0,
+        "shift_audio": 3.0,
+        "embeddings": []
+      },
+      "frames": 243,
+      "fps": 24,
+      "actual_duration": 10.125,
+      "created_at": 1793754913.0491288,
+      "finished_at": 1793761621.539604,
+      "reference_labels": [
+        "<Picture 1>: 1f0fdc1c-0a70-4beb-bea5-2f9b911ff6a7"
+      ]
+    },
+    {
+      "id": "23b39f19-f360-4847-9c06-52b5bd0c37e7",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Period radio operator with headphones and Morse key at tent table.\n\nsummary:\n[keyframe completion] One continuous take: Operator taps key briskly, watches signal meter; camera arcs around hand toward attentive face.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. One headphone operator taps Morse key briskly in short irregular sequences, lever moves around its fixed hinge and springs back between contacts. Eyes shift key to analog meter; brow tightens slightly, shoulder breath subtle, mouth closed. No spoken messages. Camera: Start key/hand, lateral arc to concentrated eyes then meter; fingers tap briskly, eyes move between key and cabinet, no lip movement. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Morse clicks, no spoken radio.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Morse clicks, no spoken radio. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "b1dd3ba7-f61a-4f58-9a3d-a4ea2dc71912"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 6.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 2652635236192128476,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1.0,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12.0,
+        "shift_audio": 3.0,
+        "embeddings": []
+      },
+      "frames": 158,
+      "fps": 24,
+      "actual_duration": 6.583333333333333,
+      "created_at": 1793754914.115133,
+      "finished_at": 1793762045.639404,
+      "reference_labels": [
+        "<Picture 1>: b1dd3ba7-f61a-4f58-9a3d-a4ea2dc71912"
+      ]
+    },
+    {
+      "id": "9d8aaa8b-ac1c-4e58-b918-8a7dd05735fe",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Elevated connected view of decoy field, speaker vehicle at woodland and radio tent.\n\nsummary:\n[keyframe completion] One continuous take: Camera rises across three grounded sources into unified camp layout; no magical beams.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Begin near parked sound truck, rise toward decoy rows and tent; all equipment remains stationary and grounded. Operator makes small purposeful control adjustment, tiny crew moves crate. Reveal three sources as a connected deployment rather than a morph or split screen. Camera: Begin near sound truck, rise forward across decoy rows to radio tent left; retain coherent field landmarks, end three channels visible. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Field wind and distant mechanical rumble.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Field wind and distant mechanical rumble. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "502493a5-4534-47f2-a767-e393db032dd7"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 7.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 2345050761184880785,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1.0,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12.0,
+        "shift_audio": 3.0,
+        "embeddings": []
+      },
+      "frames": 175,
+      "fps": 24,
+      "actual_duration": 7.291666666666667,
+      "created_at": 1793754915.1834564,
+      "finished_at": 1793762547.4169421,
+      "reference_labels": [
+        "<Picture 1>: 502493a5-4534-47f2-a767-e393db032dd7"
+      ]
+    },
+    {
+      "id": "95e931d7-6ff6-4da9-ae5f-b7b91f6097fa",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Soldier at field edge catches distant artillery flash beyond ridge.\n\nsummary:\n[keyframe completion] One continuous take: Eyes snap toward ridge, brow tightens and shoulder ducks; no impact on body.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Eyes snap toward ridge flash, brows tighten and head ducks a few centimeters decisively. Keep face graphic and closed-mouth, no speaking or injury; distant flash fades without changing local light exposure. Camera: Locked face, brisk eye/head response to ridge then slight duck; no shake/flash masking body motion. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Distant single artillery boom.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Distant single artillery boom. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "24587760-1d47-4ff9-97cf-02174542428a"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 2490228503767251040,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1.0,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12.0,
+        "shift_audio": 3.0,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793754916.2389784,
+      "finished_at": 1793762838.1048312,
+      "reference_labels": [
+        "<Picture 1>: 24587760-1d47-4ff9-97cf-02174542428a"
+      ]
+    },
+    {
+      "id": "99150042-6cee-43f4-b10a-37aa019ece9f",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Two crouched crew, detached coupling and hanging valve cap, second hand on hose coil.\n\nsummary:\n[keyframe completion] One continuous take: Crew closes attached valve cap first, lifts coil briskly and moves crouched into cover left; inflated tank remains grounded.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Coupling is already detached. First soldier swings the attached cap closed onto valve and seats it. Second gathers supported coil and lifts it with both hands; first takes free coupling. They rise into crouch and briskly move left behind hedge, hose stays in their hands and does not drag through tank. Tank remains inflated after cap closes. Camera: Begin detached coupling and hanging cap; show cap close, hands lift hose coil, camera tracks left at crouched chest height into hedge; leave inflated decoy behind. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Boots, hose scrape.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Boots, hose scrape. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "a2f4c3ff-d98a-4adf-9a09-9950031dcacf"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 11.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 2044132501517952131,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1.0,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12.0,
+        "shift_audio": 3.0,
+        "embeddings": []
+      },
+      "frames": 277,
+      "fps": 24,
+      "actual_duration": 11.541666666666666,
+      "created_at": 1793754917.3076475,
+      "finished_at": 1793763927.8738728,
+      "reference_labels": [
+        "<Picture 1>: a2f4c3ff-d98a-4adf-9a09-9950031dcacf"
+      ]
+    },
+    {
+      "id": "49cf69b6-399f-400e-a50a-525e9ca385b6",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Simplified tabletop map: Rhine vertical, two distinct west-bank assembly areas.\n<Picture 2> is later result-state guidance within the SAME continuous shot, not another shot or timed endpoint.\n\nsummary:\n[keyframe completion] One continuous take: Officer moves two plain division tokens from lower false area toward upper real assembly area, leaves outline markers at false area.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n<Picture 2>: preserve the demonstrated outgoing relationship after the current action; reach it through visible motion, no cut or dissolve.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. There are exactly TWO wooden disks on the entire map, both initially inside the lower circled area on the LEFT bank of the blue river. The upper left-bank circle is empty. The officer uses one fingertip against the BACK EDGE of the right lower disk, leaving its round top visible, and SLIDES that same disk on the paper upward along the left bank into the upper circle. The vacated lower-right spot becomes bare paper. Release that disk in the upper circle; it stays stationary there. Return the empty hand to the only remaining lower disk, touch its back edge and slide that same disk upward along the same bank into the upper circle beside the first disk. Its vacated lower-left spot also becomes bare paper. Both lower starting spots are now empty; exactly two disks are in the upper circle, with no third disk anywhere. Both disks stay continuously on paper through their slides. Complete first slide promptly in about two seconds and second by about five seconds; then lift the fingertip away and let the officer compare the empty lower area with the two-disk upper result using a focused eyeline. Preserve the unchanged river, map ink, circles and tabletop geography. Camera holds a diagnostic high three-quarter view containing BOTH circles, the whole connecting path and river throughout both transfers. After the second disk settles, a small coherent camera rise reveals the entire completed two-disk relationship while keeping both empty lower positions visible. Keep the graphic face and dimensional hand/uniform/set of the references, readable warm task light and cool shadows. The unbroken take shows each actual disk travel once, rather than covering a disk and revealing a copy. Paper and sliding wood sounds only; mouth closed.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Wood tokens on paper. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "6ba3c585-41ea-46de-aab3-669bdb90b5b8",
+          "988bbf7a-12ea-48ea-9e42-6f7992feb738"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 14.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 7120989532159469639,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1.0,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12.0,
+        "shift_audio": 3.0,
+        "embeddings": []
+      },
+      "frames": 345,
+      "fps": 24,
+      "actual_duration": 14.375,
+      "created_at": 1793767256.150096,
+      "finished_at": 1793770995.8793495,
+      "reference_labels": [
+        "<Picture 1>: 6ba3c585-41ea-46de-aab3-669bdb90b5b8",
+        "<Picture 2>: 988bbf7a-12ea-48ea-9e42-6f7992feb738"
+      ]
+    },
+    {
+      "id": "aeb22dd4-8b93-496f-9213-fc5d61d504d2",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Decoy camp with rubber vehicles and tents in lower-area reconstruction.\n\nsummary:\n[keyframe completion] One continuous take: Crew positions dummy artillery and checks alignment, camera follows wheeled prop then reveals camp.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Two soldiers maintain hands on carriage trails and roll lightweight dummy gun right one short distance in about one second. Wheels turn on earth, feet step briskly, rigid carriage stays connected, fabric shield gives tiny settling wrinkle. Stop wheels fully before remaining native handle. Camera: Side-track right with rolling dummy gun, maintain wheels/handle contacts and two carriers; stop only once parked. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Wood and boots.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Wood and boots. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "0113ce01-3362-4d5e-b13b-b769a2680090"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 2435845688015413707,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1.0,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12.0,
+        "shift_audio": 3.0,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793754919.4386272,
+      "finished_at": 1793765825.4473567,
+      "reference_labels": [
+        "<Picture 1>: 0113ce01-3362-4d5e-b13b-b769a2680090"
+      ]
+    },
+    {
+      "id": "fe48d1a0-974d-455b-8c0b-22bbc9ce3edc",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Three foot soldiers and one hatch crew with real metal tracked vehicle under tree cover.\n\nsummary:\n[keyframe completion] One continuous take: Vehicles and soldiers advance briskly behind cover; camera tracks parallel, no floating tread.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Three foot soldiers stride briskly right beside a real metal tracked vehicle. Each step completes push-off, swing, heel contact and weight transfer, packs recoil. Metal treads cycle with vehicle translation, hull remains rigid with small suspension response. Hatch crew stays contained at waist in same turret and watches lane. Camera tracks right to keep nose and lead soldier within crop. Camera: Track right parallel to true metal vehicle and three walking soldiers; modest upward arc to hatch crew, foreground parallax; all advance at brisk normal pace. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Real engine and boots.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Real engine and boots. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "27866ad9-6a1f-41d7-b31f-3c16133249c0"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 10.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 959084809368775779,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1.0,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12.0,
+        "shift_audio": 3.0,
+        "embeddings": []
+      },
+      "frames": 243,
+      "fps": 24,
+      "actual_duration": 10.125,
+      "created_at": 1793754921.5503104,
+      "finished_at": 1793766981.3748577,
+      "reference_labels": [
+        "<Picture 1>: 27866ad9-6a1f-41d7-b31f-3c16133249c0"
+      ]
+    },
+    {
+      "id": "3b27b184-bc37-4eac-ae22-687e5ce3890a",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Same radio desk, operator hand on Morse key.\n\nsummary:\n[keyframe completion] One continuous take: Key depresses decisively and springs back; radio ownership clear.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the actual close-up: only the existing cropped hand/forearm and task object are in view. Retain dimensional hand form, uniform fabric and richly textured hand-painted3D toon surfaces. Keep established warm key/cool shadow, fixed material identity and readable object contact throughout the action. The framing stays on this hand and mechanism; no face or additional person enters.\n[Shot 1] The shot begins from <Picture 1>. Fingertips depress black Morse knob around fixed hinge, close contact once, then release and show spring return. Cabinet and cable remain rigidly supported. Camera: Locked Morse contact insert; one clear depression and spring return. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Visible fingers and wrist respond only to the specified contact and release, with the object and its fixed support continuously readable. Do not repeat completed actions to fill the remaining handle. Physical sound: Single Morse click.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Single Morse click. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "11967a78-1e23-4be5-8bdc-16788097c147"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 2616784065377632607,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1.0,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12.0,
+        "shift_audio": 3.0,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793754920.487988,
+      "finished_at": 1793766115.7352655,
+      "reference_labels": [
+        "<Picture 1>: 11967a78-1e23-4be5-8bdc-16788097c147"
+      ]
+    },
+    {
+      "id": "a3730b13-37b6-40fa-b03c-39af6dbdfd37",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Two aligned simplified maps, left79 lower false area and right79 upper real area.\n\nsummary:\n[keyframe completion] One continuous take: Officer compares markers with fingertip and gaze while camera reveals their different positions; sheets remain aligned.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Sheets already aligned. Officer points at left lower79, then moves fingertip across table to right upper79 while eyes follow. Camera follows this comparison; pause with both positions readable, then lift gaze to an alert brow realization and return attention to mismatched map positions. Keep exactly one79 marker per sheet, neither moves. No new paper or imaginary message appears. Camera: Start left lower79; glide to right upper79 as officer compares, then a small rising arc follows gaze to face and back to two-sheet relation. Sheets remain aligned, no repeated alignment/reset. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Paper and pencil.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Paper and pencil. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "c166b8a2-c48e-4822-8566-dd48dc814a56"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 15.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 2813491387193428198,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1.0,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12.0,
+        "shift_audio": 3.0,
+        "embeddings": []
+      },
+      "frames": 362,
+      "fps": 24,
+      "actual_duration": 15.083333333333334,
+      "created_at": 1793754922.6113605,
+      "finished_at": 1793768735.463611,
+      "reference_labels": [
+        "<Picture 1>: c166b8a2-c48e-4822-8566-dd48dc814a56"
+      ]
+    },
+    {
+      "id": "656c8c35-c905-40d7-9db4-aa082d3fa5a3",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Diagnostic close view of pencil beside false-area79th marker on simplified map.\n\nsummary:\n[keyframe completion] One continuous take: Pencil touches false-area marker, then lifts; map stays flat on table.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the actual close-up: only the existing cropped hand/forearm and task object are in view. Retain dimensional hand form, uniform fabric and richly textured hand-painted3D toon surfaces. Keep established warm key/cool shadow, fixed material identity and readable object contact throughout the action. The framing stays on this hand and mechanism; no face or additional person enters.\n[Shot 1] The shot begins from <Picture 1>. Pencil already touches lower79 marker. One tiny firm tap then lift tip a few millimeters; marker stays fixed inside lower circle, paper remains flat. Camera: Locked pencil/token diagnostic; tiny touch and lift, no token relocation. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Visible fingers and wrist respond only to the specified contact and release, with the object and its fixed support continuously readable. Do not repeat completed actions to fill the remaining handle. Physical sound: Pencil tap.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Pencil tap. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "4e6063fd-8e08-45a5-a48c-7f76aeb03ca0"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 6103247778189405846,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1.0,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12.0,
+        "shift_audio": 3.0,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793754923.661013,
+      "finished_at": 1793769026.840147,
+      "reference_labels": [
+        "<Picture 1>: 4e6063fd-8e08-45a5-a48c-7f76aeb03ca0"
+      ]
+    },
+    {
+      "id": "e3ba0b8b-8765-48f6-b138-62ca0773d030",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], providing Return to same grounded inflated tank, four soldiers beside it, sunset field.\n\nsummary:\n[keyframe completion] One continuous take: Four soldiers briefly lift rear edge by attached handles, settle decoy fully into same footprint, then release grips as camera arcs from rubber seam to task-focused quietly relieved faces.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain cast, prop identity, grounded layout and graphic style; the action must develop from this phase, not freeze.\n\ndetailed_description:\nPreserve the selected simple round graphic faces, small oval eyes and dark contours. Retain dimensional hair, hands, clothing folds and tactile costume materials, together with the richly textured hand-painted3D toon set. Preserve coherent motivated warm key, cool fill/shadow separation and grounded contact shadows; faces, active limbs and critical contact surfaces remain readable as actors and camera turn. Keep useful shadow detail and highlights without washout or exposure pulsing. No detailed irises, photoreal facial anatomy or glossy doll surfaces.\n[Shot 1] The shot begins from <Picture 1>. Four crew keep hands on handles. Near pair briskly raise rear edge a little, far crew stabilize, then set rear fully down within first1.8seconds. Grounded tank is visible before camera transfers from seam to faces. Fingers loosen, shoulders ease and eyes settle on completed work; no smiles at viewer or speaking mouths. Finish on the whole supported decoy and focused crew. Camera: Low rear-quarter starts seam/handles; rear edge lifts then settles quickly, camera arcs20degrees to two near faces only after grounded result; ease out on complete supported decoy. Subject actions finish briskly at normal speed; camera movement is separately motivated and eases out into the new attention target. Keep mouths closed and retain task-directed gaze, brows and weight responses. Micro-acting follows effort: eyes find the next target, fingers tighten at actual contact, weight settles onto visible support and cloth follows the completed action. Do not repeat completed actions to fill the remaining handle. Physical sound: Fabric, steps and field wind.\n\noverall_soundscape:\nOnly synchronized physical effects and restrained scene ambience: Fabric, steps and field wind. No speech, dialogue, narration, singing or human vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "c9debbc2-274e-46e8-bf8c-7f14e7b212d2"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 5.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 6248310632428702574,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1.0,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12.0,
+        "shift_audio": 3.0,
+        "embeddings": []
+      },
+      "frames": 124,
+      "fps": 24,
+      "actual_duration": 5.166666666666667,
+      "created_at": 1793754924.7116752,
+      "finished_at": 1793769319.5711274,
+      "reference_labels": [
+        "<Picture 1>: c9debbc2-274e-46e8-bf8c-7f14e7b212d2"
+      ]
+    }
+  ],
+  "note": "Original prompt/request/seed and actual IDs retained. This is not authorization to resubmit. Original binary inputs come from the external archive."
+}

@@ -11,7 +11,7 @@ export function reviewFingerprint(p: Project, surface: ReviewSurface): string {
 }
 export function isReviewApproved(p: Project, surface: ReviewSurface) { return p.review.approvals[surface]?.fingerprint === reviewFingerprint(p, surface); }
 export function canApproveReview(p: Project, surface: ReviewSurface) {
-  return surface === 'skill' ? !!p.skill?.content.trim() : p.scenes.every(s => s.narration.trim() && s.direction.trim());
+  return surface === 'skill' ? !!p.skill?.content.trim() : p.scenes.every(s => s.direction.trim() && (p.sourceVideo ? s.source?.verified || s.source?.status === 'excluded' : s.narration.trim()));
 }
 export function approveReview(p: Project, surface: ReviewSurface) {
   if (!canApproveReview(p, surface)) throw new Error(surface === 'skill' ? 'Choose a project skill before approving it.' : 'Add narration and direction for each scene before approving the storyboard.');

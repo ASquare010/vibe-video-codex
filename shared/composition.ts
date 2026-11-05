@@ -1,3 +1,4 @@
+import type {PlaybackIndex} from './playback-index';
 import { sceneStart, type Project, type Clip } from './project';
 
 export function transformAt(clip: Clip, localFrame: number) {
@@ -8,10 +9,10 @@ export function transformAt(clip: Clip, localFrame: number) {
   const dy = clip.motion === 'pan-up' ? amount * 100 * (0.5 - t) : clip.motion === 'pan-down' ? amount * 100 * (t - 0.5) : 0;
   return clip.motion === 'custom' ? { scale: clip.scale + (clip.endScale - clip.scale) * t, x: clip.x + (clip.endX - clip.x) * t, y: clip.y + (clip.endY - clip.y) * t } : { scale: clip.scale * zoom, x: clip.x + dx, y: clip.y + dy };
 }
-export function visualState(p: Project, clip: Clip, globalFrame: number) {
-  const local = globalFrame - sceneStart(p, clip.sceneId), elapsed = local - clip.startFrame;
-  const incoming = p.transitions.find(t => t.toClipId === clip.id);
-  const outgoing = p.transitions.find(t => t.fromClipId === clip.id);
+export function visualState(p: Project, clip: Clip, globalFrame: number, index?: PlaybackIndex) {
+  const local = globalFrame - (index?.starts.get(clip.sceneId) ?? sceneStart(p, clip.sceneId)), elapsed = local - clip.startFrame;
+  const incoming = index ? index.incoming.get(clip.id) : p.transitions.find(t => t.toClipId === clip.id);
+  const outgoing = index ? index.outgoing.get(clip.id) : p.transitions.find(t => t.fromClipId === clip.id);
   const afterEnd = elapsed - clip.durationFrames;
   const hold = outgoing && outgoing.type !== 'dip-black' && afterEnd >= 0 && afterEnd < outgoing.durationFrames;
   let opacity = clip.opacity, reveal = 1, slide = 0;

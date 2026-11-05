@@ -17,3 +17,34 @@ __pycache__/
 drafts/
 .venv/
 dump/
+
+# Generated review runs and scratch storyboards (curated recipes live in productions/).
+/evaluations/
+/storyboards/
+/docs/cost-history/
+
+# Local media, exported deliverables, model weights and runtime archives.
+*.mp4
+*.mkv
+*.mov
+*.webm
+*.wav
+*.mp3
+*.flac
+*.zip
+*.7z
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.pid
+*.part
+/tools/minimax_h3/known_hosts
+/tools/qwen_image21/*-verification.json
+/tools/qwen_image21/*-deployment.json
+/tools/qwen_image21/installation*.json
+/tools/qwen_image21/node-schema.json
+
+# Media restored from the external reproduction archive, never source code.
+/productions/**/local-media/
+/productions/**/rendered/

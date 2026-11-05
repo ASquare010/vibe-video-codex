@@ -1,0 +1,21 @@
+{
+  "verifiedAt": "2026-11-05T12:46:47.196462+00:00",
+  "allSixRecipes": "Schema, exact timing and220media reference hashes checked from restored external archive (216unique blobs).",
+  "unitAndExportChecks": {
+    "passed": 14,
+    "failed": 0,
+    "command": "node --import tsx --test tests/export-boundaries.test.ts tests/export-effects.test.ts tests/store.test.ts tests/review.test.ts tests/source-timeline.test.ts tests/media-cache.test.ts"
+  },
+  "offlineRerender": {
+    "film": "04-salary-dance-kittens",
+    "frames": 720,
+    "width": 720,
+    "height": 1280,
+    "fps": 24,
+    "fullDecode": "passed",
+    "everyFrameComparisonMaxMAE": 0.0,
+    "audioWaveformCorrelation": 1.0,
+    "byteIdentical": true
+  },
+  "limits": "Representative full re-render tested for kitten film; remaining five recipes schema/media/timing verified, not re-rendered in this commit. No new media generation/provider calls."
+}

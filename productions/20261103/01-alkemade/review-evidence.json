@@ -1,0 +1,553 @@
+{
+  "motion-selections.json": {
+    "S01-G": {
+      "decision": "usable",
+      "jobId": "eb7be024-fef5-46ec-90ad-be3664577860",
+      "attempt": "test-v2",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 209,
+      "editFrames": 183,
+      "playbackRate": 1.1420765027322404,
+      "timeTreatment": "Modest speed-up of full native take to accepted narration window; no slowing or speech edit.",
+      "reviewedNativeFrames": "Overview every8 frames plus ALL frames120-208 in dense5/6/7 for release/contact/fall, with earlier supported preparation visible in overview.",
+      "observed": [
+        "Corrected horizontal tailplane and outboard fin attachments retained at opening.",
+        "One body remains supported on seat/rails through preparation, then palms release and boots clear; seat empty and body separated.",
+        "Native frames120-155 show continuous backward rotation and full release; frames156-208 show clear falling body with plane exiting overhead.",
+        "Camera travels toward turret then hands attention to falling body; no repeated body/aircraft or return to seat.",
+        "Entire native interval retained, playbackRate slightly increased to preserve complete achieved action at brisker pace."
+      ],
+      "limits": [
+        "Not native real-time playback or listening.",
+        "No quantified ballistic-speed claim; actual falling separation and camera handoff observed.",
+        "Raw native sound excluded pending listening."
+      ],
+      "completionTest": "complete in reviewed retained source0:209, no action removed by trim"
+    },
+    "S02-B": {
+      "decision": "usable",
+      "jobId": "168cf44e-f922-402c-b92c-29a30402c96d",
+      "attempt": "v1",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 110,
+      "editFrames": 59,
+      "playbackRate": 1.8644067796610169,
+      "timeTreatment": "Remove14-frame idle ground tail, then speed complete contact/roll/descent/ground result to existing59-frame narration window. No speech or source action removal.",
+      "reviewedNativeFrames": "ALL native frames0–119 on dense1–4, overview through120.",
+      "observed": [
+        "One body begins in bough contact, moves/rolls free below needles, descends through lower branches and makes visible powder-producing snow impact around native90–96.",
+        "Full body and supported unconscious ground result retained in source0:110; bent knee and bootless final state match following waking scene.",
+        "Camera tracks body down with coherent tree depth; no standing survivor or extra body."
+      ],
+      "limits": [
+        "Successive branch contacts partly occluded by needles; no precise independent contact-count claim.",
+        "Boot stripping is not separately demonstrated; boot loss is elided during passage/impact, not certified as a visible operation.",
+        "Frame inspection/retimed review only; not native real-time viewing or listening. Raw native audio excluded."
+      ],
+      "completionTest": "Core contact→continued descent→supported snow result retained; individual obscured contacts and boot release not separately certified."
+    },
+    "S01-A": {
+      "decision": "usable",
+      "jobId": "fa6631ff-c2e9-43a9-bb2c-b5bda7d82eaa",
+      "attempt": "v1",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 123,
+      "editFrames": 123,
+      "playbackRate": 1,
+      "timeTreatment": "Use opening123frames at natural speed; trim18-frame tail.",
+      "reviewedNativeFrames": "Actual overview every8frames across141-frame take.",
+      "observed": [
+        "Single supported gunner remains seated with feet in turret as camera moves across broken glazing toward rigid gun assembly.",
+        "Fire grows behind him; hand shifts to weapon control rather than planned door-directed glance. Retained as attack/trapped-gunner context; the later access shots carry the door cause.",
+        "No duplicated aircraft/person, no detached limb, no unsupported standing."
+      ],
+      "limits": [
+        "Exact planned door eyeline not achieved; no claim it was. Context/gunnery action is consistent with documented return fire.",
+        "Real-time playback/listening pending; unlistened native sound excluded."
+      ],
+      "completionTest": "Supported occupied-turret/fire context established; gaze variance recorded."
+    },
+    "S01-B": {
+      "decision": "usable",
+      "attempt": "repair-v2",
+      "jobId": "1f22eeaf-ede3-4ea9-a49f-fa40226c071f",
+      "rejectedOriginalJobId": "1c0ca153-5957-4d9b-bf0c-1f7ed66efdb9",
+      "selectedVersionId": "S01-B-motion-repair-v2",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 243,
+      "editFrames": 227,
+      "playbackRate": 1.070484581493392,
+      "observed": [
+        "Continuous exterior attack view with one burning RAF bomber and lower German fighter; fire/tracer movement and camera travel achieved.",
+        "No invented crew crowd or interior location changes; aircraft remain distinct and attached."
+      ],
+      "limits": [
+        "Actual overview1/2 across243frames reviewed, not native realtime playback/listening.",
+        "No frame-by-frame aerodynamic/fin-geometry certification; corrected main release remains the aircraft geometry anchor. Raw native sound excluded."
+      ],
+      "timeTreatment": "Full243nativeframes into227editframes, slight speed-up preserving complete achieved action; narration unchanged.",
+      "completionTest": "Demonstrated original failure removed in retained repair; review limits recorded.",
+      "numericalNote": "Subtract one billionth of a source frame before division to prevent floating-point ceil falsely requesting244frames from243; no perceptible time/action change.",
+      "reviewedNativeFrames": "Overview1/2 whole243 plus native full0/160/200 for attached engines, rear-tip turret and tailplane/fins; stylized insignia and exact aerodynamic reconstruction not certified."
+    },
+    "S01-C": {
+      "decision": "usable",
+      "jobId": "e89a2fbe-bb0f-4277-ae2f-cdf835f803f5",
+      "attempt": "v1",
+      "selectedVersionId": "S01-C-motion-v1-diagnostic-crop",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 18,
+      "editFrames": 18,
+      "playbackRate": 1,
+      "timeTreatment": "Native first18frames at1.0; diagnostic crop480x854at100,370 rescaled736x1280. No time stretching or new generation.",
+      "observed": [
+        "Two bare chest D rings dominate crop; no attached pack.",
+        "Attached hand remains on fixed seat rail; subject stays seated.",
+        "Invented background crew in raw wider take excluded by purposeful diagnostic framing; first and last selected cropped frames checked."
+      ],
+      "limits": [
+        "State insert, not a completed mechanical action.",
+        "Native real-time/listening pending; sound excluded."
+      ],
+      "evidence": [
+        "video-review/S01-C-v1/diagnostic-crop-f0.png",
+        "video-review/S01-C-v1/diagnostic-crop-f17.png",
+        "video-review/S01-C-v1/crop-lineage.json"
+      ]
+    },
+    "S01-D": {
+      "decision": "usable",
+      "attempt": "repair-v2",
+      "jobId": "7959bce7-6aeb-4402-a378-daf6ea645bcb",
+      "rejectedOriginalJobId": "3f3d2506-f9d2-46fa-aa6a-c49c6b9322f4",
+      "selectedVersionId": "S01-D-motion-repair-v2",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 243,
+      "editFrames": 221,
+      "playbackRate": 1.0995475113076925,
+      "observed": [
+        "Pack remains in fixed wall-mounted canister and burns throughout; no retrieval, added actor or ownership change.",
+        "Camera slides laterally through same dark interior, with rigid supports and orange firelight; doors visible at opening."
+      ],
+      "limits": [
+        "Actual overview1/2 reviewed, not native realtime playback/listening.",
+        "Planned attention endpoint on closed paired doors not achieved: camera ends toward an oval side window. Retained for continuous burning inaccessible-pack state; no certified claim about exact window reconstruction.",
+        "Raw native sound excluded."
+      ],
+      "timeTreatment": "Full243nativeframes into221editframes, slight speed-up preserving complete achieved action; narration unchanged.",
+      "completionTest": "Demonstrated original failure removed in retained repair; review limits recorded.",
+      "numericalNote": "Subtract one billionth of a source frame before division to prevent floating-point ceil falsely requesting244frames from243; no perceptible time/action change."
+    },
+    "S01-E": {
+      "decision": "usable",
+      "jobId": "8734a82b-bd44-4a5b-af5d-265c3e46c6fc",
+      "attempt": "v1",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 124,
+      "editFrames": 106,
+      "playbackRate": 1.169811320754717,
+      "reviewedNativeFrames": "ALL frames0:124 on dense1-5",
+      "observed": [
+        "Single seated gunner remains supported with boots in turret and other hand braced.",
+        "Hand maintains door-handle relationship; doors open to burning stored pack, brow/face recoil occurs, then doors close.",
+        "Short camera movement preserves single connected space and rigid access frame."
+      ],
+      "limits": [
+        "Frame inspection, not real-time playback/listening.",
+        "Raw audio preserved and excluded."
+      ],
+      "timeTreatment": "Full124-frame action slightly accelerated to existing106-frame window; narration unchanged."
+    },
+    "S01-F": {
+      "decision": "usable",
+      "jobId": "e7259904-ff59-4349-a661-aef67d33bc50",
+      "attempt": "v1",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 18,
+      "editFrames": 18,
+      "playbackRate": 1,
+      "reviewedNativeFrames": "ALL retained0:18 on dense1, full take overview inspected.",
+      "observed": [
+        "Retained brief low view shows fire along rigid sill/pipe and one supported gunner behind it.",
+        "Discarded later native tail invents extra people and daylight/sea exterior; none retained."
+      ],
+      "limits": [
+        "State insert with fire flicker; distinct new spreading route not certified.",
+        "Native real-time playback/listening pending; raw audio excluded."
+      ],
+      "timeTreatment": "First18 frames at1.0 as brief fire/threshold danger insert; no stretching."
+    },
+    "S02-A": {
+      "decision": "usable",
+      "jobId": "f449df1c-d699-45f1-b461-dd791356fb87",
+      "attempt": "v1",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 120,
+      "editFrames": 77,
+      "playbackRate": 1.5584415584415585,
+      "reviewedNativeFrames": "Overview actual frames every8 through120.",
+      "observed": [
+        "Single connected full body separated from distant burning plane; torso pitches head-down as clouds pass.",
+        "Camera follows beside body through clouds, retaining body silhouette and empty harness."
+      ],
+      "limits": [
+        "Sampled actual-frame inspection, not native real-time playback or listening.",
+        "No quantified acceleration or medically precise loss-of-consciousness claim. Raw audio excluded."
+      ],
+      "timeTreatment": "120-frame complete descent interval into77-frame narration window, brisk speed-up; no speech edits."
+    },
+    "S02-C": {
+      "decision": "usable",
+      "jobId": "bd421d1d-66b5-40ff-95ad-0c9bafc22abd",
+      "attempt": "v1",
+      "sourceInFrames": 106,
+      "sourceOutFrames": 124,
+      "editFrames": 18,
+      "playbackRate": 1,
+      "reviewedNativeFrames": "Full take overview plus ALL106:124 on dense4/5.",
+      "observed": [
+        "Selected last18frames contain only empty snow-covered pine branches and broken bough; slight camera motion.",
+        "Invented child/branch-gripping hands in earlier native footage completely excluded.",
+        "Final-boundary continuity correction: blue night video grade matches surrounding falling/waking/whistle/carry sequence; geometry/actions/source intervals unchanged."
+      ],
+      "limits": [
+        "Aftermath state insert; actual bough spring/recoil not certified.",
+        "Frame inspection not native playback/listening; raw audio excluded."
+      ],
+      "timeTreatment": "Late clean18-frame branch aftermath at1.0; no stretch.",
+      "selectedVersionId": "S02-C-motion-v1-night-grade",
+      "nightGradeEvidence": "final-review/forest-night-continuity-lineage.json"
+    },
+    "S02-D": {
+      "decision": "usable",
+      "attempt": "repair-v2",
+      "jobId": "c778c58e-fb3b-4110-879a-a925026f45f2",
+      "rejectedOriginalJobId": "89b229ca-af10-47d8-923b-7eacb1d53e9f",
+      "selectedVersionId": "S02-D-motion-repair-v2",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 158,
+      "editFrames": 135,
+      "playbackRate": 1.1703703703703703,
+      "observed": [
+        "Eyes open promptly and gaze looks upward as camera travels low along body toward socked feet.",
+        "Head, spine and pelvis stay reclined on snow; no sit-up, walking or restored boots. Moonlit illumination stays blue/night."
+      ],
+      "limits": [
+        "Overview whole158frames plus ALL0:60dense1/2 reviewed for awakening/support, not realtime playback/listening.",
+        "Camera exits head at tail to show grounded injured leg/feet; planned isolated small knee attempt not separately certified. Raw audio excluded."
+      ],
+      "timeTreatment": "Full158nativeframes into135editframes, slight speed-up preserving complete achieved action; narration unchanged.",
+      "completionTest": "Demonstrated original failure removed in retained repair; review limits recorded."
+    },
+    "S02-E": {
+      "decision": "usable",
+      "jobId": "23a4d1cc-d21f-462e-9c28-40e67088160d",
+      "attempt": "v1",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 328,
+      "editFrames": 311,
+      "playbackRate": 1.0546623794212218,
+      "timeTreatment": "Full328-frame source slightly accelerated into311-frame narration window. No speech changes.",
+      "reviewedNativeFrames": "Actual overview1/2 every8frames across full source, dense6 for150:180 internal cut and dense9 for240:270 ground/clearing relation.",
+      "observed": [
+        "Camera descends from pine boughs to one supported reclined injured survivor, with head/hips/heels grounded.",
+        "Second side view then pans from supported body/snow into nearby bare clearing; snow/bare-ground relation achieved.",
+        "No second falling body or walking survivor.",
+        "Final-boundary continuity correction: blue night video grade matches surrounding falling/waking/whistle/carry sequence; geometry/actions/source intervals unchanged."
+      ],
+      "limits": [
+        "Native internal cut at161 replaces planned continuous crane-to-lateral move; accepted as two explanatory landscape views, not claimed continuous camera.",
+        "Branch spring/contact mechanics carried by other shots; not demonstrated here.",
+        "Frame inspection not native realtime playback/listening; raw audio preserved and excluded."
+      ],
+      "completionTest": "Pine canopy, supported survivor/snow and adjacent bare clearing all revealed; internal editorial cut variance recorded.",
+      "selectedVersionId": "S02-E-motion-v1-night-grade",
+      "nightGradeEvidence": "final-review/forest-night-continuity-lineage.json"
+    },
+    "S02-F": {
+      "decision": "usable",
+      "attempt": "v1",
+      "limits": [
+        "Actual frame inspection, not native realtime playback/listening. Raw native sound excluded.",
+        "State insert only; no knee weight-bearing failure action certified."
+      ],
+      "jobId": "23a4d1cc-d21f-462e-9c28-40e67088160d",
+      "selectedVersionId": "S02-F-motion-derived-E-foot-insert-night-grade",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 18,
+      "editFrames": 18,
+      "playbackRate": 1,
+      "observed": [
+        "Derived from E native200:218: two socked feet supported on snow, injured bent knee, no standing.",
+        "Original Fv1 invented crouching child/branch handling; rejected raw retained separately.",
+        "Final-boundary continuity correction: blue night video grade matches surrounding falling/waking/whistle/carry sequence; geometry/actions/source intervals unchanged."
+      ],
+      "evidence": "video-review/S02-F-derived-E-foot-insert/lineage.json",
+      "rejectedOriginalJobId": "ee4c2b64-2e12-45e9-8cb4-5f4464a02353",
+      "nightGradeEvidence": "final-review/forest-night-continuity-lineage.json"
+    },
+    "S02-G": {
+      "decision": "usable",
+      "attempt": "v1",
+      "limits": [
+        "Actual frame inspection, not native realtime playback/listening. Raw native sound excluded."
+      ],
+      "jobId": "840b0594-4cd2-408f-971a-7776c77cf7fc",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 100,
+      "editFrames": 59,
+      "playbackRate": 1.694915254237288,
+      "observed": [
+        "Reclining survivor holds whistle to mouth with connected hand, breath/cheeks change, then whistle lowers slightly as gaze follows approaching lantern.",
+        "Camera hands attention from whistle/face to lantern among trees; no standing or added body."
+      ],
+      "reviewedNativeFrames": "Full overview plus ALL30:60dense2; source0:100 retained.",
+      "timeTreatment": "100sourceframes into59, complete whistle/attention beat sped up; no speech edits."
+    },
+    "S02-H": {
+      "decision": "usable",
+      "attempt": "v1",
+      "limits": [
+        "Actual frame inspection, not native realtime playback/listening. Raw native sound excluded.",
+        "Front carrier passes partly beyond frame at tail; no claim both carriers remain fully visible."
+      ],
+      "jobId": "39438eb7-dd8c-4d1a-b0ae-c9a5ae329ca7",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 100,
+      "editFrames": 59,
+      "playbackRate": 1.694915254237288,
+      "observed": [
+        "Two original carriers lift and take coordinated steps while one survivor stays contained on supported canvas and socked feet on stretcher.",
+        "Rigid poles and attached grips retained; foreground trunk briefly occludes but does not create new carrier.",
+        "Side-tracking camera maintains coherent forest parallax."
+      ],
+      "reviewedNativeFrames": "Overview whole124; ALL0:60dense1/2; retained0:100.",
+      "timeTreatment": "Full lift and several steps source0:100 into59frames, faster gait; no speech changes."
+    },
+    "S02-I": {
+      "decision": "usable",
+      "attempt": "repair-v2-night-grade",
+      "jobId": "451d2641-2728-4620-b333-e4ebde46f74e",
+      "rejectedOriginalJobId": "01fc78ea-7c4e-4778-b9eb-67f104ec7967",
+      "selectedVersionId": "S02-I-motion-repair-v2-night-grade",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 294,
+      "editFrames": 259,
+      "playbackRate": 1.1351351351312742,
+      "reviewedNativeFrames": "Raw actual overview1/2 whole294; graded fullsize0/80/160/240/293, full decode and294frame conservation.",
+      "observed": [
+        "Repair keeps head/spine/hips reclined on snow throughout low lateral/orbit camera view, with socked feet and injured leg; no sitting up/standing/walking.",
+        "Camera follows body to feet and reveals nearby bare clearing, then returns toward supported body.",
+        "Pure local blue night grade removes demonstrated amber dawn-color drift; original geometry/action/frames preserved, no new generation or audio."
+      ],
+      "limits": [
+        "Raw repair still had warm illumination drift; only graded version selected.",
+        "The visible moon changes screen position as camera travels; no astronomically precise static-world reconstruction claimed.",
+        "Knee extends without standing/load-bearing; distinct failed attempt to stand is not demonstrated.",
+        "Frame inspection not native realtime playback/listening; sound excluded."
+      ],
+      "timeTreatment": "Full294frames into259, brisk speed-up, no speech edit.",
+      "evidence": "video-review/S02-I-repair-v2-night-grade/lineage.json"
+    },
+    "S03-B": {
+      "decision": "usable",
+      "attempt": "derived-C",
+      "jobId": "84f12380-128a-4709-85f2-f595c80ae0b2",
+      "rejectedOriginalJobId": "7906af66-513f-4af7-a7cd-4e3ff1f3dd94",
+      "selectedVersionId": "S03-B-motion-derived-C-harness-insert",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 18,
+      "editFrames": 18,
+      "playbackRate": 1,
+      "observed": [
+        "First18frames of C show unattached strap-only harness on table, both empty rings and folded web keepers; hands grip only outer edges.",
+        "C later pack-morph excluded; rawB invented Nicholas holding harness on snow rejected."
+      ],
+      "limits": [
+        "State insert on table replaces planned snowy retrieval diagnostic; no pulling/deployment certified.",
+        "First/last retained source frames inspected, not realtime playback/listening; audio excluded."
+      ],
+      "evidence": "video-review/S03-B-derived-C-harness-insert/lineage.json"
+    },
+    "S03-A": {
+      "decision": "usable",
+      "attempt": "reviewed-composite",
+      "jobId": "27597fb7-ed8e-4886-9dd9-716f61ca91ba",
+      "rejectedOriginalJobId": "d0a19688-be72-428d-8940-81401c57e1ed",
+      "selectedVersionId": "S03-A-motion-reviewed-composite",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 334,
+      "editFrames": 334,
+      "playbackRate": 1,
+      "observed": [
+        "Repairv2 clean0:160 establishes seated interview/notebook and survivor gaze with plain jacket, no glow.",
+        "Originalv1 clean171:345 follows officer notes down to supported bandaged wrist/knee; discarded harness is outside the retained framing.",
+        "Two reviewed clean intervals joined at derived160 with explicit editorial cut; every luminous/electric tail frame excluded, no new generation or action synthesis."
+      ],
+      "reviewedNativeFrames": "Both raw/repaired full overviews; repair ALL120:180dense5/6 for clean cutoff, original nativefull171/260/344; derived join159/160 andlast333 checked, full334-frame decodepass.",
+      "limits": [
+        "Repairv2 again produced glowing tail fromabout264; raw fullrepair rejected as a whole, only0:160 retained.",
+        "Composite uses primary repairjob plus originaljob recorded in full multi-source SHA/range lineage; not claimed to be one native continuous take.",
+        "Notebook marks are generic illustration, not verbatim historical record.",
+        "Frame inspection not native realtime playback/listening; all native audio excluded."
+      ],
+      "timeTreatment": "160repairframes +174originalframes =334editframes at1.0; no slowing, no speech edit.",
+      "evidence": "video-review/S03-A-reviewed-composite/lineage.json"
+    },
+    "S03-C": {
+      "decision": "usable",
+      "attempt": "repair-v2",
+      "jobId": "3e4690fd-0f82-4f06-9cbb-311c18e99ac0",
+      "rejectedOriginalJobId": "84f12380-128a-4709-85f2-f595c80ae0b2",
+      "selectedVersionId": "S03-C-motion-repair-v2",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 158,
+      "editFrames": 134,
+      "playbackRate": 1.1791044776044777,
+      "reviewedNativeFrames": "Overview whole158 plus ALL30:120dense2/3/4 for pointed inspection and unchanged strap network.",
+      "observed": [
+        "Harness stays thin open strap network with table visible through gaps; both empty D rings and folded web keepers remain stowed.",
+        "One connected grey-sleeved hand points beside keeper/ring and returns to edge grip, without pulling web free or opening/deploying it.",
+        "Camera pushes into diagnostic detail then pulls out; bareheaded bandaged seated survivor remains beyond table, no worn harness.",
+        "Original harness-to-pack morph removed; no pack forms and no turnover occurs."
+      ],
+      "limits": [
+        "Pointing gesture reaches ring/keeper area rather than isolated contact on folded web; no deployment or forensic measurement certified.",
+        "Frame inspection not realtime playback/listening; raw audio excluded."
+      ],
+      "timeTreatment": "Full158frames into134, slight speed-up, no narration changes."
+    },
+    "S03-D": {
+      "decision": "usable",
+      "attempt": "reviewed-composite-v2",
+      "jobId": "22635534-eac5-4970-9715-7b897d2a398c",
+      "rejectedOriginalJobId": "380a668d-748b-4c6b-83b1-1e86337f9d22",
+      "selectedVersionId": "S03-D-motion-reviewed-composite-v2",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 107,
+      "editFrames": 107,
+      "playbackRate": 1,
+      "observed": [
+        "Original0:43 shows brush/ash inspection with burned pack/handle staying inside fixed cold canister.",
+        "Repair60:124 tracking crop keeps burned pack/handle/cable supported and brush connected; excludes invented intact side pack and early geometry instability.",
+        "No retained extraction, reignition or moving pack; explicit editorial cut at43."
+      ],
+      "reviewedNativeFrames": "Original dense30:60 checked cutoff42; repairdense30:90 and wholeoverview; derivedfull42/43/70/106 checked, full107decodepass.",
+      "limits": [
+        "Original retained interval shows generic investigator body entering; not a named historical person or private dialogue.",
+        "Native full takes rejected; only reviewed composite is usable, two-source job/hash lineage retained.",
+        "Frame inspection not realtime playback/listening; all sound excluded."
+      ],
+      "evidence": "video-review/S03-D-reviewed-composite-v2/lineage.json",
+      "timeTreatment": "43+64=107frames at1.0, no slowing or speech edits."
+    },
+    "S03-E": {
+      "decision": "usable",
+      "attempt": "derived-D",
+      "jobId": "380a668d-748b-4c6b-83b1-1e86337f9d22",
+      "rejectedOriginalJobId": "ab3ddf7c-7b1c-45fd-817d-1075e456d386",
+      "selectedVersionId": "S03-E-motion-derived-D-ripcord-insert",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 18,
+      "editFrames": 18,
+      "playbackRate": 1,
+      "observed": [
+        "18-frame tight crop of D opening shows one metal handle and associated cable resting in original burned pack, canister fixed; no removal.",
+        "RawE invented crowd/children; all excluded by using clean early D native interval before D later retrieval/fire."
+      ],
+      "limits": [
+        "Diagnostic in-place state insert only, not a demonstrated pull or deployment.",
+        "First/last derived frames checked; raw D dense0:30 inspected. Not native playback/listening, sound excluded."
+      ],
+      "evidence": "video-review/S03-E-derived-D-ripcord-insert/lineage.json"
+    },
+    "S03-F": {
+      "decision": "usable",
+      "attempt": "v1",
+      "jobId": "cb6a195b-eafe-4aa0-9470-4df898637537",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 277,
+      "editFrames": 265,
+      "playbackRate": 1.0452830188679245,
+      "reviewedNativeFrames": "Actual overview1/2 through272; dense6-9 ALL150:270 for pen/report handoff/response; native full-size176/190/202 inspected to verify separate attached bodies/hands and paper ownership.",
+      "observed": [
+        "Opening retains single table and compact evidence canister below torso width, empty harness flat on table, injured leg supported on stool.",
+        "Officer finishes writing, moves report toward seated Nicholas, who brings hand to paper and looks down; clear handoff/contact and restrained response.",
+        "Camera travels laterally from evidence/writing officer to report/survivor with coherent room geometry; no extra cast or changed object scale.",
+        "Both characters remain seated; bandaged survivor wears no harness/helmet, supported lower body visible at opening."
+      ],
+      "limits": [
+        "Not native realtime playback/listening. Raw sound preserved/excluded.",
+        "Supported knee/stool visible at opening; later camera framing excludes lower leg, no claim it stays in frame.",
+        "Report contains generic marks, not a claimed verbatim historical document."
+      ],
+      "timeTreatment": "Full277nativeframes compressed slightly into265editframes, no slowing, no speech edit.",
+      "completionTest": "Corrected proportions plus writing/report handoff/survivor response achieved in retained full interval."
+    },
+    "S03-G": {
+      "decision": "usable",
+      "attempt": "repair-v2",
+      "jobId": "f7edd002-c6a3-4e1d-948a-8ba2dfa45b5f",
+      "rejectedOriginalJobId": "aff03575-e977-4002-901c-3bc7219f0dc4",
+      "selectedVersionId": "S03-G-motion-repair-v2",
+      "sourceInFrames": 0,
+      "sourceOutFrames": 243,
+      "editFrames": 240,
+      "playbackRate": 1.0124999999958333,
+      "observed": [
+        "Two empty harness rings remain supported on table; camera travels to compact burned canister/handle/cable and eases out.",
+        "Room/chair stay empty, natural lamp/window light stable; no dolls, figures, extra cast or self-moving evidence."
+      ],
+      "reviewedNativeFrames": "Whole243overview1/2 plus ALL120:150dense5 during evidence camera handoff.",
+      "limits": [
+        "Frame inspection not realtime playback/listening; raw sound excluded.",
+        "Camera finishes close on canister so both harness rings are no longer fully framed; relationship was established at opening/travel."
+      ],
+      "timeTreatment": "Full243sourceframes into240editframes, near-natural speed; narrator unchanged."
+    }
+  },
+  "final-motion-coverage-check.json": {
+    "checkedAt": "2026-11-03T08:03:01.064684+00:00",
+    "readyForExport": true,
+    "reviewedVideoCuts": [
+      "S01-A",
+      "S01-B",
+      "S01-C",
+      "S01-D",
+      "S01-E",
+      "S01-F",
+      "S01-G",
+      "S02-A",
+      "S02-B",
+      "S02-C",
+      "S02-D",
+      "S02-E",
+      "S02-F",
+      "S02-I",
+      "S02-G",
+      "S02-H",
+      "S03-A",
+      "S03-B",
+      "S03-C",
+      "S03-D",
+      "S03-E",
+      "S03-F",
+      "S03-G"
+    ],
+    "issues": [],
+    "nativeAudio": "Visual video streams are not mixed by native exporter. Preserve raw source audio; no unlistened effects may be added.",
+    "narration": "Baseline narration text, asset and active version preserved",
+    "totalFrames": 3007
+  },
+  "final-delivery-receipt.json": {
+    "deliveredAt": "2026-11-03T08:08:12.074220+00:00",
+    "jobFile": "${REPO}\\drafts\\production-batch-20261103\\01-alkemade\\ALKEMADE-final-720x1280-20261103.mp4",
+    "deliveryFile": "${DELIVERY}\\01-alkemade-720x1280-20261103.mp4",
+    "projectFile": "${REPO}\\data\\projects\\86a75cbb-0325-454a-ae41-7b436318f16b\\exports\\191d7766-18aa-4d55-b7b2-0fa2d379e434\\film.mp4",
+    "sha256": "60fb49405c70e535ea034fd448610e04c21310813d2330c1457291e25e53140b",
+    "filmExported": true,
+    "creatorApproved": false,
+    "qualityEvidence": "final-review/final-quality-check.json",
+    "packagingComplete": false
+  }
+}

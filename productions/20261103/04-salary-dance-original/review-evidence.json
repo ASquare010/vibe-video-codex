@@ -1,0 +1,189 @@
+{
+  "motion-selections.json": {
+    "S01-B": {
+      "decision": "usable",
+      "jobId": "1f8b9d5f-e5a9-4f4f-b98b-b6fdf1131b63",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\04-salary-dance\\video\\S01-B-v2.mp4",
+      "sha256": "b3b20637e315609b97785fe8c6ef08995504b0b045e247c13f15ff0faee81c3a",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 360,
+      "sourceFrames": 360,
+      "editFrames": 360,
+      "playbackRate": 1,
+      "nativeFrames": 362,
+      "observed": "Mica liftshead/ears, openslowforepaws andwidensstance by~1.5s, while Bramble tucksforepaws/head and reduces amplitude. Both alternate leg lifts and planted floor contacts; identities, two-cat count, closed mouths, fur/outfits and laundry landmarks persist. Full heads/bodies and both cats hindpaw floor area remain visible across entire selected15s. Camera makes restrained lateral travel instead of rejectedv1 large portrait push. Opposite confidence contrast persists through final groove.",
+      "evidence": "Complete actualnative overview0-361 every12frames inspected, dense24-71/88-103/216-247/328-359 consecutiveframeboards inspected. Selected0-360 atnative1x, last2nativehandleframes trimmed.",
+      "reviewedAt": "2026-11-04T08:09:39.971380+00:00",
+      "limitations": [
+        "Sequential frame review, not native realtime playback/listening; raw native audio excluded.",
+        "Mica tailtip briefly meets/crosses leftborder around9s; heads/bodies and hindpaw contacts remain visible. Do not claim perfect fulltail containment.",
+        "Cat dance intentionally stylized upright feline performance; actual alternating steps/gentle bounces retained, not anatomical documentary motion."
+      ]
+    },
+    "S01-A": {
+      "decision": "usable",
+      "jobId": "68d091a8-75fc-47ea-bb79-408cab111db6",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\04-salary-dance\\video\\S01-A-v2.mp4",
+      "sha256": "eca5fbc83378db265fdff93fe639362e3344fd552ca21100157507cda83b99d7",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 360,
+      "sourceFrames": 360,
+      "editFrames": 360,
+      "playbackRate": 1,
+      "nativeFrames": 362,
+      "observed": "Both cats remain independently readable with full heads/bodies/hindpaw floor contacts for the complete selected15s; the prior broad orbit/depth occlusion is gone. Mica holds smaller inward forepaw movements, modest side taps and side/downward glances while Bramble has looser forepaws and stronger alternating lifts/sway. Coat identities, two-cat count, tail attachments, room landmarks and grounded stance persist. Actual camera has a mild lateral drift rather than perfectly fixed tripod, but retains both cats. Ending inward-Mica/loose-Bramble pose and geography closely match incomingBv2 opening.",
+      "evidence": "Complete actualnative overview0-361 every12frames, consecutive24-55/72-87/104-119/328-359 frameboards and enlarged359 inspected; compared actualA359 vsB0. Selected0-3601x, last2nativehandleframes trimmed.",
+      "reviewedAt": "2026-11-04T09:34:00.069849+00:00",
+      "limitations": [
+        "Sequential native frame review, not realtime playback/listening; native audio excluded.",
+        "Small camera drift remains despite fixed-tripod request, without hiding either cat. Mica tailtip touches leftborder briefly near2s.",
+        "Mica mouth briefly opens near14.3-14.8s, closes before outgoing boundary; unreviewed native sound excluded, no speech-free/native-silent claim."
+      ]
+    }
+  },
+  "final-review/verification.json": {
+    "file": "${REPO}\\drafts\\production-batch-20261103\\04-salary-dance\\04-salary-dance-720x1280-FINAL-2026-11-04T09-35-50-390Z.mp4",
+    "frames": 720,
+    "allFramesDecoded": true,
+    "sourceFrameChecks": [
+      {
+        "cut": "S01-A",
+        "jobId": "68d091a8-75fc-47ea-bb79-408cab111db6",
+        "frames": 360,
+        "meanPixelMAE": 1.5299246920479668,
+        "maxFrameMAE": 1.6355993747711182,
+        "badFrames": []
+      },
+      {
+        "cut": "S01-B",
+        "jobId": "1f8b9d5f-e5a9-4f4f-b98b-b6fdf1131b63",
+        "frames": 360,
+        "meanPixelMAE": 1.555902397632599,
+        "maxFrameMAE": 1.7398117780685425,
+        "badFrames": []
+      }
+    ],
+    "deliveryCopyHashes": {
+      "projectExport": "033254dc30545353a740095efa6394f8917b5aef452c1a2eb2a24a485c58fba7",
+      "jobOutput": "033254dc30545353a740095efa6394f8917b5aef452c1a2eb2a24a485c58fba7",
+      "delivery": "033254dc30545353a740095efa6394f8917b5aef452c1a2eb2a24a485c58fba7"
+    },
+    "originalAudioSources": [
+      {
+        "clipId": "salary-score-clip",
+        "sourceHashPassed": true,
+        "sha256": "4737e987425083c5514d99b751c67f9f99c08b9810d8c7e8a7120b893e5a89e3"
+      },
+      {
+        "clipId": "salary-chime-clip",
+        "sourceHashPassed": true,
+        "sha256": "1f084c52311b6a8268efa6d81ff438b8b7ba3e073b542e7ba00be2f92edcbf90"
+      },
+      {
+        "clipId": "payday-B-paw-30",
+        "sourceHashPassed": true,
+        "sha256": "c33d392b2ad8382acde456f0560ecb87ecd164dc4e936d7169ac6e220acdf83b"
+      },
+      {
+        "clipId": "payday-B-paw-71",
+        "sourceHashPassed": true,
+        "sha256": "c33d392b2ad8382acde456f0560ecb87ecd164dc4e936d7169ac6e220acdf83b"
+      },
+      {
+        "clipId": "payday-B-paw-95",
+        "sourceHashPassed": true,
+        "sha256": "c33d392b2ad8382acde456f0560ecb87ecd164dc4e936d7169ac6e220acdf83b"
+      },
+      {
+        "clipId": "payday-A-paw-28",
+        "sourceHashPassed": true,
+        "sha256": "c33d392b2ad8382acde456f0560ecb87ecd164dc4e936d7169ac6e220acdf83b"
+      },
+      {
+        "clipId": "payday-A-paw-43",
+        "sourceHashPassed": true,
+        "sha256": "c33d392b2ad8382acde456f0560ecb87ecd164dc4e936d7169ac6e220acdf83b"
+      },
+      {
+        "clipId": "payday-A-paw-85",
+        "sourceHashPassed": true,
+        "sha256": "c33d392b2ad8382acde456f0560ecb87ecd164dc4e936d7169ac6e220acdf83b"
+      }
+    ],
+    "audioCorrelation": 0.9997111999164813,
+    "audioGain": 0.997939152832247,
+    "audioPeak": 0.7967733144760132,
+    "blackDetected": [],
+    "boundaryBoards": [
+      "${REPO}\\drafts\\production-batch-20261103\\04-salary-dance\\final-review\\boundaries-1.jpg"
+    ],
+    "boundaryVisualReview": "usable",
+    "evidenceLimit": "Numerical every-frame/source and waveform checks plus exported still boundaries; not a claim of realtime playback/listening",
+    "numericPassed": true,
+    "visualReviewedAt": "2026-11-04T09:38:16.051922+00:00",
+    "visualEvidence": "Actual exported board inspected: A0/A359/B360/B719 and all three caption starts. Both identities/faces/feet populated, A->B join coherent with intended15s chime punctuation; confidence reversal visible by Bills caption. BEFORE PAYDAY/PAYDAY LANDED legible in upper safe space, Bills landed too readable supporting line below subjects, no clipping. Both native360frame takes cover720frames; whole export pixel/source and originalaudio comparisons passed. No black frames. Sequential-frame/boundary review only; creator realtime playback/listening pending."
+  },
+  "assembly-review.json": {
+    "decision": "usable",
+    "reviewedAt": "2026-11-04T09:34:58.221213+00:00",
+    "evidence": [
+      "motion-selections.json",
+      "video/review-S01-A-v2/overview.jpg",
+      "video/review-S01-B-v2/overview.jpg",
+      "video/review-S01-A-v2/f0360.png",
+      "video/review-S01-B-v2/f0001.png",
+      "direct-effects-plan.json",
+      "audio-v1/direct-mix-preflight.json",
+      "direct-assets-integrity.json"
+    ],
+    "coverage": {
+      "takes": 2,
+      "frames": 720,
+      "fps": 24,
+      "nativeSelectedFrames": [
+        360,
+        360
+      ],
+      "rates": [
+        1,
+        1
+      ]
+    },
+    "observedJoin": "ActualA359 andB0 enlarged frames inspected: same two identities/left-right geography/room/light, inward Mica and loose Bramble continue. Intentional two-take cut at15s punctuated by originalpaydaychime; no claim of one generated30s take. B then exposes opposite confidence shift with open Mica and tucked Bramble.",
+    "sound": "Original30s nonverbal music andchime eachonce, sixsparsequietoriginaldrypawaccents phasealigned from actualselected contacts. No narrator; all nativeaudioexcluded. Originalmusic/chime numericalpeak0.809, actual mixed export will be verified.",
+    "captions": "Original before/payday/bills canonicaltext overlays prepared; final exported legibility review remains pending.",
+    "limits": "Sequential native frames/source boundary inspection and numerical sound source checks, not realtime playback/listening. Actual whole-file numeric and exportedboard checks required afterrender."
+  },
+  "motion-rejections.json": [
+    {
+      "decision": "rejected",
+      "cutId": "S01-B",
+      "take": "v1",
+      "jobId": "65814358-6ab6-45be-b732-8c6475a183b5",
+      "reviewedAt": "2026-11-04T07:34:38.520465+00:00",
+      "observed": "Two identities and opposite posture/confidence change are readable; early dance develops real alternating hind-paw lifts/contacts and closed mouths. However native camera strongly pushes/trucks into the group after~3s: Mica face cuts left edge and hind-paw contacts leave the frame for much of middle take. It pulls back again near the end. This violates required continuous full-body floor support visibility for the15s take. No contiguous360frame interval can remove that middle framing failure.",
+      "evidence": [
+        "video/review-S01-B-v1/overview.jpg",
+        "video/review-S01-B-v1/f0169.png",
+        "video/review-S01-B-v1/dense-32.jpg"
+      ],
+      "limits": "Full native overview every12frames and dense32-47 plus enlarged168 inspected; sequential-frame evidence, not realtime playback/listening. Native audio excluded.",
+      "repair": "One bounded same-images/same-seed camera-framing correction, preserve working confidence action and actual v1 output."
+    },
+    {
+      "decision": "rejected",
+      "cutId": "S01-A",
+      "take": "v1",
+      "jobId": "bae01105-0eed-455b-b93d-e2736854c77f",
+      "reviewedAt": "2026-11-04T08:44:51.969249+00:00",
+      "observed": "Shy inward Mica forepaws and moreconfident Bramble dance are visible at opening and late take. However the actual camera makes a broad orbit (despite smalltruck wording), aligning the two cats in depth around3.5-7s and hiding nearly all of Bramble behind Mica. Nativef120 enlarged shows blackcat face/torso/mostsupport notvisible. This breaks sustained readable two-cat confidence contrast.",
+      "evidence": [
+        "video/review-S01-A-v1/overview.jpg",
+        "video/review-S01-A-v1/f0121.png",
+        "video/review-S01-A-v1/dense-24.jpg"
+      ],
+      "limits": "Complete overview every12frames and dense24-39 plus enlarged120 inspected; sequential-frame evidence, not realtime playback/listening. Native audio excluded.",
+      "repair": "One focused same-input/seed camera-only repair: remove residual arc instruction from summary and fix tripod view so both cats remain separated/readable."
+    }
+  ]
+}

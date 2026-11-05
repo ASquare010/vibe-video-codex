@@ -1,0 +1,61 @@
+{
+  "baseCommit": "32ea6ef14bba3e83888005c8ff9055850190c2e2",
+  "nodeVersion": "v24.21.0",
+  "pythonVersion": "Python 3.12.14",
+  "rendererSources": [
+    {
+      "path": "server/export.ts",
+      "sha256": "a1249049bea9f1f382b9b1763ddc798b5e149fc90560bd7b2656aae628f977d9"
+    },
+    {
+      "path": "server/handoff.ts",
+      "sha256": "5ee0c6154805a44e8329f1c829ef8e2a2d0e7d2d7430d5490b8c6c22d72dcf2a"
+    },
+    {
+      "path": "server/media.ts",
+      "sha256": "ece0bb69200d2a4bea010d93e5111216e2f209b685f50b61cf31584cc0a8d893"
+    },
+    {
+      "path": "server/persistence.ts",
+      "sha256": "038aeda0f793ff41b182ec4354979cf72b15b28137cedaaecdd8965d0c1bed9f"
+    },
+    {
+      "path": "server/production.ts",
+      "sha256": "0f9d2c7efb285d352c818d7a6ee97203b35ef7b9501b99b29c8318a644b150a2"
+    },
+    {
+      "path": "server/source-render.ts",
+      "sha256": "a6cddf4b828e020b5290d8d38d9716b63b75b9c62a229d8f883e6441b2b0140a"
+    },
+    {
+      "path": "server/store.ts",
+      "sha256": "b0468e2364361466a0c27ccf7be9d48a967f8c10da0f06d6b6cb35d7b438283f"
+    },
+    {
+      "path": "shared/audio-led.ts",
+      "sha256": "260b21aae7d9db6c643efcdafbd5812f81c943ee54d496213adce5549f34eebe"
+    },
+    {
+      "path": "shared/composition.ts",
+      "sha256": "54fd0300a80b108806c4e1c28f85b182355da81b29de1991b29c6c1d63d5c8bf"
+    },
+    {
+      "path": "shared/playback-index.ts",
+      "sha256": "c1e731961870abe676b4bec73cac9018e63365ed1b211a369be936e9c9afb4a0"
+    },
+    {
+      "path": "shared/project.ts",
+      "sha256": "228684a548de3c77d13fda0d64f99d8073b563653a852513790a028b93105dfc"
+    },
+    {
+      "path": "shared/review.ts",
+      "sha256": "ebd002d86f104c60cbb8487ba78ffa1bfea4d1c6d9878396fa64486914f4fce5"
+    },
+    {
+      "path": "shared/source-timeline.ts",
+      "sha256": "00b4ce7209fff23447789ffd2329facd3e1d85036e2b0e3d64b535f775c18c00"
+    }
+  ],
+  "packageLockSHA256": "585731766c0c3fd168034523ff831b3378b39ec52bcb50093b096059a3c917b8",
+  "platform": "Windows; Arial fonts; npm ffmpeg-static/ffprobe-static; 24 fps,720x1280"
+}

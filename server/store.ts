@@ -9,6 +9,7 @@ import { writeAgentGuide } from './handoff.ts';
 export class HttpError extends Error { constructor(public status: number, message: string) { super(message); } }
 export class ProjectStore extends EventEmitter {
   private locks = new Map<string, Promise<unknown>>();
+  private mediaIndex=new Map<string,{stamp:string;paths:Promise<Set<string>>}>();
   private revisions = new Map<string, string>();
   constructor(public root: string) { super(); }
   folder(id: string) {
@@ -23,6 +24,17 @@ export class ProjectStore extends EventEmitter {
     const real = await fs.realpath(candidate);
     if (!inside(real)) throw new HttpError(400, 'Linked files outside the project are not allowed');
     return real;
+  }
+  async mediaFile(id:string,relative:string){
+    const metadata=await fs.stat(path.join(this.folder(id),'project.json')).catch(e=>{if(e.code==='ENOENT')throw new HttpError(404,'Project not found');throw e;}),stamp=`${metadata.mtimeMs}:${metadata.size}`;
+    let cached=this.mediaIndex.get(id);
+    if(!cached||cached.stamp!==stamp){
+      const paths=this.read(id).then(p=>new Set([...(p.sourceVideo?[p.sourceVideo.path,p.sourceVideo.proxyPath]:[]),...p.scenes.flatMap(s=>s.source?.thumbnail?[s.source.thumbnail]:[]),...p.assets.flatMap(a=>a.versions.map(v=>v.path)),...p.annotations.flatMap(a=>a.imagePath?[a.imagePath]:[])]));
+      cached={stamp,paths};this.mediaIndex.set(id,cached);
+      void paths.catch(()=>{if(this.mediaIndex.get(id)?.paths===paths)this.mediaIndex.delete(id);});
+    }
+    if(!(await cached.paths).has(relative)&&!/^exports\/[\da-f-]+\/film\.mp4$/.test(relative))throw new HttpError(404,'Media is not registered in this project');
+    return this.safeFile(id,relative);
   }
   async init() {
     await fs.mkdir(this.root, { recursive: true });

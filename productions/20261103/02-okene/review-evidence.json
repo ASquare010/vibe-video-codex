@@ -1,0 +1,1331 @@
+{
+  "motion-selections.json": {
+    "S03-D": {
+      "cut": "S03-D",
+      "jobId": "9eb62c13-4f0d-4802-8bf5-cefb37e84d7e",
+      "decision": "usable",
+      "scope": "ONLY original native frames0-60 inclusive, not full124frames; late failed handle excluded",
+      "sourceInFrames": 0,
+      "sourceOutFrameExclusive": 61,
+      "editFrames": 61,
+      "playbackRate": 1,
+      "evidence": [
+        "Actual ordered output pixels reviewed in allframes-0000-0024.jpg,0025-0049.jpg,0050-0074.jpg. Every selectedframe0-60 viewed.",
+        "Earlier original full124frame review retained separately in S03-D/S03-D-native-review.json; full take rejected."
+      ],
+      "findings": [
+        {
+          "frames": [
+            0,
+            23
+          ],
+          "observed": "Same white cartoon bare hand approaches navy glove; both connected forearms distinct, no extra hands."
+        },
+        {
+          "frames": [
+            24,
+            34
+          ],
+          "observed": "Fingers wrap into secure mutual clasp; small recoil and settling; navy glove supports white palm."
+        },
+        {
+          "frames": [
+            35,
+            60
+          ],
+          "observed": "Firm two-hand result held; white material/dark outlines consistent; helmet lamp and corridor remain coherent."
+        }
+      ],
+      "excluded": [
+        "Original frames61-123 not selected; extra hand visible by62 and later cast morph.",
+        "Entire repair1 job987d6419-80cf-4e26-b635-11cffbcf5902 rejected for added photoreal peach foreground hand."
+      ],
+      "directorRevision": "director-v5-native-selection.json",
+      "timing": "D starts11.0s scene-relative, grip~12.0s aligns spoken grips12.22-12.5; shared-air survivor view begins13.54s. Total narration/timing unchanged. Adjacent footage and joins remain review-pending.",
+      "limits": [
+        "Ordered native-frame visual review, not realtime playback or listening.",
+        "Native embedded audio preserved/excluded. Final export prohibited until every other actual native range and joins reviewed."
+      ],
+      "updatedAt": "2026-11-03T12:15:54.669526+00:00"
+    },
+    "S01-A": {
+      "cut": "S01-A",
+      "jobId": "417abc62-dc35-4985-827f-e99723499142",
+      "decision": "usable",
+      "sourceInFrames": 0,
+      "sourceOutFrameExclusive": 336,
+      "editFrames": 336,
+      "playbackRate": 1,
+      "nativeFrames": 362,
+      "evidence": {
+        "method": "Every retained native frame viewed in ordered contact sheets; not realtime playback or listening",
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-A\\review\\allframes-0000-0024.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-A\\review\\allframes-0025-0049.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-A\\review\\allframes-0050-0074.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-A\\review\\allframes-0075-0099.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-A\\review\\allframes-0100-0124.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-A\\review\\allframes-0125-0149.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-A\\review\\allframes-0150-0174.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-A\\review\\allframes-0175-0199.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-A\\review\\allframes-0200-0224.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-A\\review\\allframes-0225-0249.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-A\\review\\allframes-0250-0274.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-A\\review\\allframes-0275-0299.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-A\\review\\allframes-0300-0324.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-A\\review\\allframes-0325-0349.jpg"
+        ],
+        "frameRangeInclusive": [
+          0,
+          335
+        ],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            0,
+            74
+          ],
+          "observed": "One red/cream tug lists progressively to its side; mast/cabin rotate with vessel. Camera follows sea-level motion; ocean horizon stays coherent."
+        },
+        {
+          "frames": [
+            75,
+            149
+          ],
+          "observed": "Deck/cabin sink beneath breaking wave/foam. Single continuous vessel; no additional boat, person, split hull or scene dissolve observed."
+        },
+        {
+          "frames": [
+            150,
+            249
+          ],
+          "observed": "Foam clears intermittently; same side-rolled vessel continues settling, cabin progressively occluded by water. Camera eases upward/back, follows subject without sudden cut."
+        },
+        {
+          "frames": [
+            250,
+            335
+          ],
+          "observed": "Most superstructure below water; visible red side/hull becomes smaller/lower within disturbed sea. Readable red/cream design under consistent overcast light."
+        }
+      ],
+      "limits": [
+        "Retained end still shows part of hull at surface, not an empty ocean or continuous descent to seabed. Following G is a motivated geographic/time ellipsis to the already inverted wreck; no claim of fully submerged final frame in A.",
+        "Illustrative roll/settling, not archival ship geometry.",
+        "Raw generated sound preserved and excluded; not listened. Final exported playback and joins still pending."
+      ],
+      "updatedAt": "2026-11-03T13:14:29.404689+00:00"
+    },
+    "S01-G": {
+      "cut": "S01-G",
+      "jobId": "2fdc1793-1f21-408d-8f2c-a172d595b44f",
+      "decision": "usable",
+      "sourceInFrames": 0,
+      "sourceOutFrameExclusive": 222,
+      "editFrames": 222,
+      "playbackRate": 1,
+      "nativeFrames": 243,
+      "evidence": {
+        "method": "Every retained native frame viewed in ordered contact sheets; not realtime playback or listening",
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-G\\review\\allframes-0000-0024.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-G\\review\\allframes-0025-0049.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-G\\review\\allframes-0050-0074.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-G\\review\\allframes-0075-0099.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-G\\review\\allframes-0100-0124.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-G\\review\\allframes-0125-0149.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-G\\review\\allframes-0150-0174.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-G\\review\\allframes-0175-0199.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-G\\review\\allframes-0200-0224.jpg"
+        ],
+        "frameRangeInclusive": [
+          0,
+          221
+        ],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            0,
+            74
+          ],
+          "observed": "One opaque red hull above cream superstructure pressed into seabed; rock and silt below, blue water around. No person visible through steel. Silt drifts locally as camera begins rising."
+        },
+        {
+          "frames": [
+            75,
+            149
+          ],
+          "observed": "Continuous camera rise reveals blue water above hull; red plating/tire/rubbing rail retain relative positions, cream structure below; no reset/duplicate vessel."
+        },
+        {
+          "frames": [
+            150,
+            221
+          ],
+          "observed": "Rise finishes with upper hull and water prominent, lower superstructure progressively cropped. Stable materials, broad cool light, no flashes or impossible waterline. Wreck remains stationary."
+        }
+      ],
+      "limits": [
+        "Cut depicts already inverted seabed result; it does not animate descent from sea surface. Exact vessel geometry remains illustrative.",
+        "Raw generated sound preserved and excluded; not listened. Final exported playback and joins still pending."
+      ],
+      "updatedAt": "2026-11-03T13:14:29.404689+00:00"
+    },
+    "S01-B": {
+      "cut": "S01-B",
+      "jobId": "459e0556-b953-4872-b003-e847c85cfd44",
+      "decision": "usable",
+      "sourceInFrames": 0,
+      "sourceOutFrameExclusive": 18,
+      "editFrames": 18,
+      "playbackRate": 1,
+      "nativeFrames": 124,
+      "evidence": {
+        "method": "Every retained native frame viewed in ordered contact sheets; not realtime playback or listening",
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-B\\review\\allframes-0000-0024.jpg"
+        ],
+        "frameRangeInclusive": [
+          0,
+          17
+        ],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            0,
+            17
+          ],
+          "observed": "Single connected WHITE cartoon hand/forearm supports on same rigid rusted jamb; white material/dark contour stable, thumb and curled fingers on opposite sides. Water surges below wrist, diagnostic contact remains visible. No spare hand in selected interval."
+        }
+      ],
+      "limits": [
+        "Opening is already in supported grip, so this insert shows maintained support under water surge, not a newly planted palm. This matches inspected opening and the supported result.",
+        "Board additionally reveals a new hand entering at aboutframe20; all sourceframes18-123 excluded/unselected. No certification of later handle.",
+        "Raw generated sound preserved and excluded; not listened. Final exported playback and joins still pending."
+      ],
+      "updatedAt": "2026-11-03T13:14:29.404689+00:00"
+    },
+    "S01-C": {
+      "cut": "S01-C",
+      "jobId": "7a9a8f1c-b0a9-4d2e-a981-0a6c2a74b7b9",
+      "decision": "usable",
+      "sourceInFrames": 0,
+      "sourceOutFrameExclusive": 256,
+      "editFrames": 256,
+      "playbackRate": 1,
+      "evidence": {
+        "method": "Every retained native frame visually inspected in ordered boards, not realtime playback/listening",
+        "frameRangeInclusive": [
+          0,
+          255
+        ],
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-C\\review\\allframes-0000-0024.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-C\\review\\allframes-0025-0049.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-C\\review\\allframes-0050-0074.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-C\\review\\allframes-0075-0099.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-C\\review\\allframes-0100-0124.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-C\\review\\allframes-0125-0149.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-C\\review\\allframes-0150-0174.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-C\\review\\allframes-0175-0199.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-C\\review\\allframes-0200-0224.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-C\\review\\allframes-0225-0249.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-C\\review\\allframes-0250-0274.jpg"
+        ],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            0,
+            49
+          ],
+          "observed": "Same WHITE protagonist pulls against fixed jamb and advances, kicks/legs remain connected underwater; face above water and maroon shorts consistent."
+        },
+        {
+          "frames": [
+            50,
+            149
+          ],
+          "observed": "Hand-supported body reaches doorway/cabin edge; camera tracks around pillar toward rear angle. Both legs flex in water; no tan material or additional cast."
+        },
+        {
+          "frames": [
+            150,
+            255
+          ],
+          "observed": "He steadies and turns toward camera while one hand keeps frame support; horizontal water stays below mouth. Rusted enclosed passage and pale glazed panels revealed, no exterior sky resolved. Frame240 additionally inspected at full736x1280."
+        }
+      ],
+      "limits": [
+        "No claim of feet planting on a fixed underwater step: support is hand/bracing plus buoyancy. Result is cabin edge, not complete dry-body entry.",
+        "Lateral movement includes a viewpoint arc and turn after arrival. Geometry is illustrative; no exact historical cabin claim.",
+        "Raw native audio retained/excluded, not listened. Actual exported frames/joins/playback remain pending."
+      ],
+      "updatedAt": "2026-11-03T14:03:22.745974+00:00"
+    },
+    "S01-D": {
+      "cut": "S01-D",
+      "jobId": "27e14856-af0a-493a-96a4-82491ba7f724",
+      "decision": "usable",
+      "sourceInFrames": 0,
+      "sourceOutFrameExclusive": 18,
+      "editFrames": 18,
+      "playbackRate": 1,
+      "evidence": {
+        "method": "Every retained native frame visually inspected in ordered boards, not realtime playback/listening",
+        "frameRangeInclusive": [
+          0,
+          17
+        ],
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-D\\review\\allframes-0000-0024.jpg"
+        ],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            0,
+            17
+          ],
+          "observed": "Small horizontal meniscus ripple against rigid riveted steel, dry wall above, submerged cyan reflections below. No cast or roof opening. Stable diagnostic crop establishes air/water boundary."
+        }
+      ],
+      "limits": [
+        "Only first18frames selected and reviewed; unused native handle not certified.",
+        "Raw native audio retained/excluded, not listened. Actual exported frames/joins/playback remain pending."
+      ],
+      "updatedAt": "2026-11-03T14:03:22.745974+00:00"
+    },
+    "S02-A": {
+      "cut": "S02-A",
+      "jobId": "71ce19de-94d8-4b8c-a004-385e88e66640",
+      "decision": "usable",
+      "sourceInFrames": 50,
+      "sourceOutFrameExclusive": 175,
+      "editFrames": 154,
+      "playbackRate": 0.8116883116883117,
+      "evidence": {
+        "method": "Every retained native frame visually inspected in ordered boards, not realtime playback/listening",
+        "frameRangeInclusive": [
+          50,
+          174
+        ],
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-A\\review\\allframes-0050-0074.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-A\\review\\allframes-0075-0099.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-A\\review\\allframes-0100-0124.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-A\\review\\allframes-0125-0149.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-A\\review\\allframes-0150-0174.jpg"
+        ],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            50,
+            74
+          ],
+          "observed": "Clear explanatory wall cutaway: one WHITE man with both feet on fixed floor, hand on bracket and other hand supported by mattress/platform. Mouth/nose above water. Closed steel roof above air; external ocean outside cutaway."
+        },
+        {
+          "frames": [
+            75,
+            124
+          ],
+          "observed": "Continuous pullback exposes complete section/cabin thickness, air/water relation and lower submerged opening; cast/body/support stable, opaque walls except intentionally omitted explanatory face."
+        },
+        {
+          "frames": [
+            125,
+            174
+          ],
+          "observed": "Camera settles at whole-section view, mild water ripples and same man supported above water. No extra cast/limb or architecture change."
+        }
+      ],
+      "limits": [
+        "Nativeframes0-49 excluded because low underwater camera obscures face/water relationship. Startframe50 also inspected at native736x1280.",
+        "Correct educational pullback source125frames is presented over154editframes at0.811688speed for legibility, no urgent actor action or narration retimed. No freeze or repeated segment. Rendered cadence review pending.",
+        "This is explicitly illustrative explanatory cutaway, not a literally transparent wreck.",
+        "Raw native audio retained/excluded, not listened. Actual exported frames/joins/playback remain pending."
+      ],
+      "updatedAt": "2026-11-03T14:03:22.745974+00:00"
+    },
+    "S02-C": {
+      "cut": "S02-C",
+      "jobId": "a1d713a2-7b12-4b8c-bbf5-babdf292219e",
+      "decision": "usable",
+      "sourceInFrames": 0,
+      "sourceOutFrameExclusive": 308,
+      "editFrames": 308,
+      "playbackRate": 1,
+      "evidence": {
+        "method": "Every retained nativeframe visually viewed in ordered contact sheets; not realtime playback/listening",
+        "frameRangeInclusive": [
+          0,
+          307
+        ],
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-C\\review\\allframes-0000-0024.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-C\\review\\allframes-0025-0049.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-C\\review\\allframes-0050-0074.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-C\\review\\allframes-0075-0099.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-C\\review\\allframes-0100-0124.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-C\\review\\allframes-0125-0149.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-C\\review\\allframes-0150-0174.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-C\\review\\allframes-0175-0199.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-C\\review\\allframes-0200-0224.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-C\\review\\allframes-0225-0249.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-C\\review\\allframes-0250-0274.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-C\\review\\allframes-0275-0299.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-C\\review\\allframes-0300-0324.jpg"
+        ],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            0,
+            99
+          ],
+          "observed": "One WHITE man seated with hips supported by two blue mattresses on fixed platform, feet on platform edge. Chest hand and other hand on knee remain connected. Mild chest/shoulder breathing, head above water; restrained waiting performance."
+        },
+        {
+          "frames": [
+            100,
+            174
+          ],
+          "observed": "Head/gaze lowers toward passage then returns upward, worried brow; support/cast/materials remain stable, camera begins attention rise."
+        },
+        {
+          "frames": [
+            175,
+            274
+          ],
+          "observed": "Attention tilt/push reveals rimmed blue glazed-looking overhead panel while same man looks upward. Rusted roof surrounds it; no open sky/cloud view or fresh-air vent observed. Nativeframe220 additionally inspected at736x1280: blue rippled light within pane-like surface."
+        },
+        {
+          "frames": [
+            275,
+            307
+          ],
+          "observed": "Hand lowers from chest to rest near knee and chin drops; seated result/support retained. Same white exposed torso, hands, legs/feet and maroon shorts."
+        }
+      ],
+      "limits": [
+        "Quiet supported breathing/waiting is intentional here; no urgent physical action is slowed or replayed. Native/edit speed1.",
+        "Overhead rimmed blue panel is illustrative and reads as glazed/water-lit; physical seal cannot be proven from pixels. No claim of historical cabin geometry or newly open escape.",
+        "Nativeframes308-344 unselected; not certified.",
+        "Raw native sound retained/excluded; listening not performed. Exported cadence/crop/joins remain review-pending."
+      ],
+      "updatedAt": "2026-11-03T14:38:22.157427+00:00"
+    },
+    "S02-E": {
+      "cut": "S02-E",
+      "jobId": "3cdc5ab5-4d1e-419e-b76a-77807b474f36",
+      "decision": "usable",
+      "sourceInFrames": 25,
+      "sourceOutFrameExclusive": 43,
+      "editFrames": 18,
+      "playbackRate": 1,
+      "evidence": {
+        "method": "Every retained nativeframe visually viewed in ordered contact sheets; not realtime playback/listening",
+        "frameRangeInclusive": [
+          25,
+          42
+        ],
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-E\\review\\allframes-0025-0049.jpg"
+        ],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            25,
+            33
+          ],
+          "observed": "Tight WHITE graphic face crop with two black oval eyes and worried brows; small head/camera advance keeps attention on eyes."
+        },
+        {
+          "frames": [
+            34,
+            38
+          ],
+          "observed": "One quick blink closes and reopens, no extra eye or realistic facial change."
+        },
+        {
+          "frames": [
+            39,
+            42
+          ],
+          "observed": "Attentive open eye and tense brow result, no smile. White material and cool reflected streak remain stable."
+        }
+      ],
+      "limits": [
+        "Selected blink/attention beat rather than claiming an independently proved eye turn toward a specific offscreen doorway.",
+        "Left eye approaches native left edge as framing tightens; right eye/brow remains readable. Check final720delivery crop at assembly.",
+        "All nativeframes outside25-42 excluded/unselected.",
+        "Raw native sound retained/excluded; listening not performed. Exported cadence/crop/joins remain review-pending."
+      ],
+      "updatedAt": "2026-11-03T14:38:22.157427+00:00"
+    },
+    "S02-D2": {
+      "cut": "S02-D2",
+      "jobId": "c3a61395-ae58-4055-a694-6b9bc7a65922",
+      "decision": "usable",
+      "sourceInFrames": 0,
+      "sourceOutFrameExclusive": 18,
+      "editFrames": 18,
+      "playbackRate": 1,
+      "evidence": {
+        "method": "Every selected nativeframe viewed in actual ordered boards, not realtime/playback/listening",
+        "frameRangeInclusive": [
+          0,
+          17
+        ],
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-D2\\review\\allframes-0000-0024.jpg"
+        ],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            0,
+            17
+          ],
+          "observed": "Exactly two connected WHITE cartoon hands support tilted upper mattress above lower mattress/fixed metal platform. Small grip/load compression and falling droplets, no cast or finger ownership change."
+        }
+      ],
+      "limits": [
+        "Only source0-17 selected; later native handle not certified. This is load-bearing insert preceding full placement, not claimed completedstack.",
+        "Raw native sound preserved/excluded pending listening. Final exportedcrop/joins/cadence review remains pending."
+      ],
+      "updatedAt": "2026-11-03T14:44:06.210257+00:00"
+    },
+    "S02-D": {
+      "cut": "S02-D",
+      "jobId": "90355699-df23-4a46-b529-5e7d1c44b504",
+      "decision": "usable",
+      "sourceInFrames": 22,
+      "sourceOutFrameExclusive": 124,
+      "editFrames": 102,
+      "playbackRate": 1,
+      "evidence": {
+        "method": "Every selected nativeframe viewed in actual ordered boards, not realtime/playback/listening",
+        "frameRangeInclusive": [
+          22,
+          123
+        ],
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-D\\review\\allframes-0000-0024.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-D\\review\\allframes-0025-0049.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-D\\review\\allframes-0050-0074.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-D\\review\\allframes-0075-0099.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-D\\review\\allframes-0100-0123.jpg"
+        ],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            22,
+            49
+          ],
+          "observed": "Same one WHITE man brings tilted upper mattress flush onto lower one on rigid platform. Two connected arms/hands carry it, one foot braced at submerged support and body buoyant below waist. No additional person/hand."
+        },
+        {
+          "frames": [
+            50,
+            89
+          ],
+          "observed": "Mattress stack stays flat and supported; his hands slide from edge onto upper surface, shoulder effort settles. Camera follows placement with short settle, head stays above water."
+        },
+        {
+          "frames": [
+            90,
+            123
+          ],
+          "observed": "Both forearms/hands rest across upper mattress and remain supported. Mattress/platform/steel geometry and whitebody stay coherent, warm upper light and cool underwater reflections preserve contacts."
+        }
+      ],
+      "limits": [
+        "Nativefirst22frames trimmed as unused earlyhandle; selectedsource22-123 gives completedstack and finalheldforearmcontact at normal speed. No slowdown/repeat.",
+        "Exact cabin/step and glazed porthole geometry illustrative, not archival.",
+        "Raw native sound preserved/excluded pending listening. Final exportedcrop/joins/cadence review remains pending."
+      ],
+      "updatedAt": "2026-11-03T14:44:06.210257+00:00"
+    },
+    "S02-F": {
+      "cut": "S02-F",
+      "jobId": "d9b8080f-7680-4001-ba4f-9ee09d6e4cbb",
+      "decision": "usable",
+      "sourceInFrames": 0,
+      "sourceOutFrameExclusive": 62,
+      "editFrames": 62,
+      "playbackRate": 1,
+      "evidence": {
+        "method": "Every selected nativeframe viewed in ordered boards; not realtime playback/listening",
+        "frameRangeInclusive": [
+          0,
+          61
+        ],
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-F\\review\\allframes-0000-0024.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-F\\review\\allframes-0025-0049.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-F\\review\\allframes-0050-0074.jpg"
+        ],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            0,
+            24
+          ],
+          "observed": "One sealed yellowhelmet/navysuit diver fins toward opening in inverted red/cream wreck; umbilical connected and trailing upperleft, two fins and two arms preserved. Motivated lamp reveals rigid entryrim, seabed below."
+        },
+        {
+          "frames": [
+            25,
+            49
+          ],
+          "observed": "Diver advances briskly and extends glove to actualrim, same hose and lamp geometry. Camera tracks closer beside approach without scene transition or extra diver."
+        },
+        {
+          "frames": [
+            50,
+            61
+          ],
+          "observed": "Glove contacts fixedrim and diver steadies poised at entry, fully underwater. Helmet/light/equipment remain attached; bubbles rise above exhaust rather than airspace around head."
+        }
+      ],
+      "limits": [
+        "Only approach/entryrimcontact selected; full cabin entry not claimed in this shot. Next corridor cut must establish interior geography.",
+        "Exhaust appears stylized as a substantial bright bubble plume; no literal fire or surfaced airspace observed in selectedinterval.",
+        "Nativeframes62onward unselected/not certified. Raw native audio retained/excluded pending listening. Finalrender joins/crop/cadence review pending."
+      ],
+      "updatedAt": "2026-11-03T14:48:44.596329+00:00"
+    },
+    "S02-G": {
+      "cut": "S02-G",
+      "jobId": "3016230e-403b-4685-a1b4-10e36ee0d53b",
+      "decision": "usable",
+      "sourceInFrames": 0,
+      "sourceOutFrameExclusive": 220,
+      "editFrames": 220,
+      "playbackRate": 1,
+      "evidence": {
+        "method": "Every selected nativeframe viewed in ordered boards, plus native736x1280 frame20 detail; not realtime playback/listening",
+        "frameRangeInclusive": [
+          0,
+          219
+        ],
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-G\\review\\allframes-0000-0024.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-G\\review\\allframes-0025-0049.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-G\\review\\allframes-0050-0074.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-G\\review\\allframes-0075-0099.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-G\\review\\allframes-0100-0124.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-G\\review\\allframes-0125-0149.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-G\\review\\allframes-0150-0174.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-G\\review\\allframes-0175-0199.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-G\\review\\allframes-0200-0224.jpg"
+        ],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            0,
+            49
+          ],
+          "observed": "One helmeted/navysuit diver advances through real doorway, braces gloves on opposing steel edges, fins connected. Camera retreats ahead. Hose remains continuous behind helmet. Lamp sweeps walls with brief bloom crossing visor; no new person or visible face."
+        },
+        {
+          "frames": [
+            50,
+            124
+          ],
+          "observed": "Gloves release/rebrace as diver continues through flooded corridor, bubbles rise toward roof, same two arms and legs. Camera leads continuously, head remains sealed/underwater. No corpse or survivor invented."
+        },
+        {
+          "frames": [
+            125,
+            174
+          ],
+          "observed": "Camera and diver turn from frontal toward side view at structural corner; connected tanks/hose revealed, helmet lamp continues along steel. Grip releases for continued swim, no scene dissolve."
+        },
+        {
+          "frames": [
+            175,
+            219
+          ],
+          "observed": "Diver moves along wall and reaches toward next edge while lamp advances. Wreck remains enclosed and flooded, no surfaced/breathing airspace around helmet."
+        }
+      ],
+      "limits": [
+        "Lamp-facing glove surfaces appear pale warm/beige during illumination, while shaded gloves read navy. Fullframe20 shows connected covered-looking hand, not a third hand; exact material/albedo under bloom not certified. Protagonist is absent from this cut.",
+        "Brief lamp blooms alter exposure; helmet/cast/contacts remain readable around blooms. Finalrender cadence/joins still require review.",
+        "Outcome is continued interior search and advancing light, not survivor discovery or completed turn into refuge.",
+        "Nativeframes220-242 excluded. Raw native sound preserved/excluded, no listening claimed."
+      ],
+      "updatedAt": "2026-11-03T15:05:57.432174+00:00"
+    },
+    "S03-A": {
+      "cut": "S03-A",
+      "jobId": "d905f2a5-d4a2-4fca-9104-b19b2810719f",
+      "decision": "usable",
+      "sourceInFrames": 0,
+      "sourceOutFrameExclusive": 183,
+      "editFrames": 183,
+      "playbackRate": 1,
+      "evidence": {
+        "method": "Every retained nativeframe visually inspected in ordered boards; native736x1280 detail115 also inspected. Not realtime playback/listening.",
+        "frameRangeInclusive": [
+          0,
+          182
+        ],
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-A\\review\\allframes-0000-0024.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-A\\review\\allframes-0025-0049.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-A\\review\\allframes-0050-0074.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-A\\review\\allframes-0075-0099.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-A\\review\\allframes-0100-0124.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-A\\review\\allframes-0125-0149.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-A\\review\\allframes-0150-0174.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-A\\review\\allframes-0175-0191.jpg"
+        ],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            0,
+            49
+          ],
+          "observed": "One WHITE man seated on fixed mattress/platform, one hand at wallbracket and other palm on mattress; looks toward submerged doorway/lamp. Camera begins following attention while support retained."
+        },
+        {
+          "frames": [
+            50,
+            99
+          ],
+          "observed": "He lowers legs into water and shifts toward platformedge, palm stays braced. Head remains above water in this phase; both legs attached and white with cool/warm reflections. Door/light stay below actual water surface."
+        },
+        {
+          "frames": [
+            100,
+            149
+          ],
+          "observed": "Supported body slides off platform and enters water; camera dips toward/through surface. Wavy doubled body in surface is reflection/refraction, not extra cast. Nativeframe115 confirms connected white foot and rippled reflection, no extra bare hand."
+        },
+        {
+          "frames": [
+            150,
+            182
+          ],
+          "observed": "Body is submerged beneath visible surface, knees bent and arms moving from support toward swim preparation. Same white limbs/maroonshorts/hair retained. Lamp continues through underwater doorway. Achieved enteringwater state before next swimcut."
+        }
+      ],
+      "limits": [
+        "Actual lowering is deliberate supported entry at native speed1, not a rapid dive; no slow retime applied. Opening already attends to beam, so no separately certified eye-discovery beat.",
+        "After submersion face mostly turns away; no claim to inspect closedmouth/breathholding directly. Small bubbles follow immersion, not a certified breathing pattern.",
+        "Surface refraction briefly occludes/distorts body; everyselectedframe checked for continuous body/color. Actual A-to-B join/crop/cadence pending.",
+        "Nativeframes183-191 unselected. Raw native audio preserved/excluded, not listened."
+      ],
+      "updatedAt": "2026-11-03T15:17:31.937770+00:00"
+    },
+    "S03-B": {
+      "cut": "S03-B",
+      "jobId": "b5c3ec66-de81-4b82-8f94-472a275d9982",
+      "decision": "usable",
+      "sourceInFrames": 61,
+      "sourceOutFrameExclusive": 124,
+      "editFrames": 63,
+      "playbackRate": 1,
+      "evidence": {
+        "method": "Every selected nativeframe61-123 viewed in ordered boards; not realtime playback/listening",
+        "frameRangeInclusive": [
+          61,
+          123
+        ],
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-B\\review\\allframes-0050-0074.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-B\\review\\allframes-0075-0099.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-B\\review\\allframes-0100-0123.jpg"
+        ],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            61,
+            77
+          ],
+          "observed": "WHITE man already swims horizontally through submerged steel corridor, one arm extended toward light and other arm near torso, connected kicking legs/maroonshorts. Camera follows and reveals destination side."
+        },
+        {
+          "frames": [
+            78,
+            99
+          ],
+          "observed": "Same yellowhelmet/navysuit diver enters view with camera reveal, reaching glove toward approaching whitehand; equipment/hose attached, no spare cast."
+        },
+        {
+          "frames": [
+            100,
+            123
+          ],
+          "observed": "Reach gap closes, white hand and navy glove remain separate before clasp; diver spare glove braces rigid doorway. Both figures fully submerged, no mouth bubble stream in selectedrange, body/material/ownership coherent."
+        }
+      ],
+      "limits": [
+        "Native0-60 excluded: different braced framing and bubbles near face before usable swimming phase. No certification of unused earlyhandle.",
+        "Approach ends with near-contact, not a completed grasp. Next single-hand insert is being repaired for unwanted wrist contact; checked Dclasp0-60 stays intact.",
+        "ActualA-B-C-D joins/finalcrop/cadence still pending; no realtime or native listening claim. Raw native sound retained/excluded."
+      ],
+      "updatedAt": "2026-11-03T15:27:27.234255+00:00"
+    },
+    "S03-E": {
+      "cut": "S03-E",
+      "jobId": "73ef2c65-cff5-4d9b-9c71-7804f9436a30",
+      "decision": "usable",
+      "sourceInFrames": 0,
+      "sourceOutFrameExclusive": 274,
+      "editFrames": 274,
+      "playbackRate": 1,
+      "nativeFrames": 294,
+      "evidence": {
+        "method": "Every retained native frame0-273 viewed in ordered boards, not realtime playback/listening",
+        "frameRangeInclusive": [
+          0,
+          273
+        ],
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-E\\review\\allframes-0000-0024.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-E\\review\\allframes-0025-0049.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-E\\review\\allframes-0050-0074.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-E\\review\\allframes-0075-0099.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-E\\review\\allframes-0100-0124.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-E\\review\\allframes-0125-0149.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-E\\review\\allframes-0150-0174.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-E\\review\\allframes-0175-0199.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-E\\review\\allframes-0200-0224.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-E\\review\\allframes-0225-0249.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-E\\review\\allframes-0250-0274.jpg"
+        ],
+        "detailFrames": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-E\\review\\frame-0261.png"
+        ],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            0,
+            74
+          ],
+          "observed": "Exactly two figures. White survivor forearm supported on blue mattress/rigid platform, other hand at water/edge. Diver helmet begins above water; shoulders rise and settle with ripples. Survivor turns gaze toward diver. Mouth and nose stay above water."
+        },
+        {
+          "frames": [
+            75,
+            174
+          ],
+          "observed": "Same connected WHITE torso/arms/legs and maroon shorts, no spare hands. Supported survivor relaxes brow/forearm slightly. Yellow helmet/navy suit/hose stay connected; motivated helmet light and water reflections."
+        },
+        {
+          "frames": [
+            175,
+            273
+          ],
+          "observed": "Short later camera arc reveals rimmed blue pane at left while overhead steel stays enclosed. Both heads above horizontal water; survivor forearm and other hand retain support and ownership. Dark reflective helmet viewport, not an additional cast member."
+        }
+      ],
+      "limits": [
+        "Diver helmet already above surface in opening; this is shoulder-rise/settling and shared-air refuge, not proof of full helmet emergence.",
+        "Survivor legs remain submerged/buoyant; no fixed floor footplant claimed. Blue pane appears glazed/waterlit, not proof of its physical seal.",
+        "Frames274-293 unused. Final joins/crop/cadence pending. Native audio preserved/excluded; no realtime playback or listening claimed."
+      ],
+      "updatedAt": "2026-11-03T15:47:13.385584+00:00"
+    },
+    "S03-F": {
+      "cut": "S03-F",
+      "jobId": "622a03cf-0f1d-4584-ae09-d6f93af3ae19",
+      "decision": "usable",
+      "sourceInFrames": 32,
+      "sourceOutFrameExclusive": 50,
+      "editFrames": 18,
+      "playbackRate": 1,
+      "nativeFrames": 124,
+      "evidence": {
+        "method": "Every retained native frame viewed in ordered boards, not realtime playback or listening",
+        "frameRangeInclusive": [
+          32,
+          49
+        ],
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-F\\review\\allframes-0025-0049.jpg"
+        ],
+        "detailFrames": [],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            32,
+            49
+          ],
+          "observed": "Single mounted pressure gauge and connected pipe remain fixed/upright; needle steady. Condensation bead descends beneath lower-left housing and exits down frame. No cast, numbers or exact pressure claims."
+        }
+      ],
+      "limits": [
+        "Short18frame diagnostic insert at speed1; not a pressure measurement or instrument calibration claim.",
+        "Remaining native handle unused. Native audio retained/excluded, final joins/listening pending."
+      ],
+      "updatedAt": "2026-11-03T15:49:27.793800+00:00"
+    },
+    "S03-G": {
+      "cut": "S03-G",
+      "jobId": "2ea06627-6832-4f3f-86e3-6a67ee0fe332",
+      "decision": "usable",
+      "sourceInFrames": 22,
+      "sourceOutFrameExclusive": 124,
+      "editFrames": 102,
+      "playbackRate": 1,
+      "nativeFrames": 124,
+      "evidence": {
+        "method": "Every retained native frame viewed in ordered boards, not realtime playback or listening",
+        "frameRangeInclusive": [
+          22,
+          123
+        ],
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-G\\review\\allframes-0000-0024.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-G\\review\\allframes-0025-0049.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-G\\review\\allframes-0050-0074.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-G\\review\\allframes-0075-0099.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-G\\review\\allframes-0100-0123.jpg"
+        ],
+        "detailFrames": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-G\\review\\detail-01.png",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-G\\review\\detail-02.png"
+        ],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            22,
+            49
+          ],
+          "observed": "Masked WHITE survivor pulls upward at fixed bell rung; navy/yellow diver supports opposite forearm, knees bend and body rises beneath bottom entry. Hoses connected, two figures only."
+        },
+        {
+          "frames": [
+            50,
+            89
+          ],
+          "observed": "Survivor head and torso pass into bell while legs remain below, hand shifts to interior rung. Diver releases support as torso enters; external diver stays outside with one glove at rigid bell rim."
+        },
+        {
+          "frames": [
+            90,
+            123
+          ],
+          "observed": "Knees/feet draw above bottom rim into internal rung space, head/upper body visible through window. Final full-size frame confirms both feet contained above lower rim plane, no limbs hanging beneath bell. Survivor hand holds upper interior rail; diver remains separate outside."
+        }
+      ],
+      "limits": [
+        "Frame70 fullsize: white torso has warm light beneath brass ring, cooler WHITE legs/hands; no tan material swap observed.",
+        "Entry is complete by final frames relative to bottom rim; bell not mechanically closed/sealed on screen. Feet remain visible inside lower opening on internal rung, do not claim a shut door.",
+        "Opening22 begins with ongoing hand/rung support and body fully outside; early0-21 idle handle excluded. Actual final joins/crop/cadence pending; native sound retained/excluded, no realtime playback/listening."
+      ],
+      "updatedAt": "2026-11-03T15:49:27.793800+00:00"
+    },
+    "S01-E": {
+      "cut": "S01-E",
+      "jobId": "99474f07-06ae-45a8-b57e-a10cd55a5d45",
+      "attempt": "repair-1",
+      "decision": "usable",
+      "sourceInFrames": 0,
+      "sourceOutFrameExclusive": 110,
+      "editFrames": 110,
+      "playbackRate": 1,
+      "nativeFrames": 124,
+      "evidence": {
+        "method": "Every retained native frame reviewed in ordered boards, not realtime playback/listening",
+        "frameRangeInclusive": [
+          0,
+          109
+        ],
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-E\\repair-1\\review\\allframes-0000-0024.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-E\\repair-1\\review\\allframes-0025-0049.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-E\\repair-1\\review\\allframes-0050-0074.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-E\\repair-1\\review\\allframes-0075-0099.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-E\\repair-1\\review\\allframes-0100-0123.jpg"
+        ],
+        "detailFrames": [],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            0,
+            59
+          ],
+          "observed": "Single WHITE man holds fixed bracket, nose and mouth above water. Chin lifts slightly; chest/shoulders rise and settle. Brief vapor-like exhale above surface, no underwater mouth bubbles."
+        },
+        {
+          "frames": [
+            60,
+            109
+          ],
+          "observed": "Chin-up supported result held, bracket hand attached, small sideways camera settle; closed rusted steel beams remain overhead. No exterior sky/roof opening or extra cast."
+        }
+      ],
+      "limits": [
+        "Opening already grasps bracket; observed tightening/settling, not newly acquiring it. Vapor is stylized visible exhalation, not proof of air temperature. Native110-123 unselected.",
+        "Native audio retained/excluded; final joins/crop/cadence pending, no realtime listening/playback claimed."
+      ],
+      "updatedAt": "2026-11-03T16:23:49.823350+00:00"
+    },
+    "S01-F": {
+      "cut": "S01-F",
+      "jobId": "e8cd4a01-914d-4d53-90e3-aa026c0c7d08",
+      "attempt": "repair-1",
+      "decision": "usable",
+      "sourceInFrames": 0,
+      "sourceOutFrameExclusive": 133,
+      "editFrames": 133,
+      "playbackRate": 1,
+      "nativeFrames": 158,
+      "evidence": {
+        "method": "Every retained native frame reviewed in ordered boards, not realtime playback/listening",
+        "frameRangeInclusive": [
+          0,
+          132
+        ],
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-F\\repair-1\\review\\allframes-0000-0024.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-F\\repair-1\\review\\allframes-0025-0049.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-F\\repair-1\\review\\allframes-0050-0074.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-F\\repair-1\\review\\allframes-0075-0099.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-F\\repair-1\\review\\allframes-0100-0124.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-F\\repair-1\\review\\allframes-0125-0149.jpg"
+        ],
+        "detailFrames": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S01-F\\repair-1\\review\\detail-110.png"
+        ],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            0,
+            49
+          ],
+          "observed": "WHITE man maintains bracket grip and blue mattress forearm support, looks left toward dark passage then begins lifting gaze. One blink, shoulder settles. Same connected body above/below water."
+        },
+        {
+          "frames": [
+            50,
+            94
+          ],
+          "observed": "Gaze returns upward, bracket grip stays connected, camera moves slightly laterally. White object revealed on far mattress edge reads folded pillow/fabric, not a hand."
+        },
+        {
+          "frames": [
+            95,
+            132
+          ],
+          "observed": "Upper beam-framed reflective panel reveals distorted reflection of own face/hand. Native110 detail confirms reflected graphic face in shiny overhead plane, not exterior sky or another person. Waterline remains below chest, face dry; two support contacts maintained."
+        }
+      ],
+      "limits": [
+        "A small white pillow corner is newly revealed by camera; local set detail drift retained as minor, no invented new room or above-water door.",
+        "Overhead shiny panel reflects survivor rather than opaque steel throughout; rim remains fixed, no exterior sky/weather observed. Physical glass/seal cannot be proved from pictures; final crop/joins require check. Native133-157 unused.",
+        "Native audio retained/excluded; final joins/crop/cadence pending, no realtime listening/playback claimed."
+      ],
+      "updatedAt": "2026-11-03T16:23:49.823350+00:00"
+    },
+    "S02-B": {
+      "cut": "S02-B",
+      "jobId": "73cf7052-cb52-4fa0-9c8b-43018924772b",
+      "attempt": "repair-1",
+      "decision": "usable",
+      "sourceInFrames": 0,
+      "sourceOutFrameExclusive": 145,
+      "editFrames": 145,
+      "playbackRate": 1.0,
+      "nativeFrames": 175,
+      "evidence": {
+        "method": "Every retained native source frame viewed in ordered boards; not realtime playback or listening",
+        "frameRangeInclusive": [
+          0,
+          144
+        ],
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-B\\repair-1\\review\\allframes-0000-0024.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-B\\repair-1\\review\\allframes-0025-0049.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-B\\repair-1\\review\\allframes-0050-0074.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-B\\repair-1\\review\\allframes-0075-0099.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-B\\repair-1\\review\\allframes-0100-0124.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S02-B\\repair-1\\review\\allframes-0125-0149.jpg"
+        ],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            0,
+            59
+          ],
+          "observed": "One supported inverted transparent cup descends relative to exterior water surface; open lower rim stays immersed, air volume remains under closed top. Inner water meniscus near lower rim, no escaping air or added objects."
+        },
+        {
+          "frames": [
+            60,
+            124
+          ],
+          "observed": "Cup closed top approaches surface then crosses below it by about124. Internal air remains large; water in lowest portion, no filling air pocket or venting."
+        },
+        {
+          "frames": [
+            125,
+            144
+          ],
+          "observed": "Fully submerged cup retains visible trapped air in upper bulk and small bottom water region. Continuous deeper motion settles toward held result, rod/glass remain rigid and connected."
+        }
+      ],
+      "limits": [
+        "Educational analogy, not quantitative pressure simulation; internal air volume compression not precisely measurable.",
+        "Camera follows cup slightly and water surface moves upward on screen; downstroke is established relative to exterior surface, not a strictly fixed camera. Motion lasts most of shot instead of first second. Native145-174 unused.",
+        "Raw native audio retained/excluded. Final joins/listening pending."
+      ],
+      "updatedAt": "2026-11-03T16:30:51.471880+00:00"
+    },
+    "S03-C": {
+      "cut": "S03-C",
+      "jobId": "5a92c885-18a4-41d8-b2f5-46d0731dc768",
+      "attempt": "repair-1",
+      "decision": "usable",
+      "sourceInFrames": 12,
+      "sourceOutFrameExclusive": 50,
+      "editFrames": 18,
+      "playbackRate": 2.111111111111111,
+      "nativeFrames": 124,
+      "evidence": {
+        "method": "Every retained native source frame viewed in ordered boards; not realtime playback or listening",
+        "frameRangeInclusive": [
+          12,
+          49
+        ],
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-C\\repair-1\\review\\allframes-0000-0024.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-C\\repair-1\\review\\allframes-0025-0049.jpg"
+        ],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            12,
+            21
+          ],
+          "observed": "Exactly one opaque WHITE graphic hand/connected forearm. Fingers curl toward lamp; no glove touches wrist and no extra foreground hand."
+        },
+        {
+          "frames": [
+            22,
+            43
+          ],
+          "observed": "Fingers complete flex, briefly curved/near pinch then begin releasing; contour and ownership remain consistent."
+        },
+        {
+          "frames": [
+            44,
+            49
+          ],
+          "observed": "Fingers reopen into reaching shape, ready before next actual Dclasp. Fixed lamp/closed steel corridor retained."
+        }
+      ],
+      "limits": [
+        "Source38frames compressed into18 editframes at38/18 speed to show complete small flex/release within existing0.75sec insert. This is an editorial speed increase, not native-speed certification.",
+        "No actual contact in C; D original clean61frames remains speed1 and owns completed clasp. Actual B-C-D joins/crop pending.",
+        "Raw native audio retained/excluded. Final joins/listening pending."
+      ],
+      "updatedAt": "2026-11-03T16:30:51.471880+00:00"
+    },
+    "S03-H": {
+      "cut": "S03-H",
+      "jobId": "7f517bf4-f769-4aa5-8ccf-41e3fc9556a0",
+      "attempt": "repair-1",
+      "decision": "usable",
+      "sourceInFrames": 0,
+      "sourceOutFrameExclusive": 232,
+      "editFrames": 232,
+      "playbackRate": 1,
+      "nativeFrames": 243,
+      "evidence": {
+        "method": "Every retained native frame0-231 viewed in ordered boards, not realtime playback or listening",
+        "frameRangeInclusive": [
+          0,
+          231
+        ],
+        "boards": [
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-H\\repair-1\\review\\allframes-0000-0024.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-H\\repair-1\\review\\allframes-0025-0049.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-H\\repair-1\\review\\allframes-0050-0074.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-H\\repair-1\\review\\allframes-0075-0099.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-H\\repair-1\\review\\allframes-0100-0124.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-H\\repair-1\\review\\allframes-0125-0149.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-H\\repair-1\\review\\allframes-0150-0174.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-H\\repair-1\\review\\allframes-0175-0199.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-H\\repair-1\\review\\allframes-0200-0224.jpg",
+          "${REPO}\\drafts\\production-batch-20261103\\02-okene\\video\\S03-H\\repair-1\\review\\allframes-0225-0242.jpg"
+        ],
+        "fullDecode": "passed"
+      },
+      "findings": [
+        {
+          "frames": [
+            0,
+            49
+          ],
+          "observed": "One WHITE survivor seated on dry blue bench, boots on dry grating, brown blanket supported on lap; left screen hand raises/flexes once then returns to blanket. Other hand remains on bench; no pool or submerged hand."
+        },
+        {
+          "frames": [
+            50,
+            124
+          ],
+          "observed": "Shoulders settle, one blink, gaze/head turns toward technician appearing through sealed viewport at screenright as camera tracks. WHITE graphic hands/face retained, two connected hands only."
+        },
+        {
+          "frames": [
+            125,
+            231
+          ],
+          "observed": "Technician stays behind viewport, survivor holds restful supported pose. Blanket/bench/grating/chamber remain dry, lamp and metal/cloth dimensional, camera settles without clipping."
+        }
+      ],
+      "limits": [
+        "Camera establishes a more frontal chamber perspective than reference, but retains dry supported cast and equipment; no claim of exact archival chamber geometry.",
+        "Technician nod is very small, not separately certified. Quiet head/hand completion and mutual attention observed. Native232-242 unused.",
+        "No realtime playback/listening claimed; native sound retained/excluded, final crop/joins pending."
+      ],
+      "updatedAt": "2026-11-03T17:02:55.957809+00:00"
+    }
+  },
+  "final-verification/checked-export.json": {
+    "status": "checked-full-motion-export-awaiting-creator-review",
+    "film": "${REPO}\\data\\projects\\62239d97-c9be-4cc7-8263-db8ba4010637\\exports\\871ec2d3-1456-4393-97bd-a96292c4aea5\\film-master.mp4",
+    "sha256": "8bed500d3de37c60763ae4de14b969d6348ba8c640d596d3cdd0571203cd01b8",
+    "frames": 3071,
+    "fps": 24,
+    "width": 720,
+    "height": 1280,
+    "seconds": 127.95833333333333,
+    "fullDecode": "passed",
+    "videoPayloadHashUnchangedByMastering": "SHA256=c5f361d51ac7bef17823e620c2079de41e87584438572832eae0509a332960f7",
+    "allFrameSourceComparison": "Reuses passed all3071frame exact-source comparison in technical.json; video stream byte-identical after mastering",
+    "audio": {
+      "source": "Original3PCM scene intermediates, not previous AAC",
+      "masterGainDb": -1,
+      "peak": 0.9189186692237854,
+      "clippingSamples": 0,
+      "decodedSamples": 6142976,
+      "narrationExpectedSamples": 6142000,
+      "endPaddingSamples": 976,
+      "aacVsMasteredPcmSnrDb": 34.40608596801758,
+      "joinWindows": [
+        {
+          "boundarySample": 2186000,
+          "windowSamples": 9600,
+          "rmse": 4.683306906372309e-05
+        },
+        {
+          "boundarySample": 4240000,
+          "windowSamples": 9600,
+          "rmse": 0.0009336940129287541
+        }
+      ],
+      "preparedNarrationHashesUnchanged": [
+        {
+          "sceneId": "S01",
+          "samples": 2186000,
+          "narrationSha256": "f693d469935f9c750fca4c028e66cee9322750b3e6a6a2643c786c4653c004b2",
+          "pcmVsVoicePlusEffectsMaxError": 2.1517276763916016e-05,
+          "speechRetime": 1
+        },
+        {
+          "sceneId": "S02",
+          "samples": 2054000,
+          "narrationSha256": "66e747596d61ddeaea563813349ed04f207e8d755c386e2e196ef81e7e638055",
+          "pcmVsVoicePlusEffectsMaxError": 2.1576881408691406e-05,
+          "speechRetime": 1
+        },
+        {
+          "sceneId": "S03",
+          "samples": 1902000,
+          "narrationSha256": "c7a1f1d7cdb894fe41ae0cf2a648269d66046fff2be7b8bbab010a49d45f1076",
+          "pcmVsVoicePlusEffectsMaxError": 2.1576881408691406e-05,
+          "speechRetime": 1
+        }
+      ]
+    },
+    "pixelReview": {
+      "method": "Actual exported first/mid/last frames for everycut viewed in5film-cuts boards; exact encoded source sampling comparison covers every3071frame; all22joins edges reviewed",
+      "boards": [
+        "${REPO}\\drafts\\production-batch-20261103\\02-okene\\final-verification\\film-cuts-00-04.jpg",
+        "${REPO}\\drafts\\production-batch-20261103\\02-okene\\final-verification\\film-cuts-05-09.jpg",
+        "${REPO}\\drafts\\production-batch-20261103\\02-okene\\final-verification\\film-cuts-10-14.jpg",
+        "${REPO}\\drafts\\production-batch-20261103\\02-okene\\final-verification\\film-cuts-15-19.jpg",
+        "${REPO}\\drafts\\production-batch-20261103\\02-okene\\final-verification\\film-cuts-20-22.jpg"
+      ],
+      "findings": [
+        "All23 actual motion ranges present, white exposed body retained with motivated warm/cool shading, no still placeholders or failed handles.",
+        "Final eye insert keeps both eyes visible; clasp ends in clean held contact, bell shows completed entry, recovery dry and supported.",
+        "All22cut edges visually checked. Ellipses and diagnostic inserts documented in motion-joins-review.json; no continuous surfacing/sealing proof implied."
+      ]
+    },
+    "limits": [
+      "No realtime playback or listening claimed. Subjective cadence, timbre/balance and narration pronunciation need creator review.",
+      "Illustrative geometry/reflections, camera/crop caveats are recorded percut; no exact archival reenactment claim."
+    ],
+    "updatedAt": "2026-11-03T17:17:15.985127+00:00"
+  },
+  "delivery-receipt.json": {
+    "film": "02-Alive-Inside-a-Sunken-Ship-WHITE-720x1280-FINAL.mp4",
+    "status": "Checked full-motion MP4 awaiting creator review",
+    "copies": [
+      "${REPO}\\data\\projects\\62239d97-c9be-4cc7-8263-db8ba4010637\\exports\\871ec2d3-1456-4393-97bd-a96292c4aea5\\film-master.mp4",
+      "${REPO}\\drafts\\production-batch-20261103\\02-okene\\02-Alive-Inside-a-Sunken-Ship-WHITE-720x1280-FINAL.mp4",
+      "${DELIVERY}\\02-Alive-Inside-a-Sunken-Ship-WHITE-720x1280-FINAL.mp4"
+    ],
+    "sha256": "8bed500d3de37c60763ae4de14b969d6348ba8c640d596d3cdd0571203cd01b8",
+    "720x1280": true,
+    "fps": 24,
+    "frames": 3071,
+    "durationSeconds": 127.95833333333333,
+    "review": "All retained native source frames visually reviewed; all3071export frames source-compared; final all23cut first/mid/last output pixels and22join edges visually checked. Full decode and contiguous timestamps pass.",
+    "audio": "3accepted prepared narration files unchanged, sole speech, no retime. Separate deterministic nonverbal effects synchronized to actual contacts. Final master -1dB gain, AAC comparison34.406dB SNR, no clipping. Native raw sound retained/excluded.",
+    "limits": [
+      "No realtime playback/listening claimed; creator should review cadence, timbre/balance and pronunciation.",
+      "Illustrative staging; recorded percut geometry/reflection/camera caveats retained."
+    ],
+    "packaging": "Pending all7 checked exports; no thumbnail/title/description package yet.",
+    "checkedAt": "2026-11-03T17:19:09.303520+00:00"
+  }
+}

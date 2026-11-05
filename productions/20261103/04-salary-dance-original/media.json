@@ -1,0 +1,82 @@
+[
+  {
+    "assetId": "S01-A-opening",
+    "versionId": "S01-A-opening-v1",
+    "kind": "image",
+    "path": "media/salary-v1/S01-A-opening.png",
+    "usedInRender": false,
+    "bytes": 2474816,
+    "sha256": "8b0fe1f699ec535dda0e106ed4447b2a1050c8563fca62e9a259a761160a9926",
+    "archiveMember": "media/8b0fe1f699ec535dda0e106ed4447b2a1050c8563fca62e9a259a761160a9926.png"
+  },
+  {
+    "assetId": "S01-B-opening",
+    "versionId": "S01-B-opening-v1",
+    "kind": "image",
+    "path": "media/salary-v1/S01-B-opening.png",
+    "usedInRender": false,
+    "bytes": 2481742,
+    "sha256": "dcbd542dd678e292db3ac92d25fcf3b244d0d7055e2dd12441ee1af7e1bbc3bb",
+    "archiveMember": "media/dcbd542dd678e292db3ac92d25fcf3b244d0d7055e2dd12441ee1af7e1bbc3bb.png"
+  },
+  {
+    "assetId": "S01-B-result",
+    "versionId": "S01-B-result-v1",
+    "kind": "image",
+    "path": "media/salary-v1/S01-B-result.png",
+    "usedInRender": false,
+    "bytes": 2300975,
+    "sha256": "398fa6b878a3628c889cc9d78a91455381ae82ad378de750faf5b0e089b7c350",
+    "archiveMember": "media/398fa6b878a3628c889cc9d78a91455381ae82ad378de750faf5b0e089b7c350.png"
+  },
+  {
+    "assetId": "salary-score",
+    "versionId": "salary-score-v1",
+    "kind": "audio",
+    "path": "media/salary-v1/salary-groove-original-112bpm-30s.wav",
+    "usedInRender": true,
+    "bytes": 5760044,
+    "sha256": "4737e987425083c5514d99b751c67f9f99c08b9810d8c7e8a7120b893e5a89e3",
+    "archiveMember": "media/4737e987425083c5514d99b751c67f9f99c08b9810d8c7e8a7120b893e5a89e3.wav"
+  },
+  {
+    "assetId": "salary-chime",
+    "versionId": "salary-chime-v1",
+    "kind": "audio",
+    "path": "media/salary-v1/payday-chime-timeline-30s.wav",
+    "usedInRender": true,
+    "bytes": 5760044,
+    "sha256": "1f084c52311b6a8268efa6d81ff438b8b7ba3e073b542e7ba00be2f92edcbf90",
+    "archiveMember": "media/1f084c52311b6a8268efa6d81ff438b8b7ba3e073b542e7ba00be2f92edcbf90.wav"
+  },
+  {
+    "assetId": "salary-paw-source",
+    "versionId": "salary-paw-source-v1",
+    "kind": "audio",
+    "path": "media/salary-v1/dry-paw-contact-source.wav",
+    "usedInRender": true,
+    "bytes": 30764,
+    "sha256": "c33d392b2ad8382acde456f0560ecb87ecd164dc4e936d7169ac6e220acdf83b",
+    "archiveMember": "media/c33d392b2ad8382acde456f0560ecb87ecd164dc4e936d7169ac6e220acdf83b.wav"
+  },
+  {
+    "assetId": "native-S01-B",
+    "versionId": "S01-B-1f8b9d5f-e5a9-4f4f-b98b-b6fdf1131b63",
+    "kind": "video",
+    "path": "media/video/S01-B-v2.mp4",
+    "usedInRender": true,
+    "bytes": 9269522,
+    "sha256": "b3b20637e315609b97785fe8c6ef08995504b0b045e247c13f15ff0faee81c3a",
+    "archiveMember": "media/b3b20637e315609b97785fe8c6ef08995504b0b045e247c13f15ff0faee81c3a.mp4"
+  },
+  {
+    "assetId": "native-S01-A",
+    "versionId": "S01-A-68d091a8-75fc-47ea-bb79-408cab111db6",
+    "kind": "video",
+    "path": "media/video/S01-A-v2.mp4",
+    "usedInRender": true,
+    "bytes": 7129531,
+    "sha256": "eca5fbc83378db265fdff93fe639362e3344fd552ca21100157507cda83b99d7",
+    "archiveMember": "media/eca5fbc83378db265fdff93fe639362e3344fd552ca21100157507cda83b99d7.mp4"
+  }
+]

@@ -1,0 +1,205 @@
+{
+  "motion-selections.json": {
+    "S01-C": {
+      "decision": "usable",
+      "jobId": "73c2b848-1b98-40a4-bc4f-c070a352cfd3",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\05-luxury-aura\\video\\S01-C-v1.mp4",
+      "sha256": "0614d47679c8eef8ec64f73f03c9463f39351608fc66c45f1d7c3310370e5e35",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 336,
+      "sourceFrames": 336,
+      "editFrames": 336,
+      "playbackRate": 1,
+      "nativeFrames": 362,
+      "observed": "One Sable identity retained in burgundy velvet/short attached gold lapel chain. After a composed supported opening, near hindpaw lifts~58-64 and lands~70; other hindpaw visibly lifts~88-95 and plants by101, with opposite support retained and no floor slide. Both paws settle before camera continues its arc/rise/push into intended face-and-chain portrait. Head/eyes turn toward lens after settled steps; tail counterbalances and settles; bench stays separate behind actor. Both chain endpoints remain attached to same lapels as perspective changes; furry forepaws/materials stable.",
+      "evidence": "Complete actual native overview0-361 every12frames, dense0-31/48-111 frameboards and enlarged62/94/101/240/335 inspected. Selected0-3361x preserves full two-step/settle, camera handoff and direct-look result;26nativehandleframes trimmed.",
+      "reviewedAt": "2026-11-04T10:12:43.917110+00:00",
+      "limitations": [
+        "Sequential frame review, not realtime native playback/listening; raw native audio excluded.",
+        "Initial composed hold about2.3s before walking retained as intentional aura/breathing phase.",
+        "Full feet intentionally leave crop only after both steps settle as camera approaches portrait. Exact requested single blink not certified from overview samples."
+      ]
+    },
+    "S01-A": {
+      "decision": "usable",
+      "jobId": "0e6704e4-dc8a-46db-ad79-2bbeffc8cbe4",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\05-luxury-aura\\video\\S01-A-v1.mp4",
+      "sha256": "4e559bb0ae15c92cc0b188a7ae04854d3e6f55d9e8e1f96d571d075ffdae4f2e",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 336,
+      "sourceFrames": 336,
+      "editFrames": 336,
+      "playbackRate": 1,
+      "nativeFrames": 362,
+      "observed": "One Vale silver-gray feline identity, charcoal double-breasted wool, ivorycollar and bronze oval spectacles retained. Hindpaw support transfers through two short steps~60-80 and~128-144; both feet settle by~145 and remain exposed while camera continues its arc. Later rise/approach reveals direct greeneye/spectacle portrait after settledstance. Real furry forepaws, glasses bridge/frames and coat buttons remain connected/stable; doorway/window/display parallax continuous.",
+      "evidence": "Complete actualnative overview0-361 every12frames, dense64-79/96-111/128-143/160-191/208-223/240-255 plus enlarged0/240/335 inspected. Selected0-336native1x preserves steps, plantedresult and camera/eye handoff;26nativehandleframes trimmed.",
+      "reviewedAt": "2026-11-04T10:49:44.554537+00:00",
+      "limitations": [
+        "Sequential-frame review, not native realtime playback/listening; raw native audio excluded.",
+        "Actual camera makes a broader side-to-front arc than planned shallowarc. Subject/step contacts stay readable before lateportrait cropping; tighttail margin atleft earlyframe retained, notclaimedperfecttail containment.",
+        "Initial composedhold before steps retained as intentional aura performance; exactblink count notcertified."
+      ]
+    },
+    "S01-B": {
+      "decision": "usable",
+      "jobId": "5a41c0db-1b4e-4620-8f0c-980efdbda49e",
+      "path": "${REPO}\\drafts\\production-batch-20261103\\05-luxury-aura\\video\\S01-B-v3.mp4",
+      "sha256": "c366097052bfebb5515bf25857b3b61ff9f1ec007d098fd538c68a8b889c08ac",
+      "sourceInFrames": 0,
+      "sourceOutExclusive": 336,
+      "sourceFrames": 336,
+      "editFrames": 336,
+      "playbackRate": 1,
+      "nativeFrames": 362,
+      "reviewedAt": "2026-11-04T12:43:09.604744+00:00",
+      "observed": "One Miro cinnamon curly kitten identity, attached copper brooch and indigo linen coat. First hindpaw lifts32-36 and plants by39/40; other lifts56-60 and plantsby64. Opposite foot supports each step. Both settled before later camera development; tail counterbalances and coat settles. Complete head/ears remain visible through entire overview, amber eyes/brooch readable together. Background coherent parallax, fixed sculpture/display remain separate. Final direct look and chin angle achieved.",
+      "evidence": "Actual complete0-361overview every12frames; dense24-103; enlargedactualnative0/335 and neighboring A335/C0 joins inspected. Selected0-3361x retains complete steps/settle/result,26handles removed.",
+      "limitations": [
+        "Sequential-frame review only, not realtime viewing/listening; native audio excluded.",
+        "Actual camera still arcs/approaches into a late chest portrait despite fullbody-only instruction. This does not repeat rejected head crop: complete face/ears retained; feet leave framing only after settled steps. Actual path acknowledged, not certified as requested constant distance.",
+        "No exact blink count certified."
+      ]
+    }
+  },
+  "final-review/verification.json": {
+    "file": "${REPO}\\drafts\\production-batch-20261103\\05-luxury-aura\\05-luxury-aura-720x1280-FINAL-2026-11-04T12-44-03-528Z.mp4",
+    "frames": 1008,
+    "allFramesDecoded": true,
+    "sourceFrameChecks": [
+      {
+        "cut": "S01-A",
+        "jobId": "0e6704e4-dc8a-46db-ad79-2bbeffc8cbe4",
+        "frames": 336,
+        "meanPixelMAE": 0.9830390582127231,
+        "maxFrameMAE": 1.1224415302276611,
+        "badFrames": []
+      },
+      {
+        "cut": "S01-B",
+        "jobId": "5a41c0db-1b4e-4620-8f0c-980efdbda49e",
+        "frames": 336,
+        "meanPixelMAE": 0.9490410328975746,
+        "maxFrameMAE": 1.0885416269302368,
+        "badFrames": []
+      },
+      {
+        "cut": "S01-C",
+        "jobId": "73c2b848-1b98-40a4-bc4f-c070a352cfd3",
+        "frames": 336,
+        "meanPixelMAE": 0.9295566937043553,
+        "maxFrameMAE": 1.010919213294983,
+        "badFrames": []
+      }
+    ],
+    "deliveryCopyHashes": {
+      "projectExport": "ed39cae6e853db4ec2af0dc31cd9ba2eb71cb201e4756f5392e0f097630d7f2f",
+      "jobOutput": "ed39cae6e853db4ec2af0dc31cd9ba2eb71cb201e4756f5392e0f097630d7f2f",
+      "delivery": "ed39cae6e853db4ec2af0dc31cd9ba2eb71cb201e4756f5392e0f097630d7f2f"
+    },
+    "originalAudioSources": [
+      {
+        "clipId": "luxury-score-clip-v1",
+        "sourceHashPassed": true,
+        "sha256": "05d637e859e86ec468f31f351a6fc00db60124e07a9cf6ac34f175a4139e5099"
+      },
+      {
+        "clipId": "luxury-C-first-paw",
+        "sourceHashPassed": true,
+        "sha256": "b9ab467d76c18e7bb5a98c3c902947e2cfa14f31102a4abda1f2fd222347d1e9"
+      },
+      {
+        "clipId": "luxury-C-trailing-paw",
+        "sourceHashPassed": true,
+        "sha256": "b9ab467d76c18e7bb5a98c3c902947e2cfa14f31102a4abda1f2fd222347d1e9"
+      },
+      {
+        "clipId": "luxury-C-velvet-step",
+        "sourceHashPassed": true,
+        "sha256": "43219658e19c038dc091b4c8250d343489694370c0e63879d0a53a664d715be2"
+      },
+      {
+        "clipId": "luxury-A-first-paw",
+        "sourceHashPassed": true,
+        "sha256": "b9ab467d76c18e7bb5a98c3c902947e2cfa14f31102a4abda1f2fd222347d1e9"
+      },
+      {
+        "clipId": "luxury-A-trailing-paw",
+        "sourceHashPassed": true,
+        "sha256": "b9ab467d76c18e7bb5a98c3c902947e2cfa14f31102a4abda1f2fd222347d1e9"
+      },
+      {
+        "clipId": "luxury-A-wool-step",
+        "sourceHashPassed": true,
+        "sha256": "43219658e19c038dc091b4c8250d343489694370c0e63879d0a53a664d715be2"
+      },
+      {
+        "clipId": "luxury-B-first-paw",
+        "sourceHashPassed": true,
+        "sha256": "b9ab467d76c18e7bb5a98c3c902947e2cfa14f31102a4abda1f2fd222347d1e9"
+      },
+      {
+        "clipId": "luxury-B-second-paw",
+        "sourceHashPassed": true,
+        "sha256": "b9ab467d76c18e7bb5a98c3c902947e2cfa14f31102a4abda1f2fd222347d1e9"
+      },
+      {
+        "clipId": "luxury-B-cloth",
+        "sourceHashPassed": true,
+        "sha256": "43219658e19c038dc091b4c8250d343489694370c0e63879d0a53a664d715be2"
+      }
+    ],
+    "audioCorrelation": 0.9997959427548987,
+    "audioGain": 0.9985497189746116,
+    "audioPeak": 0.5639747381210327,
+    "blackDetected": [],
+    "boundaryBoards": [
+      "${REPO}\\drafts\\production-batch-20261103\\05-luxury-aura\\final-review\\boundaries-1.jpg"
+    ],
+    "boundaryVisualReview": "usable",
+    "evidenceLimit": "Numerical every-frame/source and waveform checks plus exported still boundaries; not a claim of realtime playback/listening",
+    "numericPassed": true,
+    "boundaryReviewedAt": "2026-11-04T12:44:45.681047+00:00",
+    "boundaryEvidence": "Viewed actualexportboundaries-1.jpg: first/last each3cuts andbothjoins335/336,671/672. Distinctpersona/alcove hardcuts clean, faces/glasses/brooch/chain intact, no black/duplicate hold or truncated action atjoins. Intentional settledportrait to fullbodynextpersona. No captions required. Numerical1008frame lineage/source comparison and originalaudio waveform passed. Sequentialframe/exportboard inspection, not realtimeplayback/listening."
+  },
+  "assembly-review.json": {
+    "decision": "usable",
+    "reviewedAt": "2026-11-04T12:43:09.604744+00:00",
+    "evidence": "All3 actual reviewed selected native0-3361x sources, complete steps/support/settled eyes/material portraits. Incoming/outgoing nativeA335->B0 andB335->C0 viewed enlarged: clear intentional persona/alcove hardcuts, no contact action split. A gray/glasses/wool toB cinnamon/brooch/linen toC cream/chain/velvet; color/material progression and face-to-fullbody reset coherent. Original42s groove mixedonce and6quietpaw/3cloth phaseaccents use actual selectedcontacts. No text required by05creativeplan. Final exported boundaries still require inspection.",
+    "limits": "Sequential-frame source inspection only; no realtime native playback/listening claim. Native sounds excluded. ActualBcamera lateportrait accepted withfullface; constantdistance not achieved.",
+    "expectedFrames": 1008,
+    "fps": 24,
+    "sound": "Original nonverbal score/FX, no narration or native audio."
+  },
+  "motion-rejections.json": [
+    {
+      "decision": "rejected",
+      "cutId": "S01-B",
+      "take": "v1",
+      "jobId": "7f41b1c9-c10f-448d-8a6f-e25423ef2172",
+      "reviewedAt": "2026-11-04T11:17:53.296583+00:00",
+      "observed": "Initial identity/indigo coat/feet are readable and the steps develop, but the camera strongly approaches/tilts to torso: face leaves top edge around~4.5s and is largely absent until~10s. Enlargednativef144 shows head entirely out of frame and brooch/eyes not available together. Intended post-step handoff to face/brooch is lost for a major part of14s edit.",
+      "evidence": [
+        "video/review-S01-B-v1/overview.jpg",
+        "video/review-S01-B-v1/f0145.png",
+        "video/review-S01-B-v1/f0301.png"
+      ],
+      "limits": "Whole native overview every12frames and enlarged144/300 inspected; no realtimeplayback/listening claim. Native sound excluded.",
+      "repair": "One bounded same-image/actual-seed/upload camera-only correction: full head always retained, simple lateral follow while feet move, face-targeted rise only after settlement."
+    },
+    {
+      "decision": "rejected",
+      "cutId": "S01-B",
+      "take": "v2",
+      "jobId": "0b1246f7-6f76-4b06-b1b9-b0f765b23dba",
+      "reviewedAt": "2026-11-04T12:11:22.575176+00:00",
+      "observed": "Two supported short steps and attached coat/brooch retained, but camera pushes toward lower torso again. Upper head starts leaving top aroundf120 and complete face is absent for much off156-228, returningaroundf252. Enlargedf180 confirms head entirely offscreen. This repeats demonstrated camera defect despite first repair. No contiguous336-frame range avoids it.",
+      "evidence": [
+        "video/review-S01-B-v2/overview.jpg",
+        "video/review-S01-B-v2/dense-52.jpg",
+        "video/review-S01-B-v2/f0181.png"
+      ],
+      "limits": "Actual complete native overview every12frames plus dense52-67/enlarged180; sequential-frame evidence, not realtime viewing/listening. Native audio excluded.",
+      "repair": "Second and final bounded camera repair: replace follow-then-rise/push with constant-distance, level, full-body lateral-only tracking throughout. Preserve actor action/reference/actualseed/upload."
+    }
+  ]
+}

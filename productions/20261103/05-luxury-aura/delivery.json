@@ -1,0 +1,17 @@
+{
+  "key": "05-luxury-aura",
+  "projectId": "27c29c6c-371b-4df1-a81d-271e98ed5354",
+  "frames": 1008,
+  "fps": 24,
+  "width": 720,
+  "height": 1280,
+  "masterGainDb": 0,
+  "originalDeliveryFile": "05-luxury-aura-720x1280-FINAL-2026-11-04T12-44-03-528Z.mp4",
+  "originalDeliverySHA256": "ed39cae6e853db4ec2af0dc31cd9ba2eb71cb201e4756f5392e0f097630d7f2f",
+  "mediaRecords": 9,
+  "selectedVideoJobs": [
+    "0e6704e4-dc8a-46db-ad79-2bbeffc8cbe4",
+    "5a41c0db-1b4e-4620-8f0c-980efdbda49e",
+    "73c2b848-1b98-40a4-bc4f-c070a352cfd3"
+  ]
+}

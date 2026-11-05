@@ -1,0 +1,16 @@
+{
+  "key": "04-salary-dance-kittens",
+  "projectId": "f3b8e87b-dff2-4913-9c78-5bf2b4dde124",
+  "frames": 720,
+  "fps": 24,
+  "width": 720,
+  "height": 1280,
+  "masterGainDb": 0,
+  "originalDeliveryFile": "04-salary-dance-after-payday-kittens-20261104-720x1280-FINAL-2026-11-04T16-24-13-515Z.mp4",
+  "originalDeliverySHA256": "8a743c7398220043e966d7a224513a5d105000a0e7a1ccffb3de32eb376334ec",
+  "mediaRecords": 10,
+  "selectedVideoJobs": [
+    "492d3008-43d8-4348-8e94-7a7ced574f79",
+    "e62826b6-b225-4add-aa8d-65b858d07502"
+  ]
+}

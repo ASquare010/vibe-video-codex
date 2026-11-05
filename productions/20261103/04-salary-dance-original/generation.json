@@ -1,0 +1,189 @@
+{
+  "provenance": [
+    {
+      "assetId": "S01-A-opening",
+      "versionId": "S01-A-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "Built-in GPT image generation; backend alias unexposed",
+        "tool": "image_gen",
+        "prompt": "Use case: photorealistic-natural. Asset type: clean opening film frame for an original 9:16 portrait cat dance short. Hyperrealistic cinematography, real individual fur strands and feline faces and paws. In an original cozy after-hours laundrette with teal lower wall tiles, two circular washer doors on the rear-left wall, a small bench with a folded yellow towel rear-right, a warm copper wall lamp and cool window fill, exactly TWO adult cats stand playfully balanced upright on their hind paws. Foreground-left Mica is a silver mackerel tabby, cream chin, green feline eyes, dark tail tip: timid hunched shoulders, small feline forepaws tucked close to chest, mouth closed, ears slightly sideways, both hind paws supported on the dry floor and flexed feline hocks. Rear-right, clearly readable and a little smaller through depth, Bramble is a black longhair with amber eyes and one small white throat crescent: comfortably upright, relaxed forepaws at chest height, confident gentle sideways lean, hind paws planted, fluffy tail counterbalancing behind. They have real cat proportions adapted only enough for believable playful upright balance, genuine cat faces and rounded feline forepaws; no human fingers, human torsos or human facial expressions. A low chest-height camera shows BOTH full bodies and ALL hind paws with breathing room above ears and room around tails; medium-wide near-normal perspective, level horizon, no extreme lens. Clear contact shadows and credible weight support, detailed natural fur, soft cinematic practical illumination, deep enough focus to read both cats, authentic tactile tiles and metal washers. This is one instant before their slow side-to-side dance, no motion blur. Full portrait composition, 9:16. No text, no captions, no logos, no watermarks, no UI. Original identities and original laundrette, not a reference screenshot clone.",
+        "createdAt": "2026-11-03T01:13:56.233Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "S01-B-opening",
+      "versionId": "S01-B-opening-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "Built-in GPT image generation; backend alias unexposed",
+        "tool": "image_gen",
+        "prompt": "Use the attached selected frame as the exact identity, fur-marking, set, light and spatial-geography authority for the same original film. Create one new clean hyperrealistic 9:16 portrait film frame, beginning the second connected take BEFORE the confidence reversal. Exactly the same silver mackerel tabby Mica foreground-left with cream chin, green eyes and dark tail tip, and black longhair Bramble rear-right with amber eyes and white throat crescent. Keep true feline faces, cat forepaws and hind paws, full bodies and both tail attachments visible, grounded contact shadows and fur material. Mica still shy, forepaws tucked; Bramble relaxed/confident. Both are paused at the neutral midpoint of their slow sway, with both hind paws grounded and enough floor/travel room for one small lateral step. Move the camera a small physically coherent 12-degree clockwise arc relative to the first frame, keeping left/right cat geography and all fixed laundrette landmarks consistent; near-normal lens, level horizon, readable two-cat depth and full-body composition. Preserve the teal tiled laundrette, rear-left washer pair, copper lamp, rear-right towel/bench, window light. Don't introduce new props, cat identities or costumes. No text, labels, captions, logos, watermark, UI, collage or motion blur. This is an opening pose in the same room, not the later payday result. Keep 9:16 portrait.",
+        "createdAt": "2026-11-03T01:13:56.233Z",
+        "sourceVersionIds": [
+          "S01-A-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "S01-B-result",
+      "versionId": "S01-B-result-v1",
+      "kind": "image",
+      "selected": false,
+      "provenance": {
+        "provider": "Built-in GPT image generation; backend alias unexposed",
+        "tool": "image_gen",
+        "prompt": "Edit this exact clean portrait film frame into the LATER confidence-reversal result target of the same scene. Preserve both original cat identities exactly: Mica the silver mackerel tabby foreground-left with green eyes, cream chin and dark tail tip; Bramble black longhair rear-right with amber eyes and white throat crescent. Preserve camera composition, laundry room geometry/washer doors/tile pattern/lamp/window/towel and bench, light, physical scale, real fur, full-body framing, both hind paws and tail attachment. Change ONLY performance: Mica now has relaxed open shoulders, head held a little higher, ears naturally forward, a content confident closed-mouth feline face, and forepaws lowered slightly and spread in a relaxed natural cat dance pose at lower chest height, elbows loose. Mica's hind paws make a slightly wider grounded balanced stance, body weight subtly over the left hind paw, right hind paw still touches the floor lightly; tail gives a small countercurve. Bramble now has a slightly lowered head, modest sideways ears, forepaws tucked close together high at chest, shoulders drawn in, a sheepish small posture but still upright and balanced on two hind paws in the same spot. Make the opposite confidence change clearly readable in body language while keeping genuine feline faces and paws, realistic joint limits and credible support. No human fingers, human face graft, smile teeth, extra limbs or extra cats. One photographic instant, not a multi-panel or movement trail. No text, captions, money, phone, icons, logos or watermark. Same 9:16 portrait.",
+        "createdAt": "2026-11-03T01:13:56.233Z",
+        "sourceVersionIds": [
+          "S01-B-opening-v1"
+        ]
+      }
+    },
+    {
+      "assetId": "salary-score",
+      "versionId": "salary-score-v1",
+      "kind": "audio",
+      "selected": true,
+      "provenance": {
+        "provider": "Local original nonverbal synthesis",
+        "tool": "make-audio.py",
+        "prompt": "Original nonverbal synthesis. See audio-v1/receipt.json and make-audio.py; no third-party samples.",
+        "createdAt": "2026-11-03T01:13:56.233Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "salary-chime",
+      "versionId": "salary-chime-v1",
+      "kind": "audio",
+      "selected": true,
+      "provenance": {
+        "provider": "Local original nonverbal synthesis",
+        "tool": "make-audio.py",
+        "prompt": "Original nonverbal synthesis. See audio-v1/receipt.json and make-audio.py; no third-party samples.",
+        "createdAt": "2026-11-03T01:13:56.233Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "salary-paw-source",
+      "versionId": "salary-paw-source-v1",
+      "kind": "audio",
+      "selected": true,
+      "provenance": {
+        "provider": "Local original nonverbal synthesis",
+        "tool": "make-audio.py",
+        "prompt": "Original nonverbal synthesis. See audio-v1/receipt.json and make-audio.py; no third-party samples.",
+        "createdAt": "2026-11-03T01:13:56.233Z",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "native-S01-B",
+      "versionId": "S01-B-1f8b9d5f-e5a9-4f4f-b98b-b6fdf1131b63",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], defining Mica the silver tabby foreground-left, Bramble the black longhair rear-right and the laundrette geometry.\n<Picture 2> is the later result composition target within this same continuous shot: Mica's open confident stance and Bramble's smaller sheepish posture. It guides the later performance, not another shot.\n\nsummary:\n[keyframe completion] One continuous dance take completes a clearly readable confidence reversal, from <Picture 1> toward <Picture 2>, then both cats groove together with Mica leading.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve exactly two original cat identities, real feline faces, fur markings, paws/tails, shared light, set and foreground/background placement. Change performance, not identities or geography.\n<Picture 2> (later result target): preserve the clear open-versus-tucked performance contrast and believable support after the reversal; allow living dance movement around that target.\n\ndetailed_description:\nHyperrealistic feline fur/materials in the same teal laundrette, copper practical lamp and cool window light. [Shot 1] Start from <Picture 1>. Mica notices a cue, lifts the head and ears, releases hunched shoulders and lowers/spreads the real feline forepaws into a loose open lower-chest dance pose. Over the opening few seconds Mica widens the hind-paw stance slightly, transferring weight naturally rather than sliding, and becomes visibly confident. At the same time Bramble's head dips slightly, ears turn modestly sideways, shoulders draw inward and forepaws tuck close together; the broad sway becomes a sheepish small sway. Show the full opposite personality change before settling into repeated grounded two-steps. Mica leads: one hind paw pushes, the body moves over the other planted paw, the free paw taps and returns, and weight transfers back. Forepaws bounce gently in alternation; tail counterbalances, chest breath and whiskers move subtly. Bramble follows with smaller amplitude. Reach the clear later posture contrast of <Picture 2>, then maintain that changed confidence through the final grounded shared groove. Keep genuine feline faces and closed mouths, exactly two cats, fixed paw count, no human hands. The camera keeps the opening wide full-body two-cat scale and a generous visible floor margin for this ENTIRE take. Both cats stay completely contained from ear tips through all hind paws and tail tips. Maintain the original camera distance and fixed near-normal focal length, with BOTH complete cats inside the middle of the portrait. The camera only trucks gently about15cm to the right while panning a little to keep the two-cat group centered; this small lateral move shows coherent laundrette parallax without approaching either cat. The complete planted hind paws, lifted tapping paws and contact shadows remain visible on the floor at every phase. End at the same wide full-body scale as the opening. The scene is a long full-body dance performance, so do not hand attention to a cropped portrait, enlarge Mica, push in, zoom or travel between the cats. Camera speed stays gentle independently of the deliberate slow dance. No internal cut, pose reset, morph, teleport or body swap.\n\noverall_soundscape:\nSoft dry paw taps at actual visible contacts and restrained room ambience. No speech, dialogue, narration, singing or vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T07:34:45.930Z",
+        "jobId": "1f8b9d5f-e5a9-4f4f-b98b-b6fdf1131b63",
+        "sourceVersionIds": []
+      }
+    },
+    {
+      "assetId": "native-S01-A",
+      "versionId": "S01-A-68d091a8-75fc-47ea-bb79-408cab111db6",
+      "kind": "video",
+      "selected": true,
+      "provenance": {
+        "provider": "MiniMax private VM",
+        "model": "MiniMax H3 Ref2VA",
+        "tool": "tools/minimax_h3/client.py",
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], defining Mica, the silver tabby foreground-left, Bramble, the black longhair rear-right, and the real laundrette layout.\n\nsummary:\n[keyframe completion] One continuous full-body two-cat dance take: timid Mica and confidently swaying Bramble, with a fixed wide view that keeps both contrasting performances readable.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain exactly two cats, their distinct feline faces, markings, paws and tails, relative depth and the laundrette landmarks; their grounded poses develop naturally.\n\ndetailed_description:\nHyperrealistic real fur, feline anatomy and paws, teal tile, warm copper lamp, cool window fill. [Shot 1] Begin from <Picture 1>. Mica keeps forepaws close to chest and shoulders shy, glances toward Bramble, then gives small reluctant side taps: weight passes onto one planted hind paw, the other paw lightly steps and returns, then transfers to the other side. Hocks flex and the tail counterbalances; each weight transfer settles. Bramble behind holds a visibly confident relaxed posture, forepaws loose, and sways more broadly from side to side with gentle shoulder counterrotation and small alternating paw bounces. Ear turns, chest breaths, whisker movement and tail countercurves support the dance. Both mouths stay naturally closed. This take uses a FIXED TRIPOD CAMERA at the exact opening viewpoint and full-body two-cat scale for all fifteen seconds. The laundrette landmarks stay fixed in the frame. Keep the silver tabby in its original foreground-left position and the black longhair clearly separated rear-right; each dances on its own small spot. Their horizontal separation stays as in Picture1, so both complete silhouettes, faces, forepaws, hind paws and floor shadows remain simultaneously visible. The fixed wide composition exposes the difference between the two dances: shy small movement left versus confident wider sway right. Let their feet, forepaws, ears and tails create the visible movement within this steady frame. Keep the camera angle, distance, lens and framing unchanged: no camera orbit, truck, push, zoom, pan, tilt or focus handoff behind the foreground cat. Finish in the same visible two-cat layout, with both supported on the floor. The dance is intentionally slow and controlled at natural playback speed, not frozen or slow-motion footage. Finish near the neutral midpoint of the grounded sway while maintaining the confidence contrast. Continuous coherent travel and parallax, no internal cut or identity changes.\n\noverall_soundscape:\nQuiet laundrette room tone and soft dry paw contacts on visible steps. No speech, dialogue, narration, singing or vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "createdAt": "2026-11-04T08:44:59.459Z",
+        "jobId": "68d091a8-75fc-47ea-bb79-408cab111db6",
+        "sourceVersionIds": []
+      }
+    }
+  ],
+  "actualSelectedJobReceipts": [
+    {
+      "id": "68d091a8-75fc-47ea-bb79-408cab111db6",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], defining Mica, the silver tabby foreground-left, Bramble, the black longhair rear-right, and the real laundrette layout.\n\nsummary:\n[keyframe completion] One continuous full-body two-cat dance take: timid Mica and confidently swaying Bramble, with a fixed wide view that keeps both contrasting performances readable.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain exactly two cats, their distinct feline faces, markings, paws and tails, relative depth and the laundrette landmarks; their grounded poses develop naturally.\n\ndetailed_description:\nHyperrealistic real fur, feline anatomy and paws, teal tile, warm copper lamp, cool window fill. [Shot 1] Begin from <Picture 1>. Mica keeps forepaws close to chest and shoulders shy, glances toward Bramble, then gives small reluctant side taps: weight passes onto one planted hind paw, the other paw lightly steps and returns, then transfers to the other side. Hocks flex and the tail counterbalances; each weight transfer settles. Bramble behind holds a visibly confident relaxed posture, forepaws loose, and sways more broadly from side to side with gentle shoulder counterrotation and small alternating paw bounces. Ear turns, chest breaths, whisker movement and tail countercurves support the dance. Both mouths stay naturally closed. This take uses a FIXED TRIPOD CAMERA at the exact opening viewpoint and full-body two-cat scale for all fifteen seconds. The laundrette landmarks stay fixed in the frame. Keep the silver tabby in its original foreground-left position and the black longhair clearly separated rear-right; each dances on its own small spot. Their horizontal separation stays as in Picture1, so both complete silhouettes, faces, forepaws, hind paws and floor shadows remain simultaneously visible. The fixed wide composition exposes the difference between the two dances: shy small movement left versus confident wider sway right. Let their feet, forepaws, ears and tails create the visible movement within this steady frame. Keep the camera angle, distance, lens and framing unchanged: no camera orbit, truck, push, zoom, pan, tilt or focus handoff behind the foreground cat. Finish in the same visible two-cat layout, with both supported on the floor. The dance is intentionally slow and controlled at natural playback speed, not frozen or slow-motion footage. Finish near the neutral midpoint of the grounded sway while maintaining the confidence contrast. Continuous coherent travel and parallax, no internal cut or identity changes.\n\noverall_soundscape:\nQuiet laundrette room tone and soft dry paw contacts on visible steps. No speech, dialogue, narration, singing or vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "35b4c015-8724-4126-a3e5-2f41fd4139b8"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 15.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 41005,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 362,
+      "fps": 24,
+      "actual_duration": 15.083333333333334,
+      "created_at": 1793781899.4598439,
+      "finished_at": 1793783700.1091034,
+      "reference_labels": [
+        "<Picture 1>: 35b4c015-8724-4126-a3e5-2f41fd4139b8"
+      ]
+    },
+    {
+      "id": "1f8b9d5f-e5a9-4f4f-b98b-b6fdf1131b63",
+      "status": "completed",
+      "request": {
+        "prompt": "subject_definitions:\n<Picture 1> is the opening frame of [Shot 1], defining Mica the silver tabby foreground-left, Bramble the black longhair rear-right and the laundrette geometry.\n<Picture 2> is the later result composition target within this same continuous shot: Mica's open confident stance and Bramble's smaller sheepish posture. It guides the later performance, not another shot.\n\nsummary:\n[keyframe completion] One continuous dance take completes a clearly readable confidence reversal, from <Picture 1> toward <Picture 2>, then both cats groove together with Mica leading.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - preserve exactly two original cat identities, real feline faces, fur markings, paws/tails, shared light, set and foreground/background placement. Change performance, not identities or geography.\n<Picture 2> (later result target): preserve the clear open-versus-tucked performance contrast and believable support after the reversal; allow living dance movement around that target.\n\ndetailed_description:\nHyperrealistic feline fur/materials in the same teal laundrette, copper practical lamp and cool window light. [Shot 1] Start from <Picture 1>. Mica notices a cue, lifts the head and ears, releases hunched shoulders and lowers/spreads the real feline forepaws into a loose open lower-chest dance pose. Over the opening few seconds Mica widens the hind-paw stance slightly, transferring weight naturally rather than sliding, and becomes visibly confident. At the same time Bramble's head dips slightly, ears turn modestly sideways, shoulders draw inward and forepaws tuck close together; the broad sway becomes a sheepish small sway. Show the full opposite personality change before settling into repeated grounded two-steps. Mica leads: one hind paw pushes, the body moves over the other planted paw, the free paw taps and returns, and weight transfers back. Forepaws bounce gently in alternation; tail counterbalances, chest breath and whiskers move subtly. Bramble follows with smaller amplitude. Reach the clear later posture contrast of <Picture 2>, then maintain that changed confidence through the final grounded shared groove. Keep genuine feline faces and closed mouths, exactly two cats, fixed paw count, no human hands. The camera keeps the opening wide full-body two-cat scale and a generous visible floor margin for this ENTIRE take. Both cats stay completely contained from ear tips through all hind paws and tail tips. Maintain the original camera distance and fixed near-normal focal length, with BOTH complete cats inside the middle of the portrait. The camera only trucks gently about15cm to the right while panning a little to keep the two-cat group centered; this small lateral move shows coherent laundrette parallax without approaching either cat. The complete planted hind paws, lifted tapping paws and contact shadows remain visible on the floor at every phase. End at the same wide full-body scale as the opening. The scene is a long full-body dance performance, so do not hand attention to a cropped portrait, enlarge Mica, push in, zoom or travel between the cats. Camera speed stays gentle independently of the deliberate slow dance. No internal cut, pose reset, morph, teleport or body swap.\n\noverall_soundscape:\nSoft dry paw taps at actual visible contacts and restrained room ambience. No speech, dialogue, narration, singing or vocalizations.\n\nnon_diegetic_music:\nNone.",
+        "images": [
+          "483ccb19-78c5-48ff-9c4e-4c39d56b4da5",
+          "ace970b2-4108-40a9-a3d6-911930825e39"
+        ],
+        "videos": [],
+        "audios": [],
+        "width": 736,
+        "height": 1280,
+        "duration": 15.0,
+        "length": null,
+        "ref_image_size": "match",
+        "seed": 41004,
+        "steps": 20,
+        "turbo": false,
+        "lora_strength": 1,
+        "sampler": "res_multistep",
+        "scheduler": "beta",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "embeddings": []
+      },
+      "frames": 362,
+      "fps": 24,
+      "actual_duration": 15.083333333333334,
+      "created_at": 1793777685.9306924,
+      "finished_at": 1793779549.8066077,
+      "reference_labels": [
+        "<Picture 1>: 483ccb19-78c5-48ff-9c4e-4c39d56b4da5",
+        "<Picture 2>: ace970b2-4108-40a9-a3d6-911930825e39"
+      ]
+    }
+  ],
+  "note": "Original prompt/request/seed and actual IDs retained. This is not authorization to resubmit. Original binary inputs come from the external archive."
+}
