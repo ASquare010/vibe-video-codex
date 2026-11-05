@@ -9,7 +9,7 @@ export class SkillCatalog {
   file(id: string) { if (!/^[a-z][a-z0-9-]{0,60}$/.test(id)) throw new HttpError(400, 'Use a skill ID with lowercase letters, numbers and hyphens'); return path.join(this.root, id, 'SKILL.md'); }
   async read(id: string): Promise<VideoSkill> {
     const content = await fs.readFile(this.file(id), 'utf8');
-    const name = content.match(/^name:\s*(.+)$/m)?.[1]?.replace(/^["']|["']$/g, '') ?? id;
+    const name = (content.match(/^  display-name:\s*(.+)$/m) ?? content.match(/^name:\s*(.+)$/m))?.[1]?.replace(/^["']|["']$/g, '') ?? id;
     return skillSchema.parse({ id, name, content });
   }
   async list() {

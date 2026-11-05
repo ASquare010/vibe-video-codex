@@ -28,10 +28,12 @@
     "policy": "Start at native rate30. If rushed, compare once at a slower supported rate such as20 with the same text and performance. Judge expression, intelligibility and purposeful space by listening; WPM is a soft planning range, not a pass score or a percentage mapping."
   },
   "pause_edit": {
-    "noise_db": -45,
-    "minimum_internal_gap_seconds": 0.6,
-    "keep_gap_seconds": 0.24,
-    "edge_pad_seconds": 0.1
+    "mode": "default-long-gap-cleanup",
+    "noise_db": -48,
+    "minimum_internal_gap_seconds": 0.65,
+    "keep_gap_seconds": 0.3,
+    "edge_pad_seconds": 0.12,
+    "policy": "Run preparation on new narration before selection and cut timing by default. Keep brief natural pauses, breaths and quiet consonants. Protect specifically directed holds by exact interval, preserve raw sources and the edit map, use tempo 1.0 and add no generic scene padding. Existing accepted audio changes require creator authorization."
   },
   "tempo_edit": {
     "default_factor": 1.0,

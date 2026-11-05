@@ -19,14 +19,15 @@ def read_wav(path):
 def main():
     policy = json.loads((Path(__file__).resolve().parents[1] / 'config' / 'narrator-default.json').read_text(encoding='utf-8-sig'))
     tempo_policy = policy['tempo_edit']
+    pause_policy = policy['pause_edit']
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--input', type=Path, required=True)
     parser.add_argument('--out-dir', type=Path, required=True)
     parser.add_argument('--tempo', type=float, default=tempo_policy['default_factor'], help='Explicit optional tempo preview; native speech rate is preferred for new narration.')
-    parser.add_argument('--noise-db', type=float, default=-45)
-    parser.add_argument('--min-gap', type=float, default=.60)
-    parser.add_argument('--keep-gap', type=float, default=.24)
-    parser.add_argument('--edge-pad', type=float, default=.10)
+    parser.add_argument('--noise-db', type=float, default=pause_policy['noise_db'])
+    parser.add_argument('--min-gap', type=float, default=pause_policy['minimum_internal_gap_seconds'])
+    parser.add_argument('--keep-gap', type=float, default=pause_policy['keep_gap_seconds'])
+    parser.add_argument('--edge-pad', type=float, default=pause_policy['edge_pad_seconds'])
     parser.add_argument('--protect', action='append', default=[], help='Preserve an original-time range START:END.')
     parser.add_argument('--ffmpeg', type=Path, default=Path(__file__).resolve().parents[3] / 'node_modules/ffmpeg-static/ffmpeg.exe')
     args = parser.parse_args()

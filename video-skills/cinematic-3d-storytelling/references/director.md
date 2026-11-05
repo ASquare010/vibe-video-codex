@@ -26,6 +26,8 @@ Name what the audience should notice first in each important cut. Keep the spoke
 
 Stage people as participants in the event, not presenters of it. Give each an objective, an attention target and a visible task/response appropriate to the current stakes. A smile, a crowd watching or a character facing the viewer is not default coverage of a new development. Establish what changes in the event before asking the image role for its best view. Separate useful establishment from repeated beauty views of the same landmark; later coverage must expose a cause, contact, changing condition or consequence that the earlier view did not already supply. Simpler character design increases the need for clear posture, eyelines, prop relationships and space; it does not make generic expressions sufficient.
 
+Plan the camera's dramatic job before commissioning images: what it follows, which relationship or result it reveals, and when attention changes. Give the image/animation roles a connected movement intention rather than attaching a generic slow push to every cut. Separate the actor's action window from camera travel and any useful aftermath. Urgent actions finish decisively; extend coverage with the next development or a motivated response, not stretched movement. Direct micro-acting through changing attention, effort and emotion. Explicitly requested long-take or slow-performance treatments retain their intended rhythm.
+
 For every important beat establish:
 - The objective/question, pressure or obstacle and the new information.
 - Incoming phase and shared geography, intended action/discovery, outgoing state and what it enables next.
@@ -77,6 +79,8 @@ Prefer continuous attention handoffs inside a consolidated take: follow a moving
 
 ## Selection and assembly
 Before animation, review the timed image sequence over the exact selected narration. Check both passes: with speech, does each important development receive the right picture at the right time; without speech, can the physical progression and joins be followed? Identify any unexplained relocation, reversed action, missing contact/result, premature reveal or static hold spanning several new ideas. Revise coverage rather than accepting the sequence because it reaches the cut quota. An image-only board can establish planned states and readability, not prove motion, force or synchrony of a future animated contact. Stop at the image/audio checkpoint when that is the creator's scope; do not commission video.
+
+Complete the required audio and reviewed still coverage before submitting any film video, including the representative action test, unless the creator explicitly chose a different production order. Keep a requested batch's readiness/predecessor gates in its production record. Recheck the actual selected movement for character lighting, action speed, camera intent and micro-acting; neither a well-lit still nor a camera-move adjective proves these survive animation.
 
 Compare actual adjacent stills without their descriptive titles. Keep repeated composition when changed content earns it; otherwise redirect/consolidate coverage or ask the image role to expose the missing relation. A new lens number alone is not a new idea. Validate critical geometry with the available blockout tools when needed.
 

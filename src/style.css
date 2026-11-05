@@ -277,3 +277,16 @@ body.timeline-gesturing, body.timeline-gesturing * { user-select: none !importan
 .asset-item:hover .asset-actions button, .asset-item:focus-within .asset-actions button { opacity: 1; }
 .asset-actions button:last-child:hover { color: var(--destructive); }
 .asset-item-name small { overflow: hidden; text-overflow: ellipsis; }
+
+.source-panel{overflow:auto;padding:24px;flex:1;min-height:0}.source-panel h2{font-size:22px}.cost-summary{display:flex;gap:24px;flex-wrap:wrap;background:var(--muted,#f0f0ed);padding:16px;border-radius:10px;margin:18px 0}.cost-summary strong{font-size:22px}.cost-summary small,.source-table small{display:block;font-size:12px;font-weight:400;opacity:.72}.source-reference{display:block;width:100%;max-height:330px;background:#111;margin:16px 0}.source-selection{padding:16px;border:1px solid #8884;border-radius:8px;margin-bottom:18px}.source-selection label{display:block;margin:12px 0}.source-selection select{display:block;padding:8px;width:100%}.source-table{border-collapse:collapse;width:100%;font-size:13px;margin:18px 0}.source-table td,.source-table th{text-align:left;padding:10px;border-bottom:1px solid #8883}.source-table button{text-align:left;text-decoration:underline;cursor:pointer}.source-table tr.selected{background:#819c8b22}.source-panel details{padding-top:16px}
+
+/* Compact project information lives in the top app bar. */
+.editor-shell { grid-template-columns: minmax(0,1fr); }
+.project-bar-summary { display:flex;align-items:center;gap:18px;margin-right:14px;white-space:nowrap;font-size:11px; }
+.project-cost { color:#aab1be;font-variant-numeric:tabular-nums; }.project-cost strong{color:var(--foreground);font-weight:550;margin-left:5px;}
+.codex-bar-status { display:inline-flex;align-items:center;gap:6px;color:#aab1be; }.codex-bar-status i{width:6px;height:6px;border-radius:50%;background:#7f8a9d;}.codex-bar-status.is-working i{background:#a8bbff;animation:status-blink 1.2s ease-in-out infinite;}.codex-bar-status.is-done i{background:#8fba9a;}
+
+.timeline-clip.is-reference{background:#303638;border-color:#758486;border-style:dashed;color:#c2cdd0}.timeline-clip.is-reference .clip-title{font-style:italic}
+
+.preview-buffering { position:absolute; right:12px; bottom:12px; z-index:90; padding:5px 9px; border-radius:6px; background:#111b; color:#ddd; font-size:11px; pointer-events:none; }
+.cleanup-notice { display:flex; align-items:center; justify-content:space-between; padding:4px 16px; background:#172a2c; color:#c8e5df; font-size:12px; }

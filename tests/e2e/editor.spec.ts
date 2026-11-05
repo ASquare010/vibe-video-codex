@@ -111,7 +111,7 @@ test('real video can be imported, split at source offsets, previewed and exporte
   const save = await request.put(`/api/projects/${p.id}`, { data: p }); expect(save.ok()).toBe(true); p = await save.json();
   await upload('mountain-lake.png', nextScene.id);
   await page.goto(`/#project=${p.id}`);
-  await expect(page.locator('.monitor-stage video')).toHaveCount(1);
+  await expect(page.locator('.monitor-stage [data-active="true"] video')).toHaveCount(1);
   await page.getByTestId('timeline-clip').first().click();
   await expect(page.getByLabel('Playback speed', { exact: false })).toBeVisible();
   await expect(page.getByLabel('Camera motion', { exact: true })).toBeVisible();
@@ -184,7 +184,7 @@ test('skills are visible and editable in the main workspace, and a blank preview
   await expect(page.getByTestId('preview-stage')).toBeVisible();
   expect(await page.getByTestId('preview-stage').innerText()).toBe('');
   const agent = page.getByRole('complementary', { name: 'Codex progress', exact: true });
-  const box = await agent.boundingBox(); expect(box!.height).toBeGreaterThan(950);
+  await expect(agent).toHaveCount(0);
   await page.getByRole('radio', { name: 'Project skill', exact: true }).click();
   await expect(page.getByLabel('Project skill', { exact: true })).toHaveValue('retro-horror');
   const content = page.getByLabel('Instructions · Markdown', { exact: true });
@@ -195,31 +195,22 @@ test('skills are visible and editable in the main workspace, and a blank preview
   await expect(page.getByLabel('Instructions · Markdown', { exact: true })).toHaveValue(/Keep the narrator calm and clear/);
 });
 
-test('one contextual panel and one cut tool, with read-only Codex status that stops when the chat finishes', async ({ page, request }) => {
-  const p = await (await request.post('/api/projects', { data: { name: 'Read-only monitor fixture', runtime: 'chatgpt' } })).json();
-  p.conversation.runtime = 'codex'; p.conversation.threadId = id();
-  p.production = { status: 'running', stage: 'plan' };
-  p.jobs = [jobSchema.parse({ id: id(), action: 'plan', sceneId: p.scenes[0].id, clipIds: [], instructions: 'Legacy running fixture', revision: p.revision, status: 'running', createdAt: new Date().toISOString() })];
+test('simple app bar shows dollar estimate and Codex working/done, with no side panels', async ({ page, request }) => {
+  const p = await (await request.post('/api/projects', { data: { name: 'Simple header fixture', runtime: 'chatgpt' } })).json();
+  p.conversation.runtime = 'codex'; p.conversation.threadId = id(); p.estimatedCostUsd = 38.2948;
   await fs.writeFile(path.resolve('data/e2e-projects', p.id, 'project.json'), JSON.stringify(p));
-  let finished = false;
-  await page.route('**/api/projects/' + p.id + '/observation', route => route.fulfill({ json: { threadId: p.conversation.threadId, status: finished ? 'completed' : 'running', label: finished ? 'Codex finished' : 'Codex is working', checkedAt: new Date().toISOString(), messages: [{ id: 'reply', text: finished ? 'Complete eight-scene draft saved.' : 'Planning every scene.' }], activity: [] } }));
-  await page.goto('/#project=' + p.id);
-  await expect(page.locator('.agent-live-status')).toContainText('Thinking · planning the video');
-  await expect(page.locator('.agent-logo')).toHaveClass(/is-working/);
-  await expect(page.getByLabel('Message Codex', { exact: true })).toHaveCount(0);
-  await expect(page.getByRole('button', { name: 'Draft whole video', exact: true })).toHaveCount(0);
+  let status = 'running';
+  await page.route(`**/api/projects/${p.id}/observation`, route => route.fulfill({ json: { threadId: p.conversation.threadId, status, label: status, checkedAt: new Date().toISOString(), messages: [], activity: [] } }));
+  await page.goto(`/#project=${p.id}`);
+  const header = page.locator('.editor-header');
+  await expect(header.getByLabel('Estimated video cost', { exact: true })).toHaveText('Est. cost $38.29');
+  await expect(header.getByRole('status', { name: 'Codex status', exact: true })).toHaveText('Codex Working');
+  await expect(page.getByRole('complementary', { name: 'Codex progress', exact: true })).toHaveCount(0);
+  await expect(page.getByText('Cost history', { exact: false })).toHaveCount(0);
   await expect(page.getByRole('button', { name: 'Import media', exact: true })).toHaveCount(1);
-  await expect(page.getByRole('button', { name: 'Split at playhead', exact: true })).toHaveCount(0);
   await expect(page.getByRole('button', { name: 'Razor tool', exact: true })).toHaveCount(1);
-  await expect(page.getByRole('tab', { name: 'Motion & color', exact: true })).toHaveCount(0);
-  await expect(page.getByRole('link', { name: 'Open Codex chat', exact: true })).toHaveAttribute('href', 'codex://threads/' + p.conversation.threadId);
-  finished = true;
-  await page.getByRole('button', { name: 'Refresh Codex status', exact: true }).click();
-  await expect(page.locator('.agent-live-status')).toContainText('Codex finished');
-  await expect(page.locator('.agent-logo')).not.toHaveClass(/is-working/);
-  await expect(page.getByText('Complete eight-scene draft saved.', { exact: true })).toBeVisible();
-  p.production.status = 'paused'; p.jobs[0].status = 'cancelled'; p.revision++;
-  await fs.writeFile(path.resolve('data/e2e-projects', p.id, 'project.json'), JSON.stringify(p));
+  status = 'completed';
+  await expect(header.getByRole('status', { name: 'Codex status', exact: true })).toHaveText('Codex Done', { timeout: 10000 });
 });
 
 test('timeline shares image/video lane, aligns audio, reveals used lanes, and supports drag, trim, scrub and pan without selecting text', async ({ page, request }) => {
@@ -318,25 +309,16 @@ test('dragging a clip near the timeline edge scrolls a long scene and commits it
   expect(await page.evaluate(() => document.body.classList.contains('timeline-gesturing'))).toBe(false);
 });
 
-test('Codex status shows current generation and processing steps, then clears progress after completion', async ({ page, request }) => {
-  const p = await (await request.post('/api/projects', { data: { name: 'Production step monitor fixture', runtime: 'chatgpt' } })).json();
-  p.production = { status: 'running', stage: 'audio' };
-  await fs.writeFile(path.resolve('data/e2e-projects', p.id, 'project.json'), JSON.stringify(p));
-  let status = 'running', step = 'audio';
-  await page.route(`**/api/projects/${p.id}/observation`, route => route.fulfill({ json: { threadId: null, status, step, label: status === 'completed' ? 'Codex finished' : 'Codex is working', checkedAt: new Date().toISOString(), messages: [], activity: [] } }));
+test('app bar keeps Codex status simple across working, done and idle', async ({ page, request }) => {
+  const p = await (await request.post('/api/projects', { data: { name: 'Simple status fixture', runtime: 'chatgpt' } })).json();
+  let status = 'running';
+  await page.route(`**/api/projects/${p.id}/observation`, route => route.fulfill({ json: { threadId: null, status, step: 'video', label: status, checkedAt: new Date().toISOString(), messages: [], activity: [] } }));
   await page.goto(`/#project=${p.id}`);
-  const bar = page.locator('.agent-live-status'), progress = page.getByRole('progressbar', { name: 'Current production step', exact: true });
-  await expect(bar).toContainText('Generating audio · in progress');
-  await expect(bar).toContainText('0 of 1 scene audio files ready'); await expect(progress).toBeVisible();
-  for (const [next, label] of [['processing-audio', 'Processing audio'], ['images', 'Generating images'], ['video', 'Generating video'], ['thinking', 'Thinking']]) {
-    step = next; await page.getByRole('button', { name: 'Refresh Codex status', exact: true }).click(); await expect(bar).toContainText(label);
-  }
-  status = 'completed'; step = 'audio'; await page.getByRole('button', { name: 'Refresh Codex status', exact: true }).click();
-  await expect(bar).toContainText('Codex finished'); await expect(bar).not.toContainText('Generating'); await expect(progress).toHaveCount(0);
-  await expect(page.locator('.agent-logo')).not.toHaveClass(/is-working/);
-  p.production = { status: 'paused', stage: 'images', error: 'The image provider could not connect. Accepted assets are saved.' }; p.revision++;
-  await fs.writeFile(path.resolve('data/e2e-projects', p.id, 'project.json'), JSON.stringify(p));
-  await expect(bar).toContainText('Paused · image generation'); await expect(bar).toContainText('The image provider could not connect.');
+  const bar = page.getByRole('status', { name: 'Codex status', exact: true });
+  await expect(bar).toHaveText('Codex Working');
+  await expect(page.getByRole('progressbar', { name: 'Current production step', exact: true })).toHaveCount(0);
+  status = 'completed'; await expect(bar).toHaveText('Codex Done', { timeout: 10000 });
+  status = 'idle'; await expect(bar).toHaveText('Codex Idle', { timeout: 10000 });
 });
 
 test('project media shows every scene and new generated assets, with persistent deletion and undo for audio, images and video', async ({ page, request }) => {

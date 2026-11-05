@@ -1,0 +1,36 @@
+import { test, expect } from '@playwright/test';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { createFixtures } from '../../scripts/demo';
+
+test('source video import exposes persistent scene references and scene speedup survives save/reload', async ({ page, request }) => {
+  const folder=path.resolve('data/rerender-e2e-fixtures'); await createFixtures(folder);
+  const p=await (await request.post('/api/projects',{data:{name:'Source remake UI test',runtime:'chatgpt',skillId:'video-rerender'}})).json();
+  expect(p.settings.fps).toBe(24); expect(p.skill.name).toBe('Realistic video remake');
+  await page.goto(`/#project=${p.id}`);
+  await page.getByRole('radio',{name:'Source',exact:true}).click();
+  await expect(page.getByRole('button',{name:'Import source video',exact:true})).toBeVisible();
+  await page.getByLabel('Source video file',{exact:true}).setInputFiles(path.join(folder,'lake-video.mp4'));
+  await expect(page.getByLabel('Source reference video')).toBeVisible();
+  await expect(page.getByRole('heading',{name:'Scene 1 · SH0001',exact:true})).toBeVisible();
+  await expect(page.getByTestId('timeline-clip')).toHaveCount(1);
+  await expect(page.getByTestId('timeline-clip')).toContainText('Reference');
+  await page.getByLabel('Source motion',{exact:true}).selectOption('high');
+  await page.getByLabel('Video provider',{exact:true}).selectOption('seedance');
+  await page.getByLabel('Source scene notes',{exact:true}).fill('Inspect grounded contact and immediate recoil.');
+  await page.getByLabel('Media file',{exact:true}).setInputFiles(path.join(folder,'lake-video.mp4'));
+  await expect(page.getByTestId('timeline-clip')).toHaveCount(1);
+  await expect(page.getByTestId('timeline-clip')).not.toContainText('Reference');
+  await page.getByRole('radio',{name:'Source',exact:true}).click();
+  await page.getByRole('button',{name:'Speed up scene 15%',exact:true}).click();
+  await page.keyboard.press('Control+s');
+  await expect(page.getByText('Saved locally',{exact:true})).toBeVisible();
+  await page.reload(); await page.getByRole('radio',{name:'Source',exact:true}).click();
+  await expect(page.getByLabel('Source scene notes',{exact:true})).toHaveValue('Inspect grounded contact and immediate recoil.');
+  const saved=await (await request.get(`/api/projects/${p.id}`)).json();
+  expect(saved.scenes[0].number).toBe(1); expect(saved.scenes[0].source.referenceId).toBe('SH0001');
+  expect(saved.scenes[0].source.route).toBe('seedance'); expect(saved.scenes[0].estimatedFrames).toBe(41);
+  expect(saved.clips[0].speed).toBe(1.15); expect(saved.clips[0].durationFrames).toBe(41);
+  const changeFps=await request.put(`/api/projects/${p.id}`,{data:{...saved,settings:{...saved.settings,fps:30}}});
+  expect(changeFps.status()).toBe(409);
+});

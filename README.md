@@ -27,7 +27,7 @@ npm start
 3. Request production in that Codex chat: **all scene audio → all planned images → planned image-to-video shots**. Each scene has one measured narration file and may contain several image/video placements. Still-image shots can remain stills with editor motion.
 4. The permanent sidebar stays beside the entire editing app. It observes saved Codex replies and progress every four seconds, with the current step (thinking, generating audio/images/video, processing or rendering), ready counts and a last-update timestamp. A production stage supplies context only while the observed chat is running; completion or stale/unavailable status clears the busy display. It never resumes the conversation or starts a turn. Prompts, questions, model settings and approvals remain in the main Codex chat.
 5. Edit the timeline or direct Codex to update the project. The project-local `AGENTS.md` tells Codex to read the selected skill and save complete plans and edits into the canonical manifest. The editor watches validated manifest changes; source files and prior versions remain available.
-6. Export the saved timeline to a local H.264/AAC MP4 at 30 fps. Each export retains its input snapshot.
+6. Export the saved timeline to a local H.264/AAC MP4 at the project’s 24 or 30 fps. Each export retains its input snapshot.
 
 Completed results from the earlier managed workflow remain recoverable. Applying a draft merges intended edits against its original snapshot: unrelated timeline and size changes are preserved, while actual story conflicts still require review. A finished turn with an application error is labelled finished with a pending result; it is not left running or automatically regenerated.
 
@@ -98,7 +98,7 @@ revisions/            # Storyboard approval snapshots
 exports/<export-id>/  # Input snapshot, scene renders and final film.mp4
 ```
 
-The schema is in `shared/project.ts`. Version 1 projects migrate on read and retain their assets, placements and conversations. Times are integer frames at 30 fps; source duration is rounded down to a frame. Binary files are not embedded in the manifest. Media paths must remain within the project's real directory; traversal and outside symlinks are rejected.
+The schema is in `shared/project.ts`. Version 1 projects migrate on read and retain their assets, placements and conversations. Times are integer frames at the project’s 24 or 30 fps (existing projects default to 30); source duration is rounded down to a frame. Binary files are not embedded in the manifest. Media paths must remain within the project's real directory; traversal and outside symlinks are rejected.
 
 Saves use a synced temporary file and backup. Windows EPERM/EACCES/EBUSY rename failures are retried; if a reader denies replacement but allows writing, a complete synced recovery journal protects an in-place update. If writing is also denied, the app preserves the draft and backup and reports the lock. Invalid partial JSON can recover from the pending journal. A lock that denies all access still needs the conflicting program to release the file.
 
@@ -124,3 +124,28 @@ The demo and tests use local media fixtures, clearly labelled synthetic tones an
 - Preview uses browser media elements and a shared frame clock, rather than a sample-accurate composition engine. Heavy timelines may need proxies. Browser and FFmpeg font rasterization, color processing and vignette can differ slightly. Annotation captures are guidance images; advanced grading/transition effects are not all reproduced by the capture path.
 - Timeline undo covers manual project edits, not imported files or bridge version changes. Older media versions remain selectable. Narration replacement can trim/remove placements that exceed its new duration.
 - Export status is kept by the running service; completed files and snapshots remain on disk after restart.
+
+
+## Rerender a source video as realistic live action
+
+Choose the **Realistic video remake** project skill. In **Source**, import a video into a new empty project to create local camera-cut candidates and a small review proxy. Existing analyzed sources can be imported with `tools/import_source.ts`; see [the tool guide](tools/README.md). Importing and local analysis spend no generation credits. The main Codex chat verifies camera cuts, inspects dense motion frames/onion skins, prepares first frames and concise motion prompts, and updates the canonical manifest. Importing does not start a full paid batch.
+
+Each source camera take is one editor scene, with a persistent `scene.number`, immutable ID, source reference ID, original start/end seconds, motion level, provider route, review status and notes. Reordering does not change its number. Detector candidates are clearly labeled until visually verified. Scene numbers are communication handles: “revise Scene 7”. Narrative story groupings can remain in notes; they are not additional generation cuts.
+
+The default remake output is **720p / 24fps**, with English speech and native generated effects, no music. Use Higgsfield Seedance Fast for action and Cloud Veo Fast for low motion, subject to live capability/pricing checks. For Higgsfield action shots, use the selected skill's tested input recipe. After a raw anime motion-guide test transferred drawing style and held poses, the current correction uses a single photographic starting image and concise human stunt direction. Source camera geometry stays fixed; body motion must work as a live adult performance. Additional motion media needs a one-shot quality check. For low-motion Veo shots, use the realistic first frame and concise motion/dialogue direction. Analyze the whole episode, then submit camera shots separately; do not send the entire episode in one request. Preserve native takes and receipts. The skill contains the detailed motion, consistency, quality and spending rules.
+
+**Speed up scene 15%** in the source panel retimes the entire take and its placed sound together, preserves speech pitch, and shortens the scene without interpolation. Do this for fights when helpful; leave dialogue speed natural. Undo works. Fades, transitions, transforms, color and individual clip controls remain available. Codex can use `npx tsx tools/edit_scene.ts --project UUID --scene 7 --speed 1.15` or edit the validated manifest. `--help` lists fade/contrast/note controls. Frame rate must be selected before media import to avoid silently relabeling timings.
+
+`project.costs` records unique provider receipt IDs, native generated duration, USD estimates, Higgsfield credits, unknown amounts and evidence. The app bar shows one estimated video cost in dollars, using `project.estimatedCostUsd` when provided and otherwise recorded USD entries. Unconverted credits and detailed receipts remain in project files. [Recorded episode history](docs/cost-history/README.md): **$38.2948 estimated Cloud usage + 60 Higgsfield credits** as of October 27, 2026, including tests/rejected footage. Cloud grant coverage is unverified; this is not an invoice. No new provider generation was run for repository setup. The full source-index project holds the historical total; do not add its component history again.
+
+Python tools in `tools/` provide small previews/contact sheets, native-frame flipbooks/onion skins, selective impact finishing and resumable Cloud calls. They use configurable runtimes rather than a machine-specific path. Install optional Python dependencies from `tools/requirements.txt`. See the guide for examples, limits and cost-bearing commands. The existing managed narration-first producer is disabled for source projects; verified source timing and generated native sound replace that order. A full autonomous source-remake scheduler is future work after shot quality is accepted.
+
+The editor has no Codex sidebar or cost breakdown panel. Its app bar shows only the estimated dollar cost and Codex Working / Done / Idle. The observer remains read-only.
+
+Source uploads immediately populate included scenes with labeled reference picture and source sound. Ready renders replace their matching references, keeping the original for comparison. Verified intro/outro/credit exclusions live in `sourceVideo.exclusions`; they do not become production scenes. Independent generation requests use bounded parallel batches (up to 3, or the provider limit); successful results are applied individually with serialized project writes.
+
+Reviewed compact edits can replace the raw cut index using `tools/condense_scenes.ts`. They retain original source segments and a restoration snapshot, reuse existing renders, count actual provider requests, and check the project’s total Higgsfield budget before applying. The initial cut detector does not imply one generation per detected cut.
+
+### Close timeline gaps
+
+The timeline toolbar’s left-arrow icon removes empty scenes and moves the remaining picture and sound left together. It preserves source scene numbers, media files and recorded costs. Undo restores the edit. Measured narration and scenes with jobs in progress keep their timing. Preview loads the next clips ahead, holds the previous picture during loading, and draws only the visible section of a long timeline.

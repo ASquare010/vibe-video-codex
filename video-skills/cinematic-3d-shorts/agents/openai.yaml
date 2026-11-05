@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cinematic 3D storyteller"
+  short_description: "Spoken stories and audio-led cinematic 3D shorts"
+  default_prompt: "Use $cinematic-3d-shorts to develop my brief into a spoken story with audio scenes and motivated camera shots."

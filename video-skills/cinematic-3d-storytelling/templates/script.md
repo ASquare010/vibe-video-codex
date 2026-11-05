@@ -10,6 +10,19 @@ Infer routine creative choices; when duration is absent, choose and state a fitt
 
 Choose a telling angle that earns attention and then rewards it with concrete, understandable developments. The writer owns the necessary explanation in the spoken words; neither delivery nor later visual notes can supply a missing causal relationship. Storytelling viewpoint means whose experience or inquiry carries the narration, not a camera angle. Scene boundaries do not dictate sentence breaks.
 
+## Creator's preferred spoken-story treatment
+
+For this creator's conversational YouTube stories, default to the treatment selected in the doctor narration comparison. A request for another register or form overrides it. Keep the existing writer → director → narration flow; this is how the writer tells the story, not permission for the director to rewrite it.
+
+- Open on the paradox or consequential contradiction as a direct factual sentence, usually about10–16 words. Put the person/action and stakes in the opening; no invitation, topic announcement or background preamble. A conditional second-person premise can serve a requested experiential story; a named third-person protagonist in present tense suits a narrated event.
+- Supply the concrete setting in the next one or two spoken lines. Use supported names, place, period and useful quantities. Do not invent a time of day or an everyday detail to satisfy a formula.
+- Develop roughly three to six changes in the situation: proposal, resistance, choice, risk, test, result or changed understanding. Each beat earns the next; do not repeat the same stakes in several paraphrases. Use documented skepticism or brief attributed dialogue where available. Do not manufacture mockery, private dialogue or a foolish crowd.
+- Use one natural question or moment of uncertainty when it creates a real need for the explanation. The creator-preferred pivot “You see,” is available at that turn; do not scatter it through every paragraph. Explain the actual mechanism in plain language, often with an everyday analogy whose relationship is accurate, then return to the event.
+- Prefer one or two dry ironic contrasts or exaggeration jokes when the subject supports them. The joke comes from the claim versus what actually happens, or a concrete object/relationship; it does not change facts or belittle victims. A serious subject can use restrained irony rather than a gag quota.
+- End in one or two short sentences on the earned twist, reversal or ironic payoff. Stop at the landing word; no concluding recap, lesson or channel outro after it. Keep any shared achievement, later development or unresolved consequence accurate.
+
+Use plain spoken English, contractions and clear agency. Around13.5 words per sentence is a reference for approachable rhythm, not a rigid length target: mix connected thoughts with short landings and explain necessary jargon immediately. Before acceptance, read the actual hook → setting → changing situation → needed explanation → payoff as one uninterrupted telling; headings and delivery adjectives cannot repair a weak link. The creator's B-over-A choice is one preference observation, not proof of audience retention or a universal winning formula. Learn the treatment without copying that film's wording, jokes or subject.
+
 ## Reusable writer prompt
 
 ```text
@@ -21,7 +34,7 @@ USER BRIEF
 OPTIONAL OVERRIDES
 {DURATION_AUDIENCE_FACTUAL_STATUS_OR_EMPTY}
 
-Use this process privately. Return the finished deliverables below, without a lengthy planning monologue.
+Use this process privately. Apply the creator's preferred spoken-story treatment above unless the brief selects another form. Return the finished deliverables below, without a lengthy planning monologue.
 
 1. CHOOSE THE EXPERIENCE AND ITS THREAD
 

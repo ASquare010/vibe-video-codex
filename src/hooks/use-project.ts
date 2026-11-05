@@ -2,10 +2,11 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { api } from '../lib/api';
 import { cleanTransitions, type Project } from '../../shared/project';
 
-const editable = (p: Project) => ({ name: p.name, theme: p.theme, settings: p.settings, skill: p.skill, plan: p.plan, review: p.review, transitions: p.transitions, scenes: p.scenes, clips: p.clips, annotations: p.annotations, archivedAssetIds: p.assets.filter(a => a.archived).map(a => a.id).sort() });
+const editable = (p: Project) => ({ assetOwners:p.assets.map(a=>[a.id,a.sceneId] as const), name: p.name, theme: p.theme, settings: p.settings, skill: p.skill, plan: p.plan, review: p.review, transitions: p.transitions, scenes: p.scenes, clips: p.clips, annotations: p.annotations, archivedAssetIds: p.assets.filter(a => a.archived).map(a => a.id).sort() });
 const restore = (p: Project, snapshot: ReturnType<typeof editable>): Project => {
-  const { archivedAssetIds, ...fields } = snapshot;
-  return { ...p, ...fields, assets: p.assets.map(a => ({ ...a, archived: archivedAssetIds.includes(a.id) })) };
+  const { archivedAssetIds, assetOwners, ...fields } = snapshot;
+  const owners=new Map(assetOwners),scenes=new Set(fields.scenes.map(s=>s.id));
+  return { ...p, ...fields, assets: p.assets.map(a => ({ ...a,sceneId:owners.get(a.id)??a.sceneId, archived: archivedAssetIds.includes(a.id)||(!owners.has(a.id)&&!scenes.has(a.sceneId)) })) };
 };
 export function useProject(projectId: string, onEvent: (event: any) => void) {
   const [project, setProject] = useState<Project | null>(null);
@@ -47,8 +48,9 @@ export function useProject(projectId: string, onEvent: (event: any) => void) {
   }, [projectId, reload, receive]);
   const edit = useCallback((update: (draft: Project) => void) => {
     if (!current.current) return;
-    history.current.push(structuredClone(editable(current.current))); history.current = history.current.slice(-100); future.current = [];
+    const snapshot=structuredClone(editable(current.current));
     const p = structuredClone(current.current); update(p); cleanTransitions(p);
+    history.current.push(snapshot); history.current = history.current.slice(-100); future.current = [];
     current.current = p; isDirty.current = true; editSequence.current++;
     setProject(p); setDirty(true); setHistoryCount([history.current.length, 0]);
   }, []);

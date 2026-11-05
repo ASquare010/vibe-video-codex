@@ -7,5 +7,5 @@
     "noEmit": true, "types": ["node"],
     "baseUrl": ".", "paths": { "@/*": ["src/*"] }
   },
-  "include": ["src", "server", "shared", "scripts", "tests", "vite.config.ts", "playwright.config.ts"]
+  "include": ["src", "server", "shared", "scripts", "tools", "tests", "vite.config.ts", "playwright.config.ts"]
 }
