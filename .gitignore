@@ -12,3 +12,7 @@ video-skills/**/SKILL.md.pending
 video-skills/**/*.tmp
 .DS_Store
 research/
+__pycache__/
+*.pyc
+drafts/
+.venv/
